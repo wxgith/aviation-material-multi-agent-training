@@ -4,6 +4,10 @@
 
 本项目不是单一聊天机器人。学习者的输入会经过职责明确的 Agent 分工处理，最终输出可追溯、可审核、可继续迭代的训练资源。
 
+- 源码仓库：<https://github.com/wxgith/aviation-material-multi-agent-training>
+- 第一次运行请直接阅读：[START_HERE.md](START_HERE.md)
+- 不安装 Docker 也能完成核心功能验收。
+
 ## 项目状态
 
 当前版本为比赛正式冻结版，核心功能已经完成并通过验证：
@@ -52,6 +56,14 @@ flowchart LR
 ## 评委最快体验：不安装 Docker
 
 这是最简单、最稳定的运行方式。只需要安装 Windows 10/11、Python 3.11 和 Node.js 20 LTS；首次安装依赖时需要联网。
+
+安装好 Python 和 Node.js 后，可在项目根目录直接执行：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\setup_mock_demo.ps1
+```
+
+脚本会自动创建 Python 虚拟环境、安装前后端依赖、生成安全的本地配置并启动系统。下面保留分步命令，供需要逐项检查的评委使用。
 
 ### 1. 解压并进入目录
 
