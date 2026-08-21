@@ -1,0 +1,223 @@
+{
+  "dataset_id": "TIRE-EXP-RXQ-AGING-001",
+  "record_type": "uv_aging_tensile_test",
+  "authorization_status": "authorized",
+  "uv_aging": {
+    "equipment": "HZ-2008A",
+    "lamp": "UVA-340",
+    "wavelength_nm": [
+      295,
+      365
+    ],
+    "lamp_max_power_W": 40,
+    "irradiance_W_per_m2": 0.6
+  },
+  "tensile_test": {
+    "equipment": "WDT-10",
+    "standard": "GB/T 528",
+    "temperature_C": 25,
+    "crosshead_speed_mm_per_min": 500,
+    "gauge_length_mm": 25,
+    "test_date": "2026-04-09"
+  },
+  "mapping_method": [
+    "tensile report machine sequence -> specimen code",
+    "authorized UV protocol specimen code -> aging duration"
+  ],
+  "source_notes": [
+    "This supplemental tensile set has no 24 h specimen.",
+    "Protocol/files use 504 h; thesis table 2.3 records 507 h. Actual-file value 504 h is retained.",
+    "Report deformation/elongation follows the effective fracture endpoint; raw CSV may include post-fracture samples."
+  ],
+  "records": [
+    {
+      "evidence_id": "RXQ-UV-TENSILE-H0000-S23",
+      "sample_code": "S23",
+      "uv_aging_duration_h": 0,
+      "source_csv": "raw_curves/uv_tensile/Raw- 9_.csv",
+      "raw_row_count": 172,
+      "report_metrics": {
+        "maximum_force_N": 401.96,
+        "maximum_deformation_mm": 115.28,
+        "tensile_strength_MPa": 29.13,
+        "elastic_modulus_MPa": 6.92,
+        "elongation_at_break_pct": 461.12
+      },
+      "raw_curve_maxima": {
+        "force_N": 401.96209716797,
+        "deformation_mm": 115.28060150146,
+        "displacement_mm": 289.11499023438,
+        "strain_pct": 461.12240600584,
+        "stress_MPa": 29.1276882005775
+      }
+    },
+    {
+      "evidence_id": "RXQ-UV-TENSILE-H0072-S4",
+      "sample_code": "S4",
+      "uv_aging_duration_h": 72,
+      "source_csv": "raw_curves/uv_tensile/Raw- 1_.csv",
+      "raw_row_count": 176,
+      "report_metrics": {
+        "maximum_force_N": 408.63,
+        "maximum_deformation_mm": 116.85,
+        "tensile_strength_MPa": 29.61,
+        "elastic_modulus_MPa": 6.98,
+        "elongation_at_break_pct": 467.39
+      },
+      "raw_curve_maxima": {
+        "force_N": 408.625,
+        "deformation_mm": 116.84739685059,
+        "displacement_mm": 296.08770751953,
+        "strain_pct": 467.38958740236,
+        "stress_MPa": 29.6105072463768
+      }
+    },
+    {
+      "evidence_id": "RXQ-UV-TENSILE-H0144-S5",
+      "sample_code": "S5",
+      "uv_aging_duration_h": 144,
+      "source_csv": "raw_curves/uv_tensile/Raw- 2_.csv",
+      "raw_row_count": 166,
+      "report_metrics": {
+        "maximum_force_N": 387.38,
+        "maximum_deformation_mm": 108.28,
+        "tensile_strength_MPa": 28.07,
+        "elastic_modulus_MPa": 6.76,
+        "elongation_at_break_pct": 433.11
+      },
+      "raw_curve_maxima": {
+        "force_N": 387.38439941406,
+        "deformation_mm": 109.20659637451,
+        "displacement_mm": 279.03759765625,
+        "strain_pct": 436.82638549804,
+        "stress_MPa": 28.0713332908739
+      }
+    },
+    {
+      "evidence_id": "RXQ-UV-TENSILE-H0216-S8",
+      "sample_code": "S8",
+      "uv_aging_duration_h": 216,
+      "source_csv": "raw_curves/uv_tensile/Raw- 3_.csv",
+      "raw_row_count": 176,
+      "report_metrics": {
+        "maximum_force_N": 427.59,
+        "maximum_deformation_mm": 113.59,
+        "tensile_strength_MPa": 30.98,
+        "elastic_modulus_MPa": 7.67,
+        "elongation_at_break_pct": 454.35
+      },
+      "raw_curve_maxima": {
+        "force_N": 427.58511352539,
+        "deformation_mm": 113.58799743652,
+        "displacement_mm": 295.81048583984,
+        "strain_pct": 454.35198974608,
+        "stress_MPa": 30.9844285163326
+      }
+    },
+    {
+      "evidence_id": "RXQ-UV-TENSILE-H0288-S10",
+      "sample_code": "S10",
+      "uv_aging_duration_h": 288,
+      "source_csv": "raw_curves/uv_tensile/Raw- 4_.csv",
+      "raw_row_count": 176,
+      "report_metrics": {
+        "maximum_force_N": 425.26,
+        "maximum_deformation_mm": 111.33,
+        "tensile_strength_MPa": 30.82,
+        "elastic_modulus_MPa": 7.63,
+        "elongation_at_break_pct": 445.3
+      },
+      "raw_curve_maxima": {
+        "force_N": 425.25979614258,
+        "deformation_mm": 111.32469940186,
+        "displacement_mm": 295.87979125977,
+        "strain_pct": 445.29879760744,
+        "stress_MPa": 30.8159272567087
+      }
+    },
+    {
+      "evidence_id": "RXQ-UV-TENSILE-H0360-S12",
+      "sample_code": "S12",
+      "uv_aging_duration_h": 360,
+      "source_csv": "raw_curves/uv_tensile/Raw- 5_.csv",
+      "raw_row_count": 141,
+      "report_metrics": {
+        "maximum_force_N": 351.21,
+        "maximum_deformation_mm": 91.7,
+        "tensile_strength_MPa": 25.45,
+        "elastic_modulus_MPa": 7.24,
+        "elongation_at_break_pct": 366.8
+      },
+      "raw_curve_maxima": {
+        "force_N": 351.20819091797,
+        "deformation_mm": 91.700233459473,
+        "displacement_mm": 238.58599853516,
+        "strain_pct": 366.800933837892,
+        "stress_MPa": 25.4498689070993
+      }
+    },
+    {
+      "evidence_id": "RXQ-UV-TENSILE-H0432-S14",
+      "sample_code": "S14",
+      "uv_aging_duration_h": 432,
+      "source_csv": "raw_curves/uv_tensile/Raw- 6_.csv",
+      "raw_row_count": 165,
+      "report_metrics": {
+        "maximum_force_N": 400.71,
+        "maximum_deformation_mm": 111.58,
+        "tensile_strength_MPa": 29.04,
+        "elastic_modulus_MPa": 7.25,
+        "elongation_at_break_pct": 446.31
+      },
+      "raw_curve_maxima": {
+        "force_N": 400.71011352539,
+        "deformation_mm": 111.57620239258,
+        "displacement_mm": 277.31091308594,
+        "strain_pct": 446.30480957032,
+        "stress_MPa": 29.0369647482167
+      }
+    },
+    {
+      "evidence_id": "RXQ-UV-TENSILE-H0504-S15",
+      "sample_code": "S15",
+      "uv_aging_duration_h": 504,
+      "source_csv": "raw_curves/uv_tensile/Raw- 7_.csv",
+      "raw_row_count": 166,
+      "report_metrics": {
+        "maximum_force_N": 386.8,
+        "maximum_deformation_mm": 97.9,
+        "tensile_strength_MPa": 28.03,
+        "elastic_modulus_MPa": 7.03,
+        "elongation_at_break_pct": 391.6
+      },
+      "raw_curve_maxima": {
+        "force_N": 386.8030090332,
+        "deformation_mm": 104.05139923096,
+        "displacement_mm": 278.96829223633,
+        "strain_pct": 416.20559692384,
+        "stress_MPa": 28.0292035531304
+      }
+    },
+    {
+      "evidence_id": "RXQ-UV-TENSILE-H0576-S17",
+      "sample_code": "S17",
+      "uv_aging_duration_h": 576,
+      "source_csv": "raw_curves/uv_tensile/Raw- 8_.csv",
+      "raw_row_count": 170,
+      "report_metrics": {
+        "maximum_force_N": 409.16,
+        "maximum_deformation_mm": 116.82,
+        "tensile_strength_MPa": 29.65,
+        "elastic_modulus_MPa": 7.29,
+        "elongation_at_break_pct": 467.27
+      },
+      "raw_curve_maxima": {
+        "force_N": 409.16159057617,
+        "deformation_mm": 116.81839752197,
+        "displacement_mm": 285.73199462891,
+        "strain_pct": 467.27359008788,
+        "stress_MPa": 29.6493906214616
+      }
+    }
+  ]
+}

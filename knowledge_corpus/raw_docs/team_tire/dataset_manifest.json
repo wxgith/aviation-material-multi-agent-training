@@ -1,0 +1,84 @@
+{
+  "dataset_id": "TIRE-EXP-RXQ-AGING-001",
+  "title": "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集",
+  "domain": "tire",
+  "owner_code": "TEAM-RXQ",
+  "authorization_status": "authorized",
+  "license_or_authorization_note": "项目负责人于 2026-08-04 确认可用于系统、比赛展示和提交；公开发布仍采用脱敏版本",
+  "contains_personal_data": false,
+  "contains_restricted_commercial_data": false,
+  "experiment_date_start": "",
+  "experiment_date_end": "",
+  "material_batch_codes": [
+    "RXQ-ANON-BATCH"
+  ],
+  "aging_conditions": {
+    "thermo_oxidative": {
+      "temperature_C": 75.0,
+      "durations_d": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        14,
+        21,
+        28,
+        35
+      ],
+      "standard": "GB/T 3512-2014",
+      "equipment": "HD-E701"
+    },
+    "ultraviolet": {
+      "lamp": "UVA-340",
+      "irradiance_W_per_m2": 0.6,
+      "durations_h": [
+        0,
+        72,
+        144,
+        216,
+        288,
+        360,
+        432,
+        504,
+        576
+      ],
+      "equipment": "HZ-2008A",
+      "source_conflict": "504 h in protocol/files versus 507 h in thesis table 2.3"
+    }
+  },
+  "test_methods": [
+    "thermo_oxidative_aging",
+    "uv_aging",
+    "sliding_wear",
+    "optical_morphology",
+    "sem",
+    "eds",
+    "dma",
+    "tensile_stress"
+  ],
+  "files": {
+    "experiment_workbook": "data/tire_rxq_aging_experiment_records.xlsx",
+    "image_annotation_workbook": "data/tire_rxq_damage_image_annotations.xlsx",
+    "uv_tensile_records": "data/tire_rxq_uv_tensile_records.json",
+    "experiment_description": "experiment_description_rxq.md",
+    "image_directories": [
+      "images/SEM",
+      "images/optical",
+      "images/damage_cases"
+    ]
+  },
+  "review": {
+    "data_reviewer_code": "PROJECT-OWNER",
+    "domain_reviewer_code": "PROJECT-OWNER",
+    "review_status": "approved",
+    "review_date": "2026-08-04",
+    "scope": "approved for training and competition evidence; not approved as maintenance limits"
+  },
+  "ingestion": {
+    "approved_for_rag": true,
+    "source_authority": "team_authorized_experiment",
+    "target_index": "aviation_material_knowledge",
+    "notes": "热氧与紫外关键工况已由授权论文、协议和报告交叉复核；来源冲突显式保留；生成内容必须引用 evidence IDs 并保留实验室边界"
+  }
+}

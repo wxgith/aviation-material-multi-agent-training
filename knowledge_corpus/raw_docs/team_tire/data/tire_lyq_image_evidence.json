@@ -1,0 +1,175 @@
+{
+  "dataset_id": "TIRE-EXP-LYQ-FRICTION-001",
+  "images": [
+    {
+      "image_id": "LYQ-IMG-001",
+      "file_name": "LYQ-IMG-T015-SEM-01.jpeg",
+      "relative_path": "images/lyq/LYQ-IMG-T015-SEM-01.jpeg",
+      "image_type": "SEM",
+      "condition": "15 °C, sample 3, 2000x",
+      "sha256": "87747AEB86AD8E8836B50D91D25A4D6536A059747766A11979F0F54C2D880EA3",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-002",
+      "file_name": "LYQ-IMG-T060-SEM-01.jpeg",
+      "relative_path": "images/lyq/LYQ-IMG-T060-SEM-01.jpeg",
+      "image_type": "SEM",
+      "condition": "60 °C, sample 7",
+      "sha256": "EDFADD9BF0716306BE104A3297199B91263D53E1EB285BEB695453650EA6AE4A",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-003",
+      "file_name": "LYQ-IMG-T080-SEM-01.jpeg",
+      "relative_path": "images/lyq/LYQ-IMG-T080-SEM-01.jpeg",
+      "image_type": "SEM",
+      "condition": "80 °C, sample 10",
+      "sha256": "6292136584BF6214D4203015D78E0D71DEF2F711ACC2A8C5F2247B6F90D27B26",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-004",
+      "file_name": "LYQ-IMG-T015-3DOM-01.tif",
+      "relative_path": "images/lyq/LYQ-IMG-T015-3DOM-01.tif",
+      "image_type": "3D-OM",
+      "condition": "15 °C",
+      "sha256": "9063D6CD7A88E446EB7A8DC55AC20D9EFE768F939CF5CC42C16C4AF22458668A",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-005",
+      "file_name": "LYQ-IMG-T060-3DOM-01.tif",
+      "relative_path": "images/lyq/LYQ-IMG-T060-3DOM-01.tif",
+      "image_type": "3D-OM",
+      "condition": "60 °C",
+      "sha256": "FC87255F47BED6D9A90BDCA801E046CF8DEEF5C0F3BE08C34E6E7251B27A09AF",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-006",
+      "file_name": "LYQ-IMG-T100-3DOM-01.tif",
+      "relative_path": "images/lyq/LYQ-IMG-T100-3DOM-01.tif",
+      "image_type": "3D-OM",
+      "condition": "100 °C",
+      "sha256": "7AA5079BE1C58CC68410DB80718C4B7E4042C4F3C97D9B0ECCF6B6460A819C63",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-007",
+      "file_name": "LYQ-IMG-P12-D160-OM-01.jpg",
+      "relative_path": "images/lyq/LYQ-IMG-P12-D160-OM-01.jpg",
+      "image_type": "optical",
+      "condition": "1.2 MPa, 160 m",
+      "sha256": "E2FDADD08023836D8C4B1B6248FEC4C8383D126607A1D3C0FB4D2E49A02CDAD5",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-008",
+      "file_name": "LYQ-IMG-P15-D160-OM-01.jpg",
+      "relative_path": "images/lyq/LYQ-IMG-P15-D160-OM-01.jpg",
+      "image_type": "optical",
+      "condition": "1.5 MPa, 160 m",
+      "sha256": "F4F33FD92C3B764C63083876CBF1BE75ABD2DB58F42001887CF9BB4AE33238C5",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-009",
+      "file_name": "LYQ-IMG-P18-D160-OM-01.jpg",
+      "relative_path": "images/lyq/LYQ-IMG-P18-D160-OM-01.jpg",
+      "image_type": "optical",
+      "condition": "1.8 MPa, 160 m",
+      "sha256": "92C654D82039DE02ACA7F5C5F5FF32AD2656FFEE63291102A9AB7B226B39CA6C",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-010",
+      "file_name": "LYQ-PLOT-10.png",
+      "relative_path": "images/lyq/LYQ-PLOT-10.png",
+      "image_type": "plot",
+      "condition": "不同温度下表面粗糙度   垂直滑动方向",
+      "sha256": "106DFF841E36A1E451DA6ABC4B795695A272CE387DCB65F5C07D189CC59CAB63",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-011",
+      "file_name": "LYQ-PLOT-11.png",
+      "relative_path": "images/lyq/LYQ-PLOT-11.png",
+      "image_type": "plot",
+      "condition": "不同温度下表面粗糙度  滑动方向",
+      "sha256": "81D1194637F9F98160CE362E885D608F3D6930261BEEEAC2135CC712558E04EE",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-012",
+      "file_name": "LYQ-PLOT-12.png",
+      "relative_path": "images/lyq/LYQ-PLOT-12.png",
+      "image_type": "plot",
+      "condition": "摩擦系数",
+      "sha256": "F9F2257B4F467FC09C94C0328F6E93B590147927E2EA5934F414DA60A6EA38FC",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-013",
+      "file_name": "LYQ-PLOT-13.png",
+      "relative_path": "images/lyq/LYQ-PLOT-13.png",
+      "image_type": "plot",
+      "condition": "磨损率",
+      "sha256": "86591DCCBADF64FE4E691B85EA9B746E42A97107E70EAA65A6858F45182729CE",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-014",
+      "file_name": "LYQ-PLOT-14.png",
+      "relative_path": "images/lyq/LYQ-PLOT-14.png",
+      "image_type": "plot",
+      "condition": "红外局部放大1号",
+      "sha256": "768E6AEDC700E21641F6F723684C98E1232AD96C07249F9551A4293A64026F01",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-015",
+      "file_name": "LYQ-PLOT-15.png",
+      "relative_path": "images/lyq/LYQ-PLOT-15.png",
+      "image_type": "plot",
+      "condition": "红外局部放大2号",
+      "sha256": "608B13EE2942B51CA6B97DFF426FCEBADE09FC1C5104C6069B4B4E73BAABAA86",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-016",
+      "file_name": "LYQ-PLOT-16.png",
+      "relative_path": "images/lyq/LYQ-PLOT-16.png",
+      "image_type": "plot",
+      "condition": "红外数据大图",
+      "sha256": "1423258CE3B59BFF61CBE50CAD49C933E74827982B0ED0E98416F77CF93E192B",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    },
+    {
+      "image_id": "LYQ-IMG-017",
+      "file_name": "LYQ-PLOT-17.png",
+      "relative_path": "images/lyq/LYQ-PLOT-17.png",
+      "image_type": "plot",
+      "condition": "红外数据大图111",
+      "sha256": "544DEA1E872E94474268893DD12A35665C5F4AE6E8023110AF65AB79B48D1FC8",
+      "authorization_status": "authorized",
+      "annotation_status": "condition_bound; morphology label requires expert review"
+    }
+  ]
+}

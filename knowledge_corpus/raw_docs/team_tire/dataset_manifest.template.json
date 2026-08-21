@@ -1,0 +1,42 @@
+{
+  "dataset_id": "TIRE-EXP-YYYY-001",
+  "title": "航空轮胎胎面橡胶热氧老化与滑动磨损实验",
+  "domain": "tire",
+  "owner_code": "TEAM-A",
+  "authorization_status": "pending",
+  "license_or_authorization_note": "待数据负责人确认",
+  "contains_personal_data": false,
+  "contains_restricted_commercial_data": false,
+  "experiment_date_start": "",
+  "experiment_date_end": "",
+  "material_batch_codes": [],
+  "aging_conditions": [],
+  "test_methods": [
+    "thermo_oxidative_aging",
+    "sliding_wear",
+    "optical_morphology",
+    "sem_optional"
+  ],
+  "files": {
+    "experiment_workbook": "data/航空轮胎热氧老化与滑动磨损实验记录.xlsx",
+    "image_annotation_workbook": "data/损伤图像与案例标注.xlsx",
+    "experiment_description": "实验说明.md",
+    "image_directories": [
+      "images/SEM",
+      "images/optical",
+      "images/damage_cases"
+    ]
+  },
+  "review": {
+    "data_reviewer_code": "",
+    "domain_reviewer_code": "",
+    "review_status": "draft",
+    "review_date": ""
+  },
+  "ingestion": {
+    "approved_for_rag": false,
+    "source_authority": "team_authorized_experiment",
+    "target_index": "aviation_material_knowledge",
+    "notes": "只有授权状态和专业复核通过后才允许入库"
+  }
+}

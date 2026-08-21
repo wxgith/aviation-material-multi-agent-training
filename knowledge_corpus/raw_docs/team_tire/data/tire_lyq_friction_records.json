@@ -1,0 +1,691 @@
+{
+  "dataset_id": "TIRE-EXP-LYQ-FRICTION-001",
+  "title": "航空轮胎胎面橡胶多接触方式、载荷与温度摩擦磨损实验",
+  "domain": "tire",
+  "material": "anonymized_commercial_aircraft_tire_tread_rubber",
+  "authorization_status": "authorized",
+  "equipment": {
+    "tribometer": "CFT-I",
+    "thermal_camera": "FOTRIC-628CH",
+    "optical_microscope": "OLYMPUS SZX7",
+    "profilometer": "BRUKER NPFLEX",
+    "sem": "FEI Apreo 2C",
+    "ftir": "Thermo Fisher Nicolet iS20"
+  },
+  "common_environment": {
+    "temperature_C": "25±1",
+    "relative_humidity_pct": "45±3"
+  },
+  "contact_modes": {
+    "cylinder_flat": {
+      "name": "柱-面往复接触",
+      "loads_N": [
+        40,
+        50,
+        60
+      ],
+      "contact_pressures_MPa": [
+        1.2,
+        1.5,
+        1.8
+      ],
+      "distances_m": [
+        20,
+        40,
+        80,
+        120,
+        160
+      ],
+      "counterface": "直径6.5 mm金属砂柱，底部220目砂纸",
+      "specimen_mm": [
+        40,
+        10,
+        10
+      ],
+      "motion": "10 mm往复位移，3.3 Hz",
+      "training_scope": "高载低速周期滑移、疲劳裂纹和接触应力效应"
+    },
+    "sphere_flat": {
+      "name": "球-面往复接触",
+      "loads_N": [
+        40,
+        50,
+        60
+      ],
+      "contact_pressures_MPa": [
+        3.0,
+        3.2,
+        3.6
+      ],
+      "distances_m": [
+        40,
+        80,
+        120
+      ],
+      "counterface": "金属砂球",
+      "specimen_mm": [
+        40,
+        10,
+        10
+      ],
+      "motion": "10 mm往复位移，3.3 Hz",
+      "training_scope": "非均匀压力与局部应力集中"
+    },
+    "ring_block": {
+      "name": "环-块单向滑动接触",
+      "loads_N": [
+        50,
+        70,
+        90
+      ],
+      "contact_pressures_MPa": [
+        0.77,
+        0.92,
+        1.01
+      ],
+      "distances_m": [
+        628,
+        1257,
+        1885
+      ],
+      "counterface": "直径40 mm、80目砂轮",
+      "specimen_mm": [
+        19,
+        8,
+        10
+      ],
+      "motion": "200 r/min，线速度约0.42 m/s",
+      "training_scope": "单向滑动、较长距离与着陆滑跑形貌模拟"
+    }
+  },
+  "temperature_experiment": {
+    "contact_mode": "cylinder_flat",
+    "conditions": [
+      {
+        "evidence_id": "LYQ-TEMP-T015",
+        "ambient_temperature_C": 15,
+        "load_N": 50,
+        "contact_pressure_MPa": 1.5,
+        "sliding_distance_m": 120,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "replicates": 3,
+        "mean_friction_coefficient": 0.6872581395348846,
+        "wear_rate_g_per_m": 0.000269444,
+        "workbook_reported_hardness_HA": 65.6625,
+        "maximum_interface_temperature_C": 93.2,
+        "temperature_curves": [
+          {
+            "sample_code": "1",
+            "source_csv": "raw_curves/interface_temperature/sample_01.csv",
+            "points": 8388,
+            "maximum_interface_temperature_C": 86.3,
+            "last_10pct_mean_temperature_C": 75.28426698450536
+          },
+          {
+            "sample_code": "2",
+            "source_csv": "raw_curves/interface_temperature/sample_02.csv",
+            "points": 57212,
+            "maximum_interface_temperature_C": 93.2,
+            "last_10pct_mean_temperature_C": 73.9059245019224
+          },
+          {
+            "sample_code": "3",
+            "source_csv": "raw_curves/interface_temperature/sample_03.csv",
+            "points": 57211,
+            "maximum_interface_temperature_C": 89.5,
+            "last_10pct_mean_temperature_C": 74.36272282418734
+          }
+        ]
+      },
+      {
+        "evidence_id": "LYQ-TEMP-T040",
+        "ambient_temperature_C": 40,
+        "load_N": 50,
+        "contact_pressure_MPa": 1.5,
+        "sliding_distance_m": 120,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "replicates": 3,
+        "mean_friction_coefficient": 0.700527,
+        "wear_rate_g_per_m": 0.000408333,
+        "workbook_reported_hardness_HA": 67.4,
+        "maximum_interface_temperature_C": 100.2,
+        "temperature_curves": [
+          {
+            "sample_code": "4",
+            "source_csv": "raw_curves/interface_temperature/sample_04.csv",
+            "points": 59056,
+            "maximum_interface_temperature_C": 98.9,
+            "last_10pct_mean_temperature_C": 72.7962072468676
+          },
+          {
+            "sample_code": "5",
+            "source_csv": "raw_curves/interface_temperature/sample_05.csv",
+            "points": 57538,
+            "maximum_interface_temperature_C": 96.3,
+            "last_10pct_mean_temperature_C": 74.200643030935
+          },
+          {
+            "sample_code": "6",
+            "source_csv": "raw_curves/interface_temperature/sample_06.csv",
+            "points": 57438,
+            "maximum_interface_temperature_C": 100.2,
+            "last_10pct_mean_temperature_C": 82.0753655988858
+          }
+        ]
+      },
+      {
+        "evidence_id": "LYQ-TEMP-T060",
+        "ambient_temperature_C": 60,
+        "load_N": 50,
+        "contact_pressure_MPa": 1.5,
+        "sliding_distance_m": 120,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "replicates": 3,
+        "mean_friction_coefficient": 0.7267932692307683,
+        "wear_rate_g_per_m": 0.000441667,
+        "workbook_reported_hardness_HA": 67.5,
+        "maximum_interface_temperature_C": 108.9,
+        "temperature_curves": [
+          {
+            "sample_code": "7",
+            "source_csv": "raw_curves/interface_temperature/sample_07.csv",
+            "points": 57319,
+            "maximum_interface_temperature_C": 108.4,
+            "last_10pct_mean_temperature_C": 100.74284717376133
+          },
+          {
+            "sample_code": "8",
+            "source_csv": "raw_curves/interface_temperature/sample_08.csv",
+            "points": 57341,
+            "maximum_interface_temperature_C": 108.9,
+            "last_10pct_mean_temperature_C": 88.78395815170009
+          },
+          {
+            "sample_code": "9",
+            "source_csv": "raw_curves/interface_temperature/sample_09.csv",
+            "points": 57433,
+            "maximum_interface_temperature_C": 106.5,
+            "last_10pct_mean_temperature_C": 91.12101323119776
+          }
+        ]
+      },
+      {
+        "evidence_id": "LYQ-TEMP-T080",
+        "ambient_temperature_C": 80,
+        "load_N": 50,
+        "contact_pressure_MPa": 1.5,
+        "sliding_distance_m": 120,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "replicates": 3,
+        "mean_friction_coefficient": 0.7616387921022056,
+        "wear_rate_g_per_m": 0.00055,
+        "workbook_reported_hardness_HA": 66.75,
+        "maximum_interface_temperature_C": 114.1,
+        "temperature_curves": [
+          {
+            "sample_code": "10",
+            "source_csv": "raw_curves/interface_temperature/sample_10.csv",
+            "points": 57424,
+            "maximum_interface_temperature_C": 113.0,
+            "last_10pct_mean_temperature_C": 92.39775378721922
+          },
+          {
+            "sample_code": "11",
+            "source_csv": "raw_curves/interface_temperature/sample_11.csv",
+            "points": 48395,
+            "maximum_interface_temperature_C": 114.1,
+            "last_10pct_mean_temperature_C": 95.72117768595041
+          },
+          {
+            "sample_code": "12",
+            "source_csv": "raw_curves/interface_temperature/sample_12.csv",
+            "points": 56895,
+            "maximum_interface_temperature_C": 113.9,
+            "last_10pct_mean_temperature_C": 91.73369068541301
+          }
+        ]
+      },
+      {
+        "evidence_id": "LYQ-TEMP-T100",
+        "ambient_temperature_C": 100,
+        "load_N": 50,
+        "contact_pressure_MPa": 1.5,
+        "sliding_distance_m": 120,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "replicates": 3,
+        "mean_friction_coefficient": 0.7662040094339623,
+        "wear_rate_g_per_m": 0.000536111,
+        "workbook_reported_hardness_HA": 68.7875,
+        "maximum_interface_temperature_C": 126.7,
+        "temperature_curves": [
+          {
+            "sample_code": "13",
+            "source_csv": "raw_curves/interface_temperature/sample_13.csv",
+            "points": 57834,
+            "maximum_interface_temperature_C": 117.6,
+            "last_10pct_mean_temperature_C": 104.24470954356846
+          },
+          {
+            "sample_code": "14",
+            "source_csv": "raw_curves/interface_temperature/sample_14.csv",
+            "points": 57411,
+            "maximum_interface_temperature_C": 119.5,
+            "last_10pct_mean_temperature_C": 101.5496342737722
+          },
+          {
+            "sample_code": "15",
+            "source_csv": "raw_curves/interface_temperature/sample_15.csv",
+            "points": 57437,
+            "maximum_interface_temperature_C": 126.7,
+            "last_10pct_mean_temperature_C": 103.80844359331476
+          }
+        ]
+      }
+    ],
+    "scope_note": "正式论文组为15、40、60、80、100 °C；30、50、70、90、120 °C辅助点未纳入正式趋势记录。"
+  },
+  "load_distance_experiment": [
+    {
+      "evidence_id": "LYQ-LOAD-P1.2-D020",
+      "contact_mode": "cylinder_flat",
+      "load_N": 40,
+      "contact_pressure_MPa": 1.2,
+      "sliding_distance_m": 20,
+      "reported_wear_loss_g": 0.0125,
+      "reported_hardness_HA": 65.275,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.5-D020",
+      "contact_mode": "cylinder_flat",
+      "load_N": 50,
+      "contact_pressure_MPa": 1.5,
+      "sliding_distance_m": 20,
+      "reported_wear_loss_g": 0.018,
+      "reported_hardness_HA": 60.62857,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.8-D020",
+      "contact_mode": "cylinder_flat",
+      "load_N": 60,
+      "contact_pressure_MPa": 1.8,
+      "sliding_distance_m": 20,
+      "reported_wear_loss_g": 0.0365,
+      "reported_hardness_HA": 58.88571,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.2-D040",
+      "contact_mode": "cylinder_flat",
+      "load_N": 40,
+      "contact_pressure_MPa": 1.2,
+      "sliding_distance_m": 40,
+      "reported_wear_loss_g": 0.0155,
+      "reported_hardness_HA": 63.92857,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.5-D040",
+      "contact_mode": "cylinder_flat",
+      "load_N": 50,
+      "contact_pressure_MPa": 1.5,
+      "sliding_distance_m": 40,
+      "reported_wear_loss_g": 0.0295,
+      "reported_hardness_HA": 58.9,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.8-D040",
+      "contact_mode": "cylinder_flat",
+      "load_N": 60,
+      "contact_pressure_MPa": 1.8,
+      "sliding_distance_m": 40,
+      "reported_wear_loss_g": 0.0685,
+      "reported_hardness_HA": 57.68571,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.2-D080",
+      "contact_mode": "cylinder_flat",
+      "load_N": 40,
+      "contact_pressure_MPa": 1.2,
+      "sliding_distance_m": 80,
+      "reported_wear_loss_g": 0.037,
+      "reported_hardness_HA": 60.56667,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.5-D080",
+      "contact_mode": "cylinder_flat",
+      "load_N": 50,
+      "contact_pressure_MPa": 1.5,
+      "sliding_distance_m": 80,
+      "reported_wear_loss_g": 0.0505,
+      "reported_hardness_HA": 55.14286,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.8-D080",
+      "contact_mode": "cylinder_flat",
+      "load_N": 60,
+      "contact_pressure_MPa": 1.8,
+      "sliding_distance_m": 80,
+      "reported_wear_loss_g": 0.1025,
+      "reported_hardness_HA": 53.11429,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.2-D120",
+      "contact_mode": "cylinder_flat",
+      "load_N": 40,
+      "contact_pressure_MPa": 1.2,
+      "sliding_distance_m": 120,
+      "reported_wear_loss_g": 0.0445,
+      "reported_hardness_HA": 56.37143,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.5-D120",
+      "contact_mode": "cylinder_flat",
+      "load_N": 50,
+      "contact_pressure_MPa": 1.5,
+      "sliding_distance_m": 120,
+      "reported_wear_loss_g": 0.089,
+      "reported_hardness_HA": 53.38333,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.8-D120",
+      "contact_mode": "cylinder_flat",
+      "load_N": 60,
+      "contact_pressure_MPa": 1.8,
+      "sliding_distance_m": 120,
+      "reported_wear_loss_g": 0.139,
+      "reported_hardness_HA": 49.75,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.2-D160",
+      "contact_mode": "cylinder_flat",
+      "load_N": 40,
+      "contact_pressure_MPa": 1.2,
+      "sliding_distance_m": 160,
+      "reported_wear_loss_g": 0.06,
+      "reported_hardness_HA": 52.55714,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.5-D160",
+      "contact_mode": "cylinder_flat",
+      "load_N": 50,
+      "contact_pressure_MPa": 1.5,
+      "sliding_distance_m": 160,
+      "reported_wear_loss_g": 0.1205,
+      "reported_hardness_HA": 51.22857,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    },
+    {
+      "evidence_id": "LYQ-LOAD-P1.8-D160",
+      "contact_mode": "cylinder_flat",
+      "load_N": 60,
+      "contact_pressure_MPa": 1.8,
+      "sliding_distance_m": 160,
+      "reported_wear_loss_g": 0.1605,
+      "reported_hardness_HA": 46.57143,
+      "stroke_mm": 10,
+      "frequency_Hz": 3.3
+    }
+  ],
+  "contact_friction_curves": [
+    {
+      "evidence_id": "LYQ-CONTACT-RB-5025",
+      "contact_mode": "ring_block",
+      "load_N": 50,
+      "duration_min": 25,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/环块/5025.txt",
+      "curve_points": 904,
+      "stable_mean_friction_coefficient": 0.4074201474201474,
+      "maximum_friction_coefficient": 1.348,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-RB-5050",
+      "contact_mode": "ring_block",
+      "load_N": 50,
+      "duration_min": 50,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/环块/5050.txt",
+      "curve_points": 900,
+      "stable_mean_friction_coefficient": 0.417379012345679,
+      "maximum_friction_coefficient": 2.167,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-RB-5075",
+      "contact_mode": "ring_block",
+      "load_N": 50,
+      "duration_min": 75,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/环块/5075.txt",
+      "curve_points": 899,
+      "stable_mean_friction_coefficient": 0.4346864197530864,
+      "maximum_friction_coefficient": 1.009,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-RB-7025",
+      "contact_mode": "ring_block",
+      "load_N": 70,
+      "duration_min": 25,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/环块/7025.txt",
+      "curve_points": 904,
+      "stable_mean_friction_coefficient": 0.4422616707616708,
+      "maximum_friction_coefficient": 1.493,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-RB-7050",
+      "contact_mode": "ring_block",
+      "load_N": 70,
+      "duration_min": 50,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/环块/7050.txt",
+      "curve_points": 901,
+      "stable_mean_friction_coefficient": 0.43719358816276205,
+      "maximum_friction_coefficient": 1.178,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-RB-7075",
+      "contact_mode": "ring_block",
+      "load_N": 70,
+      "duration_min": 75,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/环块/7075.txt",
+      "curve_points": 899,
+      "stable_mean_friction_coefficient": 0.4470222222222222,
+      "maximum_friction_coefficient": 0.917,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-RB-9025",
+      "contact_mode": "ring_block",
+      "load_N": 90,
+      "duration_min": 25,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/环块/9025.txt",
+      "curve_points": 904,
+      "stable_mean_friction_coefficient": 0.4341928746928747,
+      "maximum_friction_coefficient": 0.963,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-RB-9050",
+      "contact_mode": "ring_block",
+      "load_N": 90,
+      "duration_min": 50,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/环块/9050.txt",
+      "curve_points": 900,
+      "stable_mean_friction_coefficient": 0.42463456790123455,
+      "maximum_friction_coefficient": 0.946,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-RB-9067",
+      "contact_mode": "ring_block",
+      "load_N": 90,
+      "duration_min": 75,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/环块/9067.1.txt",
+      "curve_points": 0,
+      "stable_mean_friction_coefficient": null,
+      "maximum_friction_coefficient": null,
+      "qc_flag": "partial_duration"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-SF-4020",
+      "contact_mode": "sphere_flat",
+      "load_N": 40,
+      "duration_min": 20,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/球面/4020.txt",
+      "curve_points": 904,
+      "stable_mean_friction_coefficient": 0.9676461916461916,
+      "maximum_friction_coefficient": 1.217,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-SF-4040",
+      "contact_mode": "sphere_flat",
+      "load_N": 40,
+      "duration_min": 40,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/球面/4040.txt",
+      "curve_points": 902,
+      "stable_mean_friction_coefficient": 0.7021366995073891,
+      "maximum_friction_coefficient": 1.093,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-SF-4060",
+      "contact_mode": "sphere_flat",
+      "load_N": 40,
+      "duration_min": 60,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/球面/4060.txt",
+      "curve_points": 899,
+      "stable_mean_friction_coefficient": 0.7066320987654321,
+      "maximum_friction_coefficient": 1.181,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-SF-5020",
+      "contact_mode": "sphere_flat",
+      "load_N": 50,
+      "duration_min": 20,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/球面/5020.txt",
+      "curve_points": 902,
+      "stable_mean_friction_coefficient": 0.8092475369458129,
+      "maximum_friction_coefficient": 1.854,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-SF-5040",
+      "contact_mode": "sphere_flat",
+      "load_N": 50,
+      "duration_min": 40,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/球面/5040.txt",
+      "curve_points": 902,
+      "stable_mean_friction_coefficient": 0.8333091133004926,
+      "maximum_friction_coefficient": 1.271,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-SF-5060",
+      "contact_mode": "sphere_flat",
+      "load_N": 50,
+      "duration_min": 60,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/球面/5060.txt",
+      "curve_points": 900,
+      "stable_mean_friction_coefficient": 0.8570604938271604,
+      "maximum_friction_coefficient": 1.353,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-SF-6020",
+      "contact_mode": "sphere_flat",
+      "load_N": 60,
+      "duration_min": 20,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/球面/6020.txt",
+      "curve_points": 902,
+      "stable_mean_friction_coefficient": 0.7276034482758621,
+      "maximum_friction_coefficient": 1.155,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-SF-6040",
+      "contact_mode": "sphere_flat",
+      "load_N": 60,
+      "duration_min": 40,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/球面/6040.txt",
+      "curve_points": 902,
+      "stable_mean_friction_coefficient": 0.7849827586206897,
+      "maximum_friction_coefficient": 1.187,
+      "qc_flag": "source_record"
+    },
+    {
+      "evidence_id": "LYQ-CONTACT-SF-6060",
+      "contact_mode": "sphere_flat",
+      "load_N": 60,
+      "duration_min": 60,
+      "speed_rpm": 200.0,
+      "source_file": "raw_curves/contact_friction/球面/6060.txt",
+      "curve_points": 899,
+      "stable_mean_friction_coefficient": 0.8246296296296296,
+      "maximum_friction_coefficient": 1.346,
+      "qc_flag": "source_record"
+    }
+  ],
+  "validated_findings": [
+    "接触应力由1.2 MPa增至1.8 MPa时，磨损和撕裂加剧，界面稳态温度约由87 °C升至102 °C。",
+    "环境温度由15 °C升至100 °C时，界面最高温度约由80 °C升至126 °C，磨损率先升高后趋稳。",
+    "初期以平行滑动方向的犁沟和磨粒磨损为主，距离、应力或温度增加后出现垂直滑动方向的山脊状条纹，转为磨粒-疲劳复合磨损。",
+    "FT-IR证据支持磨损表面同时存在分子链断裂与氧化降解，高温下氧化降解作用增强。",
+    "柱-面适合周期疲劳训练，球-面适合局部应力集中训练，环-块更接近单向滑跑与长距离摩擦。"
+  ],
+  "source_conflicts": [
+    "环-块标号表写75 N，而论文、磨损表与70xx曲线文件使用70 N；正式记录采用交叉证据更充分的70 N。",
+    "环-块90 N最长曲线文件名为9067且元数据显示67 min，短于方案75 min，标记为partial_duration。",
+    "温度标号表沿用“50 N、200 r/min、60 min”文字，而论文明确温度研究为柱-面往复3.3 Hz；正式工况采用论文方法，表格差异保留。",
+    "不同接触方式磨损表未标明数值单位，因此仅作为原始附件保存，不用于定量生成。"
+  ],
+  "safety_boundary": "实验室小试结果用于教学、机理分析和工况比较，不直接构成航空轮胎维修或适航放行限值。"
+}

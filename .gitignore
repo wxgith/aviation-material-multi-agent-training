@@ -36,6 +36,12 @@ submission_materials/
 # Raw source documents are recorded by manifests but not redistributed
 knowledge_corpus/raw_docs/*
 !knowledge_corpus/raw_docs/README.md
+!knowledge_corpus/raw_docs/team_tire/
+!knowledge_corpus/raw_docs/team_tire/**
+knowledge_corpus/raw_docs/team_tire/pending_review/
+knowledge_corpus/raw_docs/team_tire/**/*.zip
+knowledge_corpus/raw_docs/team_tire/**/*.rar
+knowledge_corpus/raw_docs/team_tire/**/*.7z
 
 # Private review keys
 evaluation/external_review/blind_case_key_private.json
