@@ -88,7 +88,7 @@ def validate_team_dataset(root: Path = DEFAULT_DATASET_ROOT) -> dict:
         for directory in [root / "images" / "SEM", root / "images" / "optical", root / "images" / "damage_cases"]
         if directory.exists()
         for path in directory.iterdir()
-        if path.is_file()
+        if path.is_file() and path.suffix.lower() in {".jpg", ".jpeg", ".png", ".tif", ".tiff"}
     )
     return {
         "status": "ready" if not errors else "invalid",
