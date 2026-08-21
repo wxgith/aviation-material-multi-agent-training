@@ -88,7 +88,7 @@ foreach ($outputName in @("reviewer_verification", "deployment_validation", "dem
     if (Test-Path -LiteralPath $source) { Copy-DirectoryFiltered $source (Join-Path $packageRoot "outputs\$outputName") }
 }
 $rootFiles = @(
-    ".gitignore", ".dockerignore", "README.md", "API_TEST.md", "DEMO_SCRIPT.md", "DEPLOYMENT_GUIDE.md",
+    ".gitignore", ".dockerignore", "README.md", "START_HERE.md", "NOTICE.md", "API_TEST.md", "DEMO_SCRIPT.md", "DEPLOYMENT_GUIDE.md",
     "DEPLOYMENT_VALIDATION.md", "COMPETITION_DELIVERY_GUIDE.md", "EVALUATOR_QUICKSTART.md", "RELEASE_PACKAGE_README.md",
     "REMAINING_IMPROVEMENTS.md", "FINAL_FUNCTIONAL_AUDIT.md", "FINAL_RELEASE.md", "CURRENT_ACCEPTANCE_SUMMARY.md",
     "PPT_OUTLINE.md", "SCREENSHOT_GUIDE.md", "SUBMISSION_CHECKLIST.md", "SYSTEM_DESIGN.md", "competition_baseline.json"
