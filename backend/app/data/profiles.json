@@ -1,0 +1,32 @@
+[
+  {
+    "profile_id": "undergrad_basic",
+    "name": "本科低年级学生",
+    "learner_type": "本科低年级学生",
+    "background": "已学习普通材料学基础，对航空服役损伤、实验表征和维修判读了解较少。",
+    "characteristics": "基础概念薄弱，实验经验少，需要降维解释和图像化案例引导。",
+    "default_goal": "理解航空轮胎热氧老化与滑动磨损损伤机理，并能完成基本损伤判读。",
+    "self_level": "低",
+    "recommended_domains": ["tire"]
+  },
+  {
+    "profile_id": "grad_materials",
+    "name": "材料方向研究生",
+    "learner_type": "材料方向研究生",
+    "background": "具备材料学、力学性能和常规表征基础，正在进入航空工程材料损伤研究。",
+    "characteristics": "有材料基础，需要深入损伤机理、实验表征、耦合因素和科研分析表达。",
+    "default_goal": "围绕服役工况建立损伤证据链，形成可复用的实验分析方案。",
+    "self_level": "中",
+    "recommended_domains": ["tire", "brake", "composite"]
+  },
+  {
+    "profile_id": "maintenance_new",
+    "name": "机务维修新员工",
+    "learner_type": "机务维修新员工",
+    "background": "了解基本维修流程，需要把材料损伤知识转化为检查、记录和处置建议。",
+    "characteristics": "关注损伤判读、检查流程、维护决策和实操规范，需要避免越权结论。",
+    "default_goal": "掌握典型损伤识别流程，能规范描述证据、风险和后续检查建议。",
+    "self_level": "中",
+    "recommended_domains": ["tire", "brake", "composite"]
+  }
+]

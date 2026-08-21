@@ -1,0 +1,84 @@
+{
+  "domain": "tire",
+  "title": "航空轮胎胎面橡胶损伤分析",
+  "summary": "围绕热氧老化、滑动磨损、胎面裂纹、剥落、损伤等级判读、起降次数影响和磨损形貌分析开展训练。",
+  "chunks": [
+    {
+      "id": "tire-k01",
+      "domain": "tire",
+      "title": "热氧老化与橡胶交联网络变化",
+      "tags": ["热氧老化", "基础概念", "损伤机理"],
+      "difficulty": "基础",
+      "content": "航空轮胎胎面橡胶在高温和氧共同作用下会发生链段氧化、交联密度变化和表面硬化，导致裂纹敏感性、回弹性能和后续磨损行为发生改变。",
+      "source_type": "domain_note",
+      "applicable_learners": ["本科低年级学生", "材料方向研究生"],
+      "common_misconceptions": ["把热氧老化简单理解为颜色变化", "忽略老化时间和温度边界"]
+    },
+    {
+      "id": "tire-k02",
+      "domain": "tire",
+      "title": "滑动摩擦磨损工况记录",
+      "tags": ["滑动磨损", "表征方法", "实操训练任务"],
+      "difficulty": "基础",
+      "content": "滑动磨损分析必须记录载荷、速度、温度、滑动距离、接触材料和环境条件。缺少工况会导致磨粒磨损、黏着磨损和热机械耦合磨损之间难以区分。",
+      "source_type": "experiment_protocol",
+      "applicable_learners": ["本科低年级学生", "材料方向研究生", "机务维修新员工"],
+      "common_misconceptions": ["只看形貌不记录工况", "把所有沟槽都归因于同一种磨损机制"]
+    },
+    {
+      "id": "tire-k03",
+      "domain": "tire",
+      "title": "胎面裂纹与剥落判读",
+      "tags": ["胎面裂纹", "剥落", "损伤等级判读"],
+      "difficulty": "提升",
+      "content": "胎面裂纹、片状剥落和局部撕裂需要结合位置、尺寸、深度、边缘形貌和起降循环历史进行判读。训练场景可以输出风险提示，但不能替代真实适航放行结论。",
+      "source_type": "inspection_rule",
+      "applicable_learners": ["机务维修新员工", "本科低年级学生"],
+      "common_misconceptions": ["只凭单张照片给出处置结论", "忽略损伤所在区域和尺度"]
+    },
+    {
+      "id": "tire-k04",
+      "domain": "tire",
+      "title": "起降次数与损伤累积",
+      "tags": ["起降次数影响", "损伤等级判读", "维护判读"],
+      "difficulty": "提升",
+      "content": "起降循环会造成胎面承受反复冲击、滑移和热积累。判读损伤等级时应把起降次数、翻修记录和当前形貌联系起来，避免割裂服役历史。",
+      "source_type": "domain_note",
+      "applicable_learners": ["机务维修新员工", "材料方向研究生"],
+      "common_misconceptions": ["把服役历史和实验形貌完全分开", "只用一次测量代表完整寿命"]
+    },
+    {
+      "id": "tire-k05",
+      "domain": "tire",
+      "title": "磨损形貌分析与证据链",
+      "tags": ["磨损形貌分析", "表征方法", "损伤机理"],
+      "difficulty": "提升",
+      "content": "犁沟、撕裂脊、片状剥落、局部熔融和疲劳裂纹等形貌需要与三维轮廓、显微图像和力学性能变化一起解释，形成工况到机理的证据链。",
+      "source_type": "analysis_template",
+      "applicable_learners": ["材料方向研究生", "本科低年级学生"],
+      "common_misconceptions": ["把形貌描述当作机理证明", "忽略多源表征互证"]
+    },
+    {
+      "id": "tire-k06",
+      "domain": "tire",
+      "title": "热氧老化-滑动磨损耦合边界",
+      "tags": ["耦合损伤", "热氧老化", "滑动磨损", "损伤边界"],
+      "difficulty": "进阶",
+      "content": "耦合损伤边界可通过不同老化温度、老化时间、摩擦载荷和滑动距离组合构建，重点观察裂纹萌生、剥落面积和磨耗深度的阈值变化。",
+      "source_type": "research_design",
+      "applicable_learners": ["材料方向研究生"],
+      "common_misconceptions": ["只做单因素比较却声称得到耦合边界", "忽略重复性和阈值定义"]
+    },
+    {
+      "id": "tire-k07",
+      "domain": "tire",
+      "title": "胎面损伤检查实操任务",
+      "tags": ["实操训练任务", "胎面裂纹", "剥落", "维护判读"],
+      "difficulty": "基础",
+      "content": "实操任务包括标注裂纹和剥落区域、测量裂纹长度和剥落面积、记录图像尺度、填写损伤证据表，并给出后续补充检测建议。",
+      "source_type": "practice_task",
+      "applicable_learners": ["本科低年级学生", "机务维修新员工"],
+      "common_misconceptions": ["只写结论不写证据", "不记录图像尺度和测量方法"]
+    }
+  ]
+}

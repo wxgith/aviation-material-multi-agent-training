@@ -1,0 +1,107 @@
+{
+  "dataset": "published_literature_experiment_evidence_evaluation",
+  "version": "1.0",
+  "description": "验证5张已人工复核的公开文献实验卡能否被Elasticsearch检索稳定召回。",
+  "cases": [
+    {
+      "id": "lit-ret-001",
+      "domain": "tire",
+      "learner_type": "材料方向研究生",
+      "weak_points": ["交联密度"],
+      "learning_goal": "分析天然橡胶炭黑热老化后拉伸强度和断裂伸长率变化",
+      "expected_source_id": "tire_pmc_10490132_thermal_aging",
+      "expected_record_id": "litexp-tire-thermal-aging-001",
+      "pass_criteria": "Top-5包含热老化论文来源，返回证据ID可在manifest中定位。"
+    },
+    {
+      "id": "lit-ret-002",
+      "domain": "tire",
+      "learner_type": "科研训练新手",
+      "weak_points": ["热氧老化"],
+      "learning_goal": "理解热老化后拉伸、100%和300%定伸应力与交联程度的变化",
+      "expected_source_id": "tire_pmc_10490132_thermal_aging",
+      "expected_record_id": "litexp-tire-thermal-aging-001",
+      "pass_criteria": "Top-5包含热老化论文来源，实验卡保持适用限制。"
+    },
+    {
+      "id": "lit-ret-003",
+      "domain": "tire",
+      "learner_type": "材料方向研究生",
+      "weak_points": ["疲劳裂纹扩展"],
+      "learning_goal": "学习纯剪切试样特征撕裂能与疲劳裂纹扩展试验",
+      "expected_source_id": "tire_pmc_8620932_fatigue_crack",
+      "expected_record_id": "litexp-tire-fatigue-crack-001",
+      "pass_criteria": "Top-5包含天然橡胶疲劳裂纹论文来源。"
+    },
+    {
+      "id": "lit-ret-004",
+      "domain": "tire",
+      "learner_type": "材料方向研究生",
+      "weak_points": ["撕裂能"],
+      "learning_goal": "分析23摄氏度、8 Hz、R=0条件下的天然橡胶裂纹扩展试验",
+      "expected_source_id": "tire_pmc_8620932_fatigue_crack",
+      "expected_record_id": "litexp-tire-fatigue-crack-001",
+      "pass_criteria": "Top-5包含天然橡胶疲劳裂纹论文来源并保留材料级试验边界。"
+    },
+    {
+      "id": "lit-ret-005",
+      "domain": "brake",
+      "learner_type": "材料方向研究生",
+      "weak_points": ["碳石墨"],
+      "learning_goal": "分析碳石墨高能制动材料剪切膜和磨损机理",
+      "expected_source_id": "brake_nasa_tn_d_8006",
+      "expected_record_id": "litexp-brake-carbon-graphite-001",
+      "pass_criteria": "Top-5包含NASA高能制动试验报告来源。"
+    },
+    {
+      "id": "lit-ret-006",
+      "domain": "brake",
+      "learner_type": "机务维修新员工",
+      "weak_points": ["剪切膜"],
+      "learning_goal": "比较B4C、结合剂和石墨纤维对高能制动磨损的影响",
+      "expected_source_id": "brake_nasa_tn_d_8006",
+      "expected_record_id": "litexp-brake-carbon-graphite-001",
+      "pass_criteria": "Top-5包含NASA试验报告，且限制说明不替代现代机型维护文件。"
+    },
+    {
+      "id": "lit-ret-007",
+      "domain": "composite",
+      "learner_type": "材料方向研究生",
+      "weak_points": ["BVID"],
+      "learning_goal": "分析20 J冲击后BVID多层分层的超声和CT重构",
+      "expected_source_id": "composite_pmc_6865209_bvid_reconstruction",
+      "expected_record_id": "litexp-composite-bvid-001",
+      "pass_criteria": "Top-5包含BVID重构论文来源。"
+    },
+    {
+      "id": "lit-ret-008",
+      "domain": "composite",
+      "learner_type": "科研训练新手",
+      "weak_points": ["可见冲击损伤"],
+      "learning_goal": "比较10 mm半球冲击头试验的B-scan、C-scan与CT分层重构结果",
+      "expected_source_id": "composite_pmc_6865209_bvid_reconstruction",
+      "expected_record_id": "litexp-composite-bvid-001",
+      "pass_criteria": "Top-5包含BVID重构论文来源并保留检测分辨率边界。"
+    },
+    {
+      "id": "lit-ret-009",
+      "domain": "composite",
+      "learner_type": "材料方向研究生",
+      "weak_points": ["表面深度云图"],
+      "learning_goal": "使用CFRP冲击表面轮廓与内部C-scan配对数据开展判读",
+      "expected_source_id": "composite_pmc_9294053_impact_dataset",
+      "expected_record_id": "litexp-composite-impact-dataset-001",
+      "pass_criteria": "Top-5包含CFRP冲击开放数据论文来源。"
+    },
+    {
+      "id": "lit-ret-010",
+      "domain": "composite",
+      "learner_type": "科研训练新手",
+      "weak_points": ["表面与内部损伤"],
+      "learning_goal": "比较T800S/3900-2B复材的铺层、冲击头和C-scan结果",
+      "expected_source_id": "composite_pmc_9294053_impact_dataset",
+      "expected_record_id": "litexp-composite-impact-dataset-001",
+      "pass_criteria": "Top-5包含CFRP冲击开放数据论文来源并提示需核对原始二进制数据。"
+    }
+  ]
+}

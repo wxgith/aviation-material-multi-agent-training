@@ -1,0 +1,169 @@
+[
+  {
+    "record_id": "litexp-tire-thermal-aging-001",
+    "source_id": "tire_pmc_10490132_thermal_aging",
+    "domain": "tire",
+    "title": "天然橡胶/炭黑复合材料热老化与力学性能保持试验",
+    "evidence_type": "published_experiment",
+    "material_or_specimen": "天然橡胶/炭黑硫化胶；炭黑 30 phr、不同加工油 5 phr；拉伸试样每种配方 5 个",
+    "apparatus": "UN110 Memmert 通风热空气烘箱、UT-2060 拉伸试验机、Shore A 硬度计、MDR 硫化仪",
+    "conditions": [
+      "按 ASTM D573 使用哑铃试样",
+      "70 °C 热空气老化 168 h",
+      "冷却后在室温进行拉伸测试",
+      "硫化条件为 150 °C、15 MPa，试片厚度 2 mm"
+    ],
+    "measurements": ["拉伸强度", "断裂伸长率", "100%/300% 定伸应力", "Shore A 硬度", "硫化转矩与交联程度表征"],
+    "findings": [
+      "各配方老化后拉伸强度和断裂伸长率均低于老化前",
+      "100% 和 300% 定伸应力在老化后升高，论文将其与进一步交联和刚度增加联系",
+      "加工油类型和配方会影响结果，不能直接外推到所有航空轮胎胎面配方"
+    ],
+    "evidence_ids": [
+      "tire_pmc_10490132_thermal_aging-c024-4594aa2b",
+      "tire_pmc_10490132_thermal_aging-c041-17bf299c",
+      "tire_pmc_10490132_thermal_aging-c043-f87c0c72"
+    ],
+    "source_locators": ["2.3 Sample Characterizations", "3.3 Thermal Aging Properties"],
+    "limitations": "该研究针对特定天然橡胶/炭黑和加工油配方，用于热老化机理与试验设计训练，不作为航空轮胎寿命或维修放行标准。",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10490132/",
+    "review_status": "expert_reviewed",
+    "reviewed_at": "2026-08-08",
+    "reviewed_by_role": "project_domain_reviewer",
+    "review_scope": "已核对试样、设备、工况、观测指标、原文定位与适用边界；不代表重复开展原论文试验。"
+  },
+  {
+    "record_id": "litexp-tire-fatigue-crack-001",
+    "source_id": "tire_pmc_8620932_fatigue_crack",
+    "domain": "tire",
+    "title": "填充天然橡胶特征撕裂能与疲劳裂纹扩展试验",
+    "evidence_type": "published_experiment",
+    "material_or_specimen": "Shore A 55 的炭黑/白炭黑填充天然橡胶；150 mm × 10 mm × 2 mm 边缘预裂纯剪切试样；初始裂纹 25 mm",
+    "apparatus": "Instron 拉伸设备、受控刀切装置、位移控制疲劳试验装置、数字相机",
+    "conditions": [
+      "纯剪切拉伸在 23 °C、应变速率 0.01 s^-1 下进行，3 个平行样",
+      "刀切速度 1 mm/min，每个应变水平 3 个试样",
+      "疲劳试验为 23 °C、8 Hz、R=0 的变幅正弦加载",
+      "最大应变由 3% 线性增加至 56%"
+    ],
+    "measurements": ["特征撕裂能 T0", "裂纹长度", "循环数", "裂纹扩展速率 da/dN", "应力-应变关系"],
+    "findings": [
+      "论文比较了刀切法与疲劳裂纹扩展法得到的 T0",
+      "该材料在约 250000 次循环前裂纹增长较慢，随后加快",
+      "约 35% 临界应变只适用于论文所用配方与变幅加载方案"
+    ],
+    "evidence_ids": [
+      "tire_pmc_8620932_fatigue_crack-c012-6cf0462f",
+      "tire_pmc_8620932_fatigue_crack-c020-c63bd09b",
+      "tire_pmc_8620932_fatigue_crack-c021-8136def0",
+      "tire_pmc_8620932_fatigue_crack-c022-0cae6889"
+    ],
+    "source_locators": ["3.1 Specimen", "3.4 Fatigue Crack Propagation Experiment"],
+    "limitations": "属于材料级纯剪切疲劳实验，不等同于真实轮胎结构、接地印迹和服役谱下的裂纹寿命。",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8620932/",
+    "review_status": "expert_reviewed",
+    "reviewed_at": "2026-08-08",
+    "reviewed_by_role": "project_domain_reviewer",
+    "review_scope": "已核对试样、设备、工况、观测指标、原文定位与适用边界；不代表重复开展原论文试验。"
+  },
+  {
+    "record_id": "litexp-brake-carbon-graphite-001",
+    "source_id": "brake_nasa_tn_d_8006",
+    "domain": "brake",
+    "title": "碳-石墨高能制动材料摩擦磨损模拟试验",
+    "evidence_type": "official_report_experiment",
+    "material_or_specimen": "7 种碳-石墨材料配方，与钢盘或碳-石墨盘组成摩擦副；试验垫块直径约 2.54 cm",
+    "apparatus": "卡钳式制动模拟装置、液压加载、热电偶、摩擦力连续记录、光学显微镜和 SEM",
+    "conditions": [
+      "滑动速度最高约 31 m/s",
+      "典型法向单位载荷约 88 N/cm²",
+      "通过滑动前后称重计算磨损率",
+      "连续记录摩擦力，并监测试样近表面温度"
+    ],
+    "measurements": ["摩擦系数/摩擦力", "质量磨损率", "近表面温度", "光学与 SEM 磨损形貌", "火花、燃烧和碎屑观察"],
+    "findings": [
+      "降低结合剂含量或加入 B4C 在该试验中导致磨损增加",
+      "加入石墨纤维未显著改变磨损率",
+      "石墨布增强材料与相似组成盘配副时出现严重磨损和高摩擦，报告将其与连续石墨剪切膜破坏联系"
+    ],
+    "evidence_ids": [
+      "brake_nasa_tn_d_8006-c002-7bd8c3d6",
+      "brake_nasa_tn_d_8006-c003-2980c065",
+      "brake_nasa_tn_d_8006-c004-60f1b891"
+    ],
+    "source_locators": ["NASA TN D-8006 Page 3", "NASA TN D-8006 Abstract"],
+    "limitations": "1975 年历史材料与模拟装置结果，只能用于摩擦膜和材料组成影响训练；现代机型维护限值必须查制造商现行文件。",
+    "source_url": "https://ntrs.nasa.gov/citations/19750018065",
+    "review_status": "expert_reviewed",
+    "reviewed_at": "2026-08-08",
+    "reviewed_by_role": "project_domain_reviewer",
+    "review_scope": "已核对试样、设备、工况、观测指标、原文定位与适用边界；不代表重复开展原论文试验。"
+  },
+  {
+    "record_id": "litexp-composite-bvid-001",
+    "source_id": "composite_pmc_6865209_bvid_reconstruction",
+    "domain": "composite",
+    "title": "CFRP 低速冲击 BVID 的超声与 CT 重构对比试验",
+    "evidence_type": "published_experiment",
+    "material_or_specimen": "VARTM 成型 2×2 斜纹碳纤维/环氧板，100 mm × 100 mm × 2.5 mm",
+    "apparatus": "落锤冲击装置、128 阵元 5 MHz 相控阵、5 MHz 延迟块直探头水耦合 C-scan、Nikon/Metris X-ray CT",
+    "conditions": [
+      "直径 10 mm 半球冲击头，冲击能量 20 J",
+      "相控阵 B-scan 分辨率 0.508 mm/pixel",
+      "脉冲回波 C-scan 分辨率 0.254 mm/pixel",
+      "CT 图像平面分辨率约 0.022 mm/pixel，切片步长 0.01 mm"
+    ],
+    "measurements": ["B-scan", "幅值/TOF C-scan", "X-ray CT", "分层层数与范围", "重构体积和投影面积"],
+    "findings": [
+      "目视仅观察到浅压痕和十字表面裂纹，但无损检测揭示多层分层",
+      "该试样条件下脉冲回波 C-scan 提供了比相控阵 B-scan 更完整的近表面信息",
+      "超声波束直径、近表面死区和重构填充会造成尺寸高估或信息缺失"
+    ],
+    "evidence_ids": [
+      "composite_pmc_6865209_bvid_reconstruction-c036-dd4a5180",
+      "composite_pmc_6865209_bvid_reconstruction-c038-5ada1413",
+      "composite_pmc_6865209_bvid_reconstruction-c039-b65420b4",
+      "composite_pmc_6865209_bvid_reconstruction-c070-25185eef"
+    ],
+    "source_locators": ["3.1 Specimens and Introduction of Impact Damage", "3.2 Ultrasonic Testing", "5 Discussion and Conclusions"],
+    "limitations": "结果受板厚、编织结构、探头、扫描分辨率和重构算法影响，不能把单个试样结论直接推广到所有航空复材结构。",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6865209/",
+    "review_status": "expert_reviewed",
+    "reviewed_at": "2026-08-08",
+    "reviewed_by_role": "project_domain_reviewer",
+    "review_scope": "已核对试样、设备、工况、观测指标、原文定位与适用边界；不代表重复开展原论文试验。"
+  },
+  {
+    "record_id": "litexp-composite-impact-dataset-001",
+    "source_id": "composite_pmc_9294053_impact_dataset",
+    "domain": "composite",
+    "title": "CFRP 冲击表面轮廓与内部 C-scan 配对数据试验",
+    "evidence_type": "published_open_dataset_experiment",
+    "material_or_specimen": "T800S/3900-2B CFRP，80 mm × 80 mm 试样；交叉铺层与准各向同性铺层，多种层数",
+    "apparatus": "CEAST 9350 落锤冲击系统、Keyence VR-5000 三维表面测量系统、HIS3 超声 C-scan 系统",
+    "conditions": [
+      "每个冲击条件设置 3 个试样",
+      "示例条件采用单位厚度冲击能量 3.35 J/mm",
+      "比较半球形与 60° 锥形冲击头及不同铺层",
+      "C-scan 探头 3.5 MHz，步距 0.200 mm × 0.200 mm，扫描范围 75 mm × 75 mm"
+    ],
+    "measurements": ["冲击表面图像", "表面深度等高图", "背面图像", "B-scope/C-scope", "冲击条件表"],
+    "findings": [
+      "数据将同一试样的表面图、深度轮廓和内部超声损伤配对",
+      "可用于比较铺层、冲击头和厚度对外部与内部损伤关系的影响",
+      "C-scan 原始格式不能直接导出，公开数据中的内部损伤以带色标截图为主"
+    ],
+    "evidence_ids": [
+      "composite_pmc_9294053_impact_dataset-c009-a1e47b14",
+      "composite_pmc_9294053_impact_dataset-c010-9e1e2b7e",
+      "composite_pmc_9294053_impact_dataset-c013-397cf787"
+    ],
+    "source_locators": ["2.1 Material and Specimens", "2.2 Low-Velocity Impact Test", "2.4 Internal Damage Measurement"],
+    "limitations": "当前项目保存论文和数据入口，未打包全部 Mendeley 二进制数据；定量使用图像前应下载原数据并复核色标、试样编号和许可。",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9294053/",
+    "review_status": "expert_reviewed",
+    "reviewed_at": "2026-08-08",
+    "reviewed_by_role": "project_domain_reviewer",
+    "review_scope": "已核对试样、设备、工况、观测指标、原文定位与适用边界；不代表重复开展原论文试验。"
+  }
+]

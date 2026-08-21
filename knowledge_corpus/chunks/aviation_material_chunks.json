@@ -1,0 +1,189 @@
+[
+  {
+    "id": "tire-k01",
+    "domain": "tire",
+    "title": "热氧老化与橡胶交联网络变化",
+    "tags": ["热氧老化", "基础概念", "损伤机理"],
+    "difficulty": "基础",
+    "content": "航空轮胎胎面橡胶在高温和氧共同作用下会发生链段氧化、交联密度变化和表面硬化，导致裂纹敏感性、回弹性能和后续磨损行为改变。",
+    "source_id": "tire_damage_notes",
+    "source_type": "domain_note",
+    "indexed_in_es": true
+  },
+  {
+    "id": "tire-k02",
+    "domain": "tire",
+    "title": "滑动摩擦磨损工况记录",
+    "tags": ["滑动磨损", "表征方法", "实操训练任务"],
+    "difficulty": "基础",
+    "content": "滑动磨损分析必须记录载荷、速度、温度、滑动距离、接触材料和环境条件，缺少工况会导致磨损机理难以区分。",
+    "source_id": "tire_damage_notes",
+    "source_type": "experiment_protocol",
+    "indexed_in_es": true
+  },
+  {
+    "id": "tire-k03",
+    "domain": "tire",
+    "title": "胎面裂纹与剥落判读",
+    "tags": ["胎面裂纹", "剥落", "损伤等级判读"],
+    "difficulty": "提升",
+    "content": "胎面裂纹、片状剥落和局部撕裂需要结合位置、尺寸、深度、边缘形貌和起降循环历史判读，训练结果不能替代真实适航放行结论。",
+    "source_id": "tire_damage_notes",
+    "source_type": "inspection_rule",
+    "indexed_in_es": true
+  },
+  {
+    "id": "tire-k04",
+    "domain": "tire",
+    "title": "起降次数与损伤累积",
+    "tags": ["起降次数影响", "损伤等级判读", "维护判读"],
+    "difficulty": "提升",
+    "content": "起降循环会造成胎面反复冲击、滑移和热积累。损伤判读应结合起降次数、翻修记录和当前形貌，避免割裂服役历史。",
+    "source_id": "tire_damage_notes",
+    "source_type": "domain_note",
+    "indexed_in_es": true
+  },
+  {
+    "id": "tire-k05",
+    "domain": "tire",
+    "title": "磨损形貌分析与证据链",
+    "tags": ["磨损形貌分析", "表征方法", "损伤机理"],
+    "difficulty": "提升",
+    "content": "犁沟、撕裂脊、片状剥落、局部熔融和疲劳裂纹等形貌需要与三维轮廓、显微图像和力学性能变化共同解释。",
+    "source_id": "tire_damage_notes",
+    "source_type": "analysis_template",
+    "indexed_in_es": true
+  },
+  {
+    "id": "tire-k06",
+    "domain": "tire",
+    "title": "热氧老化-滑动磨损耦合边界",
+    "tags": ["耦合损伤", "热氧老化", "滑动磨损", "损伤边界"],
+    "difficulty": "进阶",
+    "content": "耦合损伤边界可通过老化温度、老化时间、摩擦载荷和滑动距离组合构建，重点观察裂纹萌生、剥落面积和磨耗深度阈值。",
+    "source_id": "tire_damage_notes",
+    "source_type": "research_design",
+    "indexed_in_es": true
+  },
+  {
+    "id": "tire-k07",
+    "domain": "tire",
+    "title": "胎面损伤检查实操任务",
+    "tags": ["实操训练任务", "胎面裂纹", "剥落", "维护判读"],
+    "difficulty": "基础",
+    "content": "实操任务包括标注裂纹和剥落区域、测量裂纹长度和剥落面积、记录图像尺度、填写损伤证据表并提出补充检测建议。",
+    "source_id": "tire_damage_notes",
+    "source_type": "practice_task",
+    "indexed_in_es": true
+  },
+  {
+    "id": "brake-k01",
+    "domain": "brake",
+    "title": "高温摩擦与热衰退",
+    "tags": ["高温摩擦", "热衰退", "摩擦性能变化"],
+    "difficulty": "基础",
+    "content": "高能制动会使界面温度快速上升，摩擦膜破坏、氧化层变化或磨屑状态改变都可能导致摩擦系数下降或波动增大。",
+    "source_id": "brake_wear_notes",
+    "source_type": "domain_note",
+    "indexed_in_es": true
+  },
+  {
+    "id": "brake-k02",
+    "domain": "brake",
+    "title": "磨损形貌识别",
+    "tags": ["磨损形貌", "表征方法", "实操训练任务"],
+    "difficulty": "基础",
+    "content": "刹车片表面常见磨屑压实层、沟槽、剥落坑、热裂纹和氧化膜残留，形貌判读应结合摩擦曲线与温度历史。",
+    "source_id": "brake_wear_notes",
+    "source_type": "analysis_template",
+    "indexed_in_es": true
+  },
+  {
+    "id": "brake-k03",
+    "domain": "brake",
+    "title": "氧化与热裂纹扩展",
+    "tags": ["氧化", "裂纹", "失效机理"],
+    "difficulty": "提升",
+    "content": "高温氧化会改变表层组织和界面摩擦状态，热应力循环会促进裂纹萌生和扩展，共同影响制动稳定性和服役风险。",
+    "source_id": "brake_wear_notes",
+    "source_type": "domain_note",
+    "indexed_in_es": true
+  },
+  {
+    "id": "brake-k04",
+    "domain": "brake",
+    "title": "失效机理证据链",
+    "tags": ["失效机理", "摩擦性能变化", "表征方法"],
+    "difficulty": "进阶",
+    "content": "完整失效分析应从制动能量和温度历史出发，连接摩擦膜演化、磨损形貌、氧化特征、裂纹扩展和摩擦性能变化。",
+    "source_id": "brake_wear_notes",
+    "source_type": "research_design",
+    "indexed_in_es": true
+  },
+  {
+    "id": "brake-k05",
+    "domain": "brake",
+    "title": "刹车片实操训练任务",
+    "tags": ["实操训练任务", "热衰退", "磨损形貌"],
+    "difficulty": "基础",
+    "content": "训练任务包括标注摩擦曲线稳定段与衰退段，对比制动前后形貌，记录温度峰值，并写出工况、界面变化、性能变化和风险判断。",
+    "source_id": "brake_wear_notes",
+    "source_type": "practice_task",
+    "indexed_in_es": true
+  },
+  {
+    "id": "composite-k01",
+    "domain": "composite",
+    "title": "低速冲击与隐蔽损伤",
+    "tags": ["冲击损伤", "基体开裂", "纤维断裂", "常见误区"],
+    "difficulty": "基础",
+    "content": "复合材料板低速冲击后可能表面凹坑不明显但内部存在分层、基体开裂和纤维断裂，必须警惕隐蔽损伤。",
+    "source_id": "composite_damage_notes",
+    "source_type": "domain_note",
+    "indexed_in_es": true
+  },
+  {
+    "id": "composite-k02",
+    "domain": "composite",
+    "title": "分层对载荷传递的影响",
+    "tags": ["分层", "损伤扩展", "损伤机理"],
+    "difficulty": "提升",
+    "content": "分层会削弱层间载荷传递，使层合板在压缩或疲劳载荷下更容易发生损伤扩展，需要结合铺层方向和载荷路径分析。",
+    "source_id": "composite_damage_notes",
+    "source_type": "analysis_template",
+    "indexed_in_es": true
+  },
+  {
+    "id": "composite-k03",
+    "domain": "composite",
+    "title": "无损检测图像判读",
+    "tags": ["无损检测图像判读", "表征方法", "冲击损伤"],
+    "difficulty": "基础",
+    "content": "超声 C 扫、红外热成像和 X 射线等方法可辅助定位内部损伤范围，判读时要比较外观损伤与内部异常区域差异。",
+    "source_id": "composite_damage_notes",
+    "source_type": "inspection_rule",
+    "indexed_in_es": true
+  },
+  {
+    "id": "composite-k04",
+    "domain": "composite",
+    "title": "损伤扩展分析",
+    "tags": ["损伤扩展", "分层", "纤维断裂"],
+    "difficulty": "进阶",
+    "content": "损伤扩展分析需要综合冲击能量、初始损伤范围、载荷谱、边界条件和材料铺层，形成扩展风险和后续检测建议。",
+    "source_id": "composite_damage_notes",
+    "source_type": "research_design",
+    "indexed_in_es": true
+  },
+  {
+    "id": "composite-k05",
+    "domain": "composite",
+    "title": "复合材料板实操训练任务",
+    "tags": ["实操训练任务", "无损检测图像判读", "损伤扩展"],
+    "difficulty": "基础",
+    "content": "训练任务包括圈定外观凹坑和无损检测异常区域，比较内外损伤范围，列出分层、基体开裂和纤维断裂证据，并提出后续检测建议。",
+    "source_id": "composite_damage_notes",
+    "source_type": "practice_task",
+    "indexed_in_es": true
+  }
+]

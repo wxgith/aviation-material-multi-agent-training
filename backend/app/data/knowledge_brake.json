@@ -1,0 +1,62 @@
+{
+  "domain": "brake",
+  "title": "航空刹车片摩擦磨损与失效分析",
+  "summary": "围绕高温摩擦、热衰退、磨损形貌、氧化、裂纹、摩擦性能变化和失效机理开展训练。",
+  "chunks": [
+    {
+      "id": "brake-k01",
+      "domain": "brake",
+      "title": "高温摩擦与热衰退",
+      "tags": ["高温摩擦", "热衰退", "摩擦性能变化"],
+      "difficulty": "基础",
+      "content": "高能制动会使界面温度快速上升，摩擦膜破坏、氧化层变化或磨屑状态改变都可能导致摩擦系数下降或波动增大。",
+      "source_type": "domain_note",
+      "applicable_learners": ["本科低年级学生", "机务维修新员工"],
+      "common_misconceptions": ["温度越高摩擦一定越稳定", "只看最终磨损量不看摩擦曲线"]
+    },
+    {
+      "id": "brake-k02",
+      "domain": "brake",
+      "title": "磨损形貌识别",
+      "tags": ["磨损形貌", "表征方法", "实操训练任务"],
+      "difficulty": "基础",
+      "content": "刹车片表面常见磨屑压实层、沟槽、剥落坑、热裂纹和氧化膜残留。形貌判读应结合摩擦曲线与温度历史。",
+      "source_type": "analysis_template",
+      "applicable_learners": ["本科低年级学生", "材料方向研究生", "机务维修新员工"],
+      "common_misconceptions": ["用单一形貌直接断定失效机理", "忽略温度历史"]
+    },
+    {
+      "id": "brake-k03",
+      "domain": "brake",
+      "title": "氧化与热裂纹扩展",
+      "tags": ["氧化", "裂纹", "失效机理"],
+      "difficulty": "提升",
+      "content": "高温氧化会改变表层组织和界面摩擦状态，热应力循环会促进裂纹萌生和扩展，两者共同影响制动稳定性和服役风险。",
+      "source_type": "domain_note",
+      "applicable_learners": ["材料方向研究生", "机务维修新员工"],
+      "common_misconceptions": ["把所有裂纹都归因于机械冲击", "不区分氧化层和磨屑层"]
+    },
+    {
+      "id": "brake-k04",
+      "domain": "brake",
+      "title": "失效机理证据链",
+      "tags": ["失效机理", "摩擦性能变化", "表征方法"],
+      "difficulty": "进阶",
+      "content": "完整失效分析应从制动能量和温度历史出发，连接摩擦膜演化、磨损形貌、氧化特征、裂纹扩展和摩擦性能变化。",
+      "source_type": "research_design",
+      "applicable_learners": ["材料方向研究生"],
+      "common_misconceptions": ["只报告现象不解释因果链", "把训练推断当成真实放行依据"]
+    },
+    {
+      "id": "brake-k05",
+      "domain": "brake",
+      "title": "刹车片实操训练任务",
+      "tags": ["实操训练任务", "热衰退", "磨损形貌"],
+      "difficulty": "基础",
+      "content": "训练任务包括标注摩擦曲线稳定段与衰退段、对比制动前后形貌、记录温度峰值，并写出工况-界面变化-性能变化-风险判断。",
+      "source_type": "practice_task",
+      "applicable_learners": ["本科低年级学生", "机务维修新员工"],
+      "common_misconceptions": ["只给风险结论不列数据依据", "忽略测试重复性"]
+    }
+  ]
+}

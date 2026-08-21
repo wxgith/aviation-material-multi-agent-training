@@ -1,0 +1,61 @@
+{
+  "dataset": "official_maintenance_evidence_evaluation",
+  "version": "1.0",
+  "description": "验证 FAA 2023 维修手册中的复材无损检测与航空刹车检查维护证据能够稳定召回。",
+  "cases": [
+    {
+      "id": "maint-ret-001",
+      "domain": "composite",
+      "learner_type": "机务维修新员工",
+      "weak_points": ["敲击检测"],
+      "learning_goal": "比较复材敲击法对分层和脱粘的检查能力与限制",
+      "expected_source_id": "composite_faa_h_8083_31b_ch7_ndi",
+      "pass_criteria": "Top-5 包含 FAA Chapter 7 复材 NDI 摘录，证据 ID 可追溯。"
+    },
+    {
+      "id": "maint-ret-002",
+      "domain": "composite",
+      "learner_type": "材料方向研究生",
+      "weak_points": ["超声检测"],
+      "learning_goal": "在复材维修检查中区分 pulse echo、through transmission 和 bond tester",
+      "expected_source_id": "composite_faa_h_8083_31b_ch7_ndi",
+      "pass_criteria": "Top-5 包含 FAA Chapter 7 复材 NDI 摘录并保留方法边界。"
+    },
+    {
+      "id": "maint-ret-003",
+      "domain": "composite",
+      "learner_type": "科研训练新手",
+      "weak_points": ["无损检测"],
+      "learning_goal": "使用 coin tap、超声、X 射线与热成像构建复材维修检查顺序",
+      "expected_source_id": "composite_faa_h_8083_31b_ch7_ndi",
+      "pass_criteria": "Top-5 包含 FAA Chapter 7 证据，生成内容不得替代机型批准维修数据。"
+    },
+    {
+      "id": "maint-ret-004",
+      "domain": "brake",
+      "learner_type": "机务维修新员工",
+      "weak_points": ["刹车衬片"],
+      "learning_goal": "识别刹车衬片、磨损销和最小厚度检查方法",
+      "expected_source_id": "brake_faa_h_8083_31b_ch13_service",
+      "pass_criteria": "Top-5 包含 FAA Chapter 13 刹车检查维护摘录。"
+    },
+    {
+      "id": "maint-ret-005",
+      "domain": "brake",
+      "learner_type": "机务维修新员工",
+      "weak_points": ["刹车放气"],
+      "learning_goal": "理解 pressure bleeding、放气口连接与液压系统空气控制边界",
+      "expected_source_id": "brake_faa_h_8083_31b_ch13_service",
+      "pass_criteria": "Top-5 包含 FAA Chapter 13 放气流程证据。"
+    },
+    {
+      "id": "maint-ret-006",
+      "domain": "brake",
+      "learner_type": "机务维修新员工",
+      "weak_points": ["刹车过热"],
+      "learning_goal": "说明中止起飞或过热后刹车拆卸检查的训练边界",
+      "expected_source_id": "brake_faa_h_8083_31b_ch13_service",
+      "pass_criteria": "Top-5 包含 FAA Chapter 13 过热后检查证据并保留制造商手册优先限制。"
+    }
+  ]
+}

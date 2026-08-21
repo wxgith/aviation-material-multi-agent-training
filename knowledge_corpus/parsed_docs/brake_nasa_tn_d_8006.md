@@ -1,0 +1,1215 @@
+---
+source_id: brake_nasa_tn_d_8006
+domain: brake
+title: "Friction and Wear of Carbon-Graphite Materials for High-Energy Brakes"
+url: https://ntrs.nasa.gov/citations/19750018065
+parser: pdftotext-layout
+source_sha256: 1D9F103DA7E29524EF95D9EC72F094C9A882ADD515CDA3F0F86476031C1B7F39
+review_status: machine_parsed_pending_expert_review
+---
+
+# Friction and Wear of Carbon-Graphite Materials for High-Energy Brakes
+
+## Page 1
+
+NASA       TECHNICAL            NOTE                             NASA TN D-8006
+
+
+
+_O
+O
+O
+GO
+
+
+
+Z
+I---
+
+
+
+
+Z
+
+
+
+
+FRICTION           AND         WEAR         OF
+CARBON-GRAPHITE                        MATERIALS
+FOR       HIGH-ENERGY                  BRAKES
+
+
+Robert     C. Bill
+
+Lewis     Research     Center
+
+and      U.S.   Army     Air     Mobility        R&D      Laboratory
+                                                                               ,_o_,o_           %
+
+Cleveland,      Ohio     44135
+                                                                                 Y;';'6 -_9 I_
+
+
+
+
+NATIONAL AERONAUTICS AND SPACE ADMINISTRATION    •   WASHINGTON, D. C.   •   JUNE 1975
+
+## Page 3
+
+ 1.   Report       No,                                                                2. Government          Accession           No.                                    3.     Recipient's                Catalog        No.
+
+        NASA             TND-8006
+
+4.    Title    and     Subtitle                                                                                                                                         5.     Report           Date
+
+                                                                                                                                                                               June             1975
+       FRICTION                    AND           WEAR              OF     CARBON-GRAPHITE                                  MATERIALS
+                                                                                                                                                                        6.     Performing                 Organization          Code
+       FOR           HIGH-         ENERGY                     BRAKES
+
+ 7. Author(s)                                                                                                                                                            8.        Performing             Organization          Report       No,
+
+       Robert            C.       Bill                                                                                                                                             E-8259
+
+                                                                                                                                                                       10.     Work           Unit        No.
+
+ 9.   Performing         Organization            Name        and    Address                                                                                                        505-04
+       NASA            Lewis             Research                  Center           and                                                                                11.         Contract          or    Grant       No.
+
+       U.S.          Army           Air          Mobility             R&D           Laboratory
+       Cleveland,                  Ohio               44135                                                                                                            13,         Type    of        Report        and    Period       Covered
+
+12.   Sponsoring         Agency          Name         and    Address                                                                                                               Technical                    Note
+       National             Aeronautics                       and       Space         Administration                                                                   14.         Sponsoring             Agency         Code
+
+       Washington,                       D.C.               20546
+
+15.   Supplementary               Notes
+
+
+
+
+16.   Abstract
+
+       Caliper-type                       brake             simulation              experiments                  were        conducted                 on     seven           different                     carbon-graphite
+       material                 formulations                       against          a steel       disk       material                  and     against          a carbon-graphite                                    disk           material.
+
+       The        effects            of binder                level,          boron          carbide         (B4C)         additions,                  graphite               fiber           additions,                       and     graphite
+        cloth        reinforcement                           on friction              and     wear        behavior               were          investigated.                        Reductions                      in binder                 level
+
+       and        additions               of B4C              each        resulted            in increased                 wear.               The      wear          rate          was         not         affected                by the
+       addition             of graphite                     fibers.            Transition                to severe           wear              and     high      friction                 was         observed                   in the         case
+
+        of graphite-cloth-reinforced                                           carbon           sliding          against           a disk            of similar                composition.                              This         transi-
+       tion       was         related             to the           disruption             of a continuous                    graphite                shear       film          that           must              form           on    the
+
+        sliding          surfaces                 if low           wear        is     to occur.             The       exposure                  of the        fiber          structure                     of the         cloth          con-
+
+        stituent           is      believed                 to play          a role       in the         shear        film         disruption.
+
+
+
+
+17.    Key     Words      (Suggested             by    Author{s))                                                          18.     Distribution         Statement
+
+
+        Friction;                 Wear;               Graphite;               Carbon;           Brakes;                            Unclassified                  - unlimited
+
+        Surface            layers;                Oxidation                                                                        STAR              category           27 (rev.)
+
+
+
+
+19.    Security       Classif.     (of    this    report)                              20,    Security     Classif.   (of this         page]                                 21.     No. of          Pages                22.       Price"
+
+                          Unclassified                                                                            Unclassified                                                                28                                      $3.75
+
+
+                                                       For sale by the National Technical Information Service, Springfield, Virginia 22151
+
+## Page 5
+
+                       FRICTION AND WEAR OF CARBON-GRAPHITE                                                       MATERIALS FOR
+
+                                                              HIGH-ENERGY BRAKES
+
+                                                                    by RobertC. Bill
+
+                                                         LewisResearch Center and
+                                              U.S. Army Air Mobility R&D Laboratory
+
+
+                                                                             SUMMARY
+
+
+         Seven        different         carbon-graphite                material           formulations               were         evaluated        in caliper-
+type     brake        simulation            experiments.               The      carbon-graphite                   pad materials                 were      subjected
+to sliding          against        a 17-22        AS steel          disk      material         and      against         a graphite-cloth-reinforced
+composite             disk     material.              Typical       sliding        speeds        and     normal          loads       were       31 m/sec
+(100 ft/sec)            and     382 N (86 lbf),               respectively.               Frictional           behavior            and   wear          rates      based
+on weight           loss       measurements               were       used,         in conjunction             with      microscopic               examination
+of the      sliding          surface,         to evaluate         material           performance               and      to identify           wear       mechan-
+isms.          It was         observed         that     increased           wear     accompanied                both reductions                 in the         binder
+
+level and additions                  of boron           carbide     (B4C) to the basic   carbon-graphite    material                                            formu-
+lation.  A friction                 and wear            instability    was identified  in the case of graphite-cloth-
+reinforced            carbon        sliding       against         a disk       of similar           composition              and     structure.                Heavy
+wear       to the      disk       and    irregular,             high fricUon            were        observed         after        an initial         period        of low
+wear       and      smooth        friction.            This     transition          was      observed          to be irreversible                    in that          once
+it occurred            it continued            through          subsequent           sliding        contact       exposures.                The        severe         wear
+and     high       friction       seemed         to be related              to the      disruption          of and       inability          to reform            a con-
+tinuous,           preferentially             oriented          graphite        shear        film      on the     sliding          surfaces.             The      ex-
+posure         of the        continuous         fiber      structure           of the       cloth      constituent           at the      sliding         surface         is
+believed           to play      a role        in the     shear       film      disruption.
+
+
+
+
+                                                                      INTRODUCTION
+
+
+         High       friction       forces       resulting           from      heavy       unit      loads      and      high sliding            velocities            pro-
+duce       large      quantities           of energy          in such        mechanical             components               as     clutches,          brakes,
+sliding-element                 bearings,             and under        certain          conditions,            seals.         In terms           of rate         of
+
+## Page 6
+
+energy dissipation, the most severe situation is probably to be found in aircraft brake
+systems. Here typical brake applications require the sliding interfaces to convert about
+ 4200 N-m/cm 2 (20 000 ft-lbf/in. 2) of kinetic energy per unit area to heat in approxi-
+mately 30 seconds (ref. I). Unless improved materials for brake linings are developed,
+the trend toward heavier aircraft will result in either shorter brake lining lives, which
+will increase maintenance, or larger brake lining area, which will increase landing
+gear weight and bulk.
+     The life of currently used aircraft brake lining materials is determined by wear,
+which in turn is strongly dependenton the temperature experienced by these materials
+during sliding. This temperature dependenceis due largely to softening of the metal
+binder (usually copper or iron) present in the currently used brake lining composite
+materials (ref. 2). In addition, the thermal cycling promotes cracking and spallation,
+which results in accelerated wear (ref. 3) and oxidation.
+     In view of the problems associated with metal-based composites, two properties
+that a superior  material for use as an aircraft brake lining should possess   become ap-
+parent.            These         properties             are       (1) significant                 mechanical              strength          at temperatures                       ap-
+proaching               If00 ° C (2012 ° F) and                         (2) a low thermal                    expansion          coefficient             to reduce              ther-
+
+mal       stresses             caused      by temperature                       gradients.                 Improvements               in these          two properties
+would          result      in reduced            wear,            provided           they      are         not accompanied               by reduced                  thermal
+conductivity,                  reduced         volume            specific        heat,        or tendencies                  to undergo           adhesive             wear.
+          There         are      several        material               approaches             that         might     be considered                from         the     stand-
+point      of these            requirements.                     Among          them        are      the     use     of ceramics              rather          than      metal-
+based          composites             and the          substitution              of higher            temperature              metals           for    the     currently
+used       copper          (refs.        4 and       5).         The     approach            considered              herein        is to construct                   part      or all
+of the         brake      system           (lining         and     heat-sink           material)              of carbon         graphite.               Carbon-graphite
+materials               have     demonstrated                 good        friction          and wear            properties            in that         they     are      nongall-
+ing and          tend     to be self-lubricating                         (ref.       6).      Their          attractive         thermal           properties                include
+a conductivity                  comparable             to that          of metals,            a very          high      mass        specific          heat,      and         almost
+a 100-percent                  retention         of mechanical                   properties                at temperatures                  to 1100 ° C.                However,
+like     the     ceramic            materials,              the        carbon      graphites               do tend        to be brittle.               Another              potential
+problem           with         carbon-graphite                   materials           is their           susceptibility               to oxidation              (ref.        7).
+Limited           military           experience               with      carbon-graphite                     brake       materials            indicates           that        the    oxi-
+dation         problem           is not so severe                    as was        initially          suspected.               At the        sliding         interface,                 the
+location          of maximum                temperature,                    exclusion             of air      effectively            inhibits         oxidation.
+          This     work         was      conducted               to determine               the      friction        and     wear      behavior              of a series                of
+carbon-graphite                     materials           in a high-energy                     friction           situation,          similar           to that        encounter-
+ed in brake              applications.                 The        materials            selected             for this       study      are      intended          to show                the
+effects         of concentration                 of carbon              binder,            changes          in filler        constituents,               additions             of an
+oxidation   inhibitor,                   and     the       presence             of a graphite                cloth     reinforcement                  on high-energy
+friction  and wear.
+
+## Page 7
+
+     The investigation was performed on a caliper-type brake simulation apparatus.
+Sliding speedsto 31 m/sec (100ft/sec) were used with typical normal unit loads of
+88 N/cm 2 (127psi). Wear rates were based on weight loss measurements after sliding.
+Friction was continuously recorded for all experiments. Optical and scanningelectron
+microscopy (SEM)were used to help identify the wear mechanisms.
+
+
+                                                                                 APPARATUS
+
+
+        The       apparatus          used             in this       study        is shown          in figure            1.      It consisted               of a 35.6-cm-
+(14-in.-)          diameter          brake             disk       driven         by a 30-kW              (40-hp)          electric             motor.            The     carbon-
+graphite          pad     specimens                  were       loaded,          caliper         fashion,           against           the      disk       by a pair            of
+hydraulic          cylinders.                  Both        specimens              were      fully       loaded          against          the       disk     within           less     than
+1/2     second          of one another.                      The        grip     assembly           contained                a ball-in-socket                    mounting             to
+provide        for       specimen              alinement             with       respect          to the         disk.         The      support            holding        the        speci-
+mens        and    hydraulic              cylinders               was     suspended              from      the        stationary             framework                 by a pair                of
+flexible       plate        assemblies,                    which        allowed          for the        transmission                  of the         friction          force         to a
+strain-gage              ring      mounted              on the          framework.                The      rotational               speed        and      normal             force        be-
+tween       the      specimen             and        the    disk        were      also     measured.
+        The       experimental                      carbon-graphite                pads         were      2.54          cm     (1 in. ) in diameter                      with        a
+0.95-cm-             (3/8-in.-)               diameter             hole        in the     center         for     mounting             purposes.                  An antirotation
+slot    was       provided          on the            back        of each         pad,     as was          a thermocouple                       hole      that     allowed               for
+temperature               readings              at a depth              of 1 to 1.5         mm          (0.04       to 0.06           in. ) below           the        sliding           sur-
+face     of the         pad.
+        Frictional              force,          normal            load      (hydraulic            pressure),              disk        speed,           and the          tempera-
+ture     indicated             by the thermocouples                             in each         pad were           constantly               recorded.               These            meas-
+ured       data      were        supplemented                     by observations                  concerning                noise       level        during        sliding,
+occurrence               of sparking                 or burning             of pad       material,              and      generation                of loose        debris.
+
+
+
+
+                                                                                  MATERIALS
+
+
+         The      properties                  and     compositions                of the        experimental                  carbon-graphite                     pad        materials
+are     shown           in table         I.     With        the     exceptions             of graphite-cloth-reinforced                                    composite
+ (GCRC)           and     boronated                 graphite        (BG),         the     processing              of these           carbon-graphite                         materials
+was      similar          (ref.      8) and            is briefly           summarized                  here.           The     filler         and     binder          constituents
+were        mixed         in the     indicated                 proportions,               and     the     mixture             was      molded           under          the     indicated
+temperature                and     pressure                conditions.              The         compacts            were        then        heat      treated           according
+to a carefully                 controlled              heating           and     cooling        schedule            during           which         a maximum                  tempera-
+
+## Page 8
+
+ture of 2800° C (5072° F) was                     reached       and      held    for    1 hour.           During      the     heating       cycle,
+volatilesubstances from the binder were driven off, leaving behind a completely car-
+bonized binder phase.                 At the extreme            temperatures,                 some    graphitization of the binder
+also occurred.
+
+       The GCRC         material was prepared by binding layers of woven                                           graphite cloth together,
+the binder being a pitch material.                          The composite was then subjected to a high-
+temperature         heat treatment during which the binder between the cloth plies was carbon-
+ized.
+
+       The BG       material is a highly graphitic matrix material with the addition of approxi-
+
+mately I0 percent (by weight) of boron carbide (B4C). The binder used was coal tar
+pitch, a material that extensively graphitizes during the 2800 ° C treatment. The exact
+proportion of pitch binder is unknown                         but is believed to be about 30 parts by weight per
+100 parts of graphitic fillermaterial.
+       Two     disk materials were used:                      17-22 AS steel (currently used aircraft brake disk
+material) and a graphite-cloth-reinforced carbon material (similar to the GCRC                                                                   pad
+material).         The nominal composition of the 17-22 AS steel was Fe-0.3C-1.3Cr-0.5Mo-
+0.25V.        It was heat treated to a hardness of 45 Rockwell C.
+
+
+
+
+                                                               PROCEDURE
+
+
+       The experimental             carbon-graphite pad specimens                             were dry machined                   to a 0.4- t_m
+(10-#in.) surface finish, lightlysanded on dry 600-grit polishing paper, and then bur-
+nished against a lint-free cloth. They were next baked at 200 ° C (392° F) for 2 hours
+in an effort to drive off residual contaminants.                                  Following this treatment they were
+stored in a desiccator until removed                          for testing.
+       The 17-22 AS steel disks were ground to a 0.4- #m                                        surface finishand cleaned with
+trichloroethylene before use in a test. A fresh steel disk was used for each pair of
+carbon-graphite pad specimens.                         The graphite-cloth-composite                            disks were used in the
+as-received condition, and no solvent treatments were applied befc_e testing. Because
+of the limited number               of graphite-cloth-reinforced composite disks available, itwas
+necessary to run more                 than one test with each disk.
+       The wear calculations were based on pretest and post-test weight measurements                                                                     of
+the pad specimens.              Since typical weight losses were of the order of several milligrams,
+there was concern about the effect of moisture absorption on the weight measurements.
+It was     found    that,    within      1 hour     after     bake-out,           the   pad    weight        stabilized;          further         ex-
+posure       to laboratory         environment         for     several          days    resulted          in weight         fluctuations          of
+1 mg      (2x10 -6 mlb)       or less.       Thus,          1 hour    after       removal          from     the    desiccator,             the    pre-
+test     weight    measurements            were     made.         Similarly,            the   post-test           weight      measurements
+were      made     approximately           1 hour     after     a sliding         exposure.
+
+## Page 9
+
+      After the pretest weight measurements, the specimens were fastened into the
+holders, thermocouples were inserted in a hole in the back of each pad, and the pads
+were loadedagainst the stationary disk surface. The ball-in-socket joints were tight-
+ened, and the pads were unloaded. The specimens were thus alined with respect to the
+disk surface.
+      Three types of brake tests were conductedin this investigation. The first type was
+designedto indicate the frictional behavior of the pad materials under conditions of
+varied sliding speed. The test pattern consisted of three simulated-stop applications
+followed by three constant-speedapplications, followed by a final simulated stop. The
+simulated stop was conductedby driving the disk at 1800rpm, which gave a 31-m/sec
+surface speed. The motor power was then switched off andthe brake pads were loaded
+against the disk with a 765-N (172-1bf)force, braking the disk and motor rotor to a stop.
+The constant-speedapplications were performed by loading the padswith a 765-N
+normal force against the disk for 10 seconds, with the disk driven at constant speed.
+The three constant-speedapplications were at 31, 26, and 20 m/sec (100, 83, and
+67 ft/sec). The padswere visually inspected (in the holders) after the first three
+simulated-stop exposures to determine whether they were damagedor excessively worn
+before they were subjected to the more severe constant-speedexposures.
+      The secondtest pattern was a load-variation test consisting of sequentially loading
+the padsunder incrementally increased normal loads while the disk was rotated at a
+constant 26 m/sec. The normal loads were 186, 227, 302, 382, 422, 462, 502, and
+542N (42, 51, 68, 86, 95, 104, 113, and 120lbf) andthe contact time was 10 seconds.
+      Finally, the third type of test was conductedby subjecting the experimental pad
+materials to a 422-N normal load and a 26-m/sec sliding velocity for an uninterrupted
+exposure of 60 seconds. The motivation for this type of test was to determine whether
+frictional transitions and changesin wear mechanisms might accompanyprolonged slid-
+ ing exposures.
+      The measured weight losses were translated into wear volumes. The wear volumes
+were then divided by the frictional energy dissipated during sliding to give a specific
+ wear rate which would reflect both the wear of the pad material andits performance as
+a brake. The pad sliding surfaces were then photographed, and in some cases, scan-
+ ning electron microscopy observations of the sliding surface features were made.
+
+
+                              RESULTSAND DISCUSSION
+
+                              General Frictional Behavior
+
+   The carbon-graphite - high-binder (CG-HB) material served as a standard for the
+comparison of the friction and wear behavior of the different carbon-graphite formula-
+
+## Page 10
+
+tions. Figures 2(a) and (b) showfriction data obtainedwhen CG-HB was subjected to
+sliding against the 17-22 AS steel disk material. With some exceptions, to be noted
+later, these results are typical of the friction behavior exhibited by most of the carbon-
+graphite materials during sliding against both the 17-22 AS steel and graphite-cloth-
+reinforced disk materials. The friction was very smooth anduniform (friction coeffi-
+cient, p _ 0.22) during the constant-speed     exposures.  A slight increase in friction
+(to      # _ 0.27)              was          observed          toward             the     end     of the         stop.          Notice             that     most          of the        friction
+increase           took         place        after      the     sliding           speed          had     been         reduced             to about              16 m/sec              (52 ft/
+sec),       as shown              in figure            2(b).
+         When           the     carbon-grapMte                       materials             were         subjected              to sliding                 in a load-variation
+test     configuration,                      somewhat               lower        values          of friction             were        measured,                    as indicated                in
+the     summary                of friction-against-load                             results            shown          in table            II(a).          Furthermore,                      the
+variation           of friction               coefficient             with        normal          load         was      irregular,                 with         the values            of fric-
+tion     coefficient             usually             being      higher            under         high      normal             loads         than      under             low normal
+loads.           Comparing                tables        II(a)        and     (b) shows             that        all     carbon-graphite                          materials,              with            the
+exception               of GCRC,              experienced                  higher         friction           when        sliding           against              the    graphite-cloth-
+reinforced               disk     than        against          the        I7-22         AS steel          disk        material.
+         Under           prolonged,              high-normal-load                          sliding           conditions              against              17-22        AS steel             disks,
+the     carbon-graphite                       materials              usually            underwent              a transition                to high,              rough          friction.
+The      results          shown          in figure             3 are        typical.             The         load      in this        case          was         463 N (104              lbf).
+After       about         20 seconds                 of sliding,             considerable                    vibration           began          to appear                 in the      fric-
+tional      force             measurement.                     After        30 seconds                 the     friction             was     clearly              rising         and     an
+audible          squeal          accompanied                   the        much      larger         vibration.                  At the end                 of the         exposure,                after
+35 seconds               of sliding,             the     coefficient                of friction              was       about         0.25,          compared               to 0.16            at
+the     beginning.                Details            as to the magnitude                         of such             transitions             and          the     time      required                   for
+them       to occur             varied         from          test     to test           and did not             seem          to be a function                        of the       carbon-
+
+graphite           pad        material          formulation.                      In some          cases             these       transitions                were          seen        to be
+reversible               - the       friction          returning             to a value                close         to that        initially             observed              and     again
+becoming                smooth.              In other          cases         the friction               became               so high         and the             vibration            so
+severe           that     fracture             of the        pad      material            occurred.
+         The       wear         results         summarized                    in table           HI indicate                 that     some           of the           carbon-graphite
+materials               exhibited             exceptionally                 severe         wear          when          sliding        against              17-22          AS steel           in
+either       a load-variation                        or a prolonged-exposure                                  test,      but never                 in a simulated-stop                             -
+speed-variation                      test.       The         generation                 of sparks,             which          is indicative                     of oxidation            at the
+interface,               was      observed             to accompany                      the severe             wear.               The      sparks,              and probably                    most
+of the       wear,             occurred          during             the     heavy         load     applications                  of the         load-variation                     tests          and
+near       the     end         of the        60-second              applications                when         bulk       pad temperatures                              of 150 ° to 200 ° C
+(302 ° to 392 ° F) were                          measured.                   The         weight         change          incurred              during             these      exposures
+was      usually              much      higher          than        that     resulting            from          tests        in which              sparking               was     not       ob-
+
+## Page 11
+
+served, and the bulk of the specimen weight loss most likely resulted from oxidation
+rather than sliding wear. These results were not included in the calculation of average
+wear rates, but their occurrence is significant in assessing the performance of the ex-
+perimental carbon-graphite materials.
+
+
+                                                       Surface Shear Layer Observations
+
+      Studies of the surface characteristics of the carbon-graphite pads indicate that dur-
+ing sliding the shear takes place in a thin reoriented layer that forms on the pad surface.
+This conceptis discussed in references 6 and 9. Figure 4 showsthe surface condition
+of a CG-HB specimen after a combination of simulated-stop and speed-variation expo-
+sures against a 17-22 AS steel disk. This surface is typical of all the carbon-graphite
+sliding surfaces after such sliding exposures. In these cases, transfer films were also
+seen on the disk surface. Very few features were apparent in the reoriented layer that
+developedon the carbon-graphite pad sliding surface. Whenviewed in room light the
+layer exhibited a mirrorlike polish.
+      After exposure to conditions that producedthe type of transition described in fig-
+ure 3, the sliding surface of the carbon-graphite pads showeda distinctly different ap-
+pearance. On a microscopic scale the sliding surface of the pads showedelongated
+ "blisterlike" features that hada metallic appearancein room light. These features
+covered about 10 to 20 percent of the surface, the remainder having an appearance like
+that in figure 4. Examples of these "blistered" areas are shown in figure 5. Here the
+"blistered"             areas         are      seen     to be regions            where       the    shear          layer      is disrupted;                some
+structural           detail      is revealed                by the    way     in which       the     layer         breaks       up.         The      shear         layer
+is seen       to consist           of distinct              sheets,     probably         composed            of preferentially                    oriented
+graphite.            Regions            of graphite           sheet    that     have     buckled         and fractured,                    with     resulting
+separation           from       the      substrate,             are   revealed          by the      "glowing"              white       areas.            The       transi-
+tion     to higher           friction        may       then     be related        to the     disruption             of a dense,              continuous              sur-
+face     shear       layer       composed              of oriented          sheets       of graphite.               According              to the       literature,
+disruption           can be induced                   (1) by the      desorption           of water          and     other      vapors            from       the     shear
+layer       (refs.      6 and         10) and/or             (2) by the       disruption         of the      surface           oxide        present          on the
+metal        disk    (ref.      9).         Once      the     shear     layer     is broken          up,     the     pad      sliding        surface           is com-
+posed        of randomly              oriented          carbon        and     graphite      particles.              Unless           the    shear        layer        is
+restored,            sliding       will      continue          to be in a high friction                and     wear          mode.
+         Figure        6 shows           the    surface          of a carbon-graphite                 pad     after         very      severe            sliding
+(p > 0.5)            with heavy             wear.           No coherent          film     exists,      and there             are      pockets           of loose
+debris        particles          at various            locations        on the       surface.         On a macroscopic                          scale      the      sliding
+surface        of the         pad exhibits             a matte        appearance,           typical        of the          surface         of carbon-
+
+## Page 12
+
+graphite materials after undergoing oxidation. The frictional heating was such that pad
+temperatures of 150° to 200° C were measured   at a 1-mm depth below the sliding  sur-
+face.        Simple           heat-transfer               considerations                   indicate             that     the     temperature                  could       easily
+exceed         600 ° C (1112 ° F) at the                         sliding         surface,           which            would          promote           oxidation           of the
+surface           regions.
+
+
+
+
+                                                               Comparison                of Wear               Results
+
+
+         Effect        of binder           level.        - Wear          results           for     the    seven          experimental                  pad      materials                are
+shown       in tables            HI(a) and            (b) for         sliding       against         17-22            AS steel           and graphite-cloth-
+reinforced             composite              disks,       respectively.                    It is apparent                   that     the     relative          pad     material
+performance                  depends           on the      composition               of the disk                material.
+         The      effect         on wear         of varying             the      amount           of pitch           binder         in the         prebake          mix     may          be
+seen      by comparing                  the      performance               of CG-HB,                CG-MB,                and       CG-LB            (carbon          graphite
+with     high,         medium,             and       low binder           levels,          respectively).                      For      sliding         against         both       the
+17-22       AS steel           and      graphite-cloth-reinforced                                composite               disks,         the        medium-binder-level
+material           (60 parts           by weight           per        100 parts          filler)         CG-MB               showed           a significantly               higher
+wear       rate     than       either         the     high-       or low-binder-level                          materials              (CC-HB            and     CG-LB).
+         There         are     three       factors         that       might       account           for        the     observed             wear       trend.          First,            the
+graphite          shear        film      formation             properties            of the         carbon             graphite          might         be adversely
+affected          by increasing                the     binder         level      (thus       decreasing                the      overall            graphite          content).
+Second,           the higher-binder-level                          carbons           are         more      prone          to oxidation                because          of the         less
+graphitic          structure            and the          greater          porosity           associated                with the          binder            constituent.               (No
+sparking           was       observed            during        the tests          on CG-LB.                )     These          two factors                explain        the      in-
+creased           wear       rate      of CG-MB               compared             to CG-LB.                    The      third        factor         associated             with         the
+binder         level      is a general               improvement                 in mechanical                   properties                 that     accompanies                an
+increase           in concentration                    of the      binder         constituent,                 as is shown               in table           I(b).      This
+factor      is probably                responsible              for the         reduced           wear          rate     of CG-HB                  compared           to CG-MB.
+         Effect        of chopped              carbon         fiber      additions.              - The          addition            of finely         chopped          carbon
+fibers      to the         filler      (in place          of the nongraphitic                       component)                 of the         high-binder-level
+formulation              (CG-FF)              resulted         in some           reduction              in wear          rate        during          sliding        against           both
+disk     materials.                 This       may       be seen         in table          III by comparing                       CG-FF             with     CG-HB.
+         A pattern            of increasing               friction         with      time         of application                  was       observed            when        CG-FF
+was      subjected            to sliding            against        17-22         AS steel.               A typical             case      is shown             in figure          7.
+None       of the        other       carbon          graphites           exhibited           this        phenomenon.                    Also,         as shown            in
+table ]1, the highest  friction against                                    the     graphite-cloth-reinforced                                   composite             disk       was
+observed   in the case of CG-FF.
+
+## Page 13
+
+         An SEM study was made of the features present on the surface of a CG-FF                                                                                                 pad
+which          had     been         subjected           to sliding             against           a 17-22           AS steel             disk.          Fiber       segments                were
+visible         on the          wear         surface           shown         in figure            8, and         there        were         signs           of interaction              of the
+fibers          with the         film        formed            on the        pad surface.                     In particular,                surface             striations             can be
+seen      in figures                8(a) and          (b),      which        suggests             an abrasive                interaction               between            the      fiber
+segments               and the            sliding      surfaces.                 The       interaction              would          have         to be caused               by loose,
+broken          pieces          of fibers            as they          moved          out of the               contact        area.             The     fibers          constitute
+comparatively                    hard,         discrete             bodies        on the          sliding          surface          and        have        sharp       corners             and
+edges       generated                 by fracture.                   Loose,         broken             fiber       segments              certainly             have       the potential
+to mechanically                      disrupt          the      softer        low-shear-strength                            film     - much            as an abrasive                   would.
+It is a question                    of fiber         concentration                  as to whether                   this     effect         will       result         in a higher
+macroscopic                   wear         rate.
+
+         Effect         of B4C additions.                             Boron         carbide             is added           to mechanical                    carbons           in order            to
+
+improve              their      high-temperature                        oxidation            resistance                 (refs.          7 and        8).      Table       Ill(a)       shows
+
+that     the     carbon             graphite          with       B4C additions                    (CG-BC)            underwent                 a higher            wear       rate      than
+the     basic         formulation                  (CG-HB)            when       sliding          against          the      17-22          AS steel            disk     material.
+
+The higher  wear rate was                                   most likely             the result                of abrasive      action                 by particles               of B4C
+additive.  However,   when                                  considering             a full-scale                 brake    application,                   a trade-off               must
+be made              between           material              loss     due to higher                    wear      at the          sliding        surfaces            and       loss      of
+properties              due      to oxidation.                   An increase                in the         former            may        be more             than       compensated
+
+for through   improved     oxidation   resistance    afforded    by the B4C additions.  Indeed,   no
+instances   of spark   generation    with its associated      heavy oxidation  wear were observed
+
+with      CG-BC.                Firm         conclusions                regarding                the     benefits          to be obtained                   through           B4C addi-
+tions      to high-energy-brake                               carbon         formulations                     require        full-scale               experience.
+         Friction             and      wear         of graphite-cloth-reinforced                                    composite.                 - The         graphite-cloth-
+reinforced              composite                  (GCRC)           pads      were         the     most         wear        resistant              of the       experimental
+carbon          materials                 when       sliding         against         the     17-22            AS steel           disk      material.               After        a sliding
+exposure,               the     pad        sliding      surfaces              had      a polished               appearance                 with       the     structure            of the
+graphite             cloth      apparent,              as      shown         in figure            9.      The      continuous               fiber          structure            of the
+composite               had remained                   essentially               intact          with a continuous                      film       smeared             over      the
+sliding         surface.                  Figure       9(b),         an SEM          photograph,                   shows          the    fiber        structure            barely
+visible         through             the     surface           film.
+         The         friction          and     wear          of GCRC           pads        in sliding              contact         with        the     graphite-cloth-
+reinforced              disk        were         markedly             different            from         the     preceding               results.             Even       though          wear
+rates      to the            pads      (table        Ill(b))        were       not significantly                    higher,             instances             of unstable              transi-
+tions      to severe                wear       and     high,          irregular            friction            (not reflected               in the          values        shown            in
+table      II) were             observed.               Furthermore,                      these         transitions               seemed             to be irreversible.
+That      is,        once       they       occurred,                severe        wear           and     high friction               were          observed            on subsequent
+sliding         exposures,                  even      after         sufficient            time         intervals           to allow            for    specimen             cooling,              as
+
+## Page 14
+
+shownin figure 10. The severe wear                                                   was        accompanied                   by the      generation              of clouds             of
+loose        carbon           debris          being         spewed           from         the     contact         area.           The      condition            of the       GCRC            pad
+surface             after      such        a sliding           exposure              was        significantly             different           from        that        shown       in fig-
+ure     9.      Exposed              fibers          are     obvious             in the         SEM photographs                    of figure             11.     A remarkable
+feature         of the          GCRC          material              shown           in these        photographs                  is the       very       irregular,             sharp-
+edged         fiber         cross       section.              The         lack      of any        coherent             shear       layer        on the         pad     sliding          sur-
+face      is good            evidence              that     fiber         exposure           ultimately               leads      to the       disruption              of this         layer.
+The       shape         of the        fibers          and     the     high mechanical                       strength            associated             with      them        would
+enable         them          to act        as potentially                  abrasive             constituents              on the        pad      surface.
+          The        surface          condition             of the         graphite-cloth-reinforced                               disk       was      similar           to that        of
+the     pad     after         the     incidence              of heavy            wear.            A 100-#m-                (4><10-3-in.-)                deep         wear     track
+was       formed             on this         disk,         which          is extremely               significant              in view         of the         unmeasurably
+small         disk         wear       observed              after         sliding         against        other         carbon-graphite                    materials.                  Per-
+haps      the        use      of graphite-cloth-reinforced                                      composites              in high-energy                   friction        applications
+would         benefit          from        the       development                 of a specially                 formulated               wear         surface          which      would
+be integral                 with     the     reinforced               substrate.
+          The        wear         of the       boronated              graphite             material,             against          both the          17-22        AS steel             and
+graphite-cloth-reinforced                                   disk      materials,                 was     comparable                to that          of the       CG-HB          base-
+line      material.                 This       is somewhat                  unexpected                 in view         of the      low mechanical                      strength             of
+the     boronated               graphite             and the         relatively              high wear                shown       by the       standard              carbon           graph-
+
+ite     with        B4C additions                    (CG-BC).               The       extremely                soft     graphite          must         have      effectively
+lubricated              the        sliding         interface.               There          was      no indication                of abrasive              disruption             of the
+surface.               The         only surface               features            that      can     be related             to wear            are      the     presence           of sur-
+face      pits,        as shown              in figure              12.
+          In one            instance,            very       severe          wear          to the       boronated              graphite          pad was          observed.
+This       was        a case          in which             the boronated                  graphite             was     subjected           to sliding            against          a
+graphite-cloth-reinforced                                   disk      following             heavy        wear          to the      disk       after       sliding        against
+GCRC           pad      material.                  The      wear          to the      boronated                graphite         pads       was        clearly         abrasive,              and
+over         half     of the         pad thickness                   was      worn         away        before          fracture          occurred.               This        happened
+after        about          5 seconds              of sliding.               One further                test     in which          CG-HB              was      slid     against          the
+same          graphite-cloth-reinforced                                   composite              disk      showed             similar         results.            Heavy         abrasive
+wear         to the          CC-HB           pad and          disk         was      observed.
+
+
+
+
+                                                                                    CONCLUSIONS
+
+
+          Based             on the      results            of friction              and     wear        experiments                on some             carbon-graphite
+material              systems,               the     following             conclusions               were        drawn:
+          1. It was               generally               observed           that     smooth            friction          and     low wear             depended              on main-
+
+
+ 10
+
+## Page 15
+
+taining a continuous oriented graphitic shear layer on the sliding surface of the carbon-
+graphite pad.
+     2. The effect of binder level may be summarized as follows:
+          a. Decreasing the binder level from 70 parts to 60 parts per 100parts filler
+     resulted in increased wear, which correlated with a decrease in mechanical
+     strength.
+          b. Further decreasing the binder level to 45 parts per 100parts filler brought
+     about a decrease in wear rate despite further strength reductions. This was re-
+     lated to the more graphitic structure of the low-binder-level formulation, with the
+     associated improvements in grapMte shear layer formation and oxidation resist-
+     ance.
+     3. The addition of fine graphite fibers to the filler of the baseline carbon-graphite
+material resulted in a reduction in wear rate against both disk materials.
+     4. Whenboron carbide (B4C) was addedto the baseline carbon-graphite formulation,
+a marked increase in wear rate was observed as a result of sliding against the 17-22 AS
+steel disk material.
+     5. The graphite-cloth-reinforced composite exhibited the lowest wear rate of all the
+carbon-graphite formulations against the 17-22 AS steel disk material. However, an
+unstable friction and wear transition was observed when sliding was against the graphite-
+cloth-reinforced composite disk material; heavy wear and erratic friction resulted.
+     6. The boronated graphite material, though much softer andweaker than the other
+experimental carbon grapMtes, showedwear rates and frictional behavior comparable to
+those of the baseline material.
+
+Lewis Research Center,
+    National Aeronautics and SpaceAdministration,
+        and
+U.S. Army Air Mobility R&D Laboratory,
+         Cleveland, Ohio, March 19, 1975,
+                       505-04.
+
+
+
+
+                                                           RE FERENCES
+
+
+1. Stanton,       George      E. : New         Designs      for   Commercial           Aircraft   Wheels     and   Brakes.
+      J.   Aircraft,       vol.   5, no.       1, Jan.-Feb.           1968,    pp.    73-77.
+
+2.   Hooton,     N. A. : Metal          Ceramic          Composites        in High      Energy    Friction   Applications.
+       Bendix     Technical       J.,   vol.     2,   Spring       1969,      pp.    55-61.
+
+
+
+                                                                                                                             11
+
+## Page 16
+
+ 3. Peterson, M. B.; and Ho, Ting-Long: Cons_,terationof Materials for Aircraft
+     Brakes. Rensselaer Polytechnic Inst., 1972; also NASA CR-121116,   1972.
+
+ 4.   Ho,     Ting-Long;            and     Peterson,           M.        B. : Development                  of Aircraft          Brake     Materials             -
+         Evaluation         of Metal          and     Ceramic             Materials            in Sliding     Tests        Simulation          of Aircraft
+         Braking.          Rensselaer              Polytechnic              Inst.,       1974;     also      NASA CR-134663,                   1972.
+
+ 5.   Bill,     Robert      C. : Some              Metal-Graphite                  and   Metal-Ceramic                Composites            for Use         as
+         High    Energy           Brake      Lining         Materials.                NASA       TN D-7756,           1974.
+
+ 6.   Campbell,           W.      E. ; and         Kozak,      Rose:           Studies         in Boundary           Lubrication.              111- The
+        Wear      of Carbon              Brushes        in Dry        Atmospheres.                  ASME        Trans.,          vol.    70,    no.    5,
+        July     1948,      pp.         491-498.
+
+ 7. Allen,        Gordon          P. ; and         Wisander,              Donald       W. : Oxidation              Resistance           of Selected
+        Mechanical               Carbons       at 650 ° C in Dry                     Flowing      Air.       NASA TN D-7381,                   1973.
+
+ 8.   Fechter,        N.    J. ; and         Petrunich,             P.     S. : Development                 of Seal       Ring    Carbon-Graphite
+         Materials.              (Tasks      8,     9, and         10).       (Union      Carbide         Corp.;       NAS3-13211.),              NASA
+         CR- 121092,              1973.
+
+ 9.   Bisson,       E.     E.,      Johnson,          R.     L.;      and Anderson,                W. J. : Friction               and    Lubrication
+         Temperatures               to 1000 ° F with                Particular           Reference           to Graphite.               ASME     Paper
+         57-LUB-1,               Oct.     1957.
+
+10.   Savage,       Robert          H. : Graphite             Lubrication.                J.     Appl.      Phys.,        vol.    19,    no.    1, Jan.
+         1948,      pp.    1-11.
+
+
+
+
+12
+
+## Page 17
+
+                         0                                                   i       i
+                                                    i    i
+                                                    I    i     •
+
+                                                    I    I                   I       i
+                                      i                                              i
+
+                                      i             i;   I         v
+                                      i
+                                                    i    i                   i       i
+                                      ,,                                     i       i
+                                                    i    i                   i       i
+                                      I                                      i       i
+
+
+
+                             i        i
+                             I        i             I    I
+                             i        I             i    I     •
+                             I        I
+                             I        I
+                             i        I             ,    ,         _x
+                             I        i
+<                            I        i
+                             i        i
+
+[-q
+                             I
+                             I
+                                      i
+                                      I             , ,            _
+                             I        I             i    i                       •
+                             i        i
+<
+                         0
+
+
+                         0
+
+
+
+
+                         0
+
+
+                         0
+
+                             I             I
+
+0
+
+
+                             I             1                             0
+      _p   r..)   o
+
+                         0
+
+0                 Z"     0   I             I    0              •   O0
+
+
+
+
+d     o                      ,I            ,I   _
+                         0   i    0        I
+r_
+                             I             I
+                         0
+                             ,,            ,I
+o     "g                     '             l
+                                                0            ,_1   o'_    X
+                                                                         r4_
+                             i
+                             i             !
+
+                             '
+                             i             l
+                             i             I
+                             I             !
+
+                             i    0        i
+
+
+                         0   'I            l,                _x
+                             I             i                       _     L_.
+                             i             i
+                             I             I
+0                            I             I
+                             i             i
+0                 ¢...       i             i
+ I                           I             I
+
+
+
+
+<
+
+
+
+
+                                                                         •
+
+
+
+
+                                                                                         13
+
+## Page 18
+
+     TABLE        II.   - FRICTION            AS FUNCTION             OF     LOAD      FOR      EXPERIMENTAL
+
+
+               CARBON-GRAPHITE                     MATERIALS           SLIDING         AGAINST          DISKS
+
+
+                                     (a) Disk       material,       17-22        AS steel
+
+
+        Normal
+          load
+                           icoMB
+                        COHB   ICO
+                                 LBIcoFIcoBc                                                        ZGRC    I BG
+
+                                                         Friction     coefficient
+        N        lbf
+
+
+       187        42     0.14              0.12          0.17         0.14            0.15          0.17        0.18
+                           .16
+       302        68       • 15              .16           .15             .15          .16           .22        .15
+                           .17
+       422        95       • 14              .16           .18             .16          .15           .30        .17
+                           .17
+       502       113       • 20            a. 15           .19        a. 15             .18           .30        .20
+                         a. 18
+
+       543       122     a.20              a.20            .20        a. 16             .20           .29        .21
+
+                           .20
+
+
+                  (b) Disk       material,         graphite-cloth-reinforced                  ¢'on]p,site
+
+
+
+       187        42     0.17              0.17          0.20         0.18            0.17          0.2110.24          I
+      302 _81 19 I 1_ I 21       24     i91 221 21t
+     1422i9_I 20 I .18 I 18 I 23 i .201 201 20I
+     t502i11_I 20 I 20 I 19 i 2_i .191 i9 l_ l
+     1543i122i .21 ] .20 i .20 i .22 i .19 i 20 18
+     aSparks      observed        during       sliding    exposure.
+
+
+
+
+14
+
+## Page 19
+
+ TABLE        III.     - SPECIFIC                   WEAR            RATES        OF CARBON-GRAPHITE                              MATERIALS           SLIDING            AGAINST       DISKS
+
+
+                                                                        (a) Disk        material,            17-22     AS steel
+
+
+ Test        Frictional                  Specific           wear        Test          Frictional             Specific          wear        Test      Frictional            Specific       wear
+
+ type a         energy,                             rate,                type a          energy,                       rate,                type a     energy,                    rate,
+                kN-m                       mm3/N-m                                        kN-m                   mm3/N-m                                kN-m                  ram3        N-m
+
+
+                      CG-HB                                                                    CG-FF                                                         GCRC
+
+
+      1              284                          9.8x10       -6            1                295                    4.2xlO          -6       1             186                3.7><10 -6
+
+      2               148                 b400.0                             3                940                    4.0                     2            450                  3.4
+      1              260                          8.2                        2                262              b28.0                         3              350                7.9
+
+      2              283                          7.9                        3                294                 19.0
+                                           b64.0                                                                                          Average    wear         rate c       4.9x10      -6
+      3               146                                                    2                262                    7.9
+      1              289                     47.0                                                                                         Standard deviation                   I.8x10 -6
+                                                                       Average        wear          rate c           8.8×10          -6
+
+Average       wear      rate c                18.0xl0          -6
+                                                                       Standard         deviation                    6. lxl0         -6                            BG
+
+Standard       deviation                      16.0xl0          -6                                                                                                             17.0xl0      -6
+                                                                                                                                              1           210
+                                                                                               CG-BC
+                                                                                                                                             2            290                  4.3
+                       CG-MB
+                                                                             1                169                140.0x10            -6       3           295                 31.0
+
+      3              1560                     24.0x10          -6            1                197                 61.0                       2              292                2.1
+
+      3              243                    b37.0                            2                264                180.0
+                                                                                                                                          Average    wear         rate c      13.0×10      -6
+       1              191                   230.0                            3                313                 14.0
+       1              176                     95.0                           1                203                 29.0                    Standard    deviation               11.0x     10-6
+      2               183                 b490.0
+                                                                       Average        wear          rate c        85.0×10            -6
+       1              119                     76.0
+
+                                                                       Standard deviation                         64.0×10            -6
+Average       wear      rate        c       ll0.         OxlO -6
+
+
+Standard       deviation                      76.0×10          -6
+
+
+                       CG-LB
+
+
+      2               300                     19.0×10          -6i
+
+       3              357                          6.4
+       1              250                     16.0
+       1              267                          6.3
+
+
+Average       wear         rate     c         12.0xl0          -6
+
+Standax     d deviation                            5.7x10      -6
+
+
+al     - a combination                  simulated-stop                - constant-speed                 exposure.
+
+ 2 - a load-variation                      test      pattern         exposure.
+     3 - a 422-N-normat-load,                             26-m/sec           exposure         for     60 sec      or       longer.
+bspark      generation              occurred,               with     oxidation        damage          to the pad            material.
+CNot including              tests        during           which      spark       generation          occurred.
+
+
+
+
+                                                                                                                                                                                                 15
+
+## Page 20
+
+                                        TABLE            III.   - Concluded.
+
+
+              (b) Disk      material,           graphite-fiber-reinforced                  composite
+
+     Test      Frictional          Specific            wear     Test         Frictional         Specific    wear
+     type a       energy,                      rate,            type a         energy,               rate,
+                  kN-m                  mm3/N-m                                 kN-m              mm 3/N-m
+
+
+                         CG-HB                                                       C G- BC
+
+       1            324                  3.4×10         -6                                        11.0×10    -6
+                                                                  2      }       293
+       2            302                  7.3
+                                                                                       GCRC
+                         CG-MB
+                                                                                 259            d17.0×10     -6
+       1            242                  7.0×10         -6                       354                4.0
+       2            305                 44.0
+                                                                                          BG
+                         CG-LB
+                                                                                 242              12.0xl0    °6
+       1            269                  2.1×10         -6                       253                6.7
+       2            286                 10.0
+
+
+                         CG-FF
+
+       1           288                   2. lxl0        "6
+
+      2             394                  3.1
+
+
+     al - a combination            simulated-stop                - constant-speed              exposure.
+      2 - a load-variation test pattern exposure.
+     dsevere wear to disk observed.
+
+
+
+
+16
+
+## Page 21
+
+\
+
+                                                          ......o_   Hydraulic
+                                                                     cylinder
+
+
+
+
+                                       Experimental
+                                       lining material
+
+
+
+
+                                       ]
+
+
+
+
+                                                         ,._   Brake
+                                                               disk
+
+
+
+
+    \
+        \
+            \
+                \
+                       Tachometer
+
+
+
+
+                                                          6D-11796
+
+
+
+
+        FRurel.     Brake apparatus.
+
+
+
+
+                                                                         17
+
+## Page 22
+
+            4O
+     e,a-
+
+
+                          100
+
+
+     %
+     c      0       ta_
+                                                       L
+                               0           4           8            12                0             4              8          12         16 0
+                                                                                                        Elapsed time, sec
+
+                                     (a-l} Sliding speed, 31 mtsec                         (a-2)Sliding speed, 26 mlsec                          (a-3_ Sliding speed. 20 mlsec
+                                       (lO0 ftt see}.                                        183 fll secL                                          (67 fil sec L
+
+                                                                                      la) Constant-speed           contact exposures.
+
+
+                   v_
+
+
+
+
+                   __'_    0
+                               L          ;
+                                          __    0'--
+                                                           'E
+                                                                    0
+                                                                        LJ       I
+                                                                                 4
+                                                                                               I
+                                                                                               8              12
+                                                                                                                I ""-J
+                                                                                                                            16
+
+                                                                                     Elapsed time,        sec
+
+                                                                        (blSimulated-stop          slidincj     exposure.
+
+                 Figure 2. - Friction data obtained from carbon graphite                    - high binder              iCG-HB) sliding   against a [7-22 AS steel disk under a
+                   contact load of 382 N (86 IbfL
+
+
+
+
+                                           Z
+
+
+
+
+                                   20      g
+                          _2       40 f    %"
+
+                          ,_        0
+                                                  0             4            8            12          16       20                  24       28       32       36
+                                                                                                    Llapsedtime, sec
+
+                                     Figure 3. - Friction data obtained from carbon graphite - high biqder WEE,HB:, sliding against
+                                       a 17-22 AS steel disk under prolonged, high-normal-load     conditions. Con'_act time, 30 sec;
+                                       contact load, 422 N (g5 Ibfq sliding velocity, 26 m,/sec 183fl/secl.
+
+
+
+
+18
+
+## Page 23
+
+                                                     ]. mm
+
+
+
+                      (a) Optical photograph.
+
+
+
+
+                 (bl Scanning electron micrograph.
+
+
+
+Figure 4. - Surface of carbon graphite - high binder (CG-HB) after a
+   combination of simulated-stop and constant-speed exposures under
+  a contact load ot 382 N !86 Ibf),
+
+
+                                                                       19
+
+## Page 24
+
+                                                  200 t_m                                                               70 _m
+
+                 (a) Overviewof blistered area.                                          (b) Enclosed region in (a),
+
+
+
+
+                                                    (c) Enclosed region in (b).
+
+     Figure 5. - Surfaceof carbongraphite - low bi_er (CG-LB) afte[ 1 minute of sliding against a 17-22AS steel disk at 26 m/sec
+       (83 ft 'sec) undera normal load of 422 N (95 Ibf).
+
+
+
+
+2O
+
+## Page 25
+
+                         ofgeneral
+               (a)Appearance    surface.
+
+
+
+
+                                              L           J
+                                                   20#m
+
+                          portion
+                  (b)Central    of(a).
+     6.- Surface
+Figure        ofcarbongraphite          (CG-HB)
+                              - highbinder     aftersliding
+        a17-22
+  against                                  test.Maximum
+              ASsteeldiskina load-variation-type
+       load,
+  normal   542N(122Ibf);slidingspeed,      (83ft/sec).
+                                     26m/sec
+
+
+                                                              21
+
+## Page 26
+
+     •"-          0          4             8          12         0           4              12
+                                                    Elapsedtime, sec
+
+                      (a) Sliding speed, 31 m/sec                   (b) Sliding speed, 20mtsec
+                        ('I00 fit see).                               (83 ftt sec).
+
+
+
+
+                                 _             S
+                                      20            lO0
+                                 _-   40_
+                                 'c    0       ""                         ]
+                                                      0          4        8         12
+                                                              Elapsedtime, sec
+
+                                                          to) Sliding speed, 20 m/sec
+                                                            (67 ftl sec).
+
+           Figure 7. - Friction data obtained from carbon graphite - fine fibers (CG-FF)
+            sliding against a ]?-22 AS steel disk under a normal load of 382 N (80 IbfL
+
+
+
+
+22
+
+## Page 27
+
+                                                                                                                       +
+                                                                                                                           i
+
+
+
+
+                                                                                                                   I            I
+                                               200vm
+
+        (a) Appearanceof general surface.                                (b) Enclosed region in (a) showing fiber segment.
+
+
+
+
+                                                                                 I            I
+                                                                                      5 t_m
+
+
+                                            (c) Expandedview of fiber shown in (b).
+
+
+Figure 8. - Surface of carbon graphite - fine fibers (CGIFF) after two 30-secondsliding exposures against a 17-22AS steel disk at
+  26 m/sec (83ft/sec) undera normal load of 422 N (95 tbf).
+
+
+
+
+                                                                                                                               23
+
+## Page 28
+
+                                                          t           J
+                                                              1 mm
+
+
+                              (a) Optical photograph•
+
+
+
+
+                           (b) Scanningelectron mlcrograph.
+
+     Figure 9, - Surfaceof graphite-cloth-reinforced composite(GCRC) after sliding
+       against a 17-22 AS steel disk in a simulated-stop - speed-variation test.
+
+
+
+24

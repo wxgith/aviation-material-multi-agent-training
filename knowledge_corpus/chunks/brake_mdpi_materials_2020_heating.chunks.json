@@ -1,0 +1,1270 @@
+[
+  {
+    "id": "brake_mdpi_materials_2020_heating-c001-bf9c3c3d",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · Abstract",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "An analytical model to determine temperature in a single brake disc of multi-disc system is proposed. The model considers the convective cooling on the lateral surfaces of the disc and structure of composite friction material. Calculations were carried out for a disc made of carbon friction composites material Termar-ADF. The influence of heat transfer with environment, length of bundles with fibers, and concentration of fibers in composite on the temperature of the disc was investigated during single braking with constant deceleration.",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "Abstract",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c002-f5776cf1",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "磨损形貌",
+      "失效机理",
+      "高温摩擦",
+      "热衰退",
+      "刹车过热",
+      "刹车检查",
+      "维护决策"
+    ],
+    "difficulty": "基础",
+    "content": "At the present time, high-speed and heavy-duty vehicles are extensively developed. These include high-speed rail and road transport, machines for military purposes, and, in particular, aircraft. For the successful operation of these categories of vehicles, appropriate braking devices are required that ensure their sufficient maneuverability. To design brakes, it is necessary to fulfill a complex of requirements (ensuring high braking torque and wear resistance, absence of overheating, stability of characteristics, etc.), which is associated with the choice of friction materials, design of the brake unit, bench, and field tests [1]. The braking system of modern passenger as well as military a",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c003-7816fbc8",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "nd field tests [1]. The braking system of modern passenger as well as military aircraft consists of package of fixed and rotating friction discs located inside the wheel. After switching on the brake, the special pistons compress package, the front surfaces of discs are in contact, and the process of friction braking begins. While the kinetic energy of the aircraft is absorbed, the friction between fixed and rotating discs causes that they are heated up even to 1500 °C, and temperatures of the friction surfaces reach up to 3000 °C. Therefore, the disc’s materials must be resistant enough to thermal shock [2]. It is known that the friction polymer materials start to degrade at the temperature",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c004-79f9f9f0",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "磨损形貌",
+      "失效机理",
+      "高温摩擦",
+      "热衰退"
+    ],
+    "difficulty": "基础",
+    "content": "is known that the friction polymer materials start to degrade at the temperature of 230 °C, and the degree of degradation increases with temperature within the range 269–400 °C [3,4]. The degradation of the polymer materials causes brake fade phenomena, where the coefficient of friction is reduced with increasing temperature [5]. The high temperature decreases the yield strength and leads to changes in the wear mechanism and the real contact configuration [6]. These phenomena could increase the wear rate of the brake friction material [7]. Therefore, to improve the working life of aircraft brakes, there is an increasing use of carbon friction composites materials (CFCM) that differ in the ty",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c005-4b87433a",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "磨损形貌",
+      "失效机理",
+      "高温摩擦",
+      "热衰退"
+    ],
+    "difficulty": "基础",
+    "content": "reasing use of carbon friction composites materials (CFCM) that differ in the type of reinforcement, the method of forming the friction layer, the variations of technological heat treatment, etc. For such a material, a certain degree of wear intensity is typical, but, in general, CFCM has significant advantages over friction metal ceramics and plastics. CFCM materials are characterized by less tendency to increase wear with rise in temperature, as well as smaller sensitivity to changes in the specific pressure and sliding speed [8,9,10]. Carbon-carbon (C/C) composite materials are used at heavy working conditions, under which the temperature of the surface of friction can exceed 1500 °C and",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c006-7acb4c35",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": ", under which the temperature of the surface of friction can exceed 1500 °C and the bulk temperature 800 °C. CFCM such as Carbenix-4000 (Honeywell International Inc., Charlotte, NY, USA), Sepcarb (Safran Landing Systems, Vélizy, France), and Termar (PJSC Aviation Corporation \"Rubin”, Russia) have a low density and thermal linear expansion coefficient, high thermal conductivity, energy-absorption capability, stable coefficient of friction, and retain mechanical properties up to 2400–2800 °C [11,12,13,14]. Carbon composite brake discs are lighter, economical, and have excellent high energy friction characteristics. Two basic advantages of C/C materials at high temperatures—the heat capacity an",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c007-0ac9f10b",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "Two basic advantages of C/C materials at high temperatures—the heat capacity and strength (higher by 2.5 and 2 times, respectively, than steel)—result in a 40% weight savings [2]. These remain unaffected by thermal shocks and mechanical fatigue [15]. Due to such a specific combination of the properties, C/C composites are more widely used for producing brakes subjected to heavy loads and extreme application conditions, and can be considered as the basic construction material for high-temperature applications, e.g., in aerospace and aircraft industry brake systems. Currently, roughly 60% of produced C/C composites accounts for aircraft braking discs [16,17]. Carbon composites are also widely",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c008-bc655517",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "磨损形貌",
+      "失效机理",
+      "高温摩擦",
+      "热衰退"
+    ],
+    "difficulty": "基础",
+    "content": "s accounts for aircraft braking discs [16,17]. Carbon composites are also widely used for the production of automobile brakes and could potentially be used in brakes for high-speed trains [18,19]. Depending on the purpose, various modifications of CFCM of the Termar type are used, which have different thermal, mechanical, and friction-wear properties. The discrete-reinforced transversely isotropic friction C/C Termar-ADF is a material with the formation of the original press package by the random arrangement of long fibers with use of special installation. Termar-ADF is fabricated using a pitch matrix reinforced by high modulus fibers with the average length being 20 mm. Fibrous materials ar",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c009-e3809a5f",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "磨损形貌",
+      "失效机理",
+      "高温摩擦",
+      "热衰退"
+    ],
+    "difficulty": "基础",
+    "content": "by high modulus fibers with the average length being 20 mm. Fibrous materials are used for two cycles of impregnation with thermoplastic pitch using liquid-phase pyrolysis at 600 °C with pressure up to 100 MPa. Each cycle of impregnation is followed by carbonization at 1200 °C. The final heat treatment is performed at 2000 °C for 1 h [20]. The calculation of the temperature regime and wear characteristics of the brake is the most important step in the design of the brake wheel as a whole. One of the most loaded elements of the brake, receiving greater thermal and mechanical loads, are the discs. Numerous natural tests and studies on the brakes have shown that the main factor determining the",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c010-42b331d2",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "磨损形貌",
+      "失效机理",
+      "高温摩擦",
+      "热衰退"
+    ],
+    "difficulty": "基础",
+    "content": "tests and studies on the brakes have shown that the main factor determining the wear resistance of the C/C material of the discs, and hence the life of the product as a whole, is the temperature. Thus, the determination of the temperature field of the disc is necessary for predicting the durability of the brake. The result of test for heat pulsing friction of brand Termar-ADF carbon frictional composite material on the multipurpose friction machine IM-58-T2 is presented in [21]. The effect of the reinforcement type and the heat treatment conditions of the CFCM on their friction coefficient, wear rate, and the stability indicator of the friction coefficient is studied in [22]. The complex met",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c011-c927fa64",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "磨损形貌",
+      "失效机理",
+      "高温摩擦",
+      "热衰退"
+    ],
+    "difficulty": "基础",
+    "content": "bility indicator of the friction coefficient is studied in [22]. The complex methodology for the design and manufacture of brakes for air wheels is presented in [23,24]. It includes the theoretical and experimental technique of load and thermal calculation of friction couples and modeling of their work under the conditions of varying external operational factors. The use of that methodology allows optimizing the design of the brake at the given dimensions according to parameters such as the braking torque and its stability, the duration and way of braking, the brake resource according to the wear factor, and volumetric and surface temperature. One of the most important components of the ther",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c012-cf61e076",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "metric and surface temperature. One of the most important components of the thermal calculation of the brake is the solution of the thermal problem of friction—the boundary-value problem of heat conductivity for a friction element heated by a frictional heat flow on the working surface and cooled on its free surfaces. Reviews of analytical and numerical solutions of this problem are presented in [25,26]. It is noted that most authors have considered the case of a homogeneous disc material with adiabatic free surfaces. An attempt to take into account the convective cooling of the lateral surfaces of a homogeneous disc during braking with constant deceleration is undertaken in [27]. Unfortunat",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c013-f35517ca",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "disc during braking with constant deceleration is undertaken in [27]. Unfortunately, it presents formulas for determining the temperature only on the friction surface of the disc. The generalization of such solution in the case of a disc made of composite C/C material is executed in [28]. The solution is obtained in the form of the Duhamel integral, which is useful in practical applications. For a multi-disc brake pair made of composite C/C materials, a numerical finite element method (FEM) solution of thermal problem of friction is obtained in [29], and an analytical solution is presented in [30]. That solutions are obtained considering effective properties of disc composite materials. This",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c014-bf384c64",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "are obtained considering effective properties of disc composite materials. This article provides analytical solution to the thermal problem of friction, considering the structure of the composite material. In detail, the main aim of the article is to obtain an exact solution to the thermal problem of friction, which simulates the process of frictional heating of an individual disc of a multi-disc brake during single braking. It is assumed that the disc is made of composite C/C material containing carbon fibers, collected in bundles, which are located in planes parallel to the surface of friction. At the first stage, an exact solution of the corresponding thermal problem of friction for an o",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c015-0ce8630c",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 1. Introduction [sec1-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "age, an exact solution of the corresponding thermal problem of friction for an orthotropic disc is obtained, considering the effective thermal conductivity coefficients of the material in the axial and radial directions, as well as convective cooling of the lateral surfaces. In the second stage, the procedure for determining the above-mentioned effective properties of the composite at three levels (micro, meso, and macro) is proposed. Based on the obtained solution, the distribution of a transient temperature field in a disc made of Termar-ADF is investigated.",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "1. Introduction [sec1-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c016-40b95820",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 2. Statement to the Problem [sec2-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "Multi-disc aircraft braking systems are subjected to heavy mechanical and thermal loads during braking. Typically, such systems are a package of identical discs. A scheme of such multi-disc system and the calculation diagram of the considered problem are presented in Figure 1. A microscopic view of the real structure of such C/C composite can be found in [15,20] and sample photo of single brake disc made of Termar-ADF in [31]. It is assumed that all friction discs have the same internal radius r1, external radius r2, thickness 2d, and are made of orthotropic material with different thermal conductivities Kr and Kz in radial r and axial z directions, respectively. Each of the two outer fixed",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "2. Statement to the Problem [sec2-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c017-afbf818d",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 2. Statement to the Problem [sec2-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "z in radial r and axial z directions, respectively. Each of the two outer fixed discs has one friction surface, while the inner rotating and fixed discs have two friction surfaces, and thus they heat up more. Since all the discs are made of the same material, the temperature fields in the internal discs are approximately the same, and their distribution over the thickness of the disc is symmetrical relative to its middle surface. Therefore, the corresponding thermal problem of friction can be formulated not for a whole disc with a thickness of 2d, but only for its half with a thickness of d, assuming that the friction surface z=0 is heated by frictional heat flow with the intensity q and the",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "2. Statement to the Problem [sec2-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c018-870cdb08",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 2. Statement to the Problem [sec2-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "ction surface z=0 is heated by frictional heat flow with the intensity q and the plane of symmetry z=d is adiabatic. Since the thermal conductivity of CFCM in the circumferential direction parallel to the working surfaces of the disc is much higher than in the axial direction z of action of the heat flow, the distribution of the temperature field on each surface 0<z<d is uniform. Lateral surfaces of the discs r=r1 and r=r2 0≤z≤2d are cooled convectively with constant coefficient of heat transfer h. The mutual overlap of the contacting elements is full, so the nominal contact area Aa=π(r22−r12) remains unchanged during braking. Taking the above-mentioned assumptions into account, distribution",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "2. Statement to the Problem [sec2-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c019-5c90a8f8",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 2. Statement to the Problem [sec2-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "uring braking. Taking the above-mentioned assumptions into account, distribution of the temperature T across the disc thickness 0≤z≤d at a fixed moment of time 0≤t≤ts, we may find from solution to the following boundary-value problem of heat conduction [28]:(1)∂2T(z,t)∂z2−2h∗Kzl[T(z,t)−Ta]=1k∂T(z,t)∂t, 0<z<d, 0<t≤ts (2)Kz∂T(z,t)∂z|z=0=−q(t), 0<t≤ts (3)Kz∂T(z,t)∂z|z=d=0, 0<t≤ts (4)T(z,0)=Ta, 0≤z≤d where (5)q(t)=q0q∗(t), 0≤t≤ts (6)q0=fp0V0, V0=ω0rm, rm=0.5(r1+r2), (7)q*(t)=1−tts, ts=W0q0Aa (8)h∗=(1h+r2−r12Kr)−1 (9)k=Kzρc Ta is the initial temperature of the disc; t is the time; ts is the time of braking; f is the coefficient of friction; ρ is the density; c is the specific heat of material; p0",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "2. Statement to the Problem [sec2-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c020-d000be58",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 2. Statement to the Problem [sec2-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "oefficient of friction; ρ is the density; c is the specific heat of material; p0, ω0, and W0 are respectively initial values of contact pressure, angular velocity, and kinetic energy. Introducing the dimensionless variables and parameters:(10)ζ=zd, τ=ktd2, τs=ktsd2, Bi=2h∗d2Kz(r2−r1), T0=q0dKz, T*=T−TaT0 We write the problem in Equations (1)–(4) as:(11)∂2T*(ζ,τ)∂ζ2−BiT*(ζ,τ)=∂T*(ζ,τ)∂τ, 0<ζ<1, 0<τ≤τs (12)∂T*(ζ,τ)∂ζ|ζ=0=−q∗(τ), 0<τ≤τs (13)∂T*(ζ,τ)∂ζ|ζ=1=0, 0<τ≤τs (14)T*(ζ,0)=0, 0≤ζ≤1 where (15)q*(τ)=1−ττs, 0≤τ≤τs It should be noted that the adoption of the linear model in Equations (1)–(9) to determine the temperature field in the brake disc, imposes some restrictions on the possibility of it",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "2. Statement to the Problem [sec2-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c021-51c91def",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 2. Statement to the Problem [sec2-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "ture field in the brake disc, imposes some restrictions on the possibility of its use in medium and heavy modes of operation of the brake, when the surface temperature reaches values above 450 and 750 °C, respectively [3]. It is known that at such temperatures the coefficient of friction and the thermo-physical properties of the material may change the initial values. Application of the analytical models in such cases may involve the use of the friction coefficient averaged during braking; this approach has been used in the following numerical analysis. Thermal sensitivity of a material is usually taken into account by converting in its solution the value of the coefficient of thermal conduc",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "2. Statement to the Problem [sec2-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c022-28c32b85",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 2. Statement to the Problem [sec2-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "unt by converting in its solution the value of the coefficient of thermal conductivity at room temperature to its value at the average volume temperature of the disc during braking. Of course, this approach is approximate, but gives no less sufficiently good compliance of the maximum temperature values with relevant experimental data [21]. To consider the thermal sensitivity of the above-mentioned characteristics, at each time step during braking, requires the development of appropriate nonlinear models, and the usage of numerical methods to solve them [29].",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "2. Statement to the Problem [sec2-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c023-5cc83924",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 3. Solution to the Problem [sec3-materials-13-02691]",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "By replacing [32] (16)T*(ζ,τ)=Θ(ζ,τ)e−Biτ the boundary-value problem in Equations (11)–(15) is transformed into the form:(17)∂2Θ(ζ,τ)∂ζ2=∂Θ(ζ,τ)∂τ, 0<ζ<1, 0<τ≤τs (18)∂Θ(ζ,τ)∂ζ|ζ=0=−q∗(τ)eBiτ, 0<τ≤τs (19)∂Θ(ζ,τ)∂ζ|ζ=1=0, 0<τ≤τs (20)Θ(ζ,0)=0, 0≤ζ≤1 where Θ(ζ,τ) is now the unknown function. Using the Duhamel’s theorem [33], the solution of the problem in Equations (17)–(20) can be expressed as:(21)Θ(ζ,τ)=−∫0τq*(s)eBi s∂∂τΘ0(ζ,τ−s)ds, 0≤ζ≤1, 0≤τ≤τs where function (22)Θ0(ζ,τ)=ζ−12ζ2−τ−13+2∑n=1∞e−λn2τλn2cos(λnζ), 0≤ζ≤1, 0≤τ≤τs (23)λn=π n, n=1,2,… . is the solution to the problem in Equations (17)–(20) at q∗(τ)=1 [34]. After integration on the right side of Equation (21) with functions q∗(τ) (Equat",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "3. Solution to the Problem [sec3-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c024-3821bbff",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 3. Solution to the Problem [sec3-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "After integration on the right side of Equation (21) with functions q∗(τ) (Equation (15)) and Θ0(ζ,τ) (Equations (22) and (23)), we obtain:(24)Θ(ζ,τ)=J0(τ)+2∑n=1∞e−λn2τJn(τ)cos(λnζ), 0≤ζ≤1, 0≤τ≤τs where (25)J0(τ)=−1Bi(1+1τsBi)+(1−ττs+1τsBi)eBi τBi (26)Jn(τ)=−1Bin(1+1τsBin)+(1−ττs+1τsBin)eBinτBin (27)Bin=Bi+λn2, n=1,2,…. Taking into account the sums of the series [35]:(28)∑n=1∞cos(λnζ)Bin=12Bicosech(Bi)ch[(1−ζ)Bi]−12Bi (29)∑n=1∞cos(λnζ)Bin2=14Bicosech2(Bi)ch(ζBi)++14BiBicosech(Bi){ch[(1−ζ)Bi]+ζBi sh[(1−ζ)Bi]}−12Bi2 From Equations (16) and (24)–(27), we find the dimensionless temperature of the disc in the form:(30)T*(ζ,τ)=cosech(Bi)Bi{(1−ττs+12τsBi)ch[(1−ζ)Bi]+ζ2τsBish[(1−ζ)Bi]}++cosech2(Bi)2",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "3. Solution to the Problem [sec3-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c025-b634b5ca",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 3. Solution to the Problem [sec3-materials-13-02691]",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": ")T*(ζ,τ)=cosech(Bi)Bi{(1−ττs+12τsBi)ch[(1−ζ)Bi]+ζ2τsBish[(1−ζ)Bi]}++cosech2(Bi)2τsBich(ζBi)−(1+1τsBi)e−Bi τBi−2∑n=1∞(1+1τsBin)e−BinτBincos(λnζ),0≤ζ≤1, 0≤τ≤τs On the heated surface ζ=0 from the solution in Equation (30), it follows that [27]:(31)T*(0,τ)=cth(Bi)Bi(1−ττs+12τsBi)+cosech2(Bi)2τsBi−(1+1τsBi)e−Bi τBi−2∑n=1∞(1+1τsBin)e−BinτBin,0≤τ≤τs where the coefficients Bin, n=1,2,…. are determined by Equation (27). In the limiting case τs→∞, the solutions in Equations (30) and (31) take the form:(32)T*(ζ,τ)=cosech(Bi)Bich[(1−ζ)Bi]−e−Bi τBi−2∑n=1∞e−BinτBincos(λnζ), 0≤ζ≤1, τ≥0 (33)T*(0,τ)=cth(Bi)Bi−e−Bi τBi−2∑n=1∞e−BinτBin, τ≥0 Next, we verify the achieved solutions. For this purpose, from the sol",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "3. Solution to the Problem [sec3-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c026-36a2081f",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 3. Solution to the Problem [sec3-materials-13-02691]",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "τBin, τ≥0 Next, we verify the achieved solutions. For this purpose, from the solution in Equation (30), we find the derivative:(34)∂T*(ζ,τ)∂ζ=−cosech(Bi)Bi{(1−ττs)Bi sh[(1−ζ)Bi]+ζ2τsch[(1−ζ)Bi]}+ +cosech2(Bi)2τsBish(ζBi)+2∑n=1∞(1+1τsBin)e−BinτBinλnsin(λnζ),0≤ζ≤1, 0≤τ≤τs On the heated ζ=0 and adiabatic ζ=1 surfaces of the disc, from the relation in Equation (34), it follows that:(35)∂T*(ζ,τ)∂ζ|ζ=0=−(1−ττs), 0≤τ≤τs (36)∂T*(ζ,τ)∂ζ|ζ=1=−cosech(Bi)2τsBi+cosech2(Bi)2τsBish(Bi)=0, 0≤τ≤τs i.e., the solution in Equation (30) satisfies the boundary conditions in Equations (12) and (13). Substituting τ=0 in Equation (30), we get:(37)T*(ζ,0)=cosech(Bi)Bi{(1+12τsBi)ch[(1−ζ)Bi]+ζ2τsBish[(1−ζ)Bi]}+ +cosech",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "3. Solution to the Problem [sec3-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c027-b77f8871",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 3. Solution to the Problem [sec3-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "e get:(37)T*(ζ,0)=cosech(Bi)Bi{(1+12τsBi)ch[(1−ζ)Bi]+ζ2τsBish[(1−ζ)Bi]}+ +cosech2(Bi)2τsBich(ζBi)−(1+1τsBi)1Bi−2∑n=1∞(1+1τsBin)cos(λnζ)Bin,0≤ζ≤1 Using the sums (28) and (29), we have:(38)2∑n=1∞(1+1τsBin)cos(λnζ)Bin=−1Bi−1τsBi2+cosech2(Bi)2τsBich(ζBi)++cosech(Bi)Bi{(1+12τsBi)ch[(1−ζ)Bi]+ζ2τsBish[(1−ζ)Bi]},0≤ζ≤1 Introducing the sum in Equation (38) into Equation (37), we confirms the execution of the initial condition in Equation (14). Finally, taking into account the notation in Equation (10), we obtain the temperature field in the disc:(39)T(z,t)=Ta+T0T*(ζ,τ),0≤z≤d,0≤t≤ts where T∗(ζ,τ),0≤ζ≤1,0≤τ≤τs is the dimensionless temperature (Equation (30)).",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "3. Solution to the Problem [sec3-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c028-5004ac6b",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 4. Thermal Insulation of the Lateral Surfaces of the Disc [sec4-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "Formally, for h=0, the boundary-value problem of heat conduction in Equations (11)–(15), with respect to dimensionless temperature T∗(ζ,τ), becomes similar to the problem in Equations (17)–(20) with respect to the function Θ(ζ,τ). Therefore, analogously to Equation (24), we can write:(40)T∗(ζ,τ)=J0(τ)+2∑n=1∞e−λn2τJn(τ)cos(λnζ), 0≤ζ≤1, 0≤τ≤τs where (41)J0(τ)=τ(1−τ2τs) (42)Jn(τ)=−1λn2(1+1τsλn2)+(1−ττs+1τsλn2)eλn2 τλn2 and coefficients λn, n=1,2,…. have the form in Equation (23). With account of the sums [35] (43)∑n=1∞cos(λnζ)λn2=12(12ζ2−ζ+13), 0≤ζ≤1 (44)∑n=1∞cos(λnζ)λn4=−16(18ζ4−12ζ3+12ζ2−115), 0≤ζ≤1 the solution in Equations (40)–(42) takes the form:(45)T∗(ζ,τ)=τ(1−τ2τs)+(12ζ2−ζ+13)(1−ττs)−13",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "4. Thermal Insulation of the Lateral Surfaces of the Disc [sec4-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c029-d25ea991",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 4. Thermal Insulation of the Lateral Surfaces of the Disc [sec4-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "n Equations (40)–(42) takes the form:(45)T∗(ζ,τ)=τ(1−τ2τs)+(12ζ2−ζ+13)(1−ττs)−13τs(18ζ4−12ζ3+12ζ2−115)−2∑n=1∞(1+1τsλn2)e−λn2τλn2cos(λnζ), 0≤ζ≤1, 0≤τ≤τs Substituting ζ=0 in the solution in Equation (45), we find known formula to calculate the dimensionless temperature of the heated surface of the adiabatic disc [27]:(46)T∗(0,τ)=τ(1−τ2τs)+13(1−ττs+115τs)−2∑n=1∞(1+1τsλn2)e−λn2τλn2, 0≤τ≤τs",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "4. Thermal Insulation of the Lateral Surfaces of the Disc [sec4-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c030-6864a1cc",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "Let us consider the brake disc made from CFCM Thermal-ADF. It consists of the bundles with fibers incorporated into the matrix. Cylindrical shaped bundles are arranged in layers parallel to the front surfaces of the disc. Effective values of thermal conductivities of such composite Kz and Kr are determined by means of averaging at the three scale levels: micro, meso, and macro [28]. At the micro-level, a single bundle is considered, which consists of closely spaced fibers embedded in the matrix material (Figure 2). The effective coefficients of thermal conductivity of this bundle in the transversal direction (across the fibers) K^⊥ and in longitudinal direction (along the fibers) K^II are es",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c031-18e10030",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "oss the fibers) K^⊥ and in longitudinal direction (along the fibers) K^II are established using the mixture rule in the following form [36]:(47)K^⊥=(VfKf+1−VfKm)−1, K^II=VfKf+(1−Vf)Km where Kf and Km are the thermal conductivities of fiber material and matrix material, respectively, and 0≤Vf≤1 is the fiber volume ratio. A unit cell of composite at the meso-level has the shape of a rectangular cuboid with length A and squared cross-section with width B. This cell contains a single centered bundle in form of squared cuboid with dimensions a and b, respectively (Figure 3). It should be noted that the real circular shape of bundle cross-section has been replaced by a square to simplify further c",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c032-c6756462",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "hape of bundle cross-section has been replaced by a square to simplify further calculations, and it does not introduce significant errors in calculations [28]. The effective coefficients of thermal conductivity for selected unit cell of composite in longitudinal KII and transversal K⊥ directions are determined using the method of heat flux lines linearization [37]. This method consists in the division of the unit cell of composite by adiabatic or isothermal and adiabatic planes and calculating the thermal resistance of each part:(48)R=lSK where l is the distance traveled by a heat flux Q, S is the area of cross-section of the part perpendicular to the heat flux direction, and K is the therma",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c033-d03296d1",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "ection of the part perpendicular to the heat flux direction, and K is the thermal conductivity of the material of the same part (Figure 4). Bearing in mind that the results depend on the manner of the unit cell division, we find effective thermal conductivities of cell using two methods of division by means of adiabatic and isothermal planes. The final results are established as an arithmetic average of two outcomes obtained by different methods. Below, we consider these two methods. Division of a unit cell by adiabatic planes 1-1 and 2-2 in the transverse direction is shown in Figure 4a, and in the longitudinal direction in Figure 4b. Based on Equation (48), the effective coefficients of th",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c034-e7eb54be",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "direction in Figure 4b. Based on Equation (48), the effective coefficients of thermal conductivity of selected unit cell of composite in this case are determined in the form:(49)K⊥=BABR⊥=1AR⊥, KII=AB2RII where, according to the scheme of combining resistances Ri, i=1,2,3 of individual part (Figure 5a), the total thermal resistances R⊥ and RII of the unit cell are equal to:(50)R⊥=(2R⊥,1+R⊥,2)R⊥,32R⊥,1+R⊥,2+R⊥,3=(1R⊥,3+12R⊥,1+R⊥,2)−1 (51)R⊥,1=B−b2abKm, R⊥,2=1aK^⊥, R⊥,3=B(AB−ab)Km (52)RII=(2RII,1+RII,2)RII,32RII,1+RII,2+RII,3=(1RII,3+12RII,1+RII,2)−1 (53)RII,1=A−a2b2Km, RII,2=ab2K^II, RII,3=A(B2−b2)Km and the thermal conductivities K^II and K^⊥ of the bundle contained in the unit cell are calcu",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c035-6fe75a82",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "l conductivities K^II and K^⊥ of the bundle contained in the unit cell are calculated using Equation (47). Substituting the effective thermal resistance R⊥ (Equations (50) and (51)) and RII (Equations (53) and (540) into Equation (49), we find:(54)K⊥=(1−abAB)Km+1A(B−babKm+1aK^⊥)−1, (55)KII=(1−b2B2)Km+AB2(A−ab2Km+ab2K^II)−1. Division of the unit cell simultaneous by adiabatic 1-1 and 2-2 and isothermal 3-3 and 4-4 planes, respectively, in transverse and longitudinal directions, are presented in Figure 6. A scheme of combining resistances for this division is shown in Figure 5b. Proceeding as above, we obtain:(56)R⊥=2R⊥,4+R⊥,2R⊥,5R⊥,2+R⊥,5=2R⊥,4+(1R⊥,2+1R⊥,5)−1 (57)R⊥,4=B−b2ABKm, R⊥,5=b(AB−ab)",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c036-40c1d61f",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "⊥=2R⊥,4+R⊥,2R⊥,5R⊥,2+R⊥,5=2R⊥,4+(1R⊥,2+1R⊥,5)−1 (57)R⊥,4=B−b2ABKm, R⊥,5=b(AB−ab)Km (58)RII=2RII,4+RII,2RII,5RII,2+RII,5=2RII,4+(1RII,2+1RII,5)−1 (59)RII,4=A−a2B2Km, RII,5=a(B2−b2)Km where thermal resistances R⊥,2 and RII,2 are determined using Equations (51) and (53). Taking into account the effective thermal resistances R⊥ (Equations (56) and (57)) and RII (Equations (58) and (59)) in Equation (49), we find:(60)K⊥=1A[B−bABKm+(aK^⊥+(AB−ab)bKm)−1]−1 (61)KII=AB2[A−aB2Km+(b2aK^II+(B2−b2)aKm)−1]−1 The length A and the width B of the unit cell of composite are related with dimensions a and b of the single bundle and the bundle volume ratio 0≤Vb≤1 as:(62)a−b=A−B, ab2=VbAB2 Eliminating A in Equatio",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c037-c1910902",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "he bundle volume ratio 0≤Vb≤1 as:(62)a−b=A−B, ab2=VbAB2 Eliminating A in Equation (62), we obtain the following algebraic equation for parameter B:(63)B3+(a−b)B2−ab2Vb−1=0 At the macro-level, the fiber bundles are arranged on the planes parallel to the front surfaces of the disc (Figure 7). The thermal conductivity of the disc in the axial direction is equal to the effective coefficient of thermal conductivity of the unit composite cell in the transverse direction on the meso-level:(64)Kz=K⊥ where K⊥ is a mean arithmetic of values calculated from Equations (54) and (60). When determining the effective coefficient of thermal conductivity of the disc in the radial direction, the orientation of",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c038-12f7f97c",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "of thermal conductivity of the disc in the radial direction, the orientation of fiber bundles on the planes should be taken into account (Figure 8). If the bundles are arranged in the radial direction (Figure 8a), then:(65)Kr=KII where KII is a mean arithmetic values obtained from Equations (55) and (61). However, if the bundles are oriented in circumferential direction (Figure 8b), then:(66)Kr=K⊥ where K⊥ is determined as in Equation (64). In the case of composite discs with chaotically oriented fiber bundles (Figure 8c), the effective coefficient of thermal conductivity in the radial direction is defined as:(67)Kr=0.5(K⊥+KII) where KII and K⊥ are calculated in the same manner as in Equati",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c039-334824b4",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "7)Kr=0.5(K⊥+KII) where KII and K⊥ are calculated in the same manner as in Equations (65) and (66), respectively. The empirical Equation (67) assumes that the number of bundles oriented in the radial and circumferential directions are equal. Therefore, the value of Kr found using Equation (67) for the chaotic orientation bundles may be established with an error. One of the proposals to modify Equation (67) could be to use statistical methods with the known probability distribution of bundles orientation.",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "5. Effective Thermal Conductivity Coefficients [sec5-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c040-b95430d1",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 6. Numerical Analysis [sec6-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "Calculations of the temperature T (Equation (39)) were performed for a disc made of carbon composite material− Termar-ADF with randomly oriented fiber bundles (Kf=250 W m−1K−1, Km=10 W m−1K−1, c=1400 J kg−1K−1, and ρ=1800 kg m−3) [27]. The values of others input parameters were equal to: d=14 mm, r1=27 mm, r2=37 mm, f=0.28, p0=0.98 MPa, ω0=593.75 rad s−1, ts=6.8 s, b=1 mm, Vf=0.95, and Ta=20 °C [28]. The change of temperature during braking on the friction surface of the disc is presented in Figure 9. Solid line demonstrates the results obtained using Equations (31) and (39) with effective values of thermal conductivities Kz (Equation (64)) and Kr (Equation (67)). Dotted line presents approp",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "6. Numerical Analysis [sec6-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c041-e204ca0b",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 6. Numerical Analysis [sec6-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "ctivities Kz (Equation (64)) and Kr (Equation (67)). Dotted line presents appropriate data obtained from measurement of temperature by means of thermocouples [27]. It can be seen that the curves are close to each other. In the initial stage of braking, the temperature achieved in the theoretical solution rapidly increases to maximum value Tmax=466 ∘C at t=tmax=3.36 s, whereupon it decreases to T=337 ∘C at the stop t=ts=6.8 s. The highest value of the experimentally measured temperature is almost the same; however, it is attained a bit later at t=tmax≈4 s. In the final stage of braking, the experimental temperature is slightly higher than the value obtained using the theoretical solution. Cha",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "6. Numerical Analysis [sec6-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c042-ad254124",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 6. Numerical Analysis [sec6-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "e is slightly higher than the value obtained using the theoretical solution. Changes of temperature during braking on different distances from heated surface of the disc are shown in Figure 10. Calculations were conducted based on the exact solution in Equations (30) and (39). The temperature growth at the very beginning of the process is the fastest, and its maximum value is the highest on the friction surface z=0. Increasing the distance from this surface to the inside of the disc, the temperature decreases and the delay effect occurs—elongation of the time tmax of maximum temperature achievement. After achieving the highest temperature value at the particular depths in the range 0≤z<6 mm,",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "6. Numerical Analysis [sec6-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c043-1458d792",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 6. Numerical Analysis [sec6-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "ng the highest temperature value at the particular depths in the range 0≤z<6 mm, the temperature drop lasts until standstill, whereas, for z≥6 mm, the temperature monotonically rises during the whole braking process. The increase of heat exchange with an environment leads to linear decrease of maximum temperature Tmax of the friction surface of the disc (Figure 11). The highest value Tmax=473 ∘C is achieved at tmax=3.39 s for h=50 Wm−2K−1. Enhancement of convective cooling intensity to h=250 Wm−2K−1 results in the drop of the maximum temperature to Tmax=460 ∘C at tmax=3.29 s. Changes of effective thermophysical properties of composite material due to increasing the length a of bundles are sh",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "6. Numerical Analysis [sec6-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c044-d9acc9fa",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 6. Numerical Analysis [sec6-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "roperties of composite material due to increasing the length a of bundles are shown in Figure 12. We see that significant rise of Kr and drop of Kz and k take place in the range 1 mm≤a≤15 mm. Further increase of parameter a causes gentler variations, and for a≥25 mm values of coefficients Kr, Kz, and k remain almost constant. Since the bundles are located on the planes oriented parallel to the front disc surface z=0 (Figure 7), their length has slight effect on heat conduction in the axial direction. For the shortest considered length a=1 mm, the effective coefficient of thermal conductivity in this direction has the greatest value Kz=28.3 W m−1K−1. Inconsiderable elongation of bundles resul",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "6. Numerical Analysis [sec6-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c045-7ed3f0c5",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 6. Numerical Analysis [sec6-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "the greatest value Kz=28.3 W m−1K−1. Inconsiderable elongation of bundles results in the slight decrease to Kz≈25 W m−1K−1, and it remains steady on this level within 7 mm≤a≤30 mm. The composite’s ability to conduct heat in the radial direction Kr significantly increases from Kr=28.7 W m−1K−1 for a=1 mm to Kr=63.5 W m−1K−1 for a=30 mm. On the contrary to the described above changes of effective thermal conductivity, the thermal diffusivity is the highest k=1.125×10−5 m2s−1 for the composite with the shortest bundles (a=1 mm). With increase of the bundle length, effective thermal diffusivity drops, attaining minimum value k=0.985×10−5 m2s−1 for a=30 mm. With increasing bundle length, the max",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "6. Numerical Analysis [sec6-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c046-511ed96f",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 6. Numerical Analysis [sec6-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "mum value k=0.985×10−5 m2s−1 for a=30 mm. With increasing bundle length, the maximum temperature of the heated disc surface z=0 is rising from the value Tmax=439.4 ∘C for a=1 mm to Tmax=459.2 ∘C for a=30 mm(Figure 13). As shown in Figure 12, the coefficients of thermal conductivity in radial and axial directions of composite with short fiber bundles take close values and its thermal diffusivity is the greatest. The last leads to a faster heat removal from the surface of friction and, consequently, to relatively low value of maximum temperature. Increase of fiber bundles causes decrease of thermal diffusivity and increase of maximum temperature. Growth of Tmax is the most rapid over the chang",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "6. Numerical Analysis [sec6-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c047-3f77773a",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 6. Numerical Analysis [sec6-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "increase of maximum temperature. Growth of Tmax is the most rapid over the change range 1<a≤5 mm, when the drop of thermal diffusivity is the largest. Increase of concentration of bundles in composite results in increase of its thermal diffusivity and conductivity from values k=0.985×10−5 m2s−1, Kr=63.5 Wm−1K−1, and Kz=25 Wm−1K−1 at Vp=0.5 to k=3.527×10−5 m2s−1, Kr=155.9 Wm−1K−1, and Kz=88.9 Wm−1K−1 at Vb=0.95 (Figure 14). Such growth of material ability to dissipate heat from friction surface of the disc causes almost linear drop of maximum temperature value Tmax and elongation of time tmax of its achievement (Figure 15). For the smallest considered concentration of fiber bundles in composi",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "6. Numerical Analysis [sec6-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c048-d2e3eb5f",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 6. Numerical Analysis [sec6-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "igure 15). For the smallest considered concentration of fiber bundles in composite (Vb=0.5), the maximum temperature Tmax=466 ∘C is the highest and attained at time tmax=3.36 s, while, for the largest value Vb=0.95, we have Tmax=289.2 ∘C and tmax=4.73 s.",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "6. Numerical Analysis [sec6-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c049-c9819ebe",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 7. Conclusions [sec7-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "The calculation scheme is proposed to estimate the maximum temperature of a multi-disc brake system. For this purpose, the boundary-value problem of heat conduction is formulated for a single disc considering the frictional heating on its front surfaces, convective cooling of its lateral surfaces, and the detailed structure of the composite material. This material is made up of layers of fiber bundles arranged in planes parallel to the front surfaces of the disc. Each bundle has a cylindrical shape filled with matrix material reinforced with carbon fibers. The effective thermal conductivities of this composite are calculated at the three scale levels: micro, meso, and macro. The exact soluti",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "7. Conclusions [sec7-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c050-009f9292",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 7. Conclusions [sec7-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "e calculated at the three scale levels: micro, meso, and macro. The exact solution of the problem is obtained, which allows investigating variations of disc temperature under the effect of input parameters of braking process and friction material parameters (such as the concentration of fibers and their dimensions and orientation). Calculations were carried out for a disc made up of carbon composite material Termar-ADF, widely applied in aircraft brakes. Due to performed numerical analysis, it is established that:Temperature values calculated on the basis of the obtained analytical solution are consistent with appropriate experimental data presented in [27].During short-lasting (0<ts≤10 s),",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "7. Conclusions [sec7-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c051-e7c449ec",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 7. Conclusions [sec7-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "propriate experimental data presented in [27].During short-lasting (0<ts≤10 s), heavy loaded (p0≅1 MPa) braking processes, the influence of convective cooling of the lateral disc surfaces on its maximum temperature is inconsiderable. The decrease of the maximum temperature value with increase of coefficient of heat exchange is linear.The increase of the concentration of fiber bundles in the composite results in increase of its thermal conductivity and diffusivity.The high temperature of the disc at fixed intensity of convective cooling can be decreased by using shorter fiber bundles and simultaneously increasing their concentration in the composite material. The solution was obtained without",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "7. Conclusions [sec7-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c052-2a0f7eb2",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 7. Conclusions [sec7-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "their concentration in the composite material. The solution was obtained without considering possible variations of friction coefficient and material properties under the influence of temperature. It should be noted that consideration of thermal sensitivity and friction coefficient changes is possible by using the nonlinear models, which require numerical methods, such as FEM, to solve the proper thermal problems of friction. Some steps are taken to do this in [29], although for a different material. Another problem that is difficult to solve, arising in this context, is related to the development of composite structure models with temperature-dependent thermophysical properties of its compo",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "7. Conclusions [sec7-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c053-0af52220",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 7. Conclusions [sec7-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理"
+    ],
+    "difficulty": "基础",
+    "content": "ructure models with temperature-dependent thermophysical properties of its components. Even in the considered case of constant thermophysical properties, the procedure for determining the effective properties of the composite is quite complicated. We achieved this by using some geometric simplifications, in particular by converting the actual circular cross-sectional shape of the bundle into a square. The development of mathematical models of the composite, taking into account thermal sensitivity of its components and their interaction will be one of the directions of our future research. Based on these findings, we conclude that the proposed mathematical model allows with sufficient accurac",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "7. Conclusions [sec7-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "brake_mdpi_materials_2020_heating-c054-4bf2f75f",
+    "domain": "brake",
+    "title": "Frictional Heating during Braking of the C/C Composite Disc · 7. Conclusions [sec7-materials-13-02691]",
+    "tags": [
+      "高温摩擦",
+      "热衰退",
+      "失效机理",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "we conclude that the proposed mathematical model allows with sufficient accuracy determining a temperature mode of a multi-disc brake at a single braking. Calculations are executed only for one frictional composite material, but the model proposed can be used for other materials, too. In such a case, it may be necessary to use other methods for obtaining effective thermophysical properties of the composite [38].",
+    "source_type": "parsed_markdown",
+    "source_id": "brake_mdpi_materials_2020_heating",
+    "source_locator": "7. Conclusions [sec7-materials-13-02691]",
+    "source_url": "https://doi.org/10.3390/ma13122691",
+    "source_authority": "peer_reviewed_open_access",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  }
+]

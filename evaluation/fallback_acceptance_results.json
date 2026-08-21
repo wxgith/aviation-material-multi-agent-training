@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-08-21T12:19:10.228835+00:00",
+  "status": "passed",
+  "mode": {
+    "data_backend": "json",
+    "database_enabled": false,
+    "es_enabled": false,
+    "llm_enabled": false,
+    "knowledge_source": "local-json",
+    "effective_retrieval_mode": "hybrid-bm25-only"
+  },
+  "flow": {
+    "profile_count": 3,
+    "domain_count": 3,
+    "question_count": 5,
+    "diagnosis_score": 60,
+    "diagnosis_level": "基础一般",
+    "agent_step_count": 6,
+    "agent_names": [
+      "学情诊断 Agent",
+      "材料领域路由 Agent",
+      "专业知识检索 Agent",
+      "个性化资源生成 Agent",
+      "专家审核纠偏 Agent",
+      "学习路径决策 Agent"
+    ],
+    "evidence_count": 5,
+    "resource_forms": [
+      "case_task",
+      "graded_quiz",
+      "personalized_lecture",
+      "practical_guide"
+    ],
+    "report_session_matches": true,
+    "export_character_count": 4898,
+    "feedback_next_action": "降维解释",
+    "feedback_iteration_steps": 4
+  },
+  "checks": {
+    "seed_data_loaded": true,
+    "diagnosis_completed": true,
+    "six_agent_pipeline_completed": true,
+    "local_json_retrieval_used": true,
+    "four_resource_forms_generated": true,
+    "learning_report_generated": true,
+    "markdown_export_generated": true,
+    "feedback_iteration_completed": true
+  }
+}

@@ -1,0 +1,956 @@
+[
+  {
+    "id": "composite_nasa_cr_188975-c001-d161e613",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 4",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "基体开裂",
+      "冲击损伤",
+      "纤维断裂"
+    ],
+    "difficulty": "基础",
+    "content": "ABSTRACT: Composite materials remain extremely vulnerable to out-of-plane impact loads, which may lead to severe losses in strength and stiffness. Impact induced damage is often a complex mixture of transverse cracks, delaminations and fiber failures. An experimental investigation was undertaken to quantify damage tolerance and resistance in composite materials impacted using the drop-weight method. Tests were conducted on laminates of several different carbon-fiber composite systems such as epoxies, modified epoxies, and amorphous and semicrystalline thermoplastics. In this paper, impacted composite specimens have been examined using destructive and non-destructive techniques to establish t",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 4",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c002-2ea812ca",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 4",
+    "tags": [
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "ve been examined using destructive and non-destructive techniques to establish the characteristic damage states. Specifically, optical microscopy, ultrasonic and scanning electron microscopy techniques have been used to identify impact induced damage mechanisms. Damage propagation during post impact compression was also studied. INTRODUCTION Composite materials made of continuous carbon fibers and high performance polymers are gaining increasing acceptance in aerospace structures due to potential weight savings and efficient design considerations. These materials are being considered for primary (load bearing) structural applications in commercial and military aircraft. An important design c",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 4",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c003-1251d2fe",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 4",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "无损检测图像判读",
+      "损伤等级判读"
+    ],
+    "difficulty": "基础",
+    "content": "ructural applications in commercial and military aircraft. An important design consideration is low velocity impact by foreign objects (e.g. bird hits, runway debris, tool drop, hail etc). As the first generation of epoxy based composites was extremely susceptible to impact damage (with attendant mechanical property losses), newer damage tolerant and damage resistant resins have been synthesized for composite applications. Laminated composites are known to undergo severe internal damage resulting from impact events that may or may not be evident from a surface inspection. Further, surface damage often offers an",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 4",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c004-8314d0b1",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 5",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "分层",
+      "基体开裂",
+      "纤维断裂",
+      "冲击后剩余强度"
+    ],
+    "difficulty": "基础",
+    "content": "inadequate description of the complete damage state that exists within the laminate. Typical damage zones in impacted laminates consist of transverse matrix cracks, delaminations, fiber failures and combinations of these. Impact damage in composites may result in a severe loss in load bearing capacity, particularly with respect to post- impact compression. In a previous study [1, 2], a newly developed impact fixture was used to establish impact and compression after impact data on several composite systems. The goal of that study was to evaluate the impact damage resistance and residual compressive strength of various composite systems and to determine the effect of material characteristics",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c005-de5f9542",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 5",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "rious composite systems and to determine the effect of material characteristics on impact damage tolerance. Several composite systems reflecting generic categories of resin behavior (such as brittle thermosets, toughened thermosets and amorphous and semicrystalline thermoplastics) were selected for this study. These materials possess widely different chemistries, cure/consolidation mechanisms, morphologies/microstructures and deformational capabilities. The present study focuses on mapping the resulting impact and post impact compressive damage patterns in samples used in that study. The mapping was done with a view towards reconstructing the characteristic damage due to the impact event and",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c006-2eb4e19d",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 5",
+    "tags": [
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "iew towards reconstructing the characteristic damage due to the impact event and eliciting key details of the damage mechanisms. Conventional fractographic techniques (optical microscopy and SEM) have been supplemented with novel ultrasonic techniques to achieve this characterization. This information, in conjunction with the mechanical data [1, 2] provides comprehensive information on the response of composite laminates to impact.",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c007-df08756b",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 6",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "EXPERIMENTAL PROCEDURE Materials The materials selected for evaluation are outlined in Table I. Also included in the table are typical fiber volume fractions of the laminates made for this study. TABLE I MATERIAL NATURE SUPPLIER vf 3501-6/AS-4 Epoxy Hercules 59.5 977-2/IM-7 Modified Epoxy ICI 61.0 T3900-2/T800-H Modified Epoxy Hexcel 58.4 PEEK/AS-4 Semicrystalline ICI 63.0 Thermoplastic PEEK/IM-7 Semicrystalline ICI 62.9 Thermoplastic ULTEM1000/AS-4 Amorphous In House 56.8 Polyimide The first material was used as a baseline material since it is in wide commercial use and represents a highly crosslinked brittle epoxy. The 977-2 and T3900-2 materials represent various approaches to toughening",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c008-1cf073d6",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 6",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "oxy. The 977-2 and T3900-2 materials represent various approaches to toughening thermosets; one being a co-continous network (977-2), while the other is a bi-phase system. The last three materials represent thermoplastic polymer matrix composites; PEEK being Semicrystalline and Ultem representing an amorphous polyimide. The PEEK material was available with two types of reinforcing fibers: AS-4 and the newer IM-7.",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c009-0ed66997",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 7",
+    "tags": [
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "Specimens All materials were processed in house according to manufacturer specifications. Quasi-isotropic laminates were made in two thicknesses (24 and 48 plies thick) with a layup designation of (-45/0/45/90) ns (n = 3 or 6). Typical laminate fiber volume fractions are given in Table I. Specimens, 12.1 X 10.2 cm, were then cut from these plates with the 0-degree direction along the longer specimen direction. Typical thicknesses ranged from 0.312 to 0.371 cm for the 24 ply and from 0.648 to 0.721 cm for the 48 ply samples. All sample edges were ground to ensure flat and perpendicular faces. Routine C-Scans were performed to ensure that samples were free of gross defects prior to the impact",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 7",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c010-457a4872",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 7",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "performed to ensure that samples were free of gross defects prior to the impact test. Experimental Details The fixture (Fig. 1) consisted of a pair of 15 cm square picture frame blocks, made of mild steel, each 1.91 cm thick and having a central 7.62 X 7.62 cm cutout. The sample was clamped between the two blocks by ten bolts. The sample was aligned so as to be impacted at the center of the plate. An instrumented drop-weight impacter (Fig. 2) consisted of a 2.74-kg striker with a 1.27-cm-diameter stainless steel hemispherical tup. Impact and rebound velocities were measured with a laser and a photoelectric detector. The striker was instrumented to measure both load (via a strain gage assembl",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 7",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c011-dbbf9b30",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 7",
+    "tags": [
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "or. The striker was instrumented to measure both load (via a strain gage assembly) and acceleration. The incident impact energy on the specimen was changed by varying the drop height of the striker in the guide tube. At least six different heights were employed for each material. Typical impact energies ranged from 500 to 9000 J/m. After impact, the specimens were C-Scanned to determine damage profiles. Some samples were photographed to preserve a record of the surface damage. Certain samples were sectioned, polished and viewed through a low magnification optical microscope to",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 7",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c012-c987f2b2",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 8",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "view the damage patterns due to the impact. A large majority of the samples were subjected to plate compression in an edge supported compression fixture. This procedure was used to establish CAI strengths and strains. Selected post impact compression samples were also sectioned, polished and photographed using a low magnification microscope. All microscopic specimens were polished in accordance with standard metallographic techniques. In addition to optical microscopic observations, some impacted laminates were examined using a Scanning Electron Microscope. Gold coated samples taken from around the impacted area were viewed with magnifications up to 1000X to determine mechanisms of impact in",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c013-7bee2dfe",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 8",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "分层",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "were viewed with magnifications up to 1000X to determine mechanisms of impact induced damage. C-Scan techniques though convenient and useful, fail to provide information on through the depth damage accumulation. The lack of detailed impact damage information has often been supplanted by empirical correlations, such as relationships between impact damage and open holes or implanted delaminations [3]. While such techniques are useful, a fundamental knowledge of the impact damage details is still needed. Hence, a recently developed ultrasonic technique [4] has been used to determine internal damage states. Briefly, the ultrasonic evaluation was performed in a water bath using a;5 MHz transducer",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c014-ba1af2fd",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 8",
+    "tags": [
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "the ultrasonic evaluation was performed in a water bath using a;5 MHz transducer with a 0.318 cm aperture and a 5.08 cm focal point. The transducer was operated in a pulse - echo mode and was excited by a square wave pulser. The return signal was amplified and fed to a Time Gain Compensated (TGC) amplifier. A digitizer with a sampling rate of 100 MHz and nominal 8 bit dynamic range acquired the signal and passed it to the computer for later analysis. The entire ultrasonic wave was digitized to include front, back and interior surface reflections. A spatial sampling rate of 1 mm was on the order of a 3dB point spread for the transducer as determined experimentally. A typical sampling size was",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c015-0f4c7b64",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 8",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "ead for the transducer as determined experimentally. A typical sampling size was 8 X 8 cm. The TGC had a 50 MHz bandwidth, a 50 dB gain and a control bandwidth of 5",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c016-d0e1e189",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 9",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "MHz. In order to enhance the effective dynamic range, the front surface signal was attenuated and the interior and back surface signals were enhanced to the input limit of the digitizer. The data was post - processed using a Fourier deconvolution and analytic magnitude signal processing techniques to provide volumetric views of the sample at any depth. A discussion of this technique has been presented previously [4]. Processed waveforms were assembled into a three dimensional array in position (x - y) and time. Progressive slices in time yielded a movie in which each frame (equivalent to a digitizer channel time) gave a view deeper in the sample. The signal sources at the same depth were in",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 9",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c017-8ce71061",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 9",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "gave a view deeper in the sample. The signal sources at the same depth were in phase and the larger amplitude backscattered signal corresponded to an impact generated delamination. Individual time slices could also be stored and printed to yield a hard copy of the ply level damage patterns. RESULTS AND DISCUSSION Figure 3 depicts a.planar measure of the extent of delamination (determined by C - Scans) in the composite samples as a function of the incident impact energy on the plate. Though it discounts delaminated areas that lie on top of one another, it is still instructive from a materials classification viewpoint. For identical energies of impact, the 3501-6/AS-4 material shows the great",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 9",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c018-26a94026",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 9",
+    "tags": [
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "oint. For identical energies of impact, the 3501-6/AS-4 material shows the greatest damage while the Ultem 1000/AS-4 material shows the least. This is important while considering the relative damage resistances of the different materials. Further, the slope of the curve fitted line for each of the materials (except T3900-2/T800-H and Ultem 1000/AS-4) increases continuously with impact energy (i.e., the rate of damage creation increases with the incident impact energy). Also, the divergences in the C-Scan areas among these materials is most significant at the higher impact energies. The differences between the PEEK/IM-7 and PEEK/AS-4 materials appears negligible, implying that the damage resi",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 9",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c019-9f820fe4",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 9",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "K/IM-7 and PEEK/AS-4 materials appears negligible, implying that the damage resistance to impact is a strong function of the matrix material.",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 9",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c020-b9d3fcb8",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 10",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "基体开裂",
+      "冲击损伤"
+    ],
+    "difficulty": "基础",
+    "content": "A few impacted specimens from each material system were sectioned and polished to determine the characteristic damage state. When viewed through an optical microscope at low magnifications, all materials showed a characteristic cone of damage, the size of which depended on the level of incident impact energy and the specific material involved. This cone of damage, comprised of transverse matrix cracks and delaminations, had its apex at the top (near the impact surface), and a widening base through the thickness of the laminate. This is shown schematically in Fig. 4. The 3501-6/AS-4 epoxy material was the most damage prone, with numerous transverse cracks and delaminations at nearly every int",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c021-e9dea642",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 10",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "基体开裂",
+      "冲击损伤"
+    ],
+    "difficulty": "基础",
+    "content": "age prone, with numerous transverse cracks and delaminations at nearly every interface. For comparable C- Scan projected damage areas, both PEEK/AS-4 and PEEK/IM-7 showed fewer transverse cracks and delaminations than the epoxy material, further, these were more concentrated on the tensile side (i.e. the bottom half of the impacted panel's thickness). The 977-2/IM-7 material showed similar damage characteristics. The 3900-2/T800-H material (Fig. 5) showed excessive matrix cracking in a very small localized cone of damage directly under the impact site. Damage in the Ultem material was similarly contained in a very small region under the impacting tup (Fig. 6), however the damage was mostly c",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c022-9f1165a3",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 10",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "分层"
+    ],
+    "difficulty": "基础",
+    "content": "y small region under the impacting tup (Fig. 6), however the damage was mostly confined to the tensile side of the plate. Both these observations are consistent with the results of Fig. 3 which show the T3900-2 and Ultem materials to be most resistant to impact damage. In the SEM, sufficiently far removed from the immediate impact area, most of the material systems showed characteristic hackle marks, commonly seen in samples tested under conditions leading to shear delamination [6]. In these, the resin between the fibers failed in a series of parallel cracks which were transverse to the fibers and inclined at an angle to the interlaminar plane (Fig. 7). Also evident in Fig. 7 is a matrix cra",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c023-b5665d1c",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 10",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "基体开裂",
+      "冲击损伤"
+    ],
+    "difficulty": "基础",
+    "content": "angle to the interlaminar plane (Fig. 7). Also evident in Fig. 7 is a matrix crack that acts as a bridge between delaminations on sequential interfaces. The 977- 2/IM-7 and epoxy material showed some evidence of bare fibers (Fig. 8). Within the",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c024-d9dcf572",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 11",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "impact area, the Ultem 1000 material showed extensive deformation, indicating the tortuous nature of the crack path (Fig. 9). The T3900-2/T800-H material likewise showed considerable fragmentation. Only the PEEK and Ultem samples did not form hackle marks.' Both PEEK/IM-7 and PEEK/AS-4 were characterized by excellent fiber- matrix adhesion (Fig. 10). One representative sample of each material that was subject to plate compression was sectioned along the loading axis, polished, and viewed using low magnification microscopy. Delamination growth was detected by visually comparing the C-Scans before compression to the compressively failed specimens. Several different types of failure modes were",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c025-b9668bd1",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 11",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "基体开裂",
+      "冲击损伤"
+    ],
+    "difficulty": "基础",
+    "content": "e compressively failed specimens. Several different types of failure modes were observed. For example, in the 977-2/IM-7 material (Figs. 11 and 12), the compression caused extensive internal delamination growth (to the edge of the sample) leading to the formation of several sublaminates. The microbuckling of these delamination-induced sublaminates led to final failure. The PEEK/AS-4 material failure is characterized by fewer delaminations and numerous transverse cracks (Fig. 13). Here, the delaminations appeared to be induced by a concerted transverse shear band deformation of several plies (typically bounded by 0° plies). This type of behavior was also exhibited by other material systems an",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c026-932723a6",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 11",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "基体开裂",
+      "冲击损伤",
+      "纤维断裂",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "0° plies). This type of behavior was also exhibited by other material systems and is detailed later. The PEEK/IM-7 sample showed some delamination growth, numerous transverse cracks and several subsurface microbuckle bands. The U1000/AS-4 material (Fig. 14) showed little delamination growth, but a broad central shear band served as a site for ultimate microbuckling failure. Though the T3900-2/T800-H sample had some delamination growth, the narrow zone of extensive impact induced damage showed numerous fiber failures and cracks (Fig. 15). The 3501-6/AS-4 showed extensive delamination and microbuckling. Several laminates were subjected to the through-the-thickness ultrasonic technique outlined",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c027-f91bfcc9",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 11",
+    "tags": [
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "inates were subjected to the through-the-thickness ultrasonic technique outlined earlier. The typical ply-by-ply damage state of an impacted",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c028-646b5f3c",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 12",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "laminate is displayed in Fig. 16. The numbers represent the interfaces between plies of different orientations starting from the top of the laminate. The lighter regions in the figure indicate areas that are delaminated. In any ply, the damage state consists of wedge shaped delaminations bounded between the fiber orientations of the plies above and below the lamina interface. From the central impacted point, these wedge shaped delaminations spiral continually throughout the thickness of the panel to create sublaminates that maintain structural and mechanical continuity. This characteristic damage state is seen in laminates impacted at both high and low energy levels. Dost et al [5] have post",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c029-f09b38c5",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 12",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "基体开裂",
+      "冲击损伤",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "laminates impacted at both high and low energy levels. Dost et al [5] have postulated that these wedge shaped delaminations are linked by transverse matrix cracks in plies adjacent to each delamination, a finding that is confirmed by the evidence in Figs. 7 and 16. In considering the ultrasonic and microscopic evidence, the picture that emerges is one in which the impact produced transverse matrix cracks and delaminations at several ply interfaces. The sublaminates formed maintain complex spatial, structural and mechanical continuity. When subject to post-impact compression, these laminates show two types of damage propagation as shown schematically in Fig. 17. Sublaminates formed by impact",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c030-b3c9eafe",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 12",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "age propagation as shown schematically in Fig. 17. Sublaminates formed by impact induced delaminations have a reduced bending stiffness compared to the undamaged laminate. As the compressive load exceeded a critical value, localized outerply buckling was one of the first events of failure. This was visually witnessed by watching moire fringe patterns develop in the impacted region indicating localized out-of-plane deformations. Compressive damage growth in impacted specimens occurred differently in different materials. The 977-2 and epoxy materials showed extensive delamination growth causing the laminate to split into several longitudinal sublaminates. Final failure occurred when one or mor",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c031-2302dc3a",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 12",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "t into several longitudinal sublaminates. Final failure occurred when one or more of these sublaminates failed by buckling due to reduced lateral support. In the PEEK and Ultem materials, final failure was also triggered by delamination induced sublaminate",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c032-b1552267",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 13",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "分层",
+      "基体开裂",
+      "纤维断裂"
+    ],
+    "difficulty": "基础",
+    "content": "buckling. But in these materials, delaminations appeared to be induced by concerted shear deformation of a few plies typically bounded by 0° plies. Sheared failures of the 0° plies were frequently seen in these samples. CONCLUSIONS An experimental study was undertaken to identify the failure mechanisms in composite laminates due to impacts and to understand damage propagation in post-impact compression. Visible evidence of impact damage was often minor compared to the internal damage suffered due to the impact. This internal damage typically consisted of matrix cracks and delaminations. Fiber failures were not pronounced in the range of impact energies studied. Optical microscopic examinatio",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c033-20b4e8fc",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 13",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "基体开裂",
+      "冲击损伤",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "onounced in the range of impact energies studied. Optical microscopic examinations of the impacted laminates revealed that internal damage was in the shape of a cone of transverse matrix cracks and delaminations. Scanning electron microscopy revealed that delaminations in most materials showed characteristic hackle marks often associated with Mode II shear delaminations. Resin damage directly in the impacted region was seen to consist of cohesive matrix failures and adhesive failures in the fiber-matrix bond. Ultrasonic techniques were helpful in analyzing patterns of internal damage. Conventionally used C-Scan techniques, though useful in delineating the relative damage resistances of the d",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c034-1fac79a3",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 13",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "echniques, though useful in delineating the relative damage resistances of the different materials studied, fail to provide a complete picture of the internal damage state. The characteristic damage state after impact consisted of wedge shaped delaminations spiralling through the thickness at each ply interface and causing the formation of numerous interconnected sublaminates. The ultrasonic evaluation technique used in this study could also provide a quick and effective alternative to destructive and time consuming deplying techniques.",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c035-0b1cbe69",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 14",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "Examinations of post-impact compressive samples revealed that, depending on the material, damage propagated in two different modes. These were delamination growth and localized shear failure. Though final failure invariably involved buckling of one or more of the impact induced sublaminates, the growth of these sublaminates occurred by either delamination propagation (thermosets) or by localized transverse shear band formation (thermoplastics). Both modes are important as they cause severe degradation of post-impact compressive strength. ACKNOWLEDGEMENTS This work was supported in part by NASA Grants NAG - 1 - 569 and NAG - 1 - 1063. REFERENCES 1. K. Srinivasan, W.C. Jackson, and J.A. Hinkle",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 14",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c036-4f321b12",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 14",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "9 and NAG - 1 - 1063. REFERENCES 1. K. Srinivasan, W.C. Jackson, and J.A. Hinkley. NASA TM 102755 (1991). 2. K. Srinivasan, W.C. Jackson, and J.A. Hinkley. Proceedings of the 36th International SAMPE Symposium / Exhibition, pp 850 - 862 (1991). 3. J. G. Williams. NASA TM 85756 (1984). 4. B.T. Smith, J.S. Heyman. A.M. Buoncristiani, E.D. Blodgett, J.G. Miller and S.M. Freeman. Materials Evaluation, vol. 47, no. 12, pp 1408-1416 (1989). 5. E.F. Dost, L.B. llcewicz and J.H. Gosse. Proceedings of the American Society for Composites, 3rd Technical Conference, pp 354 - 363 (1988). 6. A.J. Russell and K.N. Street edited by N.J. Johnston. Toughened Composites. ASTM STP 937. Philadelphia, PA: ASTM. p",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 14",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c037-b8bcfe8e",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 14",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "by N.J. Johnston. Toughened Composites. ASTM STP 937. Philadelphia, PA: ASTM. pp 275 - 294 (1987).",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 14",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c038-aac7eee0",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 15",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "LIST OF FIGURES 1. Fixture Details 2. Schematic of Drop Weight Impact Test 3. C - Scan Damage Area of 24 ply quasi isotropic laminates 4. Schematic of Cone of Damage due to Impact 5. T3900-2/T800-H Impact Damage observations using a Low Magnification Microscope 6. U1000/AS-4 Impact Damage observations using a Low Magnification Microscope 7. Characteristic hackle patterns in Impacted 3501-6/AS-4 Laminates 8. Scanning Electron Micrograph of Impacted Region in 977-2/IM-7 showing bare fibers 9. Scanning Electron Micrograph of Impacted Region in U1000/ AS-4 10. Scanning Electron Micrograph of coated fibers in PEEK/IM-7 11. 977-2/IM-7 CAI Sample Optical Micrograph - Center of Specimen 12. 977-2/IM",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 15",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c039-5c243660",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 15",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "7 11. 977-2/IM-7 CAI Sample Optical Micrograph - Center of Specimen 12. 977-2/IM-7 CAI Sample Optical Micrograph - End of Specimen 13. PEEK/AS-4 CAI Sample Optical Micrograph 14. U1000/AS-4 CAI Sample Optical Micrograph 15. T3900-2/T800-H CAI Sample Optical Micrograph 16 Ply - by - Ply Damage in 977-2/IM-7 Impacted Laminate 17 Schematic of Damage Propagation During Post-Impact Compression",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 15",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c040-92d6d15f",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 16",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "AUTHOR BIOGRAPHIES Krishna Srinivasan received his B(Tech) degree from UDCT, Bombay, India and his PhD in Materials Engineering from Rensselaer Polytechnic Institute in 1988. He is currently conducting research on advanced composites while working as a Research Associate with Old Dominion University. Wade Jackson received his BS degree from Purdue University and his MS degree in Mechanical Engineering from Stanford University in 1990. He works in the Mechanics of Materials Branch at NASA-Langley where he conducts research on advanced composite materials. Barry T. Smith received his Ph.D. in Physics from the College of William and Mary in 1978. From 1980 to 1989 he was a faculty member of the",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 16",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c041-09ebef69",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 16",
+    "tags": [
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "ge of William and Mary in 1978. From 1980 to 1989 he was a faculty member of the Physics Department of Christopher Newport College. Currently, he is on the research faculty of the Applied Science Program at the College of William and Mary. As an investigator on grants awarded by NASA, he has conducted research in photoelectrochemisty, surface plasmons, amorphous silicon solar cells, thermodynamic limits of energy conversion by quantum and thermal devices, and most recently the QNDE of composites using ultrasonics and digital signal processing techniques. Jeffrey Hinkley received his BA degree from Northwestern University and his PhD in Physical Chemistry from the University of Wisconsin in 1",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 16",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_cr_188975-c042-d85ec051",
+    "domain": "composite",
+    "title": "Quantitative Nondestructive Evaluation of Materials and Structures · Page 16",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "iversity and his PhD in Physical Chemistry from the University of Wisconsin in 1978. For the last seven years, he has worked in the Polymeric Materials Branch at NASA-Langley, where his responsibilities include mechanical characterization of polymers and composites.",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_cr_188975",
+    "source_locator": "Page 16",
+    "source_url": "https://ntrs.nasa.gov/citations/19920000853",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  }
+]

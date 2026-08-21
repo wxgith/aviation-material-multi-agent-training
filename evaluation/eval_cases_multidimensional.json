@@ -1,0 +1,122 @@
+[
+  {
+    "id": "MDE-001",
+    "test_type": "事故案例检索",
+    "learner_profile": "机务维修新员工",
+    "domain": "tire",
+    "input": "分析轮胎严重欠压如何导致多轮胎失效和中断起飞风险",
+    "expected_key_points": ["轮胎欠压", "多轮胎失效", "中断起飞", "维护间隔"],
+    "expected_evidence_sources": ["tire_ntsb_aar_10_02"],
+    "expected_agent_steps": 6,
+    "expected_next_action": "补充案例",
+    "pass_criteria": "检索结果包含 NTSB 事故报告，生成内容区分事实、结论与训练建议"
+  },
+  {
+    "id": "MDE-002",
+    "test_type": "维修规范检索",
+    "learner_profile": "机务维修新员工",
+    "domain": "tire",
+    "input": "制定航空轮胎装机状态下的充压、磨耗、割伤检查清单",
+    "expected_key_points": ["充压检查", "胎面磨耗", "割伤", "装机检查"],
+    "expected_evidence_sources": ["tire_faa_ac20_97b", "tire_faa_ac65_15a_landing_gear"],
+    "expected_agent_steps": 6,
+    "expected_next_action": "继续巩固",
+    "pass_criteria": "实操指南包含检查顺序和安全边界，并引用 FAA 来源"
+  },
+  {
+    "id": "MDE-003",
+    "test_type": "实验变量检索",
+    "learner_profile": "材料方向研究生",
+    "domain": "tire",
+    "input": "比较滑移率和跑道表面对轮胎磨损率与胎面温度的影响",
+    "expected_key_points": ["滑移率", "跑道表面", "磨损率", "胎面温度"],
+    "expected_evidence_sources": ["tire_nasa_tn_d_6963"],
+    "expected_agent_steps": 6,
+    "expected_next_action": "进阶挑战",
+    "pass_criteria": "检索到 NASA TN D-6963，且不把相关性表述为任意工况下的普遍因果"
+  },
+  {
+    "id": "MDE-004",
+    "test_type": "机理综合",
+    "learner_profile": "材料方向研究生",
+    "domain": "tire",
+    "input": "综合热氧老化、疲劳磨损和滑移条件解释胎面损伤演化",
+    "expected_key_points": ["热氧老化", "疲劳磨损", "滑移条件", "证据边界"],
+    "expected_evidence_sources": ["tire_mdpi_polymers_2021_fatigue_wear", "tire_nasa_tp_1569"],
+    "expected_agent_steps": 6,
+    "expected_next_action": "进阶挑战",
+    "pass_criteria": "至少组合论文与官方试验报告两个来源，不虚构耦合模型参数"
+  },
+  {
+    "id": "MDE-005",
+    "test_type": "维修规范检索",
+    "learner_profile": "机务维修新员工",
+    "domain": "brake",
+    "input": "形成刹车盘、刹车衬片和刹车组件的基础检查流程",
+    "expected_key_points": ["刹车盘", "刹车衬片", "组件检查", "安全约束"],
+    "expected_evidence_sources": ["brake_faa_ac65_15a_landing_gear"],
+    "expected_agent_steps": 6,
+    "expected_next_action": "继续巩固",
+    "pass_criteria": "检索结果包含 FAA 手册，并提示实际维护以当前 AMM/CMM 为准"
+  },
+  {
+    "id": "MDE-006",
+    "test_type": "运行记录分析",
+    "learner_profile": "材料方向研究生",
+    "domain": "brake",
+    "input": "根据磨损销与机队运行记录讨论碳刹车预测维护",
+    "expected_key_points": ["磨损销", "严重度分类", "运行因素", "维护计划"],
+    "expected_evidence_sources": ["brake_mdpi_aerospace_2025_predictive_wear"],
+    "expected_agent_steps": 6,
+    "expected_next_action": "进阶挑战",
+    "pass_criteria": "说明数据驱动维护的适用范围，不把单一机队结果直接泛化"
+  },
+  {
+    "id": "MDE-007",
+    "test_type": "实验机理检索",
+    "learner_profile": "材料方向研究生",
+    "domain": "brake",
+    "input": "解释碳/碳刹车摩擦热、温度场和磨损形貌之间的关系",
+    "expected_key_points": ["摩擦热", "温度场", "磨损形貌", "热物性"],
+    "expected_evidence_sources": ["brake_mdpi_materials_2020_heating", "brake_nasa_cr_134989"],
+    "expected_agent_steps": 6,
+    "expected_next_action": "进阶挑战",
+    "pass_criteria": "至少结合热模型与磨损实验两个证据来源"
+  },
+  {
+    "id": "MDE-008",
+    "test_type": "检测方法对比",
+    "learner_profile": "科研训练新手",
+    "domain": "composite",
+    "input": "比较超声 C-scan、热成像和剪切散斑检测模拟分层的能力",
+    "expected_key_points": ["C-scan", "热成像", "剪切散斑", "模拟分层"],
+    "expected_evidence_sources": ["composite_nasa_19960025438"],
+    "expected_agent_steps": 6,
+    "expected_next_action": "补充案例",
+    "pass_criteria": "讲义说明三种方法的实验对象和观察差异，不给出来源未支持的绝对优劣"
+  },
+  {
+    "id": "MDE-009",
+    "test_type": "冲击损伤实验",
+    "learner_profile": "材料方向研究生",
+    "domain": "composite",
+    "input": "分析层间缝合对冲击分层面积和冲击后压缩强度的影响",
+    "expected_key_points": ["层间缝合", "分层面积", "C-scan", "冲击后压缩强度"],
+    "expected_evidence_sources": ["composite_nasa_20200002405"],
+    "expected_agent_steps": 6,
+    "expected_next_action": "进阶挑战",
+    "pass_criteria": "检索到 NASA 冲击实验，资源中保留冲击能量和试样体系边界"
+  },
+  {
+    "id": "MDE-010",
+    "test_type": "证据多样性",
+    "learner_profile": "本科低年级学生",
+    "domain": "composite",
+    "input": "用基础概念、检测案例和实验记录解释复合材料冲击分层",
+    "expected_key_points": ["分层机理", "检测图像", "实验记录", "证据来源"],
+    "expected_evidence_sources": ["local_json_composite", "composite_springer_2024_cscan_ct", "composite_nasa_20200002405"],
+    "expected_agent_steps": 6,
+    "expected_next_action": "补充案例",
+    "pass_criteria": "前五条证据至少来自三个 source_id，且包含一个官方或同行评审来源"
+  }
+]

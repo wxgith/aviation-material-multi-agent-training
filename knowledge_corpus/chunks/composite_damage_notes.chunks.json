@@ -1,0 +1,110 @@
+[
+  {
+    "id": "composite_damage_notes-c001-c1f9c709",
+    "domain": "composite",
+    "title": "composite_damage_notes · 低速冲击与隐蔽损伤",
+    "tags": [
+      "分层"
+    ],
+    "difficulty": "基础",
+    "content": "复合材料板低速冲击后可能出现表面凹坑不明显但内部存在分层、基体开裂和纤维断裂的情况。训练时必须警惕隐蔽损伤，不能只用外观判断损伤范围。",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_damage_notes",
+    "source_locator": "低速冲击与隐蔽损伤",
+    "source_url": "",
+    "source_authority": "curated_local",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_damage_notes-c002-be4cb4cb",
+    "domain": "composite",
+    "title": "composite_damage_notes · 分层对载荷传递的影响",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "进阶",
+    "content": "分层会削弱层间载荷传递，使层合板在压缩或疲劳载荷下更容易发生损伤扩展。分析时需要结合铺层方向、载荷路径和边界条件。",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_damage_notes",
+    "source_locator": "分层对载荷传递的影响",
+    "source_url": "",
+    "source_authority": "curated_local",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_damage_notes-c003-ae26f436",
+    "domain": "composite",
+    "title": "composite_damage_notes · 无损检测图像判读",
+    "tags": [
+      "无损检测"
+    ],
+    "difficulty": "提升",
+    "content": "超声 C 扫、红外热成像和 X 射线等方法可辅助定位内部损伤范围。判读时要比较外观损伤与内部异常区域的差异，并说明检测方法和阈值。",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_damage_notes",
+    "source_locator": "无损检测图像判读",
+    "source_url": "",
+    "source_authority": "curated_local",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_damage_notes-c004-5359317b",
+    "domain": "composite",
+    "title": "composite_damage_notes · 损伤扩展分析",
+    "tags": [
+      "损伤扩展"
+    ],
+    "difficulty": "进阶",
+    "content": "损伤扩展分析需要综合冲击能量、初始损伤范围、载荷谱、边界条件和材料铺层，形成扩展风险和后续检测建议。",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_damage_notes",
+    "source_locator": "损伤扩展分析",
+    "source_url": "",
+    "source_authority": "curated_local",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_damage_notes-c005-d24d62ab",
+    "domain": "composite",
+    "title": "composite_damage_notes · 实操训练任务",
+    "tags": [
+      "分层",
+      "无损检测",
+      "实操训练"
+    ],
+    "difficulty": "基础",
+    "content": "学习者需要圈定外观凹坑和无损检测异常区域，比较内外损伤范围，列出分层、基体开裂和纤维断裂证据，并提出后续检测建议。",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_damage_notes",
+    "source_locator": "实操训练任务",
+    "source_url": "",
+    "source_authority": "curated_local",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  }
+]

@@ -1,0 +1,1048 @@
+{
+  "example_purpose": "比赛方案要求的差异化学习者完整输入、中间过程与生成结果样例",
+  "runtime_mode": {
+    "status": "ok",
+    "backend_status": "ok",
+    "version": "0.9.0-experimental-matrix",
+    "data_backend": "sql",
+    "database_enabled": true,
+    "database_connected": true,
+    "es_enabled": true,
+    "es_connected": true,
+    "es_url": "http://127.0.0.1:9201",
+    "es_index": "aviation_material_knowledge",
+    "retrieval_mode": "hybrid",
+    "bge_enabled": false,
+    "embedding_backend": "none",
+    "llm_enabled": false,
+    "llm_model": "",
+    "knowledge_source": "elasticsearch",
+    "llm": {
+      "enabled": false,
+      "mode": "mock-template",
+      "model": "",
+      "base_url_configured": false
+    },
+    "data": {
+      "profiles": 3,
+      "questions": 15,
+      "knowledge_domains": [
+        "tire",
+        "brake",
+        "composite"
+      ],
+      "knowledge_chunks": {
+        "tire": 7,
+        "brake": 5,
+        "composite": 5
+      },
+      "demo_sessions": 1
+    },
+    "team_dataset": {
+      "status": "ready",
+      "mode": "dataset",
+      "approved_for_rag": true,
+      "image_files": 14
+    },
+    "experimental_evidence": {
+      "status": "ready",
+      "asset_count": 53,
+      "topic_count": 4,
+      "reviewed_count": 53
+    }
+  },
+  "profile_input": {
+    "profile_id": "grad_materials",
+    "name": "材料方向研究生",
+    "learner_type": "材料方向研究生",
+    "background": "具备材料学、力学性能和常规表征基础，正在进入航空工程材料损伤研究。",
+    "characteristics": "有材料基础，需要深入损伤机理、实验表征、耦合因素和科研分析表达。",
+    "default_goal": "围绕服役工况建立损伤证据链，形成可复用的实验分析方案。",
+    "self_level": "中",
+    "recommended_domains": [
+      "tire",
+      "brake",
+      "composite"
+    ]
+  },
+  "training_domain": "brake",
+  "learning_goal": "分析航空刹车片高温摩擦、热衰退与磨损形貌证据链，并设计变量控制方案。",
+  "diagnosis_submission": {
+    "profile_id": "grad_materials",
+    "domain": "brake",
+    "answers": [
+      {
+        "question_id": "brake-q1",
+        "answer": "摩擦系数下降或波动增大"
+      },
+      {
+        "question_id": "brake-q2",
+        "answer": "摩擦曲线、温度历史、磨损形貌和氧化特征"
+      },
+      {
+        "question_id": "brake-q3",
+        "answer": "正确"
+      },
+      {
+        "question_id": "brake-q4",
+        "answer": "磨损形貌"
+      },
+      {
+        "question_id": "brake-q5",
+        "answer": "正确"
+      }
+    ]
+  },
+  "diagnosis_result": {
+    "profile_id": "grad_materials",
+    "domain": "brake",
+    "score": 80,
+    "level": "基础一般",
+    "weak_points": [
+      "常见误区"
+    ],
+    "strong_points": [
+      "热衰退",
+      "失效机理",
+      "裂纹",
+      "磨损形貌"
+    ],
+    "diagnosis_summary": "材料方向研究生本次诊断得分 80 分，水平判定为“基础一般”。当前薄弱点集中在 常见误区；相对优势为 热衰退、失效机理、裂纹、磨损形貌。",
+    "details": [
+      {
+        "question_id": "brake-q1",
+        "knowledge_point": "热衰退",
+        "correct": true,
+        "learner_answer": "摩擦系数下降或波动增大",
+        "correct_answer": "摩擦系数下降或波动增大",
+        "explanation": "高能制动导致界面温度上升，摩擦膜失稳或氧化层变化可能造成热衰退。"
+      },
+      {
+        "question_id": "brake-q2",
+        "knowledge_point": "失效机理",
+        "correct": true,
+        "learner_answer": "摩擦曲线、温度历史、磨损形貌和氧化特征",
+        "correct_answer": "摩擦曲线、温度历史、磨损形貌和氧化特征",
+        "explanation": "刹车片失效分析需要建立工况、界面变化、性能衰退和风险之间的证据链。"
+      },
+      {
+        "question_id": "brake-q3",
+        "knowledge_point": "裂纹",
+        "correct": true,
+        "learner_answer": "正确",
+        "correct_answer": "正确",
+        "explanation": "反复制动加热和冷却会产生热应力循环，促进裂纹萌生和扩展。"
+      },
+      {
+        "question_id": "brake-q4",
+        "knowledge_point": "磨损形貌",
+        "correct": true,
+        "learner_answer": "磨损形貌",
+        "correct_answer": "磨损形貌",
+        "explanation": "这些特征通常通过显微观察、三维轮廓或表面分析进行判读。"
+      },
+      {
+        "question_id": "brake-q5",
+        "knowledge_point": "常见误区",
+        "correct": false,
+        "learner_answer": "正确",
+        "correct_answer": "错误",
+        "explanation": "制动能量和温度历史是理解摩擦膜、氧化、热裂纹和热衰退的重要边界条件。"
+      }
+    ]
+  },
+  "agent_run": {
+    "session_id": "6ffcfa52-a72a-4b54-ba7d-25122c4ac5b6",
+    "agent_steps": [
+      {
+        "agent_name": "学情诊断 Agent",
+        "role": "读取学习者画像和诊断结果，识别基础水平、强项与知识薄弱点。",
+        "input_summary": "材料方向研究生，诊断得分 80，自评 中",
+        "output_summary": "材料方向研究生本次诊断得分 80 分，水平判定为“基础一般”。当前薄弱点集中在 常见误区；相对优势为 热衰退、失效机理、裂纹、磨损形貌。",
+        "status": "completed",
+        "confidence": 0.94,
+        "evidence_ids": [
+          "brake-q1",
+          "brake-q2",
+          "brake-q3",
+          "brake-q4",
+          "brake-q5"
+        ],
+        "details": {
+          "score": 80,
+          "level": "基础一般",
+          "weak_points": [
+            "常见误区"
+          ],
+          "strong_points": [
+            "热衰退",
+            "失效机理",
+            "裂纹",
+            "磨损形貌"
+          ],
+          "profile_snapshot": {
+            "profile_id": "grad_materials",
+            "name": "材料方向研究生",
+            "learner_type": "材料方向研究生",
+            "background": "具备材料学、力学性能和常规表征基础，正在进入航空工程材料损伤研究。",
+            "characteristics": "有材料基础，需要深入损伤机理、实验表征、耦合因素和科研分析表达。",
+            "default_goal": "围绕服役工况建立损伤证据链，形成可复用的实验分析方案。",
+            "self_level": "中",
+            "recommended_domains": [
+              "tire",
+              "brake",
+              "composite"
+            ]
+          }
+        }
+      },
+      {
+        "agent_name": "材料领域路由 Agent",
+        "role": "根据训练方向选择航空轮胎、航空刹车片或复合材料板知识库。",
+        "input_summary": "domain=brake",
+        "output_summary": "已路由到“航空刹车片摩擦磨损与失效分析”知识库。",
+        "status": "completed",
+        "confidence": 0.98,
+        "evidence_ids": [],
+        "details": {
+          "domain": "brake",
+          "title": "航空刹车片摩擦磨损与失效分析",
+          "summary": "围绕高温摩擦、热衰退、磨损形貌、氧化、裂纹、摩擦性能变化和失效机理开展训练。"
+        }
+      },
+      {
+        "agent_name": "专业知识检索 Agent",
+        "role": "根据薄弱点、学习目标和学习者类型，从 Elasticsearch 或 JSON fallback 检索证据片段。",
+        "input_summary": "薄弱点：常见误区；目标：分析航空刹车片高温摩擦、热衰退与磨损形貌证据链，并设计变量控制方案。",
+        "output_summary": "检索到 5 条相关知识片段，模式：hybrid，来源：elasticsearch。",
+        "status": "completed",
+        "confidence": 0.88,
+        "evidence_ids": [
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k02",
+          "brake_wear_notes-c002-a6714a3c",
+          "brake_nasa_cr_134989-c009-157cc7dd"
+        ],
+        "details": {
+          "retrieval_mode": "hybrid",
+          "effective_retrieval_mode": "hybrid-bm25-only",
+          "knowledge_source": "elasticsearch",
+          "retrieval_source": "elasticsearch",
+          "evidence_ids": [
+            "brake-k01",
+            "brake_wear_notes-c001-07d5e4a8",
+            "brake-k02",
+            "brake_wear_notes-c002-a6714a3c",
+            "brake_nasa_cr_134989-c009-157cc7dd"
+          ],
+          "evidence_titles": [
+            "高温摩擦与热衰退",
+            "brake_wear_notes · 高温摩擦与热衰退",
+            "磨损形貌识别",
+            "brake_wear_notes · 磨损形貌识别",
+            "Some Wear Studies on Aircraft Brake Systems · Page 6"
+          ],
+          "retrieval_scores": [
+            148.8658,
+            143.9986,
+            83.1245,
+            80.4788,
+            29.4862
+          ],
+          "evidence_source_ids": [
+            "local_json_brake",
+            "brake_wear_notes",
+            "brake_nasa_cr_134989"
+          ],
+          "experimental_evidence": [],
+          "condition_constraints": {
+            "normal_load_N": [],
+            "sliding_distance_m": [],
+            "aging_duration_h": [],
+            "range_or_sequence": false,
+            "comparison": false,
+            "target_topic": ""
+          },
+          "condition_match_strategy": "source-linked-ranking",
+          "embedding": {
+            "bge_enabled": false,
+            "embedding_backend": "none",
+            "bge_model_path": "",
+            "available": false
+          },
+          "vector_note": "embedding unavailable; BM25 remains active",
+          "retrieved_chunks": [
+            {
+              "id": "brake-k01",
+              "domain": "brake",
+              "title": "高温摩擦与热衰退",
+              "tags": [
+                "高温摩擦",
+                "热衰退",
+                "摩擦性能变化"
+              ],
+              "difficulty": "基础",
+              "content": "高能制动会使界面温度快速上升，摩擦膜破坏、氧化层变化或磨屑状态改变都可能导致摩擦系数下降或波动增大。",
+              "source_type": "domain_note",
+              "applicable_learners": [
+                "本科低年级学生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [
+                "温度越高摩擦一定越稳定",
+                "只看最终磨损量不看摩擦曲线"
+              ],
+              "source_id": "local_json_brake",
+              "source_locator": "高温摩擦与热衰退",
+              "source_url": "",
+              "source_authority": "curated_local",
+              "chunk_file": "backend/app/data/knowledge_brake.json",
+              "_score": 148.86581,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "brake_wear_notes-c001-07d5e4a8",
+              "domain": "brake",
+              "title": "brake_wear_notes · 高温摩擦与热衰退",
+              "tags": [
+                "高温摩擦",
+                "热衰退",
+                "氧化"
+              ],
+              "difficulty": "基础",
+              "content": "高能制动会使界面温度快速上升。摩擦膜破坏、氧化层变化或磨屑状态改变都可能导致摩擦系数下降或波动增大。训练时应同时分析摩擦曲线、温度历史和磨损形貌。",
+              "source_type": "parsed_markdown",
+              "source_id": "brake_wear_notes",
+              "source_locator": "高温摩擦与热衰退",
+              "source_url": "",
+              "source_authority": "curated_local",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [],
+              "_score": 143.99864,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "brake-k02",
+              "domain": "brake",
+              "title": "磨损形貌识别",
+              "tags": [
+                "磨损形貌",
+                "表征方法",
+                "实操训练任务"
+              ],
+              "difficulty": "基础",
+              "content": "刹车片表面常见磨屑压实层、沟槽、剥落坑、热裂纹和氧化膜残留。形貌判读应结合摩擦曲线与温度历史。",
+              "source_type": "analysis_template",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [
+                "用单一形貌直接断定失效机理",
+                "忽略温度历史"
+              ],
+              "source_id": "local_json_brake",
+              "source_locator": "磨损形貌识别",
+              "source_url": "",
+              "source_authority": "curated_local",
+              "chunk_file": "backend/app/data/knowledge_brake.json",
+              "_score": 83.12451,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "brake_wear_notes-c002-a6714a3c",
+              "domain": "brake",
+              "title": "brake_wear_notes · 磨损形貌识别",
+              "tags": [
+                "剥落",
+                "氧化",
+                "裂纹"
+              ],
+              "difficulty": "提升",
+              "content": "刹车片表面常见磨屑压实层、沟槽、剥落坑、热裂纹和氧化膜残留。形貌判读应结合摩擦曲线与温度历史，不能用单一形貌直接断定失效机理。",
+              "source_type": "parsed_markdown",
+              "source_id": "brake_wear_notes",
+              "source_locator": "磨损形貌识别",
+              "source_url": "",
+              "source_authority": "curated_local",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [],
+              "_score": 80.47876,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "brake_nasa_cr_134989-c009-157cc7dd",
+              "domain": "brake",
+              "title": "Some Wear Studies on Aircraft Brake Systems · Page 6",
+              "tags": [
+                "磨损形貌",
+                "失效机理",
+                "高温摩擦",
+                "热衰退"
+              ],
+              "difficulty": "基础",
+              "content": "SECTION2 INTRODUCTION From the safety aspect_ two frictional properties of brake materials are important. First_ in order to avoid friction induced vibrations known as \"squeal\", the friction should not vary with velocity. Second, the fric- tion should not decrease with temperature_ thus reducing the tendency of brakes to fade. Knowledgeproviding insight into the braking process will make the devel- opmentwork of brake materials easier. Recently_ several wear studies.which are plausible and promising have been established to interpret and predict the wear behavior under certain circumstances. For example. Bill and Wisander's \"Surface Recrystallization Theory\" (Refs.l and 2) applicable to a so",
+              "source_type": "parsed_markdown",
+              "source_id": "brake_nasa_cr_134989",
+              "source_locator": "Page 6",
+              "source_url": "https://ntrs.nasa.gov/citations/19760024439",
+              "source_authority": "official_primary",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [],
+              "_score": 29.486153,
+              "_retrieval_source": "elasticsearch"
+            }
+          ]
+        }
+      },
+      {
+        "agent_name": "个性化资源生成 Agent",
+        "role": "根据学习者画像、诊断结果和检索证据生成讲义、实操指南、分阶测试题和案例任务。",
+        "input_summary": "材料方向研究生；资源难度=巩固提升",
+        "output_summary": "已生成个性化讲义、实操训练指南、5 道分阶测试题和案例分析任务。",
+        "status": "completed",
+        "confidence": 0.86,
+        "evidence_ids": [
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k02"
+        ],
+        "details": {
+          "resource_keys": [
+            "personalized_lecture",
+            "practical_guide",
+            "graded_quiz",
+            "case_task",
+            "difficulty_match",
+            "personalization",
+            "evidence_boundary",
+            "generation_mode"
+          ],
+          "difficulty_match": {
+            "diagnosis_level": "基础一般",
+            "resource_difficulty": "巩固提升",
+            "reason": "材料方向研究生当前得分 80，资源优先覆盖 常见误区。"
+          },
+          "personalization": {
+            "strategy_id": "graduate",
+            "strategy_label": "科研证据链型",
+            "learner_type": "材料方向研究生",
+            "explanation_style": "围绕变量控制、定量指标、多源表征和不确定性建立可复核机理链。",
+            "practice_focus": "形成实验变量表、对照组、重复性要求和观察事实与机理假设的分层表达。",
+            "assessment_focus": "机理推断、实验设计、定量交叉验证和外推边界"
+          },
+          "evidence_boundary": {
+            "observation": "可直接引用已检索片段和已审核实验资产中的观察记录。",
+            "parameter_fact": "仅使用资产工况字段或检索片段中明确记录的数值，不补齐缺失参数。",
+            "mechanism_inference": "机理只能表述为受证据支持的解释或待验证假设，不能由单张图像直接确定。",
+            "maintenance_decision": "仅提供训练性检查建议，不替代维修手册、工卡、适航或授权放行。"
+          }
+        }
+      },
+      {
+        "agent_name": "专家审核纠偏 Agent",
+        "role": "检查生成资源的专业概念、知识依据、难度匹配、泛化风险和实操约束。",
+        "input_summary": "生成资源 + 检索证据片段",
+        "output_summary": "审核通过，标记 3 个风险点、1 条纠偏建议。",
+        "status": "completed",
+        "confidence": 0.9,
+        "evidence_ids": [
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k02",
+          "brake_wear_notes-c002-a6714a3c",
+          "brake_nasa_cr_134989-c009-157cc7dd"
+        ],
+        "details": {
+          "status": "通过，建议带纠偏提示使用",
+          "approved": true,
+          "requires_regeneration": false,
+          "rejection_reasons": [],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。",
+            "当前依据中实操任务片段不足，建议追加检查流程约束。"
+          ],
+          "corrections": [
+            "围绕“常见误区”补充证据来源、实验边界或检查记录模板。"
+          ],
+          "evidence_ids": [
+            "brake-k01",
+            "brake_wear_notes-c001-07d5e4a8",
+            "brake-k02",
+            "brake_wear_notes-c002-a6714a3c",
+            "brake_nasa_cr_134989-c009-157cc7dd"
+          ],
+          "asset_evidence_ids": [],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "sufficient_for_training",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果"
+          ],
+          "unsupported_claims": [],
+          "evidence_gaps": [
+            "检索结果缺少专门的实操任务片段"
+          ],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "knowledge-only",
+              "basis_ids": [],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "limited",
+              "basis_ids": [],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "bounded-inference",
+              "basis_ids": [
+                "brake-k01",
+                "brake_wear_notes-c001-07d5e4a8",
+                "brake-k02",
+                "brake_wear_notes-c002-a6714a3c",
+                "brake_nasa_cr_134989-c009-157cc7dd"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "brake-k01",
+                "brake_wear_notes-c001-07d5e4a8",
+                "brake-k02",
+                "brake_wear_notes-c002-a6714a3c",
+                "brake_nasa_cr_134989-c009-157cc7dd"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": false,
+          "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+          "consistency_check": "自动检查确认引用闭合和边界提示完整；专业机理正确性仍需专家复核。"
+        }
+      },
+      {
+        "agent_name": "学习路径决策 Agent",
+        "role": "根据诊断结果、资源难度和审核意见输出学习路径、训练建议和推荐动作。",
+        "input_summary": "score=80，level=基础一般",
+        "output_summary": "推荐动作：继续巩固；下一步：完成同方向实操指南和分阶测试，重点提升 常见误区 的迁移能力。",
+        "status": "completed",
+        "confidence": 0.91,
+        "evidence_ids": [
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k02",
+          "brake_wear_notes-c002-a6714a3c",
+          "brake_nasa_cr_134989-c009-157cc7dd"
+        ],
+        "details": {
+          "learning_path": [
+            "画像确认",
+            "基础概念校准",
+            "典型损伤识别",
+            "机理证据链分析",
+            "实操检查任务",
+            "反馈测试与动态更新"
+          ],
+          "difficulty_match": {
+            "diagnosis_level": "基础一般",
+            "resource_difficulty": "巩固提升",
+            "reason": "材料方向研究生当前得分 80，资源优先覆盖 常见误区。"
+          },
+          "next_training_plan": "完成同方向实操指南和分阶测试，重点提升 常见误区 的迁移能力。",
+          "recommended_action": "继续巩固"
+        }
+      }
+    ]
+  },
+  "generated_resources": {
+    "personalized_lecture": {
+      "title": "航空刹车片摩擦磨损与失效分析个性化讲义",
+      "difficulty": "巩固提升",
+      "target": "分析航空刹车片高温摩擦、热衰退与磨损形貌证据链，并设计变量控制方案。",
+      "sections": [
+        {
+          "heading": "1. 定义研究问题、变量与边界",
+          "content": "围绕 常见误区 明确研究问题、自变量、控制变量和响应指标，再区分实验观察、定量结果、机理假设与外推边界。",
+          "evidence_ids": [
+            "brake-k01",
+            "brake_wear_notes-c001-07d5e4a8"
+          ]
+        },
+        {
+          "heading": "2. 建立可证伪的损伤机理链",
+          "content": "证据1（brake-k01）：高能制动会使界面温度快速上升，摩擦膜破坏、氧化层变化或磨屑状态改变都可能导致摩擦系数下降或波动增大。 证据2（brake-k02）：刹车片表面常见磨屑压实层、沟槽、剥落坑、热裂纹和氧化膜残留。形貌判读应结合摩擦曲线与温度历史。 本画像训练要求：围绕变量控制、定量指标、多源表征和不确定性建立可复核机理链。",
+          "evidence_ids": [
+            "brake-k01",
+            "brake_wear_notes-c001-07d5e4a8",
+            "brake-k02"
+          ]
+        },
+        {
+          "heading": "3. 用定量记录和多源表征交叉验证",
+          "content": "按“变量设计 - 定量结果 - 形貌证据 - 竞争机理 - 不确定性 - 外推边界”形成可复核科研表达。",
+          "evidence_ids": [
+            "brake-k01",
+            "brake_wear_notes-c001-07d5e4a8",
+            "brake-k02",
+            "brake_wear_notes-c002-a6714a3c",
+            "brake_nasa_cr_134989-c009-157cc7dd"
+          ]
+        }
+      ]
+    },
+    "practical_guide": {
+      "title": "刹车片摩擦磨损检查实操指南",
+      "steps": [
+        "建立自变量、控制变量和重复试验表，分别记录观察事实、定量结果与待验证机理假设。",
+        "读取制动能量、温度峰值和摩擦系数曲线。",
+        "标注稳定段、衰退段和异常波动区间。",
+        "观察沟槽、剥落坑、热裂纹和氧化膜残留。",
+        "形成工况、界面变化、性能变化和风险判断的证据链。"
+      ],
+      "record_template": [
+        "自变量与水平",
+        "控制变量",
+        "重复次数",
+        "定量指标",
+        "形貌证据",
+        "机理假设",
+        "不确定性"
+      ],
+      "constraints": [
+        "必须说明实验或检查边界条件。",
+        "训练建议不能替代真实适航放行结论。",
+        "形貌判断需尽量结合多源表征。",
+        "趋势结论必须限定在已测工况范围内，并报告重复性、异常值和证据缺口。"
+      ],
+      "evidence_ids": [
+        "brake-k01",
+        "brake_wear_notes-c001-07d5e4a8",
+        "brake-k02",
+        "brake_wear_notes-c002-a6714a3c",
+        "brake_nasa_cr_134989-c009-157cc7dd"
+      ]
+    },
+    "graded_quiz": [
+      {
+        "id": "feedback-brake-q5",
+        "level": "基础",
+        "question": "航空刹车片失效分析可以完全脱离制动能量和温度历史。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "错误",
+        "knowledge_point": "常见误区",
+        "explanation": "制动能量和温度历史是理解摩擦膜、氧化、热裂纹和热衰退的重要边界条件。",
+        "training_focus": "机理推断、实验设计、定量交叉验证和外推边界"
+      },
+      {
+        "id": "feedback-brake-q1",
+        "level": "提升",
+        "question": "航空刹车片热衰退通常表现为哪种现象？",
+        "options": [
+          "摩擦系数下降或波动增大",
+          "材料永不磨损",
+          "温度越高越稳定",
+          "裂纹自动闭合"
+        ],
+        "answer": "摩擦系数下降或波动增大",
+        "knowledge_point": "热衰退",
+        "explanation": "高能制动导致界面温度上升，摩擦膜失稳或氧化层变化可能造成热衰退。",
+        "training_focus": "机理推断、实验设计、定量交叉验证和外推边界"
+      },
+      {
+        "id": "feedback-brake-q2",
+        "level": "提升",
+        "question": "判断刹车片高温摩擦失效时，应优先结合哪组证据？",
+        "options": [
+          "摩擦曲线、温度历史、磨损形貌和氧化特征",
+          "文件名和页码",
+          "单张照片",
+          "主观手感"
+        ],
+        "answer": "摩擦曲线、温度历史、磨损形貌和氧化特征",
+        "knowledge_point": "失效机理",
+        "explanation": "刹车片失效分析需要建立工况、界面变化、性能衰退和风险之间的证据链。",
+        "training_focus": "机理推断、实验设计、定量交叉验证和外推边界"
+      },
+      {
+        "id": "feedback-brake-q3",
+        "level": "进阶",
+        "question": "热裂纹可能与热应力循环有关。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "正确",
+        "knowledge_point": "裂纹",
+        "explanation": "反复制动加热和冷却会产生热应力循环，促进裂纹萌生和扩展。",
+        "training_focus": "机理推断、实验设计、定量交叉验证和外推边界"
+      },
+      {
+        "id": "feedback-brake-q4",
+        "level": "进阶",
+        "question": "磨屑压实层、沟槽、剥落坑主要属于哪类观察对象？",
+        "options": [
+          "磨损形貌",
+          "学习者画像",
+          "接口参数",
+          "目录结构"
+        ],
+        "answer": "磨损形貌",
+        "knowledge_point": "磨损形貌",
+        "explanation": "这些特征通常通过显微观察、三维轮廓或表面分析进行判读。",
+        "training_focus": "机理推断、实验设计、定量交叉验证和外推边界"
+      }
+    ],
+    "case_task": {
+      "title": "案例分析任务",
+      "brief": "某航空刹车片在高能制动后摩擦系数下降，表面出现热裂纹和氧化膜残留。请分析失效机理链条。",
+      "focus_points": [
+        "常见误区"
+      ],
+      "expected_output": [
+        "变量与对照设计",
+        "定量趋势",
+        "多源证据链",
+        "竞争机理",
+        "不确定性与外推边界"
+      ],
+      "evidence_ids": [
+        "brake-k01",
+        "brake_wear_notes-c001-07d5e4a8",
+        "brake-k02"
+      ]
+    },
+    "difficulty_match": {
+      "diagnosis_level": "基础一般",
+      "resource_difficulty": "巩固提升",
+      "reason": "材料方向研究生当前得分 80，资源优先覆盖 常见误区。"
+    },
+    "personalization": {
+      "strategy_id": "graduate",
+      "strategy_label": "科研证据链型",
+      "learner_type": "材料方向研究生",
+      "explanation_style": "围绕变量控制、定量指标、多源表征和不确定性建立可复核机理链。",
+      "practice_focus": "形成实验变量表、对照组、重复性要求和观察事实与机理假设的分层表达。",
+      "assessment_focus": "机理推断、实验设计、定量交叉验证和外推边界"
+    },
+    "evidence_boundary": {
+      "observation": "可直接引用已检索片段和已审核实验资产中的观察记录。",
+      "parameter_fact": "仅使用资产工况字段或检索片段中明确记录的数值，不补齐缺失参数。",
+      "mechanism_inference": "机理只能表述为受证据支持的解释或待验证假设，不能由单张图像直接确定。",
+      "maintenance_decision": "仅提供训练性检查建议，不替代维修手册、工卡、适航或授权放行。"
+    },
+    "generation_mode": "mock-template"
+  },
+  "learning_report": {
+    "session_id": "6ffcfa52-a72a-4b54-ba7d-25122c4ac5b6",
+    "profile": {
+      "profile_id": "grad_materials",
+      "name": "材料方向研究生",
+      "learner_type": "材料方向研究生",
+      "background": "具备材料学、力学性能和常规表征基础，正在进入航空工程材料损伤研究。",
+      "characteristics": "有材料基础，需要深入损伤机理、实验表征、耦合因素和科研分析表达。",
+      "default_goal": "围绕服役工况建立损伤证据链，形成可复用的实验分析方案。",
+      "self_level": "中",
+      "recommended_domains": [
+        "tire",
+        "brake",
+        "composite"
+      ]
+    },
+    "domain": {
+      "domain": "brake",
+      "title": "航空刹车片摩擦磨损与失效分析",
+      "summary": "围绕高温摩擦、热衰退、磨损形貌、氧化、裂纹、摩擦性能变化和失效机理开展训练。"
+    },
+    "diagnosis_score": 80,
+    "diagnosis_level": "基础一般",
+    "knowledge_blind_spots": [
+      "常见误区"
+    ],
+    "strong_points": [
+      "热衰退",
+      "失效机理",
+      "裂纹",
+      "磨损形貌"
+    ],
+    "diagnosis_summary": "材料方向研究生本次诊断得分 80 分，水平判定为“基础一般”。当前薄弱点集中在 常见误区；相对优势为 热衰退、失效机理、裂纹、磨损形貌。",
+    "resource_difficulty_match": {
+      "diagnosis_level": "基础一般",
+      "resource_difficulty": "巩固提升",
+      "reason": "材料方向研究生当前得分 80，资源优先覆盖 常见误区。"
+    },
+    "personalization_strategy": {
+      "strategy_id": "graduate",
+      "strategy_label": "科研证据链型",
+      "learner_type": "材料方向研究生",
+      "explanation_style": "围绕变量控制、定量指标、多源表征和不确定性建立可复核机理链。",
+      "practice_focus": "形成实验变量表、对照组、重复性要求和观察事实与机理假设的分层表达。",
+      "assessment_focus": "机理推断、实验设计、定量交叉验证和外推边界"
+    },
+    "recommended_learning_path": [
+      "画像确认",
+      "基础概念校准",
+      "典型损伤识别",
+      "机理证据链分析",
+      "实操检查任务",
+      "反馈测试与动态更新"
+    ],
+    "next_training_suggestion": "完成同方向实操指南和分阶测试，重点提升 常见误区 的迁移能力。",
+    "recommended_action": "继续巩固",
+    "agent_review": {
+      "status": "通过，建议带纠偏提示使用",
+      "approved": true,
+      "requires_regeneration": false,
+      "rejection_reasons": [],
+      "risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "corrections": [
+        "围绕“常见误区”补充证据来源、实验边界或检查记录模板。"
+      ],
+      "evidence_ids": [
+        "brake-k01",
+        "brake_wear_notes-c001-07d5e4a8",
+        "brake-k02",
+        "brake_wear_notes-c002-a6714a3c",
+        "brake_nasa_cr_134989-c009-157cc7dd"
+      ],
+      "asset_evidence_ids": [],
+      "review_scope": {
+        "automated_checks": [
+          "引用闭合",
+          "工况字段",
+          "难度匹配",
+          "实操约束",
+          "高风险表述"
+        ],
+        "expert_review_required": [
+          "专业机理正确性",
+          "实验结论有效性",
+          "真实维修处置"
+        ]
+      },
+      "evidence_sufficiency": "sufficient_for_training",
+      "verified_claims": [
+        "资源中的证据 ID 均来自本次检索结果"
+      ],
+      "unsupported_claims": [],
+      "evidence_gaps": [
+        "检索结果缺少专门的实操任务片段"
+      ],
+      "claim_assessments": [
+        {
+          "category": "实验观察",
+          "status": "knowledge-only",
+          "basis_ids": [],
+          "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+        },
+        {
+          "category": "工况参数事实",
+          "status": "limited",
+          "basis_ids": [],
+          "boundary": "缺失参数保持未知，不进行插补。"
+        },
+        {
+          "category": "损伤机理推断",
+          "status": "bounded-inference",
+          "basis_ids": [
+            "brake-k01",
+            "brake_wear_notes-c001-07d5e4a8",
+            "brake-k02",
+            "brake_wear_notes-c002-a6714a3c",
+            "brake_nasa_cr_134989-c009-157cc7dd"
+          ],
+          "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+        },
+        {
+          "category": "维护决策建议",
+          "status": "training-only",
+          "basis_ids": [
+            "brake-k01",
+            "brake_wear_notes-c001-07d5e4a8",
+            "brake-k02",
+            "brake_wear_notes-c002-a6714a3c",
+            "brake_nasa_cr_134989-c009-157cc7dd"
+          ],
+          "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+        }
+      ],
+      "degraded_output": false,
+      "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+      "consistency_check": "自动检查确认引用闭合和边界提示完整；专业机理正确性仍需专家复核。"
+    },
+    "retrieved_knowledge": [
+      {
+        "id": "brake-k01",
+        "domain": "brake",
+        "title": "高温摩擦与热衰退",
+        "tags": [
+          "高温摩擦",
+          "热衰退",
+          "摩擦性能变化"
+        ],
+        "difficulty": "基础",
+        "content": "高能制动会使界面温度快速上升，摩擦膜破坏、氧化层变化或磨屑状态改变都可能导致摩擦系数下降或波动增大。",
+        "source_type": "domain_note",
+        "applicable_learners": [
+          "本科低年级学生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [
+          "温度越高摩擦一定越稳定",
+          "只看最终磨损量不看摩擦曲线"
+        ],
+        "source_id": "local_json_brake",
+        "source_locator": "高温摩擦与热衰退",
+        "source_url": "",
+        "source_authority": "curated_local",
+        "chunk_file": "backend/app/data/knowledge_brake.json",
+        "_score": 148.86581,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "brake_wear_notes-c001-07d5e4a8",
+        "domain": "brake",
+        "title": "brake_wear_notes · 高温摩擦与热衰退",
+        "tags": [
+          "高温摩擦",
+          "热衰退",
+          "氧化"
+        ],
+        "difficulty": "基础",
+        "content": "高能制动会使界面温度快速上升。摩擦膜破坏、氧化层变化或磨屑状态改变都可能导致摩擦系数下降或波动增大。训练时应同时分析摩擦曲线、温度历史和磨损形貌。",
+        "source_type": "parsed_markdown",
+        "source_id": "brake_wear_notes",
+        "source_locator": "高温摩擦与热衰退",
+        "source_url": "",
+        "source_authority": "curated_local",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [],
+        "_score": 143.99864,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "brake-k02",
+        "domain": "brake",
+        "title": "磨损形貌识别",
+        "tags": [
+          "磨损形貌",
+          "表征方法",
+          "实操训练任务"
+        ],
+        "difficulty": "基础",
+        "content": "刹车片表面常见磨屑压实层、沟槽、剥落坑、热裂纹和氧化膜残留。形貌判读应结合摩擦曲线与温度历史。",
+        "source_type": "analysis_template",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [
+          "用单一形貌直接断定失效机理",
+          "忽略温度历史"
+        ],
+        "source_id": "local_json_brake",
+        "source_locator": "磨损形貌识别",
+        "source_url": "",
+        "source_authority": "curated_local",
+        "chunk_file": "backend/app/data/knowledge_brake.json",
+        "_score": 83.12451,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "brake_wear_notes-c002-a6714a3c",
+        "domain": "brake",
+        "title": "brake_wear_notes · 磨损形貌识别",
+        "tags": [
+          "剥落",
+          "氧化",
+          "裂纹"
+        ],
+        "difficulty": "提升",
+        "content": "刹车片表面常见磨屑压实层、沟槽、剥落坑、热裂纹和氧化膜残留。形貌判读应结合摩擦曲线与温度历史，不能用单一形貌直接断定失效机理。",
+        "source_type": "parsed_markdown",
+        "source_id": "brake_wear_notes",
+        "source_locator": "磨损形貌识别",
+        "source_url": "",
+        "source_authority": "curated_local",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [],
+        "_score": 80.47876,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "brake_nasa_cr_134989-c009-157cc7dd",
+        "domain": "brake",
+        "title": "Some Wear Studies on Aircraft Brake Systems · Page 6",
+        "tags": [
+          "磨损形貌",
+          "失效机理",
+          "高温摩擦",
+          "热衰退"
+        ],
+        "difficulty": "基础",
+        "content": "SECTION2 INTRODUCTION From the safety aspect_ two frictional properties of brake materials are important. First_ in order to avoid friction induced vibrations known as \"squeal\", the friction should not vary with velocity. Second, the fric- tion should not decrease with temperature_ thus reducing the tendency of brakes to fade. Knowledgeproviding insight into the braking process will make the devel- opmentwork of brake materials easier. Recently_ several wear studies.which are plausible and promising have been established to interpret and predict the wear behavior under certain circumstances. For example. Bill and Wisander's \"Surface Recrystallization Theory\" (Refs.l and 2) applicable to a so",
+        "source_type": "parsed_markdown",
+        "source_id": "brake_nasa_cr_134989",
+        "source_locator": "Page 6",
+        "source_url": "https://ntrs.nasa.gov/citations/19760024439",
+        "source_authority": "official_primary",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [],
+        "_score": 29.486153,
+        "_retrieval_source": "elasticsearch"
+      }
+    ]
+  }
+}

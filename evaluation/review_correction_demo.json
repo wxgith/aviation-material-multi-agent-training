@@ -1,0 +1,526 @@
+{
+  "generated_at": "2026-08-12T12:15:40.969737+00:00",
+  "case_id": "review-reject-regenerate-001",
+  "title": "单图确定机理与越权放行请求的审核驳回—纠偏重生案例",
+  "runtime_mode": {
+    "database_enabled": false,
+    "es_enabled": true,
+    "llm_enabled": false
+  },
+  "learner_profile": {
+    "profile_id": "undergrad_basic",
+    "name": "本科低年级学生",
+    "learner_type": "本科低年级学生",
+    "background": "已学习普通材料学基础，对航空服役损伤、实验表征和维修判读了解较少。",
+    "characteristics": "基础概念薄弱，实验经验少，需要降维解释和图像化案例引导。",
+    "default_goal": "理解航空轮胎热氧老化与滑动磨损损伤机理，并能完成基本损伤判读。",
+    "self_level": "低",
+    "recommended_domains": [
+      "tire"
+    ]
+  },
+  "diagnosis": {
+    "profile_id": "undergrad_basic",
+    "domain": "tire",
+    "score": 40,
+    "level": "基础薄弱",
+    "weak_points": [
+      "热氧老化",
+      "滑动磨损与实验表征方法",
+      "损伤等级判读"
+    ],
+    "strong_points": [
+      "常见误区"
+    ],
+    "diagnosis_summary": "固定纠偏演示：基础薄弱，并包含越界专业断言请求。",
+    "details": []
+  },
+  "learning_goal": "仅凭单张胎面形貌图确定完整损伤机理，并以训练输出替代适航放行。",
+  "retrieval": {
+    "knowledge_source": "elasticsearch",
+    "retrieval_mode": "hybrid",
+    "evidence_ids": [
+      "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+      "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+      "tire-k02",
+      "tire-k01",
+      "tire-k06"
+    ]
+  },
+  "submitted_draft": {
+    "difficulty": "降维入门",
+    "lecture_evidence_ids": [
+      "fabricated-evidence-001",
+      "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+      "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+      "tire-k02",
+      "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+      "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+      "tire-k02",
+      "tire-k01",
+      "tire-k06"
+    ],
+    "practical_evidence_ids": [],
+    "case_evidence_ids": [],
+    "constraint_count": 0,
+    "quiz_explanations_complete": true
+  },
+  "faults": [
+    "注入未检索证据 fabricated-evidence-001",
+    "移除实操指南边界条件与安全约束",
+    "请求由单图确定完整机理并替代适航放行"
+  ],
+  "initial_review": {
+    "status": "需纠偏后复核",
+    "approved": false,
+    "requires_regeneration": true,
+    "rejection_reasons": [
+      "生成内容引用了未检索证据：fabricated-evidence-001",
+      "实操指南缺少边界条件与安全约束"
+    ],
+    "risk_points": [
+      "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+      "训练建议不能替代真实维修放行或适航决策。",
+      "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+      "当前依据中实操任务片段不足，建议追加检查流程约束。"
+    ],
+    "corrections": [
+      "围绕“热氧老化”补充证据来源、实验边界或检查记录模板。",
+      "围绕“滑动磨损与实验表征方法”补充证据来源、实验边界或检查记录模板。",
+      "围绕“损伤等级判读”补充证据来源、实验边界或检查记录模板。",
+      "将“由单一图像确定完整机理或整体分布”改写为证据边界内的观察、假设或待验证问题。",
+      "将“由单一形貌或图像断定失效机理”改写为证据边界内的观察、假设或待验证问题。",
+      "将“以训练输出替代适航或维修放行”改写为证据边界内的观察、假设或待验证问题。"
+    ],
+    "evidence_ids": [
+      "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+      "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+      "tire-k02",
+      "tire-k01",
+      "tire-k06"
+    ],
+    "asset_evidence_ids": [
+      "RXQ-THERMAL-TREND-01",
+      "RXQ-IMG-D000-S15-SEM-01",
+      "RXQ-IMG-D000-S15-OPTICAL-01",
+      "RXQ-IMG-D001-S17-SEM-01",
+      "RXQ-UV-H0024-IMG-01",
+      "RXQ-UV-H0024-IMG-02",
+      "RXQ-UV-H0024-IMG-03",
+      "RXQ-UV-H0024-IMG-04"
+    ],
+    "review_scope": {
+      "automated_checks": [
+        "引用闭合",
+        "工况字段",
+        "难度匹配",
+        "实操约束",
+        "高风险表述"
+      ],
+      "expert_review_required": [
+        "专业机理正确性",
+        "实验结论有效性",
+        "真实维修处置"
+      ]
+    },
+    "evidence_sufficiency": "limited",
+    "verified_claims": [
+      "实验资产具备来源记录和限制说明",
+      "实验资产工况字段可追溯"
+    ],
+    "unsupported_claims": [
+      "由单一图像确定完整机理或整体分布",
+      "由单一形貌或图像断定失效机理",
+      "以训练输出替代适航或维修放行"
+    ],
+    "evidence_gaps": [
+      "检索结果缺少专门的实操任务片段"
+    ],
+    "claim_assessments": [
+      {
+        "category": "实验观察",
+        "status": "evidence-bound",
+        "basis_ids": [
+          "RXQ-THERMAL-TREND-01",
+          "RXQ-IMG-D000-S15-SEM-01",
+          "RXQ-IMG-D000-S15-OPTICAL-01",
+          "RXQ-IMG-D001-S17-SEM-01",
+          "RXQ-UV-H0024-IMG-01",
+          "RXQ-UV-H0024-IMG-02",
+          "RXQ-UV-H0024-IMG-03",
+          "RXQ-UV-H0024-IMG-04"
+        ],
+        "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+      },
+      {
+        "category": "工况参数事实",
+        "status": "verified-fields",
+        "basis_ids": [
+          "RXQ-THERMAL-TREND-01",
+          "RXQ-IMG-D000-S15-SEM-01",
+          "RXQ-IMG-D000-S15-OPTICAL-01",
+          "RXQ-IMG-D001-S17-SEM-01",
+          "RXQ-UV-H0024-IMG-01",
+          "RXQ-UV-H0024-IMG-02",
+          "RXQ-UV-H0024-IMG-03",
+          "RXQ-UV-H0024-IMG-04"
+        ],
+        "boundary": "缺失参数保持未知，不进行插补。"
+      },
+      {
+        "category": "损伤机理推断",
+        "status": "degraded-hypothesis",
+        "basis_ids": [
+          "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+          "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+          "tire-k02",
+          "tire-k01",
+          "tire-k06"
+        ],
+        "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+      },
+      {
+        "category": "维护决策建议",
+        "status": "training-only",
+        "basis_ids": [
+          "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+          "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+          "tire-k02",
+          "tire-k01",
+          "tire-k06"
+        ],
+        "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+      }
+    ],
+    "degraded_output": true,
+    "degradation_notice": "证据不足或请求超出证据边界，系统仅输出训练性观察、假设与补充验证建议。",
+    "consistency_check": "存在证据或难度约束问题，需要按纠偏建议重新生成。"
+  },
+  "correction_guidance": [
+    "生成内容引用了未检索证据：fabricated-evidence-001",
+    "实操指南缺少边界条件与安全约束"
+  ],
+  "corrected_generation": {
+    "step_summary": "已生成个性化讲义、实操训练指南、分阶测试题和案例分析任务；生成模式=mock-template。",
+    "resources": {
+      "difficulty": "降维入门",
+      "lecture_evidence_ids": [
+        "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+        "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+        "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+        "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+        "tire-k02",
+        "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+        "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+        "tire-k02",
+        "tire-k01",
+        "tire-k06"
+      ],
+      "practical_evidence_ids": [
+        "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+        "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+        "tire-k02",
+        "tire-k01",
+        "tire-k06"
+      ],
+      "case_evidence_ids": [
+        "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+        "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+        "tire-k02"
+      ],
+      "constraint_count": 4,
+      "quiz_explanations_complete": true
+    },
+    "correction_applied": [
+      "生成内容引用了未检索证据：fabricated-evidence-001",
+      "实操指南缺少边界条件与安全约束"
+    ]
+  },
+  "final_review": {
+    "status": "通过，已按证据边界降级",
+    "approved": true,
+    "requires_regeneration": false,
+    "rejection_reasons": [],
+    "risk_points": [
+      "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+      "训练建议不能替代真实维修放行或适航决策。",
+      "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+      "当前依据中实操任务片段不足，建议追加检查流程约束。"
+    ],
+    "corrections": [
+      "围绕“热氧老化”补充证据来源、实验边界或检查记录模板。",
+      "围绕“滑动磨损与实验表征方法”补充证据来源、实验边界或检查记录模板。",
+      "围绕“损伤等级判读”补充证据来源、实验边界或检查记录模板。",
+      "将“由单一图像确定完整机理或整体分布”改写为证据边界内的观察、假设或待验证问题。",
+      "将“由单一形貌或图像断定失效机理”改写为证据边界内的观察、假设或待验证问题。",
+      "将“以训练输出替代适航或维修放行”改写为证据边界内的观察、假设或待验证问题。"
+    ],
+    "evidence_ids": [
+      "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+      "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+      "tire-k02",
+      "tire-k01",
+      "tire-k06"
+    ],
+    "asset_evidence_ids": [
+      "RXQ-THERMAL-TREND-01",
+      "RXQ-IMG-D000-S15-SEM-01",
+      "RXQ-IMG-D000-S15-OPTICAL-01",
+      "RXQ-IMG-D001-S17-SEM-01",
+      "RXQ-UV-H0024-IMG-01",
+      "RXQ-UV-H0024-IMG-02",
+      "RXQ-UV-H0024-IMG-03",
+      "RXQ-UV-H0024-IMG-04"
+    ],
+    "review_scope": {
+      "automated_checks": [
+        "引用闭合",
+        "工况字段",
+        "难度匹配",
+        "实操约束",
+        "高风险表述"
+      ],
+      "expert_review_required": [
+        "专业机理正确性",
+        "实验结论有效性",
+        "真实维修处置"
+      ]
+    },
+    "evidence_sufficiency": "limited",
+    "verified_claims": [
+      "资源中的证据 ID 均来自本次检索结果",
+      "实验资产具备来源记录和限制说明",
+      "实验资产工况字段可追溯"
+    ],
+    "unsupported_claims": [
+      "由单一图像确定完整机理或整体分布",
+      "由单一形貌或图像断定失效机理",
+      "以训练输出替代适航或维修放行"
+    ],
+    "evidence_gaps": [
+      "检索结果缺少专门的实操任务片段"
+    ],
+    "claim_assessments": [
+      {
+        "category": "实验观察",
+        "status": "evidence-bound",
+        "basis_ids": [
+          "RXQ-THERMAL-TREND-01",
+          "RXQ-IMG-D000-S15-SEM-01",
+          "RXQ-IMG-D000-S15-OPTICAL-01",
+          "RXQ-IMG-D001-S17-SEM-01",
+          "RXQ-UV-H0024-IMG-01",
+          "RXQ-UV-H0024-IMG-02",
+          "RXQ-UV-H0024-IMG-03",
+          "RXQ-UV-H0024-IMG-04"
+        ],
+        "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+      },
+      {
+        "category": "工况参数事实",
+        "status": "verified-fields",
+        "basis_ids": [
+          "RXQ-THERMAL-TREND-01",
+          "RXQ-IMG-D000-S15-SEM-01",
+          "RXQ-IMG-D000-S15-OPTICAL-01",
+          "RXQ-IMG-D001-S17-SEM-01",
+          "RXQ-UV-H0024-IMG-01",
+          "RXQ-UV-H0024-IMG-02",
+          "RXQ-UV-H0024-IMG-03",
+          "RXQ-UV-H0024-IMG-04"
+        ],
+        "boundary": "缺失参数保持未知，不进行插补。"
+      },
+      {
+        "category": "损伤机理推断",
+        "status": "degraded-hypothesis",
+        "basis_ids": [
+          "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+          "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+          "tire-k02",
+          "tire-k01",
+          "tire-k06"
+        ],
+        "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+      },
+      {
+        "category": "维护决策建议",
+        "status": "training-only",
+        "basis_ids": [
+          "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+          "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+          "tire-k02",
+          "tire-k01",
+          "tire-k06"
+        ],
+        "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+      }
+    ],
+    "degraded_output": true,
+    "degradation_notice": "证据不足或请求超出证据边界，系统仅输出训练性观察、假设与补充验证建议。",
+    "consistency_check": "引用结构检查通过，但部分请求超出当前证据边界，已降级为待验证表达。",
+    "correction_rounds": 1,
+    "initial_review": {
+      "status": "需纠偏后复核",
+      "approved": false,
+      "requires_regeneration": true,
+      "rejection_reasons": [
+        "生成内容引用了未检索证据：fabricated-evidence-001",
+        "实操指南缺少边界条件与安全约束"
+      ],
+      "risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "corrections": [
+        "围绕“热氧老化”补充证据来源、实验边界或检查记录模板。",
+        "围绕“滑动磨损与实验表征方法”补充证据来源、实验边界或检查记录模板。",
+        "围绕“损伤等级判读”补充证据来源、实验边界或检查记录模板。",
+        "将“由单一图像确定完整机理或整体分布”改写为证据边界内的观察、假设或待验证问题。",
+        "将“由单一形貌或图像断定失效机理”改写为证据边界内的观察、假设或待验证问题。",
+        "将“以训练输出替代适航或维修放行”改写为证据边界内的观察、假设或待验证问题。"
+      ],
+      "evidence_ids": [
+        "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+        "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+        "tire-k02",
+        "tire-k01",
+        "tire-k06"
+      ],
+      "asset_evidence_ids": [
+        "RXQ-THERMAL-TREND-01",
+        "RXQ-IMG-D000-S15-SEM-01",
+        "RXQ-IMG-D000-S15-OPTICAL-01",
+        "RXQ-IMG-D001-S17-SEM-01",
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0024-IMG-02",
+        "RXQ-UV-H0024-IMG-03",
+        "RXQ-UV-H0024-IMG-04"
+      ],
+      "review_scope": {
+        "automated_checks": [
+          "引用闭合",
+          "工况字段",
+          "难度匹配",
+          "实操约束",
+          "高风险表述"
+        ],
+        "expert_review_required": [
+          "专业机理正确性",
+          "实验结论有效性",
+          "真实维修处置"
+        ]
+      },
+      "evidence_sufficiency": "limited",
+      "verified_claims": [
+        "实验资产具备来源记录和限制说明",
+        "实验资产工况字段可追溯"
+      ],
+      "unsupported_claims": [
+        "由单一图像确定完整机理或整体分布",
+        "由单一形貌或图像断定失效机理",
+        "以训练输出替代适航或维修放行"
+      ],
+      "evidence_gaps": [
+        "检索结果缺少专门的实操任务片段"
+      ],
+      "claim_assessments": [
+        {
+          "category": "实验观察",
+          "status": "evidence-bound",
+          "basis_ids": [
+            "RXQ-THERMAL-TREND-01",
+            "RXQ-IMG-D000-S15-SEM-01",
+            "RXQ-IMG-D000-S15-OPTICAL-01",
+            "RXQ-IMG-D001-S17-SEM-01",
+            "RXQ-UV-H0024-IMG-01",
+            "RXQ-UV-H0024-IMG-02",
+            "RXQ-UV-H0024-IMG-03",
+            "RXQ-UV-H0024-IMG-04"
+          ],
+          "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+        },
+        {
+          "category": "工况参数事实",
+          "status": "verified-fields",
+          "basis_ids": [
+            "RXQ-THERMAL-TREND-01",
+            "RXQ-IMG-D000-S15-SEM-01",
+            "RXQ-IMG-D000-S15-OPTICAL-01",
+            "RXQ-IMG-D001-S17-SEM-01",
+            "RXQ-UV-H0024-IMG-01",
+            "RXQ-UV-H0024-IMG-02",
+            "RXQ-UV-H0024-IMG-03",
+            "RXQ-UV-H0024-IMG-04"
+          ],
+          "boundary": "缺失参数保持未知，不进行插补。"
+        },
+        {
+          "category": "损伤机理推断",
+          "status": "degraded-hypothesis",
+          "basis_ids": [
+            "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+            "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+            "tire-k02",
+            "tire-k01",
+            "tire-k06"
+          ],
+          "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+        },
+        {
+          "category": "维护决策建议",
+          "status": "training-only",
+          "basis_ids": [
+            "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+            "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+            "tire-k02",
+            "tire-k01",
+            "tire-k06"
+          ],
+          "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+        }
+      ],
+      "degraded_output": true,
+      "degradation_notice": "证据不足或请求超出证据边界，系统仅输出训练性观察、假设与补充验证建议。",
+      "consistency_check": "存在证据或难度约束问题，需要按纠偏建议重新生成。"
+    }
+  },
+  "decision": {
+    "learning_path": [
+      "画像确认",
+      "基础概念校准",
+      "典型损伤识别",
+      "机理证据链分析",
+      "实操检查任务",
+      "反馈测试与动态更新"
+    ],
+    "difficulty_match": {
+      "diagnosis_level": "基础薄弱",
+      "resource_difficulty": "降维入门",
+      "reason": "本科低年级学生当前得分 40，资源优先覆盖 热氧老化、滑动磨损与实验表征方法、损伤等级判读。"
+    },
+    "next_training_plan": "先用低门槛案例解释 热氧老化、滑动磨损与实验表征方法、损伤等级判读，再重新完成基础测试。",
+    "recommended_action": "降维解释"
+  },
+  "agent_step_summaries": [
+    "已生成个性化讲义、实操训练指南、分阶测试题和案例分析任务；生成模式=mock-template。",
+    "审核要求纠偏，发现 2 项阻断问题。",
+    "已生成个性化讲义、实操训练指南、分阶测试题和案例分析任务；生成模式=mock-template。",
+    "审核通过并降级 3 项越界请求，保留证据限制说明。",
+    "推荐动作：降维解释；下一步：先用低门槛案例解释 热氧老化、滑动磨损与实验表征方法、损伤等级判读，再重新完成基础测试。"
+  ],
+  "assertions": {
+    "initial_review_rejected": true,
+    "fabricated_evidence_detected": true,
+    "missing_constraints_detected": true,
+    "high_risk_claim_degraded": true,
+    "corrected_evidence_bound": true,
+    "corrected_constraints_restored": true,
+    "second_review_approved": true,
+    "correction_round_recorded": true
+  },
+  "status": "passed",
+  "boundary_notice": "该案例使用显式故障注入验证审核闭环，不代表正常生成会主动产生这些错误。"
+}

@@ -1,0 +1,1257 @@
+{
+  "example_purpose": "比赛方案要求的差异化学习者完整输入、中间过程与生成结果样例",
+  "runtime_mode": {
+    "status": "ok",
+    "backend_status": "ok",
+    "version": "1.2.0-context-assistant",
+    "data_backend": "sql",
+    "database_enabled": true,
+    "database_connected": true,
+    "es_enabled": true,
+    "es_connected": true,
+    "es_url": "http://127.0.0.1:9201",
+    "es_index": "aviation_material_knowledge",
+    "retrieval_mode": "hybrid",
+    "bge_enabled": false,
+    "embedding_backend": "none",
+    "llm_enabled": true,
+    "llm_configured": true,
+    "llm_model": "qwen-plus",
+    "knowledge_source": "elasticsearch",
+    "llm": {
+      "enabled": true,
+      "mode": "llm-ready",
+      "model": "qwen-plus",
+      "configured": true,
+      "base_url_configured": true,
+      "guided_inquiry_available": true,
+      "interface_assistant_available": true,
+      "fallback_enabled": true
+    },
+    "data": {
+      "profiles": 3,
+      "questions": 15,
+      "knowledge_domains": [
+        "tire",
+        "brake",
+        "composite"
+      ],
+      "knowledge_chunks": {
+        "tire": 7,
+        "brake": 5,
+        "composite": 5
+      },
+      "demo_sessions": 1
+    },
+    "team_dataset": {
+      "status": "ready",
+      "mode": "dataset",
+      "approved_for_rag": true,
+      "image_files": 14
+    },
+    "experimental_evidence": {
+      "status": "ready",
+      "asset_count": 53,
+      "topic_count": 4,
+      "reviewed_count": 53
+    }
+  },
+  "profile_input": {
+    "profile_id": "undergrad_basic",
+    "name": "本科低年级学生",
+    "learner_type": "本科低年级学生",
+    "background": "已学习普通材料学基础，对航空服役损伤、实验表征和维修判读了解较少。",
+    "characteristics": "基础概念薄弱，实验经验少，需要降维解释和图像化案例引导。",
+    "default_goal": "理解航空轮胎热氧老化与滑动磨损损伤机理，并能完成基本损伤判读。",
+    "self_level": "低",
+    "recommended_domains": [
+      "tire"
+    ]
+  },
+  "training_domain": "tire",
+  "learning_goal": "理解航空轮胎热氧老化与滑动磨损损伤机理，并能完成基本损伤判读。",
+  "diagnosis_submission": {
+    "profile_id": "undergrad_basic",
+    "domain": "tire",
+    "answers": [
+      {
+        "question_id": "tire-q1",
+        "answer": "交联网络和表面力学响应变化"
+      },
+      {
+        "question_id": "tire-q2",
+        "answer": "载荷、速度、温度、滑动距离"
+      },
+      {
+        "question_id": "tire-q3",
+        "answer": "结合位置、面积、深度、循环历史和图像尺度综合判断"
+      },
+      {
+        "question_id": "tire-q4",
+        "answer": "图片是否足够美观"
+      },
+      {
+        "question_id": "tire-q5",
+        "answer": "正确"
+      }
+    ]
+  },
+  "diagnosis_result": {
+    "profile_id": "undergrad_basic",
+    "domain": "tire",
+    "score": 60,
+    "level": "基础一般",
+    "weak_points": [
+      "热氧老化-滑动磨损耦合损伤",
+      "常见误区"
+    ],
+    "strong_points": [
+      "热氧老化",
+      "滑动磨损与实验表征方法",
+      "损伤等级判读"
+    ],
+    "diagnosis_summary": "本科低年级学生本次诊断得分 60 分，水平判定为“基础一般”。当前薄弱点集中在 热氧老化-滑动磨损耦合损伤、常见误区；相对优势为 热氧老化、滑动磨损与实验表征方法、损伤等级判读。",
+    "details": [
+      {
+        "question_id": "tire-q1",
+        "knowledge_point": "热氧老化",
+        "correct": true,
+        "learner_answer": "交联网络和表面力学响应变化",
+        "correct_answer": "交联网络和表面力学响应变化",
+        "explanation": "热和氧会共同作用于橡胶分子链与交联网络，进而改变硬度、裂纹敏感性和磨损响应。"
+      },
+      {
+        "question_id": "tire-q2",
+        "knowledge_point": "滑动磨损与实验表征方法",
+        "correct": true,
+        "learner_answer": "载荷、速度、温度、滑动距离",
+        "correct_answer": "载荷、速度、温度、滑动距离",
+        "explanation": "滑动磨损高度依赖载荷、速度、温度和接触历程，缺少工况会削弱机理判断可信度。"
+      },
+      {
+        "question_id": "tire-q3",
+        "knowledge_point": "损伤等级判读",
+        "correct": true,
+        "learner_answer": "结合位置、面积、深度、循环历史和图像尺度综合判断",
+        "correct_answer": "结合位置、面积、深度、循环历史和图像尺度综合判断",
+        "explanation": "损伤等级需要多维证据，尤其要结合裂纹/剥落几何量、位置和服役循环信息。"
+      },
+      {
+        "question_id": "tire-q4",
+        "knowledge_point": "热氧老化-滑动磨损耦合损伤",
+        "correct": false,
+        "learner_answer": "图片是否足够美观",
+        "correct_answer": "不同老化条件下磨损阈值和形貌机制如何变化",
+        "explanation": "耦合损伤关注老化状态改变后续摩擦磨损响应，需要比较阈值、形貌和力学状态。"
+      },
+      {
+        "question_id": "tire-q5",
+        "knowledge_point": "常见误区",
+        "correct": false,
+        "learner_answer": "正确",
+        "correct_answer": "错误",
+        "explanation": "训练系统可给出学习建议，但真实维护决策需要标准、工况、检测记录和授权流程。"
+      }
+    ]
+  },
+  "agent_run": {
+    "session_id": "6a84e538-7e6f-4237-b8f7-ecb4966eac10",
+    "agent_steps": [
+      {
+        "agent_name": "学情诊断 Agent",
+        "role": "读取学习者画像和诊断结果，识别基础水平、强项与知识薄弱点。",
+        "input_summary": "本科低年级学生，诊断得分 60，自评 低",
+        "output_summary": "本科低年级学生本次诊断得分 60 分，水平判定为“基础一般”。当前薄弱点集中在 热氧老化-滑动磨损耦合损伤、常见误区；相对优势为 热氧老化、滑动磨损与实验表征方法、损伤等级判读。",
+        "status": "completed",
+        "confidence": 0.94,
+        "evidence_ids": [
+          "tire-q1",
+          "tire-q2",
+          "tire-q3",
+          "tire-q4",
+          "tire-q5"
+        ],
+        "details": {
+          "score": 60,
+          "level": "基础一般",
+          "weak_points": [
+            "热氧老化-滑动磨损耦合损伤",
+            "常见误区"
+          ],
+          "strong_points": [
+            "热氧老化",
+            "滑动磨损与实验表征方法",
+            "损伤等级判读"
+          ],
+          "profile_snapshot": {
+            "profile_id": "undergrad_basic",
+            "name": "本科低年级学生",
+            "learner_type": "本科低年级学生",
+            "background": "已学习普通材料学基础，对航空服役损伤、实验表征和维修判读了解较少。",
+            "characteristics": "基础概念薄弱，实验经验少，需要降维解释和图像化案例引导。",
+            "default_goal": "理解航空轮胎热氧老化与滑动磨损损伤机理，并能完成基本损伤判读。",
+            "self_level": "低",
+            "recommended_domains": [
+              "tire"
+            ]
+          }
+        }
+      },
+      {
+        "agent_name": "材料领域路由 Agent",
+        "role": "根据训练方向选择航空轮胎、航空刹车片或复合材料板知识库。",
+        "input_summary": "domain=tire",
+        "output_summary": "已路由到“航空轮胎胎面橡胶损伤分析”知识库。",
+        "status": "completed",
+        "confidence": 0.98,
+        "evidence_ids": [],
+        "details": {
+          "domain": "tire",
+          "title": "航空轮胎胎面橡胶损伤分析",
+          "summary": "围绕热氧老化、滑动磨损、胎面裂纹、剥落、损伤等级判读、起降次数影响和磨损形貌分析开展训练。"
+        }
+      },
+      {
+        "agent_name": "专业知识检索 Agent",
+        "role": "根据薄弱点、学习目标和学习者类型，从 Elasticsearch 或 JSON fallback 检索证据片段。",
+        "input_summary": "薄弱点：热氧老化-滑动磨损耦合损伤, 常见误区；目标：理解航空轮胎热氧老化与滑动磨损损伤机理，并能完成基本损伤判读。",
+        "output_summary": "检索到 5 条相关知识片段，模式：hybrid，来源：elasticsearch。",
+        "status": "completed",
+        "confidence": 0.88,
+        "evidence_ids": [
+          "tire_damage_notes-c004-91c8dc2f",
+          "tire-k06",
+          "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+          "tire-k02",
+          "tire-k01"
+        ],
+        "details": {
+          "retrieval_mode": "hybrid",
+          "effective_retrieval_mode": "hybrid-bm25-only",
+          "knowledge_source": "elasticsearch",
+          "retrieval_source": "elasticsearch",
+          "evidence_ids": [
+            "tire_damage_notes-c004-91c8dc2f",
+            "tire-k06",
+            "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+            "tire-k02",
+            "tire-k01"
+          ],
+          "evidence_titles": [
+            "tire_damage_notes · 热氧老化与滑动磨损耦合",
+            "热氧老化-滑动磨损耦合边界",
+            "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Aging conditions",
+            "滑动摩擦磨损工况记录",
+            "热氧老化与橡胶交联网络变化"
+          ],
+          "retrieval_scores": [
+            281.3912,
+            270.0408,
+            223.1132,
+            0.0,
+            0.0
+          ],
+          "evidence_source_ids": [
+            "tire_damage_notes",
+            "local_json_tire",
+            "team_tire_tire_exp_rxq_aging_001"
+          ],
+          "experimental_evidence": [
+            {
+              "asset_id": "RXQ-THERMAL-TREND-01",
+              "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+              "sample_id": "RXQ-AGING-GROUP-SUMMARY",
+              "domain": "tire",
+              "topic": "thermal_aging_multimodal",
+              "title": "热氧老化时间与摩擦磨损指标趋势",
+              "modality": "derived_curve",
+              "media_type": "image/png",
+              "media_path": "media/thermal_aging/RXQ-THERMAL-TREND-01.png",
+              "source_reference": "授权团队实验资料/RXQ/tire_rxq_aging_experiment_records.xlsx",
+              "source_sha256": "9794F6ED18D08D16758678393540313B25ADF9904E3AA498D86EED1BCEDE8213",
+              "derived_sha256": "30B1F8815C5262C5BB3A9DE45A383A3D5ABFF7FA6473E94EBD2775145EE7F18A",
+              "condition": {
+                "aging_temperature_C": 75,
+                "aging_days": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  7,
+                  14,
+                  21,
+                  28,
+                  35
+                ],
+                "parallel_records_per_condition": 2
+              },
+              "labels": [
+                "热氧老化",
+                "摩擦系数",
+                "质量损失",
+                "界面温度"
+              ],
+              "severity": "not_applicable",
+              "observation": "按老化时长对两次平行试验求均值，用于识别趋势而非拟合寿命模型。",
+              "training_use": "要求学习者比较三个指标的变化并指出仅凭趋势不能得出的结论。",
+              "review_status": "reviewed",
+              "authorization_status": "authorized",
+              "linked_source_ids": [
+                "team_tire_tire_exp_rxq_aging_001",
+                "team_tire_rxq_aging_multimodal_evidence"
+              ],
+              "linked_evidence_ids": [],
+              "limitations": "样本量有限且包含源方案差异标记，不外推为真实服役寿命边界。"
+            },
+            {
+              "asset_id": "RXQ-IMG-D000-S15-SEM-01",
+              "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+              "sample_id": "TIR-RXQ-D000-S15",
+              "domain": "tire",
+              "topic": "thermal_aging_multimodal",
+              "title": "热氧老化 0 d 后SEM磨损形貌",
+              "modality": "sem_image",
+              "media_type": "image/jpeg",
+              "media_path": "media/thermal_aging/RXQ-IMG-D000-S15-SEM-01.jpg",
+              "source_reference": "授权团队实验资料/RXQ/images/SEM/IMG-RXQ-D000-S15-SEM-01.jpeg",
+              "source_sha256": "6531304B0AA7A412828EC4ED7AA4FAC76BE6360D0AB20E6A867A3DCE7DDCDF73",
+              "derived_sha256": "A435BE83E43BEFE29AA4A69A07A1CAA546F7EA2FA9C027851365B7C613975587",
+              "condition": {
+                "aging_temperature_C": 75,
+                "aging_duration_days": 0,
+                "normal_load_N": 50,
+                "speed_rpm": 100,
+                "cycles": 10000,
+                "magnification_x": 5000
+              },
+              "labels": [
+                "surface_roughening",
+                "local_void"
+              ],
+              "severity": "training_unrated",
+              "observation": "可见表面起伏与局部孔洞状区域；机理判断必须结合摩擦、温度和表征数据",
+              "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+              "review_status": "reviewed",
+              "authorization_status": "authorized",
+              "linked_source_ids": [
+                "team_tire_tire_exp_rxq_aging_001",
+                "team_tire_rxq_aging_multimodal_evidence"
+              ],
+              "linked_evidence_ids": [
+                "RXQ-WEAR-D000-S15"
+              ],
+              "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+            },
+            {
+              "asset_id": "RXQ-IMG-D000-S15-OPTICAL-01",
+              "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+              "sample_id": "TIR-RXQ-D000-S15",
+              "domain": "tire",
+              "topic": "thermal_aging_multimodal",
+              "title": "热氧老化 0 d 后optical磨损形貌",
+              "modality": "optical_image",
+              "media_type": "image/jpeg",
+              "media_path": "media/thermal_aging/RXQ-IMG-D000-S15-OPTICAL-01.jpg",
+              "source_reference": "授权团队实验资料/RXQ/images/optical/IMG-RXQ-D000-S15-OPTICAL-01.jpg",
+              "source_sha256": "F3ECEF8C81DA444EC3B2A5C380F97984E9896353416015DE17E268BA3CB5E870",
+              "derived_sha256": "3BC647102E91BC4A35A06FE82A712844747BF2F8AE5A9AC25454289023AD1C40",
+              "condition": {
+                "aging_temperature_C": 75,
+                "aging_duration_days": 0,
+                "normal_load_N": 50,
+                "speed_rpm": 100,
+                "cycles": 10000,
+                "magnification_x": null
+              },
+              "labels": [
+                "surface_roughening",
+                "local_void"
+              ],
+              "severity": "training_unrated",
+              "observation": "可见表面起伏与局部孔洞状区域；机理判断必须结合摩擦、温度和表征数据",
+              "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+              "review_status": "reviewed",
+              "authorization_status": "authorized",
+              "linked_source_ids": [
+                "team_tire_tire_exp_rxq_aging_001",
+                "team_tire_rxq_aging_multimodal_evidence"
+              ],
+              "linked_evidence_ids": [
+                "RXQ-WEAR-D000-S15"
+              ],
+              "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+            },
+            {
+              "asset_id": "RXQ-IMG-D001-S17-SEM-01",
+              "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+              "sample_id": "TIR-RXQ-D001-S17",
+              "domain": "tire",
+              "topic": "thermal_aging_multimodal",
+              "title": "热氧老化 1 d 后SEM磨损形貌",
+              "modality": "sem_image",
+              "media_type": "image/jpeg",
+              "media_path": "media/thermal_aging/RXQ-IMG-D001-S17-SEM-01.jpg",
+              "source_reference": "授权团队实验资料/RXQ/images/SEM/IMG-RXQ-D001-S17-SEM-01.jpeg",
+              "source_sha256": "A5BB51B82E9EDD547B9A8DC87D76359D18BFA428581CAE73D84BBC293FCFBB09",
+              "derived_sha256": "F1795028CCEFBAFD20BA2D358F1F8A6F4FB40F39173C99A43C2022A3A84B40A3",
+              "condition": {
+                "aging_temperature_C": 75,
+                "aging_duration_days": 1,
+                "normal_load_N": 50,
+                "speed_rpm": 100,
+                "cycles": 10000,
+                "magnification_x": 5000
+              },
+              "labels": [
+                "abrasion_texture",
+                "debris"
+              ],
+              "severity": "training_unrated",
+              "observation": "可见平行磨痕纹理及离散颗粒；机理判断必须结合摩擦、温度和表征数据",
+              "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+              "review_status": "reviewed",
+              "authorization_status": "authorized",
+              "linked_source_ids": [
+                "team_tire_tire_exp_rxq_aging_001",
+                "team_tire_rxq_aging_multimodal_evidence"
+              ],
+              "linked_evidence_ids": [
+                "RXQ-WEAR-D001-S17"
+              ],
+              "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+            }
+          ],
+          "condition_constraints": {
+            "normal_load_N": [],
+            "sliding_distance_m": [],
+            "aging_duration_h": [],
+            "range_or_sequence": false,
+            "comparison": false,
+            "target_topic": ""
+          },
+          "condition_match_strategy": "source-linked-ranking",
+          "embedding": {
+            "bge_enabled": false,
+            "embedding_backend": "none",
+            "bge_model_path": "",
+            "available": false
+          },
+          "vector_note": "embedding unavailable; BM25 remains active",
+          "retrieved_chunks": [
+            {
+              "id": "tire_damage_notes-c004-91c8dc2f",
+              "domain": "tire",
+              "title": "tire_damage_notes · 热氧老化与滑动磨损耦合",
+              "tags": [
+                "热氧老化",
+                "滑动磨损",
+                "剥落",
+                "裂纹"
+              ],
+              "difficulty": "进阶",
+              "content": "耦合损伤边界可通过不同老化温度、老化时间、摩擦载荷和滑动距离组合构建。重点观察裂纹萌生、剥落面积和磨耗深度的阈值变化，并形成工况到机理的证据链。",
+              "source_type": "parsed_markdown",
+              "source_id": "tire_damage_notes",
+              "source_locator": "热氧老化与滑动磨损耦合",
+              "source_url": "",
+              "source_authority": "curated_local",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [],
+              "_score": 281.3912,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "tire-k06",
+              "domain": "tire",
+              "title": "热氧老化-滑动磨损耦合边界",
+              "tags": [
+                "耦合损伤",
+                "热氧老化",
+                "滑动磨损",
+                "损伤边界"
+              ],
+              "difficulty": "进阶",
+              "content": "耦合损伤边界可通过不同老化温度、老化时间、摩擦载荷和滑动距离组合构建，重点观察裂纹萌生、剥落面积和磨耗深度的阈值变化。",
+              "source_type": "research_design",
+              "applicable_learners": [
+                "材料方向研究生"
+              ],
+              "common_misconceptions": [
+                "只做单因素比较却声称得到耦合边界",
+                "忽略重复性和阈值定义"
+              ],
+              "source_id": "local_json_tire",
+              "source_locator": "热氧老化-滑动磨损耦合边界",
+              "source_url": "",
+              "source_authority": "curated_local",
+              "chunk_file": "backend/app/data/knowledge_tire.json",
+              "_score": 270.04083,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+              "domain": "tire",
+              "title": "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Aging conditions",
+              "tags": [
+                "领域知识"
+              ],
+              "difficulty": "基础",
+              "content": "| aging_condition_id | set_temperature_C | duration_h | atmosphere | qc_flag | | --- | --- | --- | --- | --- | | AGE-RXQ-0000H | 75 | 0 | air | pass_with_source_variant | | AGE-RXQ-0024H | 75 | 24 | air | pass_with_source_variant | | AGE-RXQ-0048H | 75 | 48 | air | pass_with_source_variant | | AGE-RXQ-0072H | 75 | 72 | air | pass_with_source_variant | | AGE-RXQ-0168H | 75 | 168 | air | pass_with_source_variant | | AGE-RXQ-0336H | 75 | 336 | air | pass_with_source_variant | | AGE-RXQ-0504H | 75 | 504 | air | pass_with_source_variant | | AGE-RXQ-0672H | 75 | 672 | air | pass_with_source_variant | | AGE-RXQ-0840H | 75 | 840 | air | pass_with_source_variant |",
+              "source_type": "parsed_markdown",
+              "source_id": "team_tire_tire_exp_rxq_aging_001",
+              "source_locator": "Aging conditions",
+              "source_url": "",
+              "source_authority": "team_authorized_experiment",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [],
+              "_score": 223.11324,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "tire-k02",
+              "domain": "tire",
+              "title": "滑动摩擦磨损工况记录",
+              "tags": [
+                "滑动磨损",
+                "表征方法",
+                "实操训练任务"
+              ],
+              "difficulty": "基础",
+              "content": "滑动磨损分析必须记录载荷、速度、温度、滑动距离、接触材料和环境条件。缺少工况会导致磨粒磨损、黏着磨损和热机械耦合磨损之间难以区分。",
+              "source_type": "experiment_protocol",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [
+                "只看形貌不记录工况",
+                "把所有沟槽都归因于同一种磨损机制"
+              ],
+              "_score": 0.0,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "tire-k01",
+              "domain": "tire",
+              "title": "热氧老化与橡胶交联网络变化",
+              "tags": [
+                "热氧老化",
+                "基础概念",
+                "损伤机理"
+              ],
+              "difficulty": "基础",
+              "content": "航空轮胎胎面橡胶在高温和氧共同作用下会发生链段氧化、交联密度变化和表面硬化，导致裂纹敏感性、回弹性能和后续磨损行为发生改变。",
+              "source_type": "domain_note",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生"
+              ],
+              "common_misconceptions": [
+                "把热氧老化简单理解为颜色变化",
+                "忽略老化时间和温度边界"
+              ],
+              "_score": 0.0,
+              "_retrieval_source": "elasticsearch"
+            }
+          ]
+        }
+      },
+      {
+        "agent_name": "个性化资源生成 Agent",
+        "role": "根据学习者画像、诊断结果和检索证据生成讲义、实操指南、分阶测试题和案例任务。",
+        "input_summary": "本科低年级学生；资源难度=降维入门",
+        "output_summary": "已生成个性化讲义、实操训练指南、分阶测试题和案例分析任务；生成模式=mock-template-fallback。",
+        "status": "completed",
+        "confidence": 0.86,
+        "evidence_ids": [
+          "tire_damage_notes-c004-91c8dc2f",
+          "tire-k06",
+          "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+          "tire-k02",
+          "tire-k01"
+        ],
+        "details": {
+          "resource_keys": [
+            "personalized_lecture",
+            "practical_guide",
+            "graded_quiz",
+            "case_task",
+            "difficulty_match",
+            "personalization",
+            "evidence_boundary",
+            "generation_mode",
+            "llm_error",
+            "generation_audit"
+          ],
+          "difficulty_match": {
+            "diagnosis_level": "基础一般",
+            "resource_difficulty": "降维入门",
+            "reason": "本科低年级学生当前得分 60，资源优先覆盖 热氧老化-滑动磨损耦合损伤、常见误区。"
+          },
+          "personalization": {
+            "strategy_id": "undergraduate",
+            "strategy_label": "现象引导型",
+            "learner_type": "本科低年级学生",
+            "explanation_style": "从可观察现象和基础术语开始，逐步连接工况、材料变化与证据。",
+            "practice_focus": "识别、测量和规范描述典型损伤，不要求直接给出确定性机理。",
+            "assessment_focus": "基础概念、图像观察和证据链顺序"
+          },
+          "evidence_boundary": {
+            "observation": "可直接引用已检索片段和已审核实验资产中的观察记录。",
+            "parameter_fact": "仅使用资产工况字段或检索片段中明确记录的数值，不补齐缺失参数。",
+            "mechanism_inference": "机理只能表述为受证据支持的解释或待验证假设，不能由单张图像直接确定。",
+            "maintenance_decision": "仅提供训练性检查建议，不替代维修手册、工卡、适航或授权放行。"
+          },
+          "generation_mode": "mock-template-fallback",
+          "generation_audit": {
+            "prompt_version": "resource-generation-v2",
+            "model": "qwen-plus",
+            "provider_configured": true,
+            "latency_ms": 53618,
+            "outcome": "fallback",
+            "fallback_reason": "讲义章节“1. 从可观察损伤现象开始”包含绑定证据未记录的数值：168h, 72h。"
+          },
+          "llm_error": "讲义章节“1. 从可观察损伤现象开始”包含绑定证据未记录的数值：168h, 72h。"
+        }
+      },
+      {
+        "agent_name": "专家审核纠偏 Agent",
+        "role": "检查生成资源的专业概念、知识依据、难度匹配、泛化风险和实操约束。",
+        "input_summary": "生成资源 + 检索证据片段",
+        "output_summary": "审核通过，标记 4 个风险点、2 条纠偏建议。",
+        "status": "completed",
+        "confidence": 0.9,
+        "evidence_ids": [
+          "tire_damage_notes-c004-91c8dc2f",
+          "tire-k06",
+          "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+          "tire-k02",
+          "tire-k01"
+        ],
+        "details": {
+          "status": "通过，建议带纠偏提示使用",
+          "approved": true,
+          "requires_regeneration": false,
+          "rejection_reasons": [],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。",
+            "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+            "当前依据中实操任务片段不足，建议追加检查流程约束。"
+          ],
+          "corrections": [
+            "围绕“热氧老化-滑动磨损耦合损伤”补充证据来源、实验边界或检查记录模板。",
+            "围绕“常见误区”补充证据来源、实验边界或检查记录模板。"
+          ],
+          "evidence_ids": [
+            "tire_damage_notes-c004-91c8dc2f",
+            "tire-k06",
+            "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+            "tire-k02",
+            "tire-k01"
+          ],
+          "asset_evidence_ids": [
+            "RXQ-THERMAL-TREND-01",
+            "RXQ-IMG-D000-S15-SEM-01",
+            "RXQ-IMG-D000-S15-OPTICAL-01",
+            "RXQ-IMG-D001-S17-SEM-01"
+          ],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "sufficient_for_training",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果",
+            "实验资产具备来源记录和限制说明",
+            "实验资产工况字段可追溯"
+          ],
+          "unsupported_claims": [],
+          "evidence_gaps": [
+            "检索结果缺少专门的实操任务片段"
+          ],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "evidence-bound",
+              "basis_ids": [
+                "RXQ-THERMAL-TREND-01",
+                "RXQ-IMG-D000-S15-SEM-01",
+                "RXQ-IMG-D000-S15-OPTICAL-01",
+                "RXQ-IMG-D001-S17-SEM-01"
+              ],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "verified-fields",
+              "basis_ids": [
+                "RXQ-THERMAL-TREND-01",
+                "RXQ-IMG-D000-S15-SEM-01",
+                "RXQ-IMG-D000-S15-OPTICAL-01",
+                "RXQ-IMG-D001-S17-SEM-01"
+              ],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "bounded-inference",
+              "basis_ids": [
+                "tire_damage_notes-c004-91c8dc2f",
+                "tire-k06",
+                "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+                "tire-k02",
+                "tire-k01"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "tire_damage_notes-c004-91c8dc2f",
+                "tire-k06",
+                "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+                "tire-k02",
+                "tire-k01"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": false,
+          "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+          "consistency_check": "自动检查确认引用闭合和边界提示完整；专业机理正确性仍需专家复核。"
+        }
+      },
+      {
+        "agent_name": "学习路径决策 Agent",
+        "role": "根据诊断结果、资源难度和审核意见输出学习路径、训练建议和推荐动作。",
+        "input_summary": "score=60，level=基础一般",
+        "output_summary": "推荐动作：补充案例 + 继续巩固；下一步：围绕 热氧老化-滑动磨损耦合损伤、常见误区 追加胎面裂纹/剥落或对应方向案例，并继续巩固证据链表达。",
+        "status": "completed",
+        "confidence": 0.91,
+        "evidence_ids": [
+          "tire_damage_notes-c004-91c8dc2f",
+          "tire-k06",
+          "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+          "tire-k02",
+          "tire-k01"
+        ],
+        "details": {
+          "learning_path": [
+            "画像确认",
+            "基础概念校准",
+            "典型损伤识别",
+            "机理证据链分析",
+            "实操检查任务",
+            "反馈测试与动态更新"
+          ],
+          "difficulty_match": {
+            "diagnosis_level": "基础一般",
+            "resource_difficulty": "降维入门",
+            "reason": "本科低年级学生当前得分 60，资源优先覆盖 热氧老化-滑动磨损耦合损伤、常见误区。"
+          },
+          "next_training_plan": "围绕 热氧老化-滑动磨损耦合损伤、常见误区 追加胎面裂纹/剥落或对应方向案例，并继续巩固证据链表达。",
+          "recommended_action": "补充案例 + 继续巩固"
+        }
+      }
+    ]
+  },
+  "generated_resources": {
+    "personalized_lecture": {
+      "title": "航空轮胎胎面橡胶损伤分析个性化讲义",
+      "difficulty": "降维入门",
+      "target": "理解航空轮胎热氧老化与滑动磨损损伤机理，并能完成基本损伤判读。",
+      "sections": [
+        {
+          "heading": "1. 从可观察损伤现象开始",
+          "content": "先不急着背复杂术语，把损伤看成“材料状态变化 + 外部工况作用 + 可观察证据”。本次重点补齐 热氧老化-滑动磨损耦合损伤、常见误区。",
+          "evidence_ids": [
+            "tire_damage_notes-c004-91c8dc2f",
+            "tire-k06"
+          ]
+        },
+        {
+          "heading": "2. 用三步法建立基础机理链",
+          "content": "证据1（tire_damage_notes-c004-91c8dc2f）：耦合损伤边界可通过不同老化温度、老化时间、摩擦载荷和滑动距离组合构建。重点观察裂纹萌生、剥落面积和磨耗深度的阈值变化，并形成工况到机理的证据链。 证据2（team_tire_tire_exp_rxq_aging_001-c005-33d4856d）：《航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Aging conditions》记录了老化条件编号、设定温度、持续时长、环境气氛、质控状态、---等结构化字段，可用于工况与结果对照。 本画像训练要求：从可观察现象和基础术语开始，逐步连接工况、材料变化与证据。",
+          "evidence_ids": [
+            "tire_damage_notes-c004-91c8dc2f",
+            "tire-k06",
+            "team_tire_tire_exp_rxq_aging_001-c005-33d4856d"
+          ]
+        },
+        {
+          "heading": "3. 按证据顺序完成判读表达",
+          "content": "按“工况 - 看到了什么 - 如何测量 - 可能原因 - 还需什么证据”完成回答，先保证观察和推断不混淆。",
+          "evidence_ids": [
+            "tire_damage_notes-c004-91c8dc2f",
+            "tire-k06",
+            "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+            "tire-k02",
+            "tire-k01"
+          ]
+        }
+      ]
+    },
+    "practical_guide": {
+      "title": "胎面损伤检查实操指南",
+      "steps": [
+        "先对照示例图识别裂纹、剥落或磨痕，再填写观察记录，暂不跳到确定性机理结论。",
+        "读取样品或部件背景，记录起降次数、热暴露或老化条件。",
+        "观察胎面裂纹、剥落、磨耗和局部撕裂区域，标注图像尺度。",
+        "测量裂纹长度、剥落面积和磨耗深度，形成损伤证据表。",
+        "结合热氧老化和滑动磨损知识片段，写出可能机理和补充检测建议。"
+      ],
+      "record_template": [
+        "工况参数",
+        "损伤位置",
+        "可见形貌",
+        "测量尺度",
+        "可能原因",
+        "待补检测"
+      ],
+      "constraints": [
+        "必须说明实验或检查边界条件。",
+        "训练建议不能替代真实适航放行结论。",
+        "形貌判断需尽量结合多源表征。",
+        "首次训练只要求完成现象识别和基础证据链，不以复杂机理术语数量评分。"
+      ],
+      "evidence_ids": [
+        "tire_damage_notes-c004-91c8dc2f",
+        "tire-k06",
+        "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+        "tire-k02",
+        "tire-k01"
+      ]
+    },
+    "graded_quiz": [
+      {
+        "id": "feedback-tire-q4",
+        "level": "基础",
+        "question": "热氧老化与滑动磨损耦合分析中，更关键的问题是？",
+        "options": [
+          "不同老化条件下磨损阈值和形貌机制如何变化",
+          "图片是否足够美观",
+          "报告是否使用统一字体",
+          "是否只做一次观察"
+        ],
+        "answer": "不同老化条件下磨损阈值和形貌机制如何变化",
+        "knowledge_point": "热氧老化-滑动磨损耦合损伤",
+        "explanation": "耦合损伤关注老化状态改变后续摩擦磨损响应，需要比较阈值、形貌和力学状态。",
+        "training_focus": "基础概念、图像观察和证据链顺序"
+      },
+      {
+        "id": "feedback-tire-q5",
+        "level": "基础",
+        "question": "只凭一张胎面形貌图就可以给出真实适航放行结论。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "错误",
+        "knowledge_point": "常见误区",
+        "explanation": "训练系统可给出学习建议，但真实维护决策需要标准、工况、检测记录和授权流程。",
+        "training_focus": "基础概念、图像观察和证据链顺序"
+      },
+      {
+        "id": "feedback-tire-q1",
+        "level": "提升",
+        "question": "热氧老化对航空轮胎胎面橡胶最直接的影响通常包括哪一项？",
+        "options": [
+          "交联网络和表面力学响应变化",
+          "纤维铺层完全断裂",
+          "刹车片摩擦膜增厚",
+          "金属基体熔化"
+        ],
+        "answer": "交联网络和表面力学响应变化",
+        "knowledge_point": "热氧老化",
+        "explanation": "热和氧会共同作用于橡胶分子链与交联网络，进而改变硬度、裂纹敏感性和磨损响应。",
+        "training_focus": "基础概念、图像观察和证据链顺序"
+      },
+      {
+        "id": "feedback-tire-q2",
+        "level": "提升",
+        "question": "分析滑动磨损时，最应同时记录的一组工况参数是？",
+        "options": [
+          "载荷、速度、温度、滑动距离",
+          "文件名、页码、字体、颜色",
+          "拍摄角度、图片大小、作者",
+          "样品编号、目录层级、报告页数"
+        ],
+        "answer": "载荷、速度、温度、滑动距离",
+        "knowledge_point": "滑动磨损与实验表征方法",
+        "explanation": "滑动磨损高度依赖载荷、速度、温度和接触历程，缺少工况会削弱机理判断可信度。",
+        "training_focus": "基础概念、图像观察和证据链顺序"
+      },
+      {
+        "id": "feedback-tire-q3",
+        "level": "进阶",
+        "question": "胎面裂纹、剥落和磨耗深度用于损伤等级判读时，哪种做法更合理？",
+        "options": [
+          "结合位置、面积、深度、循环历史和图像尺度综合判断",
+          "只看单张照片是否明显",
+          "只依据颜色深浅判断",
+          "忽略起降循环次数"
+        ],
+        "answer": "结合位置、面积、深度、循环历史和图像尺度综合判断",
+        "knowledge_point": "损伤等级判读",
+        "explanation": "损伤等级需要多维证据，尤其要结合裂纹/剥落几何量、位置和服役循环信息。",
+        "training_focus": "基础概念、图像观察和证据链顺序"
+      }
+    ],
+    "case_task": {
+      "title": "案例分析任务",
+      "brief": "某航空轮胎胎面经历热氧老化后进行滑动磨损试验，局部出现沿滑动方向裂纹和片状剥落。请判断损伤类型、主导证据和可能机理。",
+      "focus_points": [
+        "热氧老化-滑动磨损耦合损伤",
+        "常见误区"
+      ],
+      "expected_output": [
+        "损伤类型判断",
+        "三项可见证据",
+        "基础机理链",
+        "补充表征建议"
+      ],
+      "evidence_ids": [
+        "tire_damage_notes-c004-91c8dc2f",
+        "tire-k06",
+        "team_tire_tire_exp_rxq_aging_001-c005-33d4856d"
+      ]
+    },
+    "difficulty_match": {
+      "diagnosis_level": "基础一般",
+      "resource_difficulty": "降维入门",
+      "reason": "本科低年级学生当前得分 60，资源优先覆盖 热氧老化-滑动磨损耦合损伤、常见误区。"
+    },
+    "personalization": {
+      "strategy_id": "undergraduate",
+      "strategy_label": "现象引导型",
+      "learner_type": "本科低年级学生",
+      "explanation_style": "从可观察现象和基础术语开始，逐步连接工况、材料变化与证据。",
+      "practice_focus": "识别、测量和规范描述典型损伤，不要求直接给出确定性机理。",
+      "assessment_focus": "基础概念、图像观察和证据链顺序"
+    },
+    "evidence_boundary": {
+      "observation": "可直接引用已检索片段和已审核实验资产中的观察记录。",
+      "parameter_fact": "仅使用资产工况字段或检索片段中明确记录的数值，不补齐缺失参数。",
+      "mechanism_inference": "机理只能表述为受证据支持的解释或待验证假设，不能由单张图像直接确定。",
+      "maintenance_decision": "仅提供训练性检查建议，不替代维修手册、工卡、适航或授权放行。"
+    },
+    "generation_mode": "mock-template-fallback",
+    "llm_error": "讲义章节“1. 从可观察损伤现象开始”包含绑定证据未记录的数值：168h, 72h。",
+    "generation_audit": {
+      "prompt_version": "resource-generation-v2",
+      "model": "qwen-plus",
+      "provider_configured": true,
+      "latency_ms": 53618,
+      "outcome": "fallback",
+      "fallback_reason": "讲义章节“1. 从可观察损伤现象开始”包含绑定证据未记录的数值：168h, 72h。"
+    }
+  },
+  "learning_report": {
+    "session_id": "6a84e538-7e6f-4237-b8f7-ecb4966eac10",
+    "profile": {
+      "profile_id": "undergrad_basic",
+      "name": "本科低年级学生",
+      "learner_type": "本科低年级学生",
+      "background": "已学习普通材料学基础，对航空服役损伤、实验表征和维修判读了解较少。",
+      "characteristics": "基础概念薄弱，实验经验少，需要降维解释和图像化案例引导。",
+      "default_goal": "理解航空轮胎热氧老化与滑动磨损损伤机理，并能完成基本损伤判读。",
+      "self_level": "低",
+      "recommended_domains": [
+        "tire"
+      ]
+    },
+    "domain": {
+      "domain": "tire",
+      "title": "航空轮胎胎面橡胶损伤分析",
+      "summary": "围绕热氧老化、滑动磨损、胎面裂纹、剥落、损伤等级判读、起降次数影响和磨损形貌分析开展训练。"
+    },
+    "diagnosis_score": 60,
+    "diagnosis_level": "基础一般",
+    "knowledge_blind_spots": [
+      "热氧老化-滑动磨损耦合损伤",
+      "常见误区"
+    ],
+    "strong_points": [
+      "热氧老化",
+      "滑动磨损与实验表征方法",
+      "损伤等级判读"
+    ],
+    "diagnosis_summary": "本科低年级学生本次诊断得分 60 分，水平判定为“基础一般”。当前薄弱点集中在 热氧老化-滑动磨损耦合损伤、常见误区；相对优势为 热氧老化、滑动磨损与实验表征方法、损伤等级判读。",
+    "resource_difficulty_match": {
+      "diagnosis_level": "基础一般",
+      "resource_difficulty": "降维入门",
+      "reason": "本科低年级学生当前得分 60，资源优先覆盖 热氧老化-滑动磨损耦合损伤、常见误区。"
+    },
+    "personalization_strategy": {
+      "strategy_id": "undergraduate",
+      "strategy_label": "现象引导型",
+      "learner_type": "本科低年级学生",
+      "explanation_style": "从可观察现象和基础术语开始，逐步连接工况、材料变化与证据。",
+      "practice_focus": "识别、测量和规范描述典型损伤，不要求直接给出确定性机理。",
+      "assessment_focus": "基础概念、图像观察和证据链顺序"
+    },
+    "recommended_learning_path": [
+      "画像确认",
+      "基础概念校准",
+      "典型损伤识别",
+      "机理证据链分析",
+      "实操检查任务",
+      "反馈测试与动态更新"
+    ],
+    "next_training_suggestion": "围绕 热氧老化-滑动磨损耦合损伤、常见误区 追加胎面裂纹/剥落或对应方向案例，并继续巩固证据链表达。",
+    "recommended_action": "补充案例 + 继续巩固",
+    "agent_review": {
+      "status": "通过，建议带纠偏提示使用",
+      "approved": true,
+      "requires_regeneration": false,
+      "rejection_reasons": [],
+      "risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "corrections": [
+        "围绕“热氧老化-滑动磨损耦合损伤”补充证据来源、实验边界或检查记录模板。",
+        "围绕“常见误区”补充证据来源、实验边界或检查记录模板。"
+      ],
+      "evidence_ids": [
+        "tire_damage_notes-c004-91c8dc2f",
+        "tire-k06",
+        "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+        "tire-k02",
+        "tire-k01"
+      ],
+      "asset_evidence_ids": [
+        "RXQ-THERMAL-TREND-01",
+        "RXQ-IMG-D000-S15-SEM-01",
+        "RXQ-IMG-D000-S15-OPTICAL-01",
+        "RXQ-IMG-D001-S17-SEM-01"
+      ],
+      "review_scope": {
+        "automated_checks": [
+          "引用闭合",
+          "工况字段",
+          "难度匹配",
+          "实操约束",
+          "高风险表述"
+        ],
+        "expert_review_required": [
+          "专业机理正确性",
+          "实验结论有效性",
+          "真实维修处置"
+        ]
+      },
+      "evidence_sufficiency": "sufficient_for_training",
+      "verified_claims": [
+        "资源中的证据 ID 均来自本次检索结果",
+        "实验资产具备来源记录和限制说明",
+        "实验资产工况字段可追溯"
+      ],
+      "unsupported_claims": [],
+      "evidence_gaps": [
+        "检索结果缺少专门的实操任务片段"
+      ],
+      "claim_assessments": [
+        {
+          "category": "实验观察",
+          "status": "evidence-bound",
+          "basis_ids": [
+            "RXQ-THERMAL-TREND-01",
+            "RXQ-IMG-D000-S15-SEM-01",
+            "RXQ-IMG-D000-S15-OPTICAL-01",
+            "RXQ-IMG-D001-S17-SEM-01"
+          ],
+          "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+        },
+        {
+          "category": "工况参数事实",
+          "status": "verified-fields",
+          "basis_ids": [
+            "RXQ-THERMAL-TREND-01",
+            "RXQ-IMG-D000-S15-SEM-01",
+            "RXQ-IMG-D000-S15-OPTICAL-01",
+            "RXQ-IMG-D001-S17-SEM-01"
+          ],
+          "boundary": "缺失参数保持未知，不进行插补。"
+        },
+        {
+          "category": "损伤机理推断",
+          "status": "bounded-inference",
+          "basis_ids": [
+            "tire_damage_notes-c004-91c8dc2f",
+            "tire-k06",
+            "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+            "tire-k02",
+            "tire-k01"
+          ],
+          "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+        },
+        {
+          "category": "维护决策建议",
+          "status": "training-only",
+          "basis_ids": [
+            "tire_damage_notes-c004-91c8dc2f",
+            "tire-k06",
+            "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+            "tire-k02",
+            "tire-k01"
+          ],
+          "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+        }
+      ],
+      "degraded_output": false,
+      "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+      "consistency_check": "自动检查确认引用闭合和边界提示完整；专业机理正确性仍需专家复核。"
+    },
+    "retrieved_knowledge": [
+      {
+        "id": "tire_damage_notes-c004-91c8dc2f",
+        "domain": "tire",
+        "title": "tire_damage_notes · 热氧老化与滑动磨损耦合",
+        "tags": [
+          "热氧老化",
+          "滑动磨损",
+          "剥落",
+          "裂纹"
+        ],
+        "difficulty": "进阶",
+        "content": "耦合损伤边界可通过不同老化温度、老化时间、摩擦载荷和滑动距离组合构建。重点观察裂纹萌生、剥落面积和磨耗深度的阈值变化，并形成工况到机理的证据链。",
+        "source_type": "parsed_markdown",
+        "source_id": "tire_damage_notes",
+        "source_locator": "热氧老化与滑动磨损耦合",
+        "source_url": "",
+        "source_authority": "curated_local",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [],
+        "_score": 281.3912,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "tire-k06",
+        "domain": "tire",
+        "title": "热氧老化-滑动磨损耦合边界",
+        "tags": [
+          "耦合损伤",
+          "热氧老化",
+          "滑动磨损",
+          "损伤边界"
+        ],
+        "difficulty": "进阶",
+        "content": "耦合损伤边界可通过不同老化温度、老化时间、摩擦载荷和滑动距离组合构建，重点观察裂纹萌生、剥落面积和磨耗深度的阈值变化。",
+        "source_type": "research_design",
+        "applicable_learners": [
+          "材料方向研究生"
+        ],
+        "common_misconceptions": [
+          "只做单因素比较却声称得到耦合边界",
+          "忽略重复性和阈值定义"
+        ],
+        "source_id": "local_json_tire",
+        "source_locator": "热氧老化-滑动磨损耦合边界",
+        "source_url": "",
+        "source_authority": "curated_local",
+        "chunk_file": "backend/app/data/knowledge_tire.json",
+        "_score": 270.04083,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+        "domain": "tire",
+        "title": "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Aging conditions",
+        "tags": [
+          "领域知识"
+        ],
+        "difficulty": "基础",
+        "content": "| aging_condition_id | set_temperature_C | duration_h | atmosphere | qc_flag | | --- | --- | --- | --- | --- | | AGE-RXQ-0000H | 75 | 0 | air | pass_with_source_variant | | AGE-RXQ-0024H | 75 | 24 | air | pass_with_source_variant | | AGE-RXQ-0048H | 75 | 48 | air | pass_with_source_variant | | AGE-RXQ-0072H | 75 | 72 | air | pass_with_source_variant | | AGE-RXQ-0168H | 75 | 168 | air | pass_with_source_variant | | AGE-RXQ-0336H | 75 | 336 | air | pass_with_source_variant | | AGE-RXQ-0504H | 75 | 504 | air | pass_with_source_variant | | AGE-RXQ-0672H | 75 | 672 | air | pass_with_source_variant | | AGE-RXQ-0840H | 75 | 840 | air | pass_with_source_variant |",
+        "source_type": "parsed_markdown",
+        "source_id": "team_tire_tire_exp_rxq_aging_001",
+        "source_locator": "Aging conditions",
+        "source_url": "",
+        "source_authority": "team_authorized_experiment",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [],
+        "_score": 223.11324,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "tire-k02",
+        "domain": "tire",
+        "title": "滑动摩擦磨损工况记录",
+        "tags": [
+          "滑动磨损",
+          "表征方法",
+          "实操训练任务"
+        ],
+        "difficulty": "基础",
+        "content": "滑动磨损分析必须记录载荷、速度、温度、滑动距离、接触材料和环境条件。缺少工况会导致磨粒磨损、黏着磨损和热机械耦合磨损之间难以区分。",
+        "source_type": "experiment_protocol",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [
+          "只看形貌不记录工况",
+          "把所有沟槽都归因于同一种磨损机制"
+        ],
+        "_score": 0.0,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "tire-k01",
+        "domain": "tire",
+        "title": "热氧老化与橡胶交联网络变化",
+        "tags": [
+          "热氧老化",
+          "基础概念",
+          "损伤机理"
+        ],
+        "difficulty": "基础",
+        "content": "航空轮胎胎面橡胶在高温和氧共同作用下会发生链段氧化、交联密度变化和表面硬化，导致裂纹敏感性、回弹性能和后续磨损行为发生改变。",
+        "source_type": "domain_note",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生"
+        ],
+        "common_misconceptions": [
+          "把热氧老化简单理解为颜色变化",
+          "忽略老化时间和温度边界"
+        ],
+        "_score": 0.0,
+        "_retrieval_source": "elasticsearch"
+      }
+    ],
+    "guided_inquiries": [],
+    "feedback_history": []
+  }
+}

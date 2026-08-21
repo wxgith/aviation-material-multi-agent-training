@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.py[cod]
+
+# Node / build
+node_modules/
+dist/
+
+# Runtime configuration and secrets
+.env
+.env.*
+!.env.example
+deploy/.env
+*.pem
+*.key
+
+# Runtime output and local tooling
+logs/
+outputs/
+.tmp/
+tmp/
+*.log
+
+# Local exports and release archives
+backups/
+release_packages/
+submission/
+submission_materials/
+*.zip
+*.7z
+*.mp4
+
+# Raw source documents are recorded by manifests but not redistributed
+knowledge_corpus/raw_docs/*
+!knowledge_corpus/raw_docs/README.md
+
+# Private review keys
+evaluation/external_review/blind_case_key_private.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

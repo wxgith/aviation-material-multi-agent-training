@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-08-11T10:30:27+08:00",
+  "status": "passed",
+  "provider": "Alibaba Cloud Model Studio",
+  "api_style": "OpenAI-compatible Chat Completions",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "model": "qwen-plus",
+  "secret_recorded": false,
+  "session_id": "f7ac6597-9160-4964-977c-6336f0085e97",
+  "checks": {
+    "minimal_connectivity": true,
+    "database_connected": true,
+    "elasticsearch_connected": true,
+    "main_agent_steps": 6,
+    "resource_generation_mode": "llm",
+    "resource_generation_outcome": "success",
+    "resource_generation_latency_ms": 37832,
+    "guided_inquiry_agent_steps": 5,
+    "guided_inquiry_generation_mode": "llm",
+    "guided_inquiry_generation_outcome": "success",
+    "guided_inquiry_latency_ms": 10688,
+    "review_mode": "llm-assisted-review",
+    "review_status": "通过，附限制说明",
+    "review_outcome": "success",
+    "evidence_count": 1,
+    "mysql_agent_session_records": 1,
+    "mysql_agent_step_records": 6,
+    "mysql_generated_resource_records": 1,
+    "mysql_learning_report_records": 2,
+    "mysql_learning_interaction_records": 1,
+    "backend_tests_passed": 66
+  },
+  "structured_output": {
+    "response_format": {
+      "type": "json_object"
+    },
+    "max_tokens_sent": false,
+    "regression_test": "tests/test_llm_client.py"
+  },
+  "limitations": [
+    "当前为单会话端到端连通与结构验收，不代表多领域专业质量统计。",
+    "调用延迟随网络、服务负载和模型版本变化。",
+    "正式比赛现场仍保留 mock/template 自动回退。",
+    "API Key 仅保存在本机 backend/.env，本文件不记录密钥。"
+  ]
+}

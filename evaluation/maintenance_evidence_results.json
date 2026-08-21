@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-08-12T12:15:46.759841+00:00",
+  "evaluation_scope": "official_maintenance_training_evidence",
+  "metrics": {
+    "case_count": 6,
+    "source_hit_rate": 1.0,
+    "evidence_traceability_rate": 1.0,
+    "official_source_rate": 1.0,
+    "boundary_statement_coverage": 1.0,
+    "elasticsearch_usage_rate": 1.0
+  },
+  "automated_status": "passed",
+  "cases": [
+    {
+      "id": "maint-ret-001",
+      "domain": "composite",
+      "expected_source_id": "composite_faa_h_8083_31b_ch7_ndi",
+      "actual_source_ids": [
+        "composite_faa_h_8083_31b_ch7_ndi",
+        "composite_faa_h_8083_31b_ch7_ndi",
+        "local_json_composite",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "composite_faa_h_8083_31b_ch7_ndi-c006-b41d0eaf",
+        "composite_faa_h_8083_31b_ch7_ndi-c012-0c865a4b",
+        "composite-k02",
+        "composite-k01",
+        "composite-k05"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "official_source": true,
+      "boundary_documented": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "maint-ret-002",
+      "domain": "composite",
+      "expected_source_id": "composite_faa_h_8083_31b_ch7_ndi",
+      "actual_source_ids": [
+        "composite_faa_h_8083_31b_ch7_ndi",
+        "composite_faa_h_8083_31b_ch7_ndi",
+        "local_json_composite",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "composite_faa_h_8083_31b_ch7_ndi-c019-f959a525",
+        "composite_faa_h_8083_31b_ch7_ndi-c020-8352cf0c",
+        "composite-k05",
+        "composite-k04",
+        "composite-k02"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "official_source": true,
+      "boundary_documented": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "maint-ret-003",
+      "domain": "composite",
+      "expected_source_id": "composite_faa_h_8083_31b_ch7_ndi",
+      "actual_source_ids": [
+        "composite_faa_h_8083_31b_ch7_ndi",
+        "composite_faa_h_8083_31b_ch7_ndi",
+        "composite_damage_notes",
+        "local_json_composite",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "composite_faa_h_8083_31b_ch7_ndi-c006-b41d0eaf",
+        "composite_faa_h_8083_31b_ch7_ndi-c024-ab016f66",
+        "composite_damage_notes-c003-ae26f436",
+        "composite-k03",
+        "composite-k01"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "official_source": true,
+      "boundary_documented": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "maint-ret-004",
+      "domain": "brake",
+      "expected_source_id": "brake_faa_h_8083_31b_ch13_service",
+      "actual_source_ids": [
+        "brake_faa_h_8083_31b_ch13_service",
+        "brake_faa_h_8083_31b_ch13_service",
+        "local_json_brake",
+        "local_json_brake",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "brake_faa_h_8083_31b_ch13_service-c019-58c1d650",
+        "brake_faa_h_8083_31b_ch13_service-c008-b2908c2d",
+        "brake-k05",
+        "brake-k02",
+        "brake-k01"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "official_source": true,
+      "boundary_documented": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "maint-ret-005",
+      "domain": "brake",
+      "expected_source_id": "brake_faa_h_8083_31b_ch13_service",
+      "actual_source_ids": [
+        "brake_faa_h_8083_31b_ch13_service",
+        "brake_faa_h_8083_31b_ch13_service",
+        "local_json_brake",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "brake_faa_h_8083_31b_ch13_service-c028-2e8433ab",
+        "brake_faa_h_8083_31b_ch13_service-c021-e0f6fa94",
+        "brake-k05",
+        "brake-k02",
+        "brake-k01"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "official_source": true,
+      "boundary_documented": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "maint-ret-006",
+      "domain": "brake",
+      "expected_source_id": "brake_faa_h_8083_31b_ch13_service",
+      "actual_source_ids": [
+        "brake_faa_h_8083_31b_ch13_service",
+        "brake_faa_h_8083_31b_ch13_service",
+        "local_json_brake",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "brake_faa_h_8083_31b_ch13_service-c051-5118ed22",
+        "brake_faa_h_8083_31b_ch13_service-c050-178a2af4",
+        "brake-k05",
+        "brake-k02",
+        "brake-k01"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "official_source": true,
+      "boundary_documented": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    }
+  ]
+}

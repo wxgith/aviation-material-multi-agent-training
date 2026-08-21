@@ -1,0 +1,1050 @@
+---
+source_id: brake_faa_ac65_15a_landing_gear
+domain: brake
+title: "FAA Airframe and Powerplant Mechanics Airframe Handbook: Brake Systems and Maintenance"
+url: https://www.faa.gov/documentlibrary/media/advisory_circular/ac_65-15a.pdf
+parser: pdftotext-layout
+source_sha256: DB5DFC68045FA7F71EA5BC79A30439DB2718CA5B1AA210194D9D4AB43B15A310
+review_status: machine_parsed_pending_expert_review
+---
+
+# FAA Airframe and Powerplant Mechanics Airframe Handbook: Brake Systems and Maintenance
+
+## Page 370
+
+main parts: ( 1) The replenishing chamber, ( 2) the             Maintaining the proper fluid level is necessary to
+working chamber, and (3) the lower shaft packing            the continued functioning of a vane-type shimmy
+chamber.                                                    damper. If a shimmy damper is not operating prop·
+   The replenishing chamber is in the top part of           erly, the fluid level is the first item which should be
+the housing and stores a supply of fluid under              checked by measuring the protrusion of the indica·
+pressure. Pressure is applied to the fluid by the           tor rod from the center of the reservoir cover.
+spring-loaded replenishing piston and piston shaft          Inspection of a shimmy damper should include a
+which extends through the upper housing and                 check for evidence of leakage and a complete exami·
+serves as a fluid level indicator. The area above the       nation of all fittings and connections between the
+piston contains the piston spring and is open to            moving parts of the shock strut and the damper
+atmosphere to prevent a hydraulic lock. Fluid is            shaft for loose connections.
+prevented from leaking past the piston by 0-ring                Fluid should be added only when the indicator
+packings. A grease fitting provides the means for           rod protrudes less than the required amount. The
+filling the replenishing chamber with fluid.                distance the rod should protrude varies with differ·
+                                                            ent models. A shimmy damper should not be over·
+   The working chamber is separated from the re·
+                                                             filled. If the indicator rod is above the height speci·
+plenishing chamber by the abutment and valve as·
+sembly. The working chamber contains two one-way             fied on the nameplate, fluid should be bled out of
+ball check valves, which will allow fluid to flow            the damper.
+from the replenishing chamber to the working                Steer Damper
+chamber only. This chamber is divided into four               A steer damper is hydraulically operai:ed and
+sections by two stationary vanes called abutment            accomplishes the two separate functions of steering
+flanges, which are keyed to the inner wall of the           and/or eliminating shimmying. The type discussed
+housing, and two rotating vanes, which are an inte-         here is designed for installation on nose gear struts
+gral part of the wing sliaft. The shaft contains the        and is connected into the aircraft hydraulic system.
+valve orifice through which the fluid must pass in          A typical steer damper is shown in figure 9-24.
+going from one chamber to another.
+    Turning the nosewheel in either direction causes
+the rotating vanes to move in the housing. This
+results in two sections of the working chamber
+growing smaller, while the opposite two chambers
+grow larger. The rotating vane can move only as
+ fast as the fluid can be displaced from one chamber
+to the other. All of the fluid being displaced must
+ pass through the valve ori#i,ce in the shaft. Resist·
+ ance to the flow of fluid through the orifice is
+ proportional to the velocity of flow. This means that
+ the shimmy damper offers little resistance. to slow
+ motion, such as that encountered during normal
+ steering of the nose gear or ground handling, but
+ offers high resistance to shimmy on ·landing, takeoff,
+ and high-speed taxiing. An automatic orifice adjust·
+ ment compensates for temperature changes. A bime-
+ tallic thermostat in the shaft opens and closes the
+ orifice as the temperature and viscosity change.
+ This results in a constant resistance over a wide
+                                                                         FIGURE 9-24.   Typical steer damper.
+ temperature range. In case an exceptionally high
+ pressure is suddenly built up in the working cham·
+ her by a severe twisting force on the nosewheel, the             Basically, a steer damper consists of a closed
+ closing flange moves down, compressing the lower               cylinder containing rotary vane·type working cham·
+ shaft packing spring, allowing fluid to pass around            hers (similar to the vane-type shimmy damper) and
+ the lower ends of the vanes, oreventing structure              a valving system.
+ damage.                                                          Steer dampers may contain any even number of
+
+                                                          359
+
+## Page 371
+
+working chambers. A steer damper with one vane            They must develop sufficient force to stop the air-
+on the wing shaft and one abutment leg on the             craft in a reasonable distance; brakes must hold the
+abutment flange would have two chambers. Simi-            aircraft for normal engine turnup; and brakes must
+larly, a unit with two vanes on the wingshaft and         permit steering of the aircraft on the ground.
+two abutment legs on the abutment flange would            Brakes are installed in each main landing wheel and
+have four chambers. The single- or double-vaned           they may be actuated independently of each other.
+units are the ones most commonly used.                    The right-hand landing wheel is controlled by
+   A mechanical linkage is connected from the pro-        applying toe pressure to the right rudder pedal and
+truding splined portion of the wing shaft to the          the left-hand wheel is controlled by the left rudder
+wheel fork and is used as a means for transmitting        pedal.
+force. The linkage on the steer damper may be                For the brakes to function efficiently, each com·
+connected to a heavy coil spring on the outside of        ponent in the brake system must operate properly,
+the reservoir for automatic wheel centering.              and each brake assembly on the aircraft must oper·
+   The steer damper accomplishes two separate func-       ate with equal effectiveness. It is therefore impor·
+tions: one is steering the nosewheel and the other is     tant that the entire brake system be inspected fre·
+shimmy damping. Only the damping function of the          quently and an ample supply of hydraulic fluid be
+steer damper is discussed in this section.                maintained in the system. Each brake assembly
+   The steer damper automatically reverts to damp-        must be adjusted properly and friction surfaces
+ing when, for any reason, the flow of high-pressure       kept free of grease and oil.
+fluid is removed from the inlet of the steer damper.         Three types of brake systems are in general use:
+This high pressure, which activates the steer              (1) Independent systems, (2) power control sys-
+damper valving system, is removed from the control        tems, and ( 3) power boost systems. In addition,
+passages by one of two methods, depending on the          there are several different types of brake assemblies
+installation. When the inlet line is supplied with a      in widespread use.
+three-way solenoid valve and the high-pressure sup-
+                                                          Independent Brake Systems
+ply is shut off, the fluid bleeds out of the unit
+through the outlet port of the valve to the discharge        In general, the independent brake system is used
+line. When a two-way solenoid valve is furnished,         on small aircraft. This type of brake system is
+high-pressure fluid leaves the control passages           termed "independent" because it has its own reser·
+through an orifice specially provided for this type       voir and is entirely independent of the aircraft's
+of installation which is located in the center of the     main hydraulic system.
+return line plunger.                                         Independent brake systems are powered by mas-
+   Effective damping is assured by maintaining            ter cylinders similar to those used in the conven·
+unaerated hydraulic fluid in the working chambers.        tional automobile brake system. The system is com-
+This is accomplished by allowing air and a very           posed of a reservoir, one or two master cylinders,
+small amount of hydraulic fluid to leave the work-
+ing chambers through strategically located vent                       Brake pedals
+grooves while unaerated fluid is allowed to enter
+through replenishing valves from the hydraulic re-
+turn line. Excessive pressure in the unit due to
+temperature changes is prevented by the thermal
+relief valve in the inlet flange.                                                    Parking brake valves
+                                                                                     (operated by a smgle
+   Daily inspection of a steer damper should include                                 control handle)
+
+a check for leakage and a complete inspection of all
+hydraulic connections, steer damper mounting bolts
+for tightness, and all fittings and connections be-
+tween the moving parts of the shock strut and the
+steer damper wing shaft.
+                                                                                                 R.H. bralce assembly
+BRAKE SYSTEMS
+   Proper functioning of the brakes is of utmost
+importance on aircraft. The brakes are used for
+slowing, stopping, holding, or steering the aircrafL           FIGURE 9-25.    Typical independent brake system.
+
+                                                        360
+
+## Page 372
+
+mechanical link,ge which connects each master cyl-                Application of the brake pedal, which is linked to
+inder with its corresponding brake pedal, connect-             the master cylinder piston rod, causes the piston
+ing fluid lines, and a brake assembly in each main             rod to push the piston forward inside the master
+landing gear wheel (figure 9-25).                              cylinder casting. A slight forward movement blocks
+   Each master cylinder is actuated by toe pressure            the compensating port, and the buildup of pressure
+on its related pedal. The master cylinder builds up            begins. This pressure is transmitted to the brake
+pressure by the movement of a piston inside a                  assembly.
+sealed, fluid-filled cylinder. The resulting hydraulic            When the brake pedal is released and returns to
+pressure is transmitted to the fluid line connected to         the "off" position, the piston return ~pring pushes
+the brake assembly in the wheel. This results in the           the front piston seal and the piston back to full
+friction necessary to stop the wheel.                          "off'' position against the piston return stop. This
+   When the brake pedal is released, the master                again clears the compensating port. Fluid that was
+cylinder piston is returned to the "off'' position by          moved into the brake assembly and brake connect-
+a return spring. Fluid that was moved into the                 ing line is then pushed back to the master cylinder
+brake assembly is then pushed back to the master               by the brake piston which is returned to the "off''
+cylinder by a piston in the brake assembly. The                position by the pressure of the brake piston return
+brake assembly piston is returned to the "off'' posi-          springs. Any pressure or excess volume of fluid is
+tion by a return spring in the brake. Some light               relieved through the compensating port and passes
+aircraft are equipped with a single master cylinder            back to the fluid reservoir. This prevents the master
+which is hand-lever operated and applies brake                 cylinder from locking or causing the brakes to
+action to both main wheels simultaneously. Steering            drag.
+on this system is accomplished by nosewheel link-                 If any fluid is lost back of the front piston seal
+age.                                                           due to leakage, it is automatically replaced from the
+   The typical master cylinder has a compensating              fluid reservoir by gravity. Any fluid lost in front of
+port or valve that permits fluid to flow from the               the piston from leaks in the line or at the brake
+brake chamber back to the reservoir when excessive             assembly is automatically replaced through the pis-
+pressure is developed in the brake line due to tem-            ton head ports, and around the lip of the front
+perature changes. This ensures that the master cyl-            piston seal when the piston makes the return stroke
+inder won't lock or cause the brakes to drag.                  to the full "off'' position. The front piston seal
+   Various manufacturers have designed master cyl-             functions as a seal only during the forward stroke.
+1nders for use on aircraft. All are similar in opera-             These automatic fluid replacement arrangements
+tion, differing only in minor details and construc-            always keep the master cylinder, brake connecting
+tion. Two well-known master cylinders--the Good-               line, and brake assembly fully supplied with fluid as
+year and the Warner-are described and illustrated              long as there is fluid in the reservoir.
+in this section.                                                  The rear piston seal seals the rear end of the
+                                                               cylinder at all times to prevent leakage of fluid, and
+   In the Goodyear master cylinder (figure 9-26)
+                                                               the flexible rubber boot serves only as a dust cover.
+fluid is fed from an external reservoir by gravity to
+                                                                  The brakes may be applied for parking by a·
+the master cylinder. The fluid enters through the
+                                                               ratchet-type lock built into the mechanical linkage·
+cylinder inlet port and compensating port and fills
+                                                               between the master cylinder and the foot pedal. Any
+ the master cylinder casting ahead of the piston and
+                                                               change in the volume of fluid due to expansion
+the fluid line leading to the brake actuating cylin-
+                                                                while the parking brake is on is taken care of by a
+ der.
+                                                               spring incorporated in the linkage. The brakes are
+                                                               unlocked by application of' sufficient pressure on the
+                                                               brake pedals to unload the ratchet.
+                                                                   Brake systems employing the Goodyear master
+                                                               cylinder must be bled from the top down. In no
+                                                               case should bleeding be attempted from the bottom
+                                                                up, because it is impossible to remove the air be-
+                                                               hind the piston seal.
+                                                                   The Warner master cylinder (figure 9-27) incor-
+      FicUBE ~26. Goodyear master brake cylinder.               porates a reservoir, pressure chamber, and compen·
+
+                                                         361
+
+## Page 373
+
+aating device in a single housing. The reservoir is       have a parking "feature which consists of a ratchet
+vented to the atmosphere through the filler plug,         and spring arrangement. The ratchet locks thf' unit
+which also contains a check valve. A fluid level tube     in the "on" position, and the spring compensates
+is located in the side of the reservoir housing.          for expansion and contraction of fluid.
+                                                          Power Brake Control Systems
+                                                             Power brake control valve systems (figure 9-28)
+                                                          are used on aircraft requiring a large volume of
+                                                          fluid to operate the brakes. As a general rule, this
+                                                          applies to many large aircraft. Because of their
+                                                          weight and size, large wheels and brakes are re-
+                                               Filler     quired. Larger brakes mean greater fluid displace-
+                                               plug       ment and higher pressures, and for this reason in-
+                                                          dependent master cylinder systems are not practical
+                                                          on heavy aircraft.
+
+                                                                                                    To main
+                                                                                                     system
+                                                                                From main systemt      t
+                                                                                  Brake system
+                                                                                  accumulator
+
+                                                                                                           Copilot's brake
+                                                                                                           valves
+
+
+
+
+                                                              FrcVRE 9-28. Typical power brake control valve system.
+       FlcVRE 9-27. Warner master brake cylinder.
+
+                                                             In this system a line is tapped off from the main
+   Toe pressure on the brake pedal is transferred to      hydraulic system pressure line. The first unit in this
+the cylinder piston by mechanical linkage. As the         line is a check valve which prevents loss of brake
+piston moves downward, the compensating valve             system pressure in case of main system failure.
+closes and pressure is trapped in the pressure cham-         The next unit is the accumulator which stores a
+ber. Further movement of the piston forces fluid          reserve supply of fluid under pressure. When the
+into the brake assembly, creating the braking             brakes are applied and pressure drops in the accu-
+action. When toe pressure is removed from the             mulator, more fluid enters from the main system
+brake pedal, the piston return spring returns the         and is trapped by the check valve. The accumulator
+piston to the "off" position. The compensating            also acts as a surge chamber for excessive loads
+device allows fluid to flow to and from the reservoir     imposed upon the brake hydraulic system.
+and pressure chamber when the brakes are in the              Following the accumulator are the pilot's and
+"off'' position and the entire system is under atmos-     copilot's control valves. The control valves regulate
+pheric pressure.                                          and control the volume and pressure of the fluid
+   Certain models of the Wamer master cylinder            which actuates the brakes.
+
+                                                        362
+
+## Page 374
+
+   Four check valves and two orifice check valves                 parts of the valve are the housing, piston assembly,
+are installed in the pilot's and copilot's brake                  and tuning fork. The housing contains three cham·
+actuati~ lines. The check valves allow the flow of                bers and ports: pressure inlet, brake, and return.
+fluid in one direction only. The orifice check valves               When toe pressure is applied to the brake pedal,
+allow unrestricted flow of fluid in one di~on                     the motion is transmitted through linkage to the
+from the pilot's brake control valve; flow in the                 tuning fork. The tuning fork swivels, moving the
+opposite direction is restricted by an orifice in the             piston upward in the cylinder. The first movement
+poppet. Orifice check valves help prevent chatter.                upward causes the piston head to contact a flange
+   The next unit in the brake actuating lines is the              on the pilot pin, closing the return fluid passage.
+pressure relief valve. In this particular system, the             Further movement upward unseats the ball-check
+pressure relief valve is preset to open at 825 p.s.i. to          valve allowing main system pressure to flow into the
+discharge fluid into the return line, and closes at               brake line. As the pressure increases in the brake
+760 p.s.i. minimum.                                               actuating cylinder and line, the pressure also in-
+   Each brake actuating line incorporates a shuttle               creases on the top side of the piston. When the total
+valve for the purpose of isolating the emergency                  force on top of the piston is greater than the force
+brake system from the normal brake system. When                   applied at .the brake pedal, the piston is forced
+brake actuating pressure enters the shuttle valve,                downward against the bar spring tension. This al-
+the shuttle is automatically moved to the opposite                lows the ball~heck valve to seat, closing oft system
+end of the valve. This closes oft the hydraulic                   pressure. In this position, the pressure and return
+brake system actuating line. Fluid returning from                 ports are both closed and the power brake valve is
+the brakes travels back into the system to which the              balanced. This balancing action cuts system pres-
+shuttle was last open.                                            sure down to brake pressure by closing oft the
+                                                                  pressure from the main system when the desired
+Pressure Baii.Check Brake Control Valve                           brake pressure is attained. As long as the valve is
+   A pressure ball-check power brake control valve                balanced, fluid under pressure is trapped in the
+(figure 9-29) releases and regulates main system                  brake assembly and line.
+pressure to the brakes and relieves thermal expan·
+sion when the brakes are not being used. The main                 Power Brake Control Valve (Sliding Spool Type]
+                                                                     A sliding spool power brake control valve (figure
+                                                                  9-30) basically consists of a sleeve and spool in-
+                                                                  stalled in a housing. The spool moves inside the
+                                                                  sleeve, opening or closing either the pressure or
+                                                                  return port of the brake line. Two springs are pro-
+                                                                  vided. The large spring, referred to in figure 9-30
+                                                                  as the plunger spring, provides "feel" to the brake
+                                                                  pedal. The small spring returns the spool to the
+                                                                  "oft'' position.
+                                                                     When the plunger is depressed the large spring
+                                                                  moves the spool closing the return port and opening
+                                                                  the pressure port to the brake line. When the pres-
+                                                                  sure enters the valve, fluid flows to the opposite end
+                                                                  of the spool through a hole when the pressure
+                                                                  pushes the spool back far enough toward the large
+                                                                  spring to close the pressure port, but does not open
+                                                                  the return port. The valve is then in the static
+                                                                  condition. This movement partially compresses the
+                                                                  large spring, giving "feel" to the brake pedal. When
+                                                                  the brake pedal is released the small spring moves
+                                                                  the spool back and opens the return port. This
+   F~euu: 9-29.   Pressure ball-check power brake control         allows fluid pressure in the brake line to flow out
+                           nlve.                                  through the return port.
+
+                                                            363
+
+## Page 375
+
+                            Pressure    Brake         Return
+
+
+
+
+                                                                                               _.Plunger
+                                                                                               ,. moving
+
+
+
+
+                F1uid under pressure in this area                        Plunger
+                acting on spool resists spring
+                giving "feel" to brake pedal
+                                                    Spool
+
+
+                            Pressure    Brake         Return
+
+
+
+
+                                                                                                   Constant
+                                                                                               _.pressure
+                                                                                               ,. (plunger
+                                                                                                  stationary)
+
+
+
+
+                            Pressure    Brake          Return
+
+
+
+
+                                                                                               •   Plunger
+                                                                                                   moving
+
+
+
+
+                                   FIGURE 9-30.     Sliding spool power brake control valve.
+ Brake Debooster Cylinders
+   In some power brake control valve systems, de-                    In the "oft" position, the piston assembly is held
+booster cylinders are used in conjunction with the                at the inlet (or small) end of· the debooster by the
+power brake control valves. Debooster units are                   piston return spring. The ball-check valve is held on
+generally used on aircraft equipped with a high-                  its seat in the small piston head by a light spring.
+pressure hydraulic system and low-pressure brakes.                Fluid displaced by thermal expansion in the brake
+Brake debooster cylinders reduce the pressure to                  unit can easily push the ball-check valve oft its seat
+the brake and increase the volume of fluid flow.                  to escape through the debooster back to the power
+Figure 9-31 shows a typical debooster cylinder in-                control valve.
+stallation, mounted on the landing gear shock strut                  When the brakes are applied, fluid under pres-
+in the line between the control valve and the brake.              sure enters the inlet port to act on the small end of
+   As shown in the schematic diagram of the unit,                 the piston. The ball check prevents the fluid from
+the cylinder housing contains a small chamber and                 passing through the shaft. Force is transmitted
+a large chamber, a piston with a small head and a                 through the small end of the piston to the large end
+large head, a spring-loaded ball-check valve, and a               of the piston. As the piston moves downward in the
+piston return spring.                                             housing a new flow of fluid is created from the
+
+                                                                364
+
+## Page 376
+
+                                                                 large piston head, pressure at the outlet port is
+                                                                 reduced. At the same time, a greater volume of fluid
+                                                                 is displaced by the large piston head than that used
+                                                                 to move the small piston head.
+                                                                    Normally, the brakes wm be fully applied before
+                                                                 the piston has reached the lower--end of its travel.
+                                                                 However, if the piston fails to meet sufficient resist-
+                                                                 ance to stop it (due to a loss of fluid from the
+                                                                 brake unit or connecting lines) , the piston will con-
+                                                                 tinue to move downward until the riser unseats the
+                                                                 ball-check valve in the hollow shaft. With the ball-
+                                                                 check valve unseated, fluid from the power control
+                                                                 valve will pass through the piston shaft to replace
+                                                                 the lost fluid. Since the fluid passing through the
+                                                                 piston shaft acts on the large piston head, the piston
+                                                                 will move up, allowing the ball-check valve to seat
+                                                                 when pressure in the brake assembly becomes nor-
+                                                                 mal.
+                                                                    When the brake pedals are released pressure is
+                                                                 removed from the inlet port, and the piston return
+                                                                 spring moves the piston rapidly back to the top of
+                                                                 the debooster. The rapid movement causes a suction
+                                                                 in the line to the brake assembly, resulting in faster
+                                                                 release of the brakes.
+
+                                                                 Power Boost Brake Systems
+1. Emergency system               15. Brake pressure               As a general rule, power boost brake systems are
+    pressure line                     relief valve               used on aircraft that land too fast to employ the
+ 2. Main brake pressure           16. Overflow line
+                                                                 independent brake system, but are too light in
+    line                          17. Brake line ( debooster
+                                      to shuttle valve)
+                                                                 weight to require power brake control valves.
+ 3. Upper support
+    clamp                         18. Shock strut                   In this type of system, a line is tapped oft the
+ 4. Packing                       19. Torque linlr               main hydraulic system pressure line, but main hy-
+ 5. Packing                       20. Brake shuttle              draulic system pressure does not enter the brakes.
+ 6. Debooster cylinder                 valve                     Main system pressuJ;e is used only to assist the
+    assembly                      21. Upper end cap              pedals through the use of power boost master cylin-
+ 7. Piston                        22. Snapring                   ders.
+ 8. Piston spring                 23.   Spring retainer            A typical power boost brake system (figure
+ 9. Packing                       24.   Valve spring             9-32) consists of a reservoir, two power boost mas-
+10. Lower support                 25.   Ball
+    clamp
+                                                                 ter cylinders, two shuttle valves, and the brake as·
+                                  26.   Ball pedestal
+11. Riser tube                                                   sembly in each main landing wheel. A compressed
+                                  27.   Barrel                   air bottle with a gage and release valve is installed
+12. Packing                       28.   Lower end cap
+13. Tee fitting                                                  for emergency operation of the brakes. Main hy-
+14. Brake line (to                                               draulic system pressure is routed from the pressure
+    pressure relief                                              manifold to the power master cylinders. When the
+     valve)                                                      brake pedals are depressed, fluid for actuating the
+                                                                 brakes is routed from the power boost master cylin-
+           F1cURE 9-31. Brake debooster cyliDder.                ders through the shuttle valves to the brakes.
+large end of the housing through the outlet port .to                 When the brake pedals are released, the main
+the brakes. Because the force from the small piston               system pressure port in the master cylinder is
+head is distributed over the greater area of the                  closed. Fluid that was moved into the brake assem-
+
+                                                               365
+
+## Page 377
+
+   To reservoir
+                                                                BRAKE ASSEMBLIES
+                                ·~------------l                    Brake assemblies commonly used on aircraft are
+                                                                the single-disk, dual-disk, multiple-disk, segmented
+                                                                rotor, or expander tube types. Tht. single- and
+                                                    ''
+                                                                dual-disk types are more commonly used on small
+                                                                aircraft; the multiple-disk type is normally used on
+                                                                medium-sized aircraft; and the segmented rotor and
+                                                                expander tube types are commonly found on heav-
+                                                                ier aircraft.
+    -Main pressure                        m:m Brake line        Single-Disk Brakes
+    c= Emer. air pressure                -Return                   With the single-disk brake, braking is accom-
+                                                                plished by applying friction to both sides of a
+1. Brake reservoir               6. Shuttle valve               rotating disk which is keyed to the landing gear
+2. Power boost                   7. Air vent                    wheel. There are several variations of the single-
+   master cylinder               8. Main system                 disk btake; however, all operate on the same prin.o
+3. Emergency                        pressure manifold           ciple and differ mainly in the number of cylinders
+   brake control                 9. Emergency air               and the type of brake housing. Brake housings may
+4. Air release valve                bottle                      be either the one-piece or divided type. Figure 9-33
+5. Wheel brake                  10. Emergency air gage          shows a single-disk brake installed on ·an aircraft,
+                                                                with the wheel removed. The brake housing is
+FIGURE 9-32.      Power boost master cylinder brake system.
+                                                                attached to the landing gear axle flange by mounting
+bly is forced out the return port by a piston in the            bolts.
+brake assembly, through the return line to the brake
+reservoir. The brake reservoir is connected to the
+main hydraulic system reservoir to assure an ade-
+quate supply of fluid to operate the brakes.
+
+Nose Wheel Brakes
+   Many transport type aircraft such as the B-727
+have brakes installed on the nose wheel. Move-
+ment of either right or left brake pedal will actuatt'
+the corresponding right or left main gear brake
+metering valve.
+   Movement of both brake pedals together will
+apply both main gear brakt>s and the nose gear
+brakes after approximately half the pedal stroke.
+Actuation of one brake pedal for directional con-
+trol braking will not actuate the nose gear brakes
+until nearly the end of the pedal stroke. Nose
+gear brake application is controlled through the
+brake differential linkage.
+   When the brake pedals are depressed the differ-
+ential directs the force through linkage to the main
+gear metering valve first. After this valve is
+opened, continued movement of the brake pedals
+is directed to the nose gear metering valve, open-                  FIGURE 9-33.   Typical single-disk brake installation.
+ing it and activating the brakes. Nose wheel
+braking is available above 15 mph from straight
+ahead to approximately 6° of steering. At this
+point the nose wheel steering brake cutoff switch
+activates the anti skirt valve and shuts off nose                  Figure 9-34 shows an exploded view of a typical
+wheel braking. There is no nose wheel braking                   single-disk brake assembly. This brake assembly has
+below 15 mph.                                                   a three-cylinder, one-piece housing. Each cylinder
+
+                                                              366
+
+## Page 378
+
+                2     1
+
+              f)                          2
+
+                                          I
+                                          e
+                                                   24
+
+
+
+
+                                                                                                   11
+
+
+          1. Brake disk                                              13. Brake return spring
+          2. Lining puck                                             14. Adjusting pin
+          3. Adjusting pin nut                                       15. Bleeder screw
+          4. Cylinder head                                           16. Washer
+          5. 0-ring gasket                                           17. Bleeder valve
+          6. 0-ring packing                                          18. Bleeder adapter
+          7. Adjusting pin grip                                      19. Gasket
+         8. Washer                                                   20. Fluid inlet bushing
+         9. 0-ring packing                                           21. Gasket
+        10. Piston                                                   22. Screw
+         11. Internal retainer ring                                  23. Washer
+         12. Spring guide                                            24. Brake housing
+                           FIGURE 9-34.   Exploded view of single-disk brake assembly.
+
+
+in the housing contains a piston, a return spring,            side of the rotating disk and three on the outboard
+and an automatic adjusting pin.                               side of the rotating disk. These brake linings are
+  There are six brake linings, three on the inboard           often referred to as "pucks." The outboard lining
+
+                                                        367
+
+## Page 379
+
+pucks are attached to the three pistons and move in      very similar to the single-disk type, except that two
+and out of the three cylinders when the brakes are       rotating disks instead of one are used.
+operated. The inboard lining pucks are mounted in
+                                                         Multiple-Disk Brakes
+recesses in the brake housing and are therefore
+                                                            Multiple-disk brakes are heavy-duty brakes, de-
+stationary.
+                                                         signed for use with power brake control valves or
+    Hydraulic pressure from the brake control unit
+                                                         power boost master cylinders.- Figure 9-35 is an
+enters the brake cylinders and forces the pistons
+                                                         exploded view of the complete multiple-disk brake
+and their pucks against the rotating disk. The rotat-
+                                                         assembly. The brake consists of a bearing carrier,
+ing disk is keyed to the landing gear wheel so that
+                                                         four ·rotating disks called rotors, three stationary
+it is free to move laterally within the brake cavity
+                                                         disks called stators, a circular actuating cylinder, an
+of the wheel. Thus, the rotating disk is forced into
+                                                         automatic adjuster, and various minor components.
+contact with the inboard pucks mounted in the
+                                                            Regulated hydraulic pressure is applied through
+housing. The lateral movement of the rotating disk
+                                                         the automatic adjuster to a chamber in the hearing
+ensures equal braking action on both sides of the
+                                                         carrier. The bearing carrier is bolted to the shock
+disk.
+                                                         strut axle flange and serves as a housing for the
+    When brake pressure is released, the return
+springs force the pistons hack to provide a preset
+clearance between the pucks and the disk. The self-      Bleeder valve (typical)~
+adjusting feature of the brake will maintain the         Automatic adjuster-------:;;~~~
+desired puck-to-disk clearance, regardless of lining     0-ring---------------~
+wear.                                                    Bearing carrier and sleeve --.........~ _,,:::::::::::;;:::,,._
+    When the brakes are applied, hydraulic pressure
+ moves each piston and its puck against the disk. At
+ the same time, the piston pushes against the adjust·
+ ing pin (through the spring guide) and moves the
+ pin inboard against the friction of the adjusting pin   Felt wiper r i n g - - - - - -
+grip. When pressure is relieved, the force of the
+                                                         Felt wiper ring----------
+ return spring is sufficient to move the piston away
+from the brake disk hut not enough to move the           0-ring--------
+ adjusting pin, which is held by the friction of the.    Backup ring----------
+ pin grip. The piston moves away from the disk until
+ it stops against the head of the adjusting pin. Thus,
+ regardless of the amount of wear, the same travel of
+ the piston will he required to apply the brake.
+    Maintenance of the single-disk brake may include
+ bleeding, performing operational checks, checking
+ lining wear, checking disk wear, and replacing
+ worn linings and disks.
+    A bleeder valve is provided on the brake housing
+ for bleeding the single-disk brake. Always bleed
+ brakes in accordance with the applicable manufac-
+ turer's instructions.                                   Stator--------
+    Operational checks are made during taxiing.
+                                                         Rotor---------'
+ Braking action for each main landing gear wheel
+ should be equal, with equal application of pedal        Stator--------
+ pressure and without any evidence of soft or
+ spongy action. When pedal pressure is released, the
+  brakes should release without any evidence of drag.
+
+ Dual-Disk Brakes
+  Dual-disk brakes are used on aircraft when more
+braking friction is desired. The dual-disk brake is                     FIGURE 9-35.      Multiple-disk brake.
+
+                                                      368
+
+## Page 380
+
+annular actuating piston. Hydraulic pressure forces                    Bleeder valves are provided, making it possible to
+the annular piston to move outward, compressing                     bleed the brake in any position. Bleeding should be
+the rotating disks, which are keyed to the landing                  accomplished according to the instructions for the
+wheel and compressing the stationary disks, which                   specific aircraft.
+are keyed to the bearing carrier. The resulting fric-                 The disks are checked for wear using a gage
+tion causes a braking action on the wheel and tire                  equipped with a movable slide, a- stop pin, and an
+assembly.                                                           anvil.
+   When the hydraulic pressure is relieved, the re-
+tracting springs force the actuating piston to retract              Segmented Rotor Brakes
+into the housing chamber in the bearing carrier.                       Segmented rotor brakes are heavy-duty brakes,
+The hydraulic fluid in the chamber is forced out by                 especially adapted for use with high-pressure hy-
+the returning of the annular actuating piston, and is               draulic systems. These brakes may , be used with
+bled through the automatic adjuster to the return                   either power brake control valves or power boost
+line. The automatic adjuster traps a predetermined                  master cylinders. Braking is accomplished by means
+amount of fluid in the brake, an amount just suffi-                 of several sets of stationary, high-friction type
+cient to give correct clearances between the rotating               brake linings making contact with rotating (rotor)
+disks and stationary disks.                                         segments. A cutaway view of the brake is shown in
+   Maintenance of the multiple-disk brake may in-                   figure 9-36.
+clude bleeding, checking disks for wear, replacing                   The segmented rotor brake is very similar to the
+disks, and performing operational checb.                            multiple-disk type described previously. The brake
+
+
+
+                     I
+                              Adjuster pin nut
+
+                         rr    Piston return spring
+                                Adjuster pin sleeve
+                                 Adjuster clamp
+                                                 Carrier assembly
+
+
+
+
+Drive sleeve bolts
+
+
+
+
+                                                                                             Rotor assembly
+                                                                                                      Stator plate
+
+                                       Rotor assembly
+                                               Stator plate
+                                          Bralce lining dille:
+                                                   (typical)
+
+
+
+
+                                                                                      Backing plate
+
+                                      F1~uu 9-36.     Segmented rotor brake ueembly units.
+
+                                                                 369
+
+## Page 381
+
+assembly consists of a carrier, two pistons and pis             to both sides. The linings are in the form of multi·
+ton cup seals, a pressure plate, an auxiliary stator            ple blocks, separated to aid in the dissipation of
+plate, roto segments, stator plates, a compensating             heat.
+shim, automatic adjusters, and a backing plate.                    Following the last rotor segment is the compen-
+    The carrier assembly is the basic unit of thr               sating shim. The compensating shim is provided 80
+brake. It is the part which is atta-::hed to the land-          that all the brake lining available for wear can be
+ing gear shock strut flange upon which the other                used. Without the shim, only about one-half of the
+components are assembled. Two grooves, or cylin·                lining could be used due to the limited travel of the
+clers, are machined in the carrier to receive the               pistons. After approximately one-half of the brake
+piston cups and pistons. Hydraulic fluid is admitted            lining has been used, the shim is removed. The
+to these cylinders through a line which is attached             adjuster clamp is then re-positioned on the auto-
+to a threaded boss on the outside of the carrier.               matic adjuster pin, restoring piston travel 80 that
+    The automatic adjusters are threaded into equally           the remaining lining can be used.
+spaced holes (figure 9-36) located in the face of                  The backing plate (figure 9-38) is the final unit
+the carrier. The adjusters compensate for lining                in the assembly and is a non-rotating plate with
+wear by maintaining a fixed running clearance with              brake linings riveted to one side. The backing plate
+the brake in the "off'' position. Each automatic                receives the ultimate hydraulic force resulting from
+adjuster is composed of an adjuster pin, adjuster               brake application.
+clamp, return spring, sleeve, nut, and clamp hold-
+clown assembly.
+    The pressure plate is a flat, circular, nonrotating              Backing plate and lining assy. - - - - - - - .
+plate, notched on the inside diameter to fit over the
+stator drive sleeves.                                                 Drive sleeve bolt nuts - - - - - . . . . . ,
+    Following the pressure plate is the auxiliary sta-
+tor plate. This is also a nonrotating plate, notched
+e>r1 the inside diameter. Brake lining is riveted to
+one side of the auxiliary stator plate.
+    The next unit in the assembly is the first of
+several rotor segments. Each rotor plate is notched
+on the outside circumference. This enables it to be
+keyed to the landing gear wheel and rotate with it.
+This particular model of the segmented rotor brake
+has four sets of these rotor segments.
+    Mounted between each of the rotor segments is a
+stator plate (figure 9-37). The stator plates are
+non-rotating plates and have brake linings riveted
+
+                         Friction                                        FicuaE 9-38. Backing plate installed.
+
+
+                                                                   Hydraulic pressure released from the brake con-
+                                                                trol unit enters the brake cylinders an,!~ acts on the
+                                                                piston cups and pistons forcing them outward from
+                                                                the carrier. The pistons apply force against the
+                                                                }'ressure plate, which in tum pushes against the
+                                                                auxiliary stator. The auxiliary stator contacts the
+Piston                                                          first rotor segment, which in tum engages the first
+cup                                                             stator plate. Lateral movement continues until all
+                                                                the braking surfaces are in contact. The auxiliary
+                                                                stator plate, the stator plates, and the backing plate
+                                                                are prevented from rotating by the stator drive
+   FICURE 9-37.   Cross section of a segmented rotor brake.     sleeves. Thus, the non-rotating linings are all forced
+
+                                                              370
+
+## Page 382
+
+in contact with the rotors, creating enough friction       Expander Tube Brakes
+to stop the wheel to which the rotors are keyed.               The expander tube brake (figure 9-39) is a low·
+   The function of the automatic adjuster is depend-       pressure brake with 360° of braking surface. It is
+ent upon the correct friction between the adjuster         light in weight, has few moving parts, and may be
+pin and the adjuster clamp. Adjustment of brake            used on large aircraft as well as on small aircraft.
+running clearance is governed by the distance ob-             ·An exploded view of the expander tube brake is
+tained between the adjuster washer and the end of          shown in figure 9-40. The main parts of the brake
+the adjuster nut when the brake is assembled.              are the frame, expander tube, brake blocks, return
+   During brake application, the pressure plate            springs, and clearance adjuster.
+moves toward the rotors. The washer moves with                 The brake frame is the basic unit around which
+the pressure plate, causing the spring to compress.        the expander tube brake is built. The main part of
+As piston travel increases and as the pressure plate       the frame is a casting which is bolted to the torque
+moves farther, the lining then comes in contact with       flange of the landing gear shock strut. Detachable
+the rotor segments. As the linings wear, the pres·         metal sides form a groove around the outer circum·
+sure plate continues to move and eventually comes          ference into which moving parts of the brake are
+into direct contact with the adjuster sleeve through       fitted.
+the adjuster washer. !bus, no further force is ap·             The ,expander tube is made of neoprene rein-
+plied to the spring. Additional travel of the pressure     forced with fabric, and has a metal nozzle through
+plate caused by lining wear will force the adjuster        which fluid enters and leaves the tube.
+pin to slide through the adjuster clamp.                       The brake blocks are made of special brake lin-
+   When hydraulic pressure in the brake is released,       i~g material, the actual braking surface being
+ the return spring forces the pressure plate to return     strengthened by a backing plate of metal. The brake
+ until it bottoms on the shoulder of the adjuster pin.     blocks are held in place around the frame and are
+ As this cycle is repeated during brake application        prevented from circumferential movement by the
+ and release, the adjuster pin will adv:ance through       torque bars.
+ the adjuster clamp due to lining wear, but the run·           The brake return springs are semi-elliptical or
+ ning clearance will remain constant. ·                    half-moon in shape. One is fitted between each sepa·
+                                                            ration in the brake blocks. The ends of the return
+                                                           springs push outward against the torque bars, while
+         Brake block                                       the bowed center section pushes inward, retracting
+                                                            the brake blocks when the brakes are released.
+                                                               When hydraulic fluid under pressure enters the
+                                                            expander tube the tube expands. Since the frame
+                                                            prevents the tube from expanding inward and to the
+                                                            sides, all movement is outward. This forces the
+                                                            brake blocks against the brake drum, creating fric-
+                                                            tion. The tube shields prevent the expander tube
+                                                            from extruding out between the blocks, and the
+                                                            torque bars prevent the blocks from rotating with
+                                                            the drum. Friction created by the brake is directly
+                                              Adjuster      proportional to brake line pressure.
+  0                                                            The clearance adjuster (figure 9-40) consists of
+                                                            a spring-loaded piston acting behind a neoprene
+  0                                                         diaphragm. It closes ·off the fluid passage in the
+                                                            inlet manifold when the spring tension is greater
+                                                             than the fluid pressure in the passage. Tension on
+                                                            the spring may be increased or decreased by turn·
+                                                             ing the adjustment screw. Some of the older models
+                                                             of the expander tube brake are not equipped with
+                                                            clearance adjusters.
+                                                                For brakes equipped with adjusters, clearance be-
+      FIGURE 9-39.   Assembled expander tube brake.          tween the brake bloclo> and drum is usually set to a
+
+                                                         371
+
+## Page 383
+
+                             FIGURE 9-40.   Exploded view of expander tube brakes.
+
+
+mm1mum of 0.002 to 0.015 in., the exact setting            in the system, remove it by bleeding the system.
+depending on the particular aircraft concerned. All          There are two general methods of bleeding brake
+brakes on the same aircraft should be set to the           systems-bleeding from the top downward (gravity
+same clearance.                                            method) and bleeding from the bottom upward
+   To decrease clearance, turn the adjuster knob           (pressure method). The method used generally de-
+clockwise; to increase clearance, turn the adjuster        pends on the type and design of the brake system to
+knob counterclockwise. It should be kept in mind,          be bled. In some instances it may depend on the
+however, that turning the adjuster knob alone does         bleeding equipment available. A general description
+not change the clearance. The brakes must be ap·           of each method follows.
+plied and released after each setting of the adjuster      Gravity Method of Bleeding Brakes
+knob to change the pressure in the brake and                  In the gravity method, the air is expelled from
+thereby change the brake clearance.                        the brake system through one of the bleeder valves
+INSPECTION AND MAINTENANCE OF BRAKE                        provided on the brake assembly (figure 9-41).
+      SYSTEMS                                                A bleeder hose is attached to the bleeder valve,
+   Proper functioning of the brake system is of the        and the free end of the hose is placed in a recepta·
+utmost importance. Hence, conduct inspections at
+frequent intervals, and perform needed maintenance
+promptly and carefully.
+   When checking for leaks, make sure the system is
+under operating pressure. However, tighten any
+loose fittings with the pressure off. Check all flexi-
+ble hoses carefully for swelling, cracking, or soft
+spots, and replace if evidence of deterioration is
+noted.
+   Maintain the proper fluid level at all times to
+prevent brake failure or the introduction of air into
+the system. Air in the system is indicated by a
+spongy action of the brake pedals. If air is present           FIGURE 9-41.   Gravity method of bleeding brakes.
+
+                                                         372
+
+## Page 384
+
+cle containing enough hydraulic fluid to cover the                  ing the entire operation. A low fluid sup-
+end of the hose. The air-laden fluid is then forced                 ply will allow air to be drawn into the
+from the system by operating the brake. If the                      system.
+brake system is a part of the main hydraulic system,           (3) Bleeding should continue until no more
+a portable hydraulic test stand may be used to                      air bubbles are expelled _:from the system,
+supply the pressure. If the system is an independent                and a firm brake pedal is obtained.
+master cylinder system, the master cylinder will sup-          ( 4) After the bleeding operation is completed,
+ply the necessary pressure. In either case, each time               check the reservoir fluid level. With brake
+the brake pedal is released the bleeder valve must                  pressure on, check the entire system for
+either be· closed or the bleeder hose pinched of;                   leaks.
+otherwise, more air will be drawn back into the              Brakes which have become overheated from ex~
+system. Bleeding should continue until no more air        cessive braking are dangerous and should be
+bubbles come through the bleeder hose into the            treated accordingly. Excessive brake heating weak-
+container.                                                ens the tire and wheel structure and increases tire
+Pressure Method of Bleeding Brakes                        pressure.
+  In the pressure method, the air is expelled
+through the brake system reservoir or other spe-          AIRCRAFT LANDING WHEELS
+cially provided location. Some aircraft have a               Aircraft wheels provide the mounting for tires
+bleeder valve located in the upper brake line. In         wJ:tich absorb shock on landing, support the aircraft
+using this method of bleeding, pressure is applied        on the ground and assist in ground control during
+using a bleed tank (figure 9-42). A bleed tank is a       taxi, takeoff and landing. Wheels are usually
+portable tank containing hydraulic fluid under pres-      made from either aluminum or magnesium. Either
+sure. The bleeder tank is equipped with an air valve,     of these materials provides a strong, light weight
+air gage, and a connector hose. The connector hose        wheel requiring very little maintenance.
+attaches to the bleeder valve on· the brake assembly         1. Split wheel-the most popular type. (Figures
+and is provided with a shutoft valve.
+                                                                9-43 and 9-44 Heavy aircraft wheel, Figures
+                                                                9-45 and ~ Light aircraft wheel.)
+                                                             2. Removable flange type Figure 9-47.
+                                                             3. Drop center fixed flange type Figure 9-48.
+                                                             The split wheel is used on most aircraft today.
+                                                          Illustrations of wheels used on light civilian type
+                                                          and heavy transport type aircraft are shown to
+                                                          illustrate the similarities and differences.
+                                                          Split Wheels
+                                                             Figures 9-43 and 9-44 and the description that
+                                                          follows were extracted from the B.F. Goodrich
+                                                          maintenance manual on wheels. The wheel illus·
+
+
+               --
+                                                          trated in figure 9-43 is used on the Boeing B-727
+                                                          transport aircraft.
+
+                                                             Description-The numbers in parenthesis refer
+                                                          to figures 9-43 and 9-44.
+   Perform this method of bleeding strictly in                  A. The main landing gear wheel is a tubeless,
+accordance with the specific manufacturer's instruc-                split-type assembly made of forged
+tions for the aircraft concerned.                                   aluminum.
+   Although the bleeding of individual systems pre-             B. The inner and outer wheel half assemblies
+sents individual problems, observe the following                    are fastened together by 18 equally spaced
+precautions in all bleeding operations:                             tie bolts (11), secured with nuts (9). A
+     ( 1) Be certain that the bleeding equipment to                 tubeless tire valve assembly installed in the
+                                                                    web of the inner wheel half (48) , with
+           be used is absolutely clean and is filled                the valve stem (7) protruding through a
+           with the proper type of hydraulic fluid.                 vent hole in the outer wheel half ( 30), is
+     (2) Maintain an adequate supply of fluid dur-                  used to inflate the tubeless tire used with
+
+                                                        373
+
+## Page 385
+
+                                                                                        27    26     28
+
+
+
+
+                                                                                        ~l
+       31
+       32
+
+
+       33
+        4
+        3
+        2                                                                                    j·~~
+                                                                                             '~~
+
+                 43   11 12 34 35 36 38 48                 8              5
+                                                                                        {m~E
+                                                                              14 13 30 23 24 25 22 21
+                                    FrcuRE 9-43.   Split wheel-heavy aircraft.
+
+IDda No.
+
+            WHEEL, LANDING GEAR, 49x 17, TUBELESS, MAIN
+   1          CONE BEARING                                     25               IDENTIFICATION PLATE
+  2           RING, RETAINING                                  26               INSTRUCTION PLATE
+  3           SEAL                                             27               PLATE, IDENTIFICATION
+  4           CONE, BEARING                                    28               INSERT,. HELl-COIL
+              VALVE ASSY, TUBELESS TIRE                        29               CUP, BEARING
+  5               CAP, VALVE                                   30               WHEEL HALF, OUTER
+  6               VALVE, INSIDE                                                 WHEEL HALF, ASSY, INNER
+  7               STEM, VALVE                                  31               NUT
+  8               GROMMET, RUBBER (TIRE AND RIM ASSOC.)        32               WEICHT, WHEEL BALANCE, 1/4 oz.
+  9           NUT                                              33               BOLT, MACHINE
+  10          WASHER                                           34               NUT
+  11          BOLT                                             3S               WASHER, FLAT
+  12          WASHER                                           36               IDENTIFICATION PLATE
+  13          PACKING, PREFORMED                               :¥1              INSTRUCTION PLATE
+  14          PACKING, PREFORMED                               38               BOLT, MACHINE
+  15          PLUG, MACHINE THO, THERMAL PRESSURE              39               NUT·
+                RELIEF, ASSY OF                                40               WASHER, FLAT
+  16          PACKING, PREFORMED                               41               BOLT, MACHINE
+              WHEEL HALF ASSY, OUTER                           42               BRACKET
+  17              NUT                                          43               SHIELD, HEAT
+  18              WEICHT. WHEEL BALANCE, 1/4 oz.               44               SCREW
+  19             BOLT, MACHINE                                 4S               INSERT
+  20             WASHER                                        46               INSERT, HELl-COIL
+  21             NUT                                           47               CUP, BEARING
+  22             WASHER, FLAT                                  46               WHEEL HALF, INNER
+  23             BOLT, MACHINE
+  24             WASHER, FLAT
+
+
+
+                               FrcvRE 9-44.   Parts list-split wheel, heavy aircraft.
+
+
+      this wheel. Leakage of air from the tubeless                      and bearing cone (4) in place when
+      tire through the wheel half mating sur-                           wheel is removed from axle. The seal
+      faces is prevented by a rubber packing                            retains the bearing lubricant and keeps
+      (14) mounted on the register surface of                           out dirt and moisture. Tapered roller
+      the inner wheel half. Another packing                             bearings (1, 4, 29, 47) in the wheel half
+      (13) mounted on the inner register sur-                           hubs support the wheel on· the axle.
+      face of the inner wheel half seals the hub                     D. Inserts (45) installed over bosses in the
+      area of the wheel against dirt and mois-                          inner wheel half (48) engage the drive
+      ture.                                                             slots in the brake disks, rotating the disks
+   C. A retaining ring (2) installed in the hub                         as the wheel turns. A heat shield (43) ,
+      of the inner wheel half holds the seal ( 3)                       mounted underneath and between the in-
+
+                                                       374
+
+## Page 386
+
+        serts, keeps excessive heat, generated by                     installed in the outer wheel half ( 16) is
+        the brake, from the wheel and the tire.                       used to inflate the 6.50-8 tubeless tire
+        Two alignment brackets (42), 160° apart,                      used with this wheel. Leakage of air from
+        are attached with the heat shield to the                      the tubeless tire through the wheel half
+        wheel half. The brackets prevent brake                        mating surfaces is prevented by a rubber
+        disk misalignment during wheel installa-                      packing ( 12) mounted .in the mating
+        tion.                                                         surface of the outer wheel half.
+     E. Three thermal relief plugs ( 15), equally                  C. A seal ( 1) retains grease in the bearing
+        spaced and mounted in the web of the                           (2) which is installed into bearing cup
+        inner wheel half directly under the mating                     ( 23) inner wheel half, and ( 15) outer
+        surfaces, protect against excessive brake                     wheel half. Tapered bearings ( 2) in-
+        heat expanding the air pressure in the                        stalled in the bearing cups in the wheel
+        tire and causing a blowout. The inner                         halves support the wheel on the axle.
+        core of the thermal relief plug is made of                 D. Torque keys (19) installed irl cutouts in
+        fusible metal that melts at a predetermined                   the inner rim of the wheel engage the
+        temperature, releasing the air in the tire.                   drive tabs in the brake disks, rotating the
+        A packing (16) is installed underneath                        disks as the wheel turns.
+        the head of each thermal relief plug to
+        prevent leakage of air from the tires.
+                                                               Removable Flange Wheels
+   Figures 9-45 and 9-46 were extracted from the
+B.F. Goo-drich maintenance manual on wheels. The                 The drop-center and flat base removable flange
+wheel illustrated is typical of split wheels used on          wheels (figure 9-47) have a one-piece flange
+light aircraft.                                               held in place by a retainer snap ring. Wheels of
+                                                              the removable-flange type are used with low-pres-
+   Description-Numbers in parentheses refer to
+                                                              sure casings and may have either the drop center
+figures 9-45 and 9-46.
+                                                              or a flat base. A flat-base rim may be removed
+      A. This main wheel is a tubeless split-type             quickly from the tire by removing the retaining
+          assembly made of forged aluminum.                   lock ring that holds the one-piece removable flange
+      B. The inner (24) and outer (16) wheel half             in place, and lifting the flange from the seat. When
+          assemblies are fastened together by 8               a brake drum of the conventional type is installed
+          equally spaced tie bolts ( 11), secured with        on each side of the wheel, this provides a dual-
+          nuts (9). A tubeless tire valve assembly            brake assembly.
+
+
+       2                                                 12           I           16                      2
+                                                                    I
+                                                                   L,
+
+
+
+
+             22 11 10                                                                  10 9 14
+                                    FrcURE 9-45. Split wheel-light aircraft.
+
+                                                         375
+
+## Page 387
+
+Index No.                    Description                    Fixed Flange Wheels
+                                                               Drop center fixed flange aircraft wheels (figure
+   1          WHEEL ASSEMBLY (With Valve Assy)
+   2            SEAL ASSY                                   9--48) are special use wheels such as military, for
+                CONE, Bearing                               high pressure tires. Some may be found installed
+                VALVE ASSY, Tubeless tire                   on older type aircraft.
+   3              CAP, Valve                                   Outboard radial ribs are provided generally to
+   4              CODE, Valve
+   5               NUT                                      give added support to the rim at the outboard
+   6              SPACER                                    bead seat. The principal difference between wheels
+   7              GROMMET                                   used for streamline tires and those used for smooth
+   8              STEM, Valve                               contour tires is that the latter are wider between
+   9            NUT
+   10           WASHER                                      the flanges.
+   11           BOLT
+   12           PACKING
+   13           WHEEL-HALF ASSY, Outer
+   14              PLATE, Identification
+   15              PLATE, Instruction
+   16              CUP, Bearing
+                WHEEL-HALF ASSY, Inner
+   17              WIRE, Lock
+   18              SCREW                                          Axle
+   19              KEY, Torque                                                                                Bearing
+   20              INSERT, Heli-coil                                                                          nut
+   21              PLATE, Identification
+   22              PLATE, Instruction
+   23              CUP, Bearing                                                                              Fairine;
+   24             WHEEL-HALF, Inner
+                                                                                                              disc
+   FIGURE 9-46. Parts list-split wheel, light aircraft.
+                                                                 Brake drum
+   A brake·drum liner may be held in place by                       liner
+means of steel bolts projecting through the casting
+with lock nuts on the inner side. These can be
+tightened easily through spokes in the wheel.                        FIGURE 9-48. Fixed flange, drop center wheel.
+   The bearing races are usually shrink-fitted into
+the hub of the wheel casting and provide the sur-               Wheel Bearings
+faces on which the bearings ride. The bearings                     The bearings of an airplane wheel are of the
+are the tapered roller type. Each bearing is made               tapered roller type and consist of a bearing cone,
+up of a cone and rollers. Bearings should be                    rollers with a retaining cage, and a bearing cup,
+cleaned and repacked with grease periodically in                or outer race. Each wheel has the bearing cup,
+accordance with applicable manufacturer's instruc-              or race, pressed into place and is often supplied with
+tions.                                                          a hub cap to keep dirt out of the outside bearing.
+
+                                                                              Removable
+                                                                 Lockring       flange           Wheel casting
+
+
+
+
+                   A. Drop center.                                                    B. Flat base.
+                                        FIGURE 9-47. Removable flange wheels.
+
+                                                          376

@@ -1,0 +1,1284 @@
+{
+  "generated_at": "2026-08-12T12:15:43.824084+00:00",
+  "evaluation_scope": "batch2_uv_and_load_distance_experimental_evidence",
+  "runtime_mode": {
+    "data_backend": "json",
+    "database_writes": false,
+    "es_enabled": true,
+    "retrieval_mode": "hybrid",
+    "bge_enabled": false,
+    "llm_enabled": false
+  },
+  "dataset": {
+    "passed": true,
+    "total_cases": 20,
+    "type_counts": {
+      "个性化资源生成测试": 4,
+      "反馈迭代测试": 4,
+      "审核纠偏测试": 4,
+      "知识检索测试": 8
+    },
+    "missing_fields": {},
+    "duplicate_ids": [],
+    "missing_asset_references": {},
+    "invalid_agent_step_cases": []
+  },
+  "metrics": {
+    "retrieval_case_hits": 20,
+    "retrieval_case_total": 20,
+    "retrieval_case_hit_rate": 1.0,
+    "expected_asset_reference_recall": 1.0,
+    "matched_asset_references": 30,
+    "expected_asset_references": 30,
+    "agent_completeness_rate": 1.0,
+    "resource_structure_completeness_rate": 1.0,
+    "review_structure_completeness_rate": 1.0,
+    "literal_key_point_coverage": 1.0,
+    "evidence_traceability_rate": 1.0,
+    "traceable_assets": 30,
+    "actual_assets_examined": 30,
+    "feedback_decision_accuracy": 1.0,
+    "feedback_cases_automated": 2,
+    "knowledge_sources": {
+      "elasticsearch": 20
+    },
+    "effective_retrieval_modes": {
+      "hybrid-bm25-only": 20
+    },
+    "professional_accuracy": "pending_expert_review",
+    "hallucination_rate": "pending_expert_review",
+    "difficulty_adaptation_accuracy": "pending_expert_review"
+  },
+  "cases": [
+    {
+      "id": "b2-uv-ret-001",
+      "test_type": "知识检索测试",
+      "input": "检索24小时紫外老化后的摩擦磨损形貌",
+      "expected_asset_ids": [
+        "RXQ-UV-H0024-IMG-01"
+      ],
+      "actual_asset_ids": [
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0024-IMG-02",
+        "RXQ-UV-H0024-IMG-03",
+        "RXQ-UV-H0024-IMG-04"
+      ],
+      "matched_asset_ids": [
+        "RXQ-UV-H0024-IMG-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "24h",
+        "紫外老化",
+        "摩擦形貌"
+      ],
+      "matched_key_points_by_literal_check": [
+        "24h",
+        "紫外老化",
+        "摩擦形貌"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_rxq_uv_wear_morphology-c001-803d7410",
+        "team_tire_rxq_uv_wear_morphology-c002-166271f2",
+        "team_tire_rxq_aging_multimodal_evidence-c014-4d259d39",
+        "team_tire_rxq_uv_wear_morphology-c003-12dc6f83",
+        "team_tire_rxq_aging_multimodal_evidence-c002-6b120286"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-uv-ret-002",
+      "test_type": "知识检索测试",
+      "input": "比较504小时紫外老化的摩擦前与摩擦后表面",
+      "expected_asset_ids": [
+        "RXQ-UV-H0504-IMG-01",
+        "RXQ-UV-H0504-IMG-02"
+      ],
+      "actual_asset_ids": [
+        "RXQ-UV-H0504-IMG-01",
+        "RXQ-UV-H0504-IMG-02",
+        "RXQ-UV-H0504-IMG-03",
+        "RXQ-UV-H0504-IMG-04"
+      ],
+      "matched_asset_ids": [
+        "RXQ-UV-H0504-IMG-01",
+        "RXQ-UV-H0504-IMG-02"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "504h",
+        "摩擦前",
+        "摩擦后"
+      ],
+      "matched_key_points_by_literal_check": [
+        "504h",
+        "摩擦前",
+        "摩擦后"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_rxq_uv_wear_morphology-c001-803d7410",
+        "team_tire_rxq_uv_wear_morphology-c002-166271f2",
+        "team_tire_rxq_aging_multimodal_evidence-c014-4d259d39",
+        "team_tire_rxq_uv_wear_morphology-c003-12dc6f83",
+        "team_tire_rxq_aging_multimodal_evidence-c002-6b120286"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-uv-ret-003",
+      "test_type": "知识检索测试",
+      "input": "查看576小时紫外老化后的不同视野形貌",
+      "expected_asset_ids": [
+        "RXQ-UV-H0576-IMG-01",
+        "RXQ-UV-H0576-IMG-03"
+      ],
+      "actual_asset_ids": [
+        "RXQ-UV-H0576-IMG-01",
+        "RXQ-UV-H0576-IMG-02",
+        "RXQ-UV-H0576-IMG-03",
+        "RXQ-UV-H0576-IMG-04"
+      ],
+      "matched_asset_ids": [
+        "RXQ-UV-H0576-IMG-01",
+        "RXQ-UV-H0576-IMG-03"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "576h",
+        "代表视野",
+        "尺度标签"
+      ],
+      "matched_key_points_by_literal_check": [
+        "576h",
+        "代表视野",
+        "尺度标签"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_rxq_uv_wear_morphology-c001-803d7410",
+        "team_tire_rxq_uv_wear_morphology-c002-166271f2",
+        "team_tire_rxq_uv_wear_morphology-c003-12dc6f83",
+        "team_tire_rxq_aging_multimodal_evidence-c005-dd56b4e0",
+        "team_tire_rxq_aging_multimodal_evidence-c002-6b120286"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-uv-ret-004",
+      "test_type": "知识检索测试",
+      "input": "紫外老化后磨屑证据有哪些",
+      "expected_asset_ids": [
+        "RXQ-UV-H0024-IMG-04"
+      ],
+      "actual_asset_ids": [
+        "RXQ-UV-H0024-IMG-04",
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0024-IMG-02",
+        "RXQ-UV-H0024-IMG-03"
+      ],
+      "matched_asset_ids": [
+        "RXQ-UV-H0024-IMG-04"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "磨屑",
+        "24h",
+        "证据ID"
+      ],
+      "matched_key_points_by_literal_check": [
+        "磨屑",
+        "24h",
+        "证据ID"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_rxq_uv_wear_morphology-c002-166271f2",
+        "team_tire_rxq_uv_wear_morphology-c001-803d7410",
+        "team_tire_rxq_aging_multimodal_evidence-c014-4d259d39",
+        "team_tire_rxq_uv_wear_morphology-c003-12dc6f83",
+        "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-uv-img-001",
+      "test_type": "个性化资源生成测试",
+      "input": "比较24、504、576小时紫外老化后表面形貌",
+      "expected_asset_ids": [
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0504-IMG-02",
+        "RXQ-UV-H0576-IMG-01"
+      ],
+      "actual_asset_ids": [
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0504-IMG-02",
+        "RXQ-UV-H0576-IMG-01"
+      ],
+      "matched_asset_ids": [
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0504-IMG-02",
+        "RXQ-UV-H0576-IMG-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "变量控制",
+        "可见事实",
+        "跨时长"
+      ],
+      "matched_key_points_by_literal_check": [
+        "变量控制",
+        "可见事实",
+        "跨时长"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_rxq_uv_wear_morphology-c001-803d7410",
+        "team_tire_rxq_uv_wear_morphology-c002-166271f2",
+        "team_tire_rxq_aging_multimodal_evidence-c014-4d259d39",
+        "team_tire_rxq_uv_wear_morphology-c003-12dc6f83",
+        "team_tire_rxq_aging_multimodal_evidence-c011-d70dd371"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-uv-img-002",
+      "test_type": "审核纠偏测试",
+      "input": "根据单张504小时图像确定紫外老化导致裂纹的完整机理",
+      "expected_asset_ids": [
+        "RXQ-UV-H0504-IMG-02"
+      ],
+      "actual_asset_ids": [
+        "RXQ-UV-H0504-IMG-01",
+        "RXQ-UV-H0504-IMG-02",
+        "RXQ-UV-H0504-IMG-03",
+        "RXQ-UV-H0504-IMG-04"
+      ],
+      "matched_asset_ids": [
+        "RXQ-UV-H0504-IMG-02"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "单图不足",
+        "交叉表征",
+        "降级输出"
+      ],
+      "matched_key_points_by_literal_check": [
+        "单图不足",
+        "交叉表征",
+        "降级输出"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，已按证据边界降级",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_rxq_uv_wear_morphology-c001-803d7410",
+        "team_tire_rxq_uv_wear_morphology-c002-166271f2",
+        "team_tire_rxq_aging_multimodal_evidence-c014-4d259d39",
+        "team_tire_rxq_uv_wear_morphology-c003-12dc6f83",
+        "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-uv-img-003",
+      "test_type": "审核纠偏测试",
+      "input": "把文件名5.6解释为已确认的显微镜放大倍数",
+      "expected_asset_ids": [
+        "RXQ-UV-H0576-IMG-03"
+      ],
+      "actual_asset_ids": [
+        "RXQ-UV-H0024-IMG-03",
+        "RXQ-UV-H0504-IMG-04",
+        "RXQ-UV-H0576-IMG-03",
+        "RXQ-UV-H0576-IMG-04",
+        "RXQ-THERMAL-TREND-01",
+        "RXQ-IMG-D000-S15-SEM-01",
+        "RXQ-IMG-D000-S15-OPTICAL-01",
+        "RXQ-IMG-D001-S17-SEM-01"
+      ],
+      "matched_asset_ids": [
+        "RXQ-UV-H0576-IMG-03"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "文件名标签",
+        "参数待核",
+        "不可推断"
+      ],
+      "matched_key_points_by_literal_check": [
+        "文件名标签",
+        "参数待核",
+        "不可推断"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，已按证据边界降级",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_contact_load_temperature_evidence-c009-2b5f8361",
+        "team_tire_rxq_aging_multimodal_evidence-c014-4d259d39",
+        "tire-k02",
+        "tire-k01",
+        "tire-k07"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-uv-img-004",
+      "test_type": "反馈迭代测试",
+      "input": "学习者把图像亮度直接当作老化程度",
+      "expected_asset_ids": [
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0504-IMG-02"
+      ],
+      "actual_asset_ids": [
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0504-IMG-02",
+        "RXQ-UV-H0576-IMG-01"
+      ],
+      "matched_asset_ids": [
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0504-IMG-02"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "亮度误区",
+        "同尺度比较",
+        "补充表征"
+      ],
+      "matched_key_points_by_literal_check": [
+        "亮度误区",
+        "同尺度比较",
+        "补充表征"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，已按证据边界降级",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_rxq_uv_wear_morphology-c003-12dc6f83",
+        "team_tire_rxq_uv_wear_morphology-c001-803d7410",
+        "team_tire_rxq_aging_multimodal_evidence-c005-dd56b4e0",
+        "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+        "team_tire_rxq_aging_multimodal_evidence-c003-6f6f48bf"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-load-ret-001",
+      "test_type": "知识检索测试",
+      "input": "检索40N下20到160米往复摩擦矩阵",
+      "expected_asset_ids": [
+        "LYQ-LOAD-L40-D020-OPT-01",
+        "LYQ-LOAD-L40-D160-OPT-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-L40-D020-OPT-01",
+        "LYQ-LOAD-L40-D040-OPT-01",
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L40-D120-OPT-01",
+        "LYQ-LOAD-L40-D160-OPT-01",
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-L40-D020-OPT-01",
+        "LYQ-LOAD-L40-D160-OPT-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "40N",
+        "五个距离",
+        "光学形貌"
+      ],
+      "matched_key_points_by_literal_check": [
+        "40N",
+        "五个距离",
+        "光学形貌"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c002-cfaaef8c",
+        "team_tire_lyq_load_distance_matrix-c003-29d59792",
+        "team_tire_lyq_load_distance_matrix-c004-df023fe4",
+        "team_tire_lyq_contact_load_temperature_evidence-c003-163d377a",
+        "team_tire_lyq_contact_load_temperature_evidence-c007-4ed6059b"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-load-ret-002",
+      "test_type": "知识检索测试",
+      "input": "比较80米时40、50、60N磨损",
+      "expected_asset_ids": [
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L50-D080-OPT-01",
+        "LYQ-LOAD-L60-D080-OPT-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L50-D080-OPT-01",
+        "LYQ-LOAD-L60-D080-OPT-01",
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L50-D080-OPT-01",
+        "LYQ-LOAD-L60-D080-OPT-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "80m",
+        "载荷效应",
+        "磨损量"
+      ],
+      "matched_key_points_by_literal_check": [
+        "80m",
+        "载荷效应",
+        "磨损量"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c003-29d59792",
+        "team_tire_lyq_load_distance_matrix-c002-cfaaef8c",
+        "team_tire_lyq_load_distance_matrix-c004-df023fe4",
+        "team_tire_lyq_contact_load_temperature_evidence-c009-2b5f8361",
+        "team_tire_lyq_contact_load_temperature_evidence-c003-163d377a"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-load-ret-003",
+      "test_type": "知识检索测试",
+      "input": "载荷距离矩阵的磨损量和硬度趋势",
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01",
+        "LYQ-LOAD-L40-D020-OPT-01",
+        "LYQ-LOAD-L40-D040-OPT-01",
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L40-D120-OPT-01",
+        "LYQ-LOAD-L40-D160-OPT-01",
+        "LYQ-LOAD-L50-D020-OPT-01",
+        "LYQ-LOAD-L50-D040-OPT-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "趋势图",
+        "磨损量",
+        "硬度"
+      ],
+      "matched_key_points_by_literal_check": [
+        "趋势图",
+        "磨损量",
+        "硬度"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c001-84f52425",
+        "team_tire_lyq_load_distance_matrix-c005-e7c0c5e4",
+        "team_tire_lyq_load_distance_matrix-c002-cfaaef8c",
+        "team_tire_lyq_contact_load_temperature_evidence-c004-531955f3",
+        "team_tire_lyq_contact_load_temperature_evidence-c005-84188896"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-load-ret-004",
+      "test_type": "知识检索测试",
+      "input": "检索60N 160米的工况和形貌",
+      "expected_asset_ids": [
+        "LYQ-LOAD-L60-D160-OPT-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-L60-D160-OPT-01",
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-L60-D160-OPT-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "60N",
+        "160m",
+        "1.8MPa"
+      ],
+      "matched_key_points_by_literal_check": [
+        "60N",
+        "160m",
+        "1.8MPa"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c004-df023fe4",
+        "team_tire_lyq_load_distance_matrix-c002-cfaaef8c",
+        "team_tire_lyq_load_distance_matrix-c003-29d59792",
+        "team_tire_lyq_contact_load_temperature_evidence-c007-4ed6059b",
+        "team_tire_lyq_contact_load_temperature_evidence-c001-0ceb15e3"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-load-gen-001",
+      "test_type": "个性化资源生成测试",
+      "input": "为本科生生成载荷距离变量控制实操指南",
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01",
+        "LYQ-LOAD-L40-D020-OPT-01",
+        "LYQ-LOAD-L40-D040-OPT-01",
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L40-D120-OPT-01",
+        "LYQ-LOAD-L40-D160-OPT-01",
+        "LYQ-LOAD-L50-D020-OPT-01",
+        "LYQ-LOAD-L50-D040-OPT-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "控制变量",
+        "同载荷",
+        "同距离"
+      ],
+      "matched_key_points_by_literal_check": [
+        "控制变量",
+        "同载荷",
+        "同距离"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c001-84f52425",
+        "team_tire_lyq_load_distance_matrix-c002-cfaaef8c",
+        "team_tire_lyq_load_distance_matrix-c003-29d59792",
+        "team_tire_lyq_contact_load_temperature_evidence-c004-531955f3",
+        "team_tire_lyq_contact_load_temperature_evidence-c005-84188896"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-load-gen-002",
+      "test_type": "个性化资源生成测试",
+      "input": "为研究生分析60N下距离增加时磨损和硬度变化",
+      "expected_asset_ids": [
+        "LYQ-LOAD-L60-D020-OPT-01",
+        "LYQ-LOAD-L60-D160-OPT-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-L60-D020-OPT-01",
+        "LYQ-LOAD-L60-D040-OPT-01",
+        "LYQ-LOAD-L60-D080-OPT-01",
+        "LYQ-LOAD-L60-D120-OPT-01",
+        "LYQ-LOAD-L60-D160-OPT-01",
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-L60-D020-OPT-01",
+        "LYQ-LOAD-L60-D160-OPT-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "60N",
+        "定量记录",
+        "形貌验证"
+      ],
+      "matched_key_points_by_literal_check": [
+        "60N",
+        "定量记录",
+        "形貌验证"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c002-cfaaef8c",
+        "team_tire_lyq_load_distance_matrix-c003-29d59792",
+        "team_tire_lyq_load_distance_matrix-c004-df023fe4",
+        "team_tire_lyq_contact_load_temperature_evidence-c006-19765927",
+        "team_tire_lyq_contact_load_temperature_evidence-c009-2b5f8361"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-load-gen-003",
+      "test_type": "个性化资源生成测试",
+      "input": "生成载荷和距离交互效应的案例任务",
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01",
+        "LYQ-LOAD-L40-D020-OPT-01",
+        "LYQ-LOAD-L50-D020-OPT-01",
+        "LYQ-LOAD-L60-D020-OPT-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "二维矩阵",
+        "交互效应",
+        "重复试验"
+      ],
+      "matched_key_points_by_literal_check": [
+        "二维矩阵",
+        "交互效应",
+        "重复试验"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c001-84f52425",
+        "team_tire_lyq_load_distance_matrix-c005-e7c0c5e4",
+        "tire-k01",
+        "tire-k07",
+        "tire-k02"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-load-gen-004",
+      "test_type": "反馈迭代测试",
+      "input": "学习者混合不同载荷和距离后直接归因",
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01",
+        "LYQ-LOAD-L40-D020-OPT-01",
+        "LYQ-LOAD-L40-D040-OPT-01",
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L40-D120-OPT-01",
+        "LYQ-LOAD-L40-D160-OPT-01",
+        "LYQ-LOAD-L50-D020-OPT-01",
+        "LYQ-LOAD-L50-D040-OPT-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "混杂变量",
+        "分组比较",
+        "纠偏"
+      ],
+      "matched_key_points_by_literal_check": [
+        "混杂变量",
+        "分组比较",
+        "纠偏"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c005-e7c0c5e4",
+        "team_tire_lyq_load_distance_matrix-c001-84f52425",
+        "team_tire_lyq_load_distance_matrix-c002-cfaaef8c",
+        "team_tire_lyq_contact_load_temperature_evidence-c010-6e691897",
+        "team_tire_lyq_contact_load_temperature_evidence-c004-531955f3"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-review-001",
+      "test_type": "审核纠偏测试",
+      "input": "为15个工况补齐没有记录的温升数值",
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01",
+        "LYQ-LOAD-L40-D040-OPT-01",
+        "LYQ-LOAD-L40-D020-OPT-01",
+        "LYQ-LOAD-L50-D020-OPT-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "禁止插补",
+        "部分温升证据",
+        "证据不足"
+      ],
+      "matched_key_points_by_literal_check": [
+        "禁止插补",
+        "部分温升证据",
+        "证据不足"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，已按证据边界降级",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c001-84f52425",
+        "team_tire_lyq_load_distance_matrix-c005-e7c0c5e4",
+        "tire-k02",
+        "tire-k01",
+        "tire-k07"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-review-002",
+      "test_type": "审核纠偏测试",
+      "input": "仅凭50 N、80 m的一张代表图判断整个样品磨损分布",
+      "expected_asset_ids": [
+        "LYQ-LOAD-L50-D080-OPT-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-L50-D080-OPT-01",
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-L50-D080-OPT-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "代表视野",
+        "多视野统计",
+        "限制"
+      ],
+      "matched_key_points_by_literal_check": [
+        "代表视野",
+        "多视野统计",
+        "限制"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，已按证据边界降级",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "补充案例 + 继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c003-29d59792",
+        "team_tire_lyq_contact_load_temperature_evidence-c009-2b5f8361",
+        "team_tire_lyq_load_distance_matrix-c002-cfaaef8c",
+        "team_tire_lyq_load_distance_matrix-c004-df023fe4",
+        "team_tire_lyq_contact_load_temperature_evidence-c003-163d377a"
+      ],
+      "feedback": null
+    },
+    {
+      "id": "b2-feedback-001",
+      "test_type": "反馈迭代测试",
+      "input": "测试正确率40%，且混淆磨损量与磨损率",
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01",
+        "LYQ-LOAD-L40-D020-OPT-01",
+        "LYQ-LOAD-L40-D040-OPT-01",
+        "LYQ-LOAD-L50-D040-OPT-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "指标区分",
+        "降维解释",
+        "单位"
+      ],
+      "matched_key_points_by_literal_check": [
+        "指标区分",
+        "降维解释",
+        "单位"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。"
+      ],
+      "recommended_action": "降维解释",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c005-e7c0c5e4",
+        "team_tire_lyq_load_distance_matrix-c001-84f52425",
+        "tire-k02",
+        "tire-k01",
+        "tire-k07"
+      ],
+      "feedback": {
+        "score": 40,
+        "expected_action": "降维解释",
+        "actual_action": "降维解释",
+        "explanation": "反馈测试正确率偏低，建议回到核心概念，用更直观案例重新解释。",
+        "passed": true
+      }
+    },
+    {
+      "id": "b2-feedback-002",
+      "test_type": "反馈迭代测试",
+      "input": "测试正确率85%，能比较80 m下40 N与60 N并完成证据引用",
+      "expected_asset_ids": [
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L60-D080-OPT-01"
+      ],
+      "actual_asset_ids": [
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L60-D080-OPT-01",
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "matched_asset_ids": [
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L60-D080-OPT-01"
+      ],
+      "asset_hit": true,
+      "expected_key_points": [
+        "较高正确率",
+        "巩固训练",
+        "证据引用"
+      ],
+      "matched_key_points_by_literal_check": [
+        "较高正确率",
+        "巩固训练",
+        "证据引用"
+      ],
+      "literal_key_point_coverage": 1.0,
+      "agent_step_count": 6,
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "resources_complete": true,
+      "review_structure_complete": true,
+      "review_status": "通过，建议带纠偏提示使用",
+      "review_risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "recommended_action": "继续巩固",
+      "retrieval_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "retrieval_evidence_ids": [
+        "team_tire_lyq_load_distance_matrix-c003-29d59792",
+        "team_tire_lyq_load_distance_matrix-c002-cfaaef8c",
+        "team_tire_lyq_load_distance_matrix-c004-df023fe4",
+        "team_tire_lyq_contact_load_temperature_evidence-c009-2b5f8361",
+        "team_tire_lyq_contact_load_temperature_evidence-c002-f014f7c5"
+      ],
+      "feedback": {
+        "score": 85,
+        "expected_action": "继续巩固",
+        "actual_action": "继续巩固",
+        "explanation": "掌握较稳定，建议继续完成一轮证据链表达训练。",
+        "passed": true
+      }
+    }
+  ],
+  "automated_status": "passed",
+  "manual_review_status": "pending_expert_review",
+  "manual_metrics_pending": [
+    "专业正确率",
+    "核心知识点语义覆盖率",
+    "幻觉率",
+    "难度适配准确率",
+    "形貌观察与机理推断边界",
+    "实验参数和样品映射复核"
+  ]
+}

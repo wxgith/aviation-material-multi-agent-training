@@ -1,0 +1,115 @@
+[
+  {
+    "id": "composite_zenodo_4405277-c001-84f394af",
+    "domain": "composite",
+    "title": "Dataset of the WP2 Cranfield: C-scan Impact Damage Data · Dataset description",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "无损检测",
+      "无损检测图像判读",
+      "损伤等级判读"
+    ],
+    "difficulty": "基础",
+    "content": "C-scan dataset of impact damages on composite coupons and laminates. This dataset contains ultrasonic full-waveform Phased Array (PA) data that were acquired during the experimental assessment of impact damages on composite coupons and laminate conducted by Cranfield in the context of project CompInnova: An Advanced Methodology for the Inspection and Quantification of Damage on Aerospace Composites and Metals using an Innovative Approach (H2020 FET OPEN, Grant Agreement No. 665238). The C-scan data on composite coupons is acquired by using 5MHz wheel probe2 Phased Array (PA) the transducer is in raw CSV format and processed C-scan in PNG image format. The 10MHz PA transducer and novel elasto",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_zenodo_4405277",
+    "source_locator": "Dataset description",
+    "source_url": "https://doi.org/10.5281/zenodo.4405277",
+    "source_authority": "open_dataset",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_zenodo_4405277-c002-955b1337",
+    "domain": "composite",
+    "title": "Dataset of the WP2 Cranfield: C-scan Impact Damage Data · Dataset description",
+    "tags": [
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "d processed C-scan in PNG image format. The 10MHz PA transducer and novel elastomer wedge which is a part of PA module developed at Cranfield and novel mist couplant delivery are used for scanning both coupons and laminates and raw data is in CSV format and processed data in TIFF image format. Also, a document on information about material and layup of coupons and laminate is also included. The data were used in the deliverable D2.3, D2.4 and D7.1 and D7.2.",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_zenodo_4405277",
+    "source_locator": "Dataset description",
+    "source_url": "https://doi.org/10.5281/zenodo.4405277",
+    "source_authority": "open_dataset",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_zenodo_4405277-c003-be19ccdc",
+    "domain": "composite",
+    "title": "Dataset of the WP2 Cranfield: C-scan Impact Damage Data · Experimental record",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "The record contains ultrasonic phased-array full-waveform data and processed C-scan images acquired during experimental assessment of impact damage on aerospace composite coupons and laminates.",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_zenodo_4405277",
+    "source_locator": "Experimental record",
+    "source_url": "https://doi.org/10.5281/zenodo.4405277",
+    "source_authority": "open_dataset",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_zenodo_4405277-c004-f0b44a07",
+    "domain": "composite",
+    "title": "Dataset of the WP2 Cranfield: C-scan Impact Damage Data · Files and access",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "- Dataset_WP2_cranfield.zip: 391001498 bytes; download: https://zenodo.org/api/records/4405277/files/Dataset_WP2_cranfield.zip/content",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_zenodo_4405277",
+    "source_locator": "Files and access",
+    "source_url": "https://doi.org/10.5281/zenodo.4405277",
+    "source_authority": "open_dataset",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_zenodo_4405277-c005-0a1bb562",
+    "domain": "composite",
+    "title": "Dataset of the WP2 Cranfield: C-scan Impact Damage Data · Provenance and license",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "- DOI: 10.5281/zenodo.4405277 - Publisher: Zenodo - License: cc-by-4.0 - Resource type: Dataset",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_zenodo_4405277",
+    "source_locator": "Provenance and license",
+    "source_url": "https://doi.org/10.5281/zenodo.4405277",
+    "source_authority": "open_dataset",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  }
+]

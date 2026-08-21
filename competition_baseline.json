@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.1",
+  "project_version": "1.3.0-stable-inquiry",
+  "verified_at": "2026-08-21",
+  "verification_scope": "competition_submission_baseline",
+  "engineering": {
+    "backend_tests_passed": 116,
+    "frontend_build": "passed",
+    "agent_count": 6,
+    "sql_backend": "MySQL",
+    "retrieval_backend": "Elasticsearch",
+    "fallback": "JSON + evidence-bound template",
+    "generation_strategy": "real Qwen inquiry + stable template resources"
+  },
+  "knowledge": {
+    "elasticsearch_index": "aviation_material_knowledge",
+    "indexed_chunks": 1766,
+    "registered_sources": 39,
+    "experimental_topics": 4,
+    "experimental_assets": 53
+  },
+  "evaluation": {
+    "core_cases": 50,
+    "core_cases_passed": 50,
+    "guided_inquiry_cases": 15,
+    "guided_inquiry_cases_passed": 15,
+    "context_assistant_cases_per_backend": 39,
+    "context_assistant_json_passed": 39,
+    "context_assistant_es_passed": 39,
+    "qwen_representative_cases": 6,
+    "qwen_machine_checks_passed": 6,
+    "qwen_direct_review_pass_rate": 0.5,
+    "qwen_review_control_rate": 1.0,
+    "core_key_point_proxy_coverage": 0.9727,
+    "difficulty_rule_match_accuracy": 0.96,
+    "unresolved_claim_risk_proxy_rate": 0.0
+  },
+  "review_boundary": {
+    "core_cases": "项目团队已完成领域复核电子确认；如赛事要求具名手写签字，仍需补充纸质签字页。",
+    "qwen_cases": "6 条代表性场景完成机器检查，其中 3 条候选被 ReviewAgent 驳回并以证据模板重生；仍建议进行外部专家抽样复核。",
+    "official_claim": "自动指标用于工程回归，不替代外部专家专业正确性复核和真实学习效果验证。"
+  }
+}

@@ -1,0 +1,615 @@
+{
+  "generated_at": "2026-08-12T13:57:37.518077+00:00",
+  "baseline_mode": {
+    "data_backend": "json",
+    "database_enabled": false,
+    "es_enabled": false,
+    "retrieval_mode": "hybrid",
+    "bge_enabled": false,
+    "llm_enabled": false,
+    "purpose": "deterministic offline regression baseline"
+  },
+  "dataset": {
+    "passed": true,
+    "total_cases": 50,
+    "type_counts": {
+      "个性化资源生成测试": 10,
+      "反馈迭代测试": 10,
+      "学情诊断测试": 10,
+      "审核纠偏测试": 10,
+      "知识检索测试": 10
+    },
+    "missing_fields": {},
+    "duplicate_ids": []
+  },
+  "multidimensional": {
+    "passed": true,
+    "total_cases": 10,
+    "type_counts": {
+      "事故案例检索": 1,
+      "冲击损伤实验": 1,
+      "实验变量检索": 1,
+      "实验机理检索": 1,
+      "机理综合": 1,
+      "检测方法对比": 1,
+      "维修规范检索": 2,
+      "证据多样性": 1,
+      "运行记录分析": 1
+    },
+    "domain_counts": {
+      "brake": 3,
+      "composite": 3,
+      "tire": 4
+    },
+    "missing_fields": {},
+    "duplicate_ids": [],
+    "source_references": 15,
+    "matched_source_references": 15,
+    "source_reference_coverage": 1.0,
+    "cases": [
+      {
+        "id": "MDE-001",
+        "expected_sources": [
+          "tire_ntsb_aar_10_02"
+        ],
+        "matched_sources": [
+          "tire_ntsb_aar_10_02"
+        ],
+        "missing_sources": [],
+        "passed": true
+      },
+      {
+        "id": "MDE-002",
+        "expected_sources": [
+          "tire_faa_ac20_97b",
+          "tire_faa_ac65_15a_landing_gear"
+        ],
+        "matched_sources": [
+          "tire_faa_ac20_97b",
+          "tire_faa_ac65_15a_landing_gear"
+        ],
+        "missing_sources": [],
+        "passed": true
+      },
+      {
+        "id": "MDE-003",
+        "expected_sources": [
+          "tire_nasa_tn_d_6963"
+        ],
+        "matched_sources": [
+          "tire_nasa_tn_d_6963"
+        ],
+        "missing_sources": [],
+        "passed": true
+      },
+      {
+        "id": "MDE-004",
+        "expected_sources": [
+          "tire_mdpi_polymers_2021_fatigue_wear",
+          "tire_nasa_tp_1569"
+        ],
+        "matched_sources": [
+          "tire_mdpi_polymers_2021_fatigue_wear",
+          "tire_nasa_tp_1569"
+        ],
+        "missing_sources": [],
+        "passed": true
+      },
+      {
+        "id": "MDE-005",
+        "expected_sources": [
+          "brake_faa_ac65_15a_landing_gear"
+        ],
+        "matched_sources": [
+          "brake_faa_ac65_15a_landing_gear"
+        ],
+        "missing_sources": [],
+        "passed": true
+      },
+      {
+        "id": "MDE-006",
+        "expected_sources": [
+          "brake_mdpi_aerospace_2025_predictive_wear"
+        ],
+        "matched_sources": [
+          "brake_mdpi_aerospace_2025_predictive_wear"
+        ],
+        "missing_sources": [],
+        "passed": true
+      },
+      {
+        "id": "MDE-007",
+        "expected_sources": [
+          "brake_mdpi_materials_2020_heating",
+          "brake_nasa_cr_134989"
+        ],
+        "matched_sources": [
+          "brake_mdpi_materials_2020_heating",
+          "brake_nasa_cr_134989"
+        ],
+        "missing_sources": [],
+        "passed": true
+      },
+      {
+        "id": "MDE-008",
+        "expected_sources": [
+          "composite_nasa_19960025438"
+        ],
+        "matched_sources": [
+          "composite_nasa_19960025438"
+        ],
+        "missing_sources": [],
+        "passed": true
+      },
+      {
+        "id": "MDE-009",
+        "expected_sources": [
+          "composite_nasa_20200002405"
+        ],
+        "matched_sources": [
+          "composite_nasa_20200002405"
+        ],
+        "missing_sources": [],
+        "passed": true
+      },
+      {
+        "id": "MDE-010",
+        "expected_sources": [
+          "local_json_composite",
+          "composite_springer_2024_cscan_ct",
+          "composite_nasa_20200002405"
+        ],
+        "matched_sources": [
+          "composite_nasa_20200002405",
+          "composite_springer_2024_cscan_ct",
+          "local_json_composite"
+        ],
+        "missing_sources": [],
+        "passed": true
+      }
+    ]
+  },
+  "expert_sample": {
+    "method": "five test types, three deterministic cases per type",
+    "total": 15,
+    "cases": [
+      {
+        "id": "gen-001",
+        "test_type": "个性化资源生成测试",
+        "domain": "tire",
+        "learner_profile": "本科低年级学生",
+        "review_focus": "核心知识点覆盖、难度适配和实操可执行性"
+      },
+      {
+        "id": "gen-006",
+        "test_type": "个性化资源生成测试",
+        "domain": "composite",
+        "learner_profile": "材料方向研究生",
+        "review_focus": "核心知识点覆盖、难度适配和实操可执行性"
+      },
+      {
+        "id": "gen-010",
+        "test_type": "个性化资源生成测试",
+        "domain": "tire",
+        "learner_profile": "本科低年级学生",
+        "review_focus": "核心知识点覆盖、难度适配和实操可执行性"
+      },
+      {
+        "id": "fb-001",
+        "test_type": "反馈迭代测试",
+        "domain": "tire",
+        "learner_profile": "本科低年级学生",
+        "review_focus": "next_action 与正确率及学习者反馈是否一致"
+      },
+      {
+        "id": "fb-006",
+        "test_type": "反馈迭代测试",
+        "domain": "brake",
+        "learner_profile": "材料方向研究生",
+        "review_focus": "next_action 与正确率及学习者反馈是否一致"
+      },
+      {
+        "id": "fb-010",
+        "test_type": "反馈迭代测试",
+        "domain": "brake",
+        "learner_profile": "机务维修新员工",
+        "review_focus": "next_action 与正确率及学习者反馈是否一致"
+      },
+      {
+        "id": "diag-001",
+        "test_type": "学情诊断测试",
+        "domain": "tire",
+        "learner_profile": "本科低年级学生",
+        "review_focus": "薄弱点定位、学习者画像匹配和诊断解释合理性"
+      },
+      {
+        "id": "diag-006",
+        "test_type": "学情诊断测试",
+        "domain": "composite",
+        "learner_profile": "材料方向研究生",
+        "review_focus": "薄弱点定位、学习者画像匹配和诊断解释合理性"
+      },
+      {
+        "id": "diag-010",
+        "test_type": "学情诊断测试",
+        "domain": "tire",
+        "learner_profile": "本科低年级学生",
+        "review_focus": "薄弱点定位、学习者画像匹配和诊断解释合理性"
+      },
+      {
+        "id": "rev-001",
+        "test_type": "审核纠偏测试",
+        "domain": "tire",
+        "learner_profile": "本科低年级学生",
+        "review_focus": "专业错误、过度外推、风险边界和纠偏有效性"
+      },
+      {
+        "id": "rev-006",
+        "test_type": "审核纠偏测试",
+        "domain": "composite",
+        "learner_profile": "机务维修新员工",
+        "review_focus": "专业错误、过度外推、风险边界和纠偏有效性"
+      },
+      {
+        "id": "rev-010",
+        "test_type": "审核纠偏测试",
+        "domain": "tire",
+        "learner_profile": "材料方向研究生",
+        "review_focus": "专业错误、过度外推、风险边界和纠偏有效性"
+      },
+      {
+        "id": "ret-001",
+        "test_type": "知识检索测试",
+        "domain": "tire",
+        "learner_profile": "本科低年级学生",
+        "review_focus": "证据相关性、来源权威性和 evidence_ids 一致性"
+      },
+      {
+        "id": "ret-006",
+        "test_type": "知识检索测试",
+        "domain": "brake",
+        "learner_profile": "材料方向研究生",
+        "review_focus": "证据相关性、来源权威性和 evidence_ids 一致性"
+      },
+      {
+        "id": "ret-010",
+        "test_type": "知识检索测试",
+        "domain": "composite",
+        "learner_profile": "机务维修新员工",
+        "review_focus": "证据相关性、来源权威性和 evidence_ids 一致性"
+      }
+    ]
+  },
+  "retrieval": {
+    "passed": 10,
+    "total": 10,
+    "hit_rate": 1.0,
+    "cases": [
+      {
+        "id": "ret-001",
+        "expected_evidence_ids": [
+          "tire-k01",
+          "tire-k02"
+        ],
+        "actual_evidence_ids": [
+          "tire-k06",
+          "tire-k01",
+          "tire-k02"
+        ],
+        "matched_evidence_ids": [
+          "tire-k01",
+          "tire-k02"
+        ],
+        "passed": true,
+        "knowledge_source": "local-json",
+        "effective_retrieval_mode": "hybrid-bm25-only"
+      },
+      {
+        "id": "ret-002",
+        "expected_evidence_ids": [
+          "tire-k03",
+          "tire-k07"
+        ],
+        "actual_evidence_ids": [
+          "tire-k03",
+          "tire-k07",
+          "tire-k05"
+        ],
+        "matched_evidence_ids": [
+          "tire-k03",
+          "tire-k07"
+        ],
+        "passed": true,
+        "knowledge_source": "local-json",
+        "effective_retrieval_mode": "hybrid-bm25-only"
+      },
+      {
+        "id": "ret-003",
+        "expected_evidence_ids": [
+          "tire-k05",
+          "tire-k06"
+        ],
+        "actual_evidence_ids": [
+          "tire-k06",
+          "tire-k01",
+          "tire-k02"
+        ],
+        "matched_evidence_ids": [
+          "tire-k06"
+        ],
+        "passed": true,
+        "knowledge_source": "local-json",
+        "effective_retrieval_mode": "hybrid-bm25-only"
+      },
+      {
+        "id": "ret-004",
+        "expected_evidence_ids": [
+          "tire-k03",
+          "tire-k04"
+        ],
+        "actual_evidence_ids": [
+          "tire-k04",
+          "tire-k07",
+          "tire-k02"
+        ],
+        "matched_evidence_ids": [
+          "tire-k04"
+        ],
+        "passed": true,
+        "knowledge_source": "local-json",
+        "effective_retrieval_mode": "hybrid-bm25-only"
+      },
+      {
+        "id": "ret-005",
+        "expected_evidence_ids": [
+          "brake-k01",
+          "brake-k05"
+        ],
+        "actual_evidence_ids": [
+          "brake-k01",
+          "brake-k05",
+          "brake-k02"
+        ],
+        "matched_evidence_ids": [
+          "brake-k01",
+          "brake-k05"
+        ],
+        "passed": true,
+        "knowledge_source": "local-json",
+        "effective_retrieval_mode": "hybrid-bm25-only"
+      },
+      {
+        "id": "ret-006",
+        "expected_evidence_ids": [
+          "brake-k03",
+          "brake-k04"
+        ],
+        "actual_evidence_ids": [
+          "brake-k04",
+          "brake-k03",
+          "brake-k02"
+        ],
+        "matched_evidence_ids": [
+          "brake-k03",
+          "brake-k04"
+        ],
+        "passed": true,
+        "knowledge_source": "local-json",
+        "effective_retrieval_mode": "hybrid-bm25-only"
+      },
+      {
+        "id": "ret-007",
+        "expected_evidence_ids": [
+          "brake-k02",
+          "brake-k05"
+        ],
+        "actual_evidence_ids": [
+          "brake-k05",
+          "brake-k01",
+          "brake-k02"
+        ],
+        "matched_evidence_ids": [
+          "brake-k02",
+          "brake-k05"
+        ],
+        "passed": true,
+        "knowledge_source": "local-json",
+        "effective_retrieval_mode": "hybrid-bm25-only"
+      },
+      {
+        "id": "ret-008",
+        "expected_evidence_ids": [
+          "composite-k01",
+          "composite-k03"
+        ],
+        "actual_evidence_ids": [
+          "composite-k01",
+          "composite-k03",
+          "composite-k05"
+        ],
+        "matched_evidence_ids": [
+          "composite-k01",
+          "composite-k03"
+        ],
+        "passed": true,
+        "knowledge_source": "local-json",
+        "effective_retrieval_mode": "hybrid-bm25-only"
+      },
+      {
+        "id": "ret-009",
+        "expected_evidence_ids": [
+          "composite-k02",
+          "composite-k04"
+        ],
+        "actual_evidence_ids": [
+          "composite-k02",
+          "composite-k04",
+          "composite-k05"
+        ],
+        "matched_evidence_ids": [
+          "composite-k02",
+          "composite-k04"
+        ],
+        "passed": true,
+        "knowledge_source": "local-json",
+        "effective_retrieval_mode": "hybrid-bm25-only"
+      },
+      {
+        "id": "ret-010",
+        "expected_evidence_ids": [
+          "composite-k03",
+          "composite-k05"
+        ],
+        "actual_evidence_ids": [
+          "composite-k03",
+          "composite-k05",
+          "composite-k01"
+        ],
+        "matched_evidence_ids": [
+          "composite-k03",
+          "composite-k05"
+        ],
+        "passed": true,
+        "knowledge_source": "local-json",
+        "effective_retrieval_mode": "hybrid-bm25-only"
+      }
+    ]
+  },
+  "pipeline": {
+    "passed": 3,
+    "total": 3,
+    "agent_completeness_rate": 1.0,
+    "cases": [
+      {
+        "domain": "tire",
+        "passed": true,
+        "agent_steps": [
+          "学情诊断 Agent",
+          "材料领域路由 Agent",
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ],
+        "resources_complete": true,
+        "review_complete": true,
+        "retrieval_source": "local-json",
+        "retrieval_mode": "hybrid"
+      },
+      {
+        "domain": "brake",
+        "passed": true,
+        "agent_steps": [
+          "学情诊断 Agent",
+          "材料领域路由 Agent",
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ],
+        "resources_complete": true,
+        "review_complete": true,
+        "retrieval_source": "local-json",
+        "retrieval_mode": "hybrid"
+      },
+      {
+        "domain": "composite",
+        "passed": true,
+        "agent_steps": [
+          "学情诊断 Agent",
+          "材料领域路由 Agent",
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ],
+        "resources_complete": true,
+        "review_complete": true,
+        "retrieval_source": "local-json",
+        "retrieval_mode": "hybrid"
+      }
+    ]
+  },
+  "feedback": {
+    "passed": 8,
+    "automated_total": 8,
+    "manual_review_total": 2,
+    "decision_accuracy": 1.0,
+    "cases": [
+      {
+        "id": "fb-001",
+        "status": "passed",
+        "score": 40,
+        "expected_next_action": "降维解释",
+        "actual_next_action": "降维解释"
+      },
+      {
+        "id": "fb-002",
+        "status": "passed",
+        "score": 60,
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例"
+      },
+      {
+        "id": "fb-003",
+        "status": "passed",
+        "score": 80,
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固"
+      },
+      {
+        "id": "fb-004",
+        "status": "passed",
+        "score": 95,
+        "expected_next_action": "进阶挑战",
+        "actual_next_action": "进阶挑战"
+      },
+      {
+        "id": "fb-005",
+        "status": "manual_review",
+        "reason": "输入未提供明确正确率",
+        "expected_next_action": "补充案例"
+      },
+      {
+        "id": "fb-006",
+        "status": "manual_review",
+        "reason": "输入未提供明确正确率",
+        "expected_next_action": "继续巩固"
+      },
+      {
+        "id": "fb-007",
+        "status": "passed",
+        "score": 55,
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例"
+      },
+      {
+        "id": "fb-008",
+        "status": "passed",
+        "score": 30,
+        "expected_next_action": "降维解释",
+        "actual_next_action": "降维解释"
+      },
+      {
+        "id": "fb-009",
+        "status": "passed",
+        "score": 85,
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固"
+      },
+      {
+        "id": "fb-010",
+        "status": "passed",
+        "score": 92,
+        "expected_next_action": "进阶挑战",
+        "actual_next_action": "进阶挑战"
+      }
+    ]
+  },
+  "manual_review_required": [
+    "核心知识点覆盖率需要专家逐项判断生成内容语义是否覆盖。",
+    "幻觉率需要专家核对专业断言与 evidence_ids 的一致性。",
+    "两条不含明确正确率的反馈用例需要结合自评文本人工复核。"
+  ],
+  "overall_automated_status": "passed"
+}

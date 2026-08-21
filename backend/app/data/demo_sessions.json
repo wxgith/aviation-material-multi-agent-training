@@ -1,0 +1,18 @@
+[
+  {
+    "name": "稳定演示路线：本科低年级学生 - 航空轮胎",
+    "profile_id": "undergrad_basic",
+    "domain": "tire",
+    "learning_goal": "理解航空轮胎热氧老化与滑动磨损损伤机理，并能完成基本损伤判读。",
+    "diagnosis_performance": "基础概念掌握一般，对热氧老化、滑动磨损和耦合损伤机制理解较弱，对实验表征方法了解不足。",
+    "expected_next_suggestion": "补充案例 + 继续巩固",
+    "diagnosis_answers": [
+      {"question_id": "tire-q1", "answer": "交联网络和表面力学响应变化"},
+      {"question_id": "tire-q2", "answer": "文件名、页码、字体、颜色"},
+      {"question_id": "tire-q3", "answer": "结合位置、面积、深度、循环历史和图像尺度综合判断"},
+      {"question_id": "tire-q4", "answer": "图片是否足够美观"},
+      {"question_id": "tire-q5", "answer": "错误"}
+    ],
+    "expected_result": "基础概念一般，热氧老化、滑动磨损、耦合损伤机制和实验表征方法理解薄弱；输出降维版讲义、胎面损伤检查实操指南、5 道分阶测试题、胎面裂纹/剥落案例分析任务、学情报告和“补充案例 + 继续巩固”建议。"
+  }
+]

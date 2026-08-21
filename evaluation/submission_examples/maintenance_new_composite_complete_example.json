@@ -1,0 +1,1041 @@
+{
+  "example_purpose": "比赛方案要求的差异化学习者完整输入、中间过程与生成结果样例",
+  "runtime_mode": {
+    "status": "ok",
+    "backend_status": "ok",
+    "version": "0.9.0-experimental-matrix",
+    "data_backend": "sql",
+    "database_enabled": true,
+    "database_connected": true,
+    "es_enabled": true,
+    "es_connected": true,
+    "es_url": "http://127.0.0.1:9201",
+    "es_index": "aviation_material_knowledge",
+    "retrieval_mode": "hybrid",
+    "bge_enabled": false,
+    "embedding_backend": "none",
+    "llm_enabled": false,
+    "llm_model": "",
+    "knowledge_source": "elasticsearch",
+    "llm": {
+      "enabled": false,
+      "mode": "mock-template",
+      "model": "",
+      "base_url_configured": false
+    },
+    "data": {
+      "profiles": 3,
+      "questions": 15,
+      "knowledge_domains": [
+        "tire",
+        "brake",
+        "composite"
+      ],
+      "knowledge_chunks": {
+        "tire": 7,
+        "brake": 5,
+        "composite": 5
+      },
+      "demo_sessions": 1
+    },
+    "team_dataset": {
+      "status": "ready",
+      "mode": "dataset",
+      "approved_for_rag": true,
+      "image_files": 14
+    },
+    "experimental_evidence": {
+      "status": "ready",
+      "asset_count": 53,
+      "topic_count": 4,
+      "reviewed_count": 53
+    }
+  },
+  "profile_input": {
+    "profile_id": "maintenance_new",
+    "name": "机务维修新员工",
+    "learner_type": "机务维修新员工",
+    "background": "了解基本维修流程，需要把材料损伤知识转化为检查、记录和处置建议。",
+    "characteristics": "关注损伤判读、检查流程、维护决策和实操规范，需要避免越权结论。",
+    "default_goal": "掌握典型损伤识别流程，能规范描述证据、风险和后续检查建议。",
+    "self_level": "中",
+    "recommended_domains": [
+      "tire",
+      "brake",
+      "composite"
+    ]
+  },
+  "training_domain": "composite",
+  "learning_goal": "识别复合材料板冲击损伤、分层风险和无损检测图像，形成规范复检建议。",
+  "diagnosis_submission": {
+    "profile_id": "maintenance_new",
+    "domain": "composite",
+    "answers": [
+      {
+        "question_id": "composite-q1",
+        "answer": "分层和基体开裂"
+      },
+      {
+        "question_id": "composite-q2",
+        "answer": "错误"
+      },
+      {
+        "question_id": "composite-q3",
+        "answer": "内部损伤范围和分布"
+      },
+      {
+        "question_id": "composite-q4",
+        "answer": "提高所有方向强度"
+      },
+      {
+        "question_id": "composite-q5",
+        "answer": "错误"
+      }
+    ]
+  },
+  "diagnosis_result": {
+    "profile_id": "maintenance_new",
+    "domain": "composite",
+    "score": 60,
+    "level": "基础一般",
+    "weak_points": [
+      "分层",
+      "损伤扩展"
+    ],
+    "strong_points": [
+      "冲击损伤",
+      "常见误区",
+      "无损检测图像判读"
+    ],
+    "diagnosis_summary": "机务维修新员工本次诊断得分 60 分，水平判定为“基础一般”。当前薄弱点集中在 分层、损伤扩展；相对优势为 冲击损伤、常见误区、无损检测图像判读。",
+    "details": [
+      {
+        "question_id": "composite-q1",
+        "knowledge_point": "冲击损伤",
+        "correct": true,
+        "learner_answer": "分层和基体开裂",
+        "correct_answer": "分层和基体开裂",
+        "explanation": "低速冲击可能导致表面轻微、内部复杂的损伤组合，包括分层、基体开裂和纤维断裂。"
+      },
+      {
+        "question_id": "composite-q2",
+        "knowledge_point": "常见误区",
+        "correct": true,
+        "learner_answer": "错误",
+        "correct_answer": "错误",
+        "explanation": "复合材料可能存在隐蔽损伤，需要结合无损检测判断内部范围和层间分布。"
+      },
+      {
+        "question_id": "composite-q3",
+        "knowledge_point": "无损检测图像判读",
+        "correct": true,
+        "learner_answer": "内部损伤范围和分布",
+        "correct_answer": "内部损伤范围和分布",
+        "explanation": "超声 C 扫常用于定位分层等内部损伤范围，并与外观图像形成证据互补。"
+      },
+      {
+        "question_id": "composite-q4",
+        "knowledge_point": "分层",
+        "correct": false,
+        "learner_answer": "提高所有方向强度",
+        "correct_answer": "削弱层间载荷传递并影响损伤扩展",
+        "explanation": "分层会削弱层间载荷传递，在压缩或疲劳载荷下可能进一步扩展。"
+      },
+      {
+        "question_id": "composite-q5",
+        "knowledge_point": "损伤扩展",
+        "correct": false,
+        "learner_answer": "错误",
+        "correct_answer": "正确",
+        "explanation": "外观检查和无损检测互补，能更完整地识别损伤类型、范围和扩展风险。"
+      }
+    ]
+  },
+  "agent_run": {
+    "session_id": "6b0293b9-41a3-497d-a918-0a5b98013c03",
+    "agent_steps": [
+      {
+        "agent_name": "学情诊断 Agent",
+        "role": "读取学习者画像和诊断结果，识别基础水平、强项与知识薄弱点。",
+        "input_summary": "机务维修新员工，诊断得分 60，自评 中",
+        "output_summary": "机务维修新员工本次诊断得分 60 分，水平判定为“基础一般”。当前薄弱点集中在 分层、损伤扩展；相对优势为 冲击损伤、常见误区、无损检测图像判读。",
+        "status": "completed",
+        "confidence": 0.94,
+        "evidence_ids": [
+          "composite-q1",
+          "composite-q2",
+          "composite-q3",
+          "composite-q4",
+          "composite-q5"
+        ],
+        "details": {
+          "score": 60,
+          "level": "基础一般",
+          "weak_points": [
+            "分层",
+            "损伤扩展"
+          ],
+          "strong_points": [
+            "冲击损伤",
+            "常见误区",
+            "无损检测图像判读"
+          ],
+          "profile_snapshot": {
+            "profile_id": "maintenance_new",
+            "name": "机务维修新员工",
+            "learner_type": "机务维修新员工",
+            "background": "了解基本维修流程，需要把材料损伤知识转化为检查、记录和处置建议。",
+            "characteristics": "关注损伤判读、检查流程、维护决策和实操规范，需要避免越权结论。",
+            "default_goal": "掌握典型损伤识别流程，能规范描述证据、风险和后续检查建议。",
+            "self_level": "中",
+            "recommended_domains": [
+              "tire",
+              "brake",
+              "composite"
+            ]
+          }
+        }
+      },
+      {
+        "agent_name": "材料领域路由 Agent",
+        "role": "根据训练方向选择航空轮胎、航空刹车片或复合材料板知识库。",
+        "input_summary": "domain=composite",
+        "output_summary": "已路由到“飞机复合材料板损伤分析”知识库。",
+        "status": "completed",
+        "confidence": 0.98,
+        "evidence_ids": [],
+        "details": {
+          "domain": "composite",
+          "title": "飞机复合材料板损伤分析",
+          "summary": "围绕冲击损伤、分层、基体开裂、纤维断裂、无损检测图像判读和损伤扩展开展训练。"
+        }
+      },
+      {
+        "agent_name": "专业知识检索 Agent",
+        "role": "根据薄弱点、学习目标和学习者类型，从 Elasticsearch 或 JSON fallback 检索证据片段。",
+        "input_summary": "薄弱点：分层, 损伤扩展；目标：识别复合材料板冲击损伤、分层风险和无损检测图像，形成规范复检建议。",
+        "output_summary": "检索到 5 条相关知识片段，模式：hybrid，来源：elasticsearch。",
+        "status": "completed",
+        "confidence": 0.88,
+        "evidence_ids": [
+          "composite_damage_notes-c004-5359317b",
+          "composite-k04",
+          "composite-k03",
+          "composite_damage_notes-c003-ae26f436",
+          "composite_springer_2024_cscan_ct-c001-31c82312"
+        ],
+        "details": {
+          "retrieval_mode": "hybrid",
+          "effective_retrieval_mode": "hybrid-bm25-only",
+          "knowledge_source": "elasticsearch",
+          "retrieval_source": "elasticsearch",
+          "evidence_ids": [
+            "composite_damage_notes-c004-5359317b",
+            "composite-k04",
+            "composite-k03",
+            "composite_damage_notes-c003-ae26f436",
+            "composite_springer_2024_cscan_ct-c001-31c82312"
+          ],
+          "evidence_titles": [
+            "composite_damage_notes · 损伤扩展分析",
+            "损伤扩展分析",
+            "无损检测图像判读",
+            "composite_damage_notes · 无损检测图像判读",
+            "Comparison of X-ray CT and Ultrasonic C-Scan Techniques for Impact Damage in a CFRP Laminate · Page 1"
+          ],
+          "retrieval_scores": [
+            193.4376,
+            193.4333,
+            175.0939,
+            169.3634,
+            80.7526
+          ],
+          "evidence_source_ids": [
+            "composite_damage_notes",
+            "local_json_composite",
+            "composite_springer_2024_cscan_ct"
+          ],
+          "experimental_evidence": [],
+          "condition_constraints": {
+            "normal_load_N": [],
+            "sliding_distance_m": [],
+            "aging_duration_h": [],
+            "range_or_sequence": false,
+            "comparison": false,
+            "target_topic": ""
+          },
+          "condition_match_strategy": "source-linked-ranking",
+          "embedding": {
+            "bge_enabled": false,
+            "embedding_backend": "none",
+            "bge_model_path": "",
+            "available": false
+          },
+          "vector_note": "embedding unavailable; BM25 remains active",
+          "retrieved_chunks": [
+            {
+              "id": "composite_damage_notes-c004-5359317b",
+              "domain": "composite",
+              "title": "composite_damage_notes · 损伤扩展分析",
+              "tags": [
+                "损伤扩展"
+              ],
+              "difficulty": "进阶",
+              "content": "损伤扩展分析需要综合冲击能量、初始损伤范围、载荷谱、边界条件和材料铺层，形成扩展风险和后续检测建议。",
+              "source_type": "parsed_markdown",
+              "source_id": "composite_damage_notes",
+              "source_locator": "损伤扩展分析",
+              "source_url": "",
+              "source_authority": "curated_local",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [],
+              "_score": 193.43758,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "composite-k04",
+              "domain": "composite",
+              "title": "损伤扩展分析",
+              "tags": [
+                "损伤扩展",
+                "分层",
+                "纤维断裂"
+              ],
+              "difficulty": "进阶",
+              "content": "损伤扩展分析需要综合冲击能量、初始损伤范围、载荷谱、边界条件和材料铺层，形成扩展风险和后续检测建议。",
+              "source_type": "research_design",
+              "applicable_learners": [
+                "材料方向研究生"
+              ],
+              "common_misconceptions": [
+                "只报告损伤面积不讨论扩展条件",
+                "忽略载荷谱"
+              ],
+              "source_id": "local_json_composite",
+              "source_locator": "损伤扩展分析",
+              "source_url": "",
+              "source_authority": "curated_local",
+              "chunk_file": "backend/app/data/knowledge_composite.json",
+              "_score": 193.43329,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "composite-k03",
+              "domain": "composite",
+              "title": "无损检测图像判读",
+              "tags": [
+                "无损检测图像判读",
+                "表征方法",
+                "冲击损伤"
+              ],
+              "difficulty": "基础",
+              "content": "超声 C 扫、红外热成像和 X 射线等方法可辅助定位内部损伤范围。判读时要比较外观损伤与内部异常区域的差异。",
+              "source_type": "inspection_rule",
+              "applicable_learners": [
+                "本科低年级学生",
+                "机务维修新员工",
+                "材料方向研究生"
+              ],
+              "common_misconceptions": [
+                "把无损检测图像的颜色直接等同损伤等级",
+                "不说明检测方法和阈值"
+              ],
+              "source_id": "local_json_composite",
+              "source_locator": "无损检测图像判读",
+              "source_url": "",
+              "source_authority": "curated_local",
+              "chunk_file": "backend/app/data/knowledge_composite.json",
+              "_score": 175.09387,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "composite_damage_notes-c003-ae26f436",
+              "domain": "composite",
+              "title": "composite_damage_notes · 无损检测图像判读",
+              "tags": [
+                "无损检测"
+              ],
+              "difficulty": "提升",
+              "content": "超声 C 扫、红外热成像和 X 射线等方法可辅助定位内部损伤范围。判读时要比较外观损伤与内部异常区域的差异，并说明检测方法和阈值。",
+              "source_type": "parsed_markdown",
+              "source_id": "composite_damage_notes",
+              "source_locator": "无损检测图像判读",
+              "source_url": "",
+              "source_authority": "curated_local",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [],
+              "_score": 169.36336,
+              "_retrieval_source": "elasticsearch"
+            },
+            {
+              "id": "composite_springer_2024_cscan_ct-c001-31c82312",
+              "domain": "composite",
+              "title": "Comparison of X-ray CT and Ultrasonic C-Scan Techniques for Impact Damage in a CFRP Laminate · Page 1",
+              "tags": [
+                "冲击损伤",
+                "损伤扩展",
+                "无损检测",
+                "无损检测图像判读"
+              ],
+              "difficulty": "基础",
+              "content": "Applied Composite Materials (2024) 31:249–264 https://doi.org/10.1007/s10443-023-10171-3 Comparison of X‑ray Computed Tomography and Ultrasonic C‑Scan Techniques and Numerical Modelling of Impact Damage in a CFRP Composite Laminate E. E. Evans1 · R. A. Brooks2 · J. Liu2 · Z. E. C. Hall2 · H. Liu3 · T. J. E. Lowe1 · P. J. Withers1 · A. J. Kinloch2 · J. P. Dear2 Received: 15 August 2023 / Accepted: 4 October 2023 / Published online: 8 November 2023 © The Author(s) 2023 Abstract Two different experimental techniques are employed to visualize the impact damage gen- erated by a low-velocity impact on a carbon-fibre reinforced-polymer (CFRP) composite laminate. At the relatively low impact-velocit",
+              "source_type": "parsed_markdown",
+              "source_id": "composite_springer_2024_cscan_ct",
+              "source_locator": "Page 1",
+              "source_url": "https://doi.org/10.1007/s10443-023-10171-3",
+              "source_authority": "peer_reviewed_open_access",
+              "applicable_learners": [
+                "本科低年级学生",
+                "材料方向研究生",
+                "机务维修新员工"
+              ],
+              "common_misconceptions": [],
+              "_score": 80.75258,
+              "_retrieval_source": "elasticsearch"
+            }
+          ]
+        }
+      },
+      {
+        "agent_name": "个性化资源生成 Agent",
+        "role": "根据学习者画像、诊断结果和检索证据生成讲义、实操指南、分阶测试题和案例任务。",
+        "input_summary": "机务维修新员工；资源难度=巩固提升",
+        "output_summary": "已生成个性化讲义、实操训练指南、5 道分阶测试题和案例分析任务。",
+        "status": "completed",
+        "confidence": 0.86,
+        "evidence_ids": [
+          "composite_damage_notes-c004-5359317b",
+          "composite-k04",
+          "composite-k03"
+        ],
+        "details": {
+          "resource_keys": [
+            "personalized_lecture",
+            "practical_guide",
+            "graded_quiz",
+            "case_task",
+            "difficulty_match",
+            "personalization",
+            "evidence_boundary",
+            "generation_mode"
+          ],
+          "difficulty_match": {
+            "diagnosis_level": "基础一般",
+            "resource_difficulty": "巩固提升",
+            "reason": "机务维修新员工当前得分 60，资源优先覆盖 分层、损伤扩展。"
+          },
+          "personalization": {
+            "strategy_id": "maintenance",
+            "strategy_label": "检查决策型",
+            "learner_type": "机务维修新员工",
+            "explanation_style": "以检查流程、标准化记录、风险分级和升级报告边界组织知识。",
+            "practice_focus": "完成可追溯检查记录和后续检测建议，不越权替代适航放行。",
+            "assessment_focus": "损伤判读、检查遗漏、记录规范和处置边界"
+          },
+          "evidence_boundary": {
+            "observation": "可直接引用已检索片段和已审核实验资产中的观察记录。",
+            "parameter_fact": "仅使用资产工况字段或检索片段中明确记录的数值，不补齐缺失参数。",
+            "mechanism_inference": "机理只能表述为受证据支持的解释或待验证假设，不能由单张图像直接确定。",
+            "maintenance_decision": "仅提供训练性检查建议，不替代维修手册、工卡、适航或授权放行。"
+          }
+        }
+      },
+      {
+        "agent_name": "专家审核纠偏 Agent",
+        "role": "检查生成资源的专业概念、知识依据、难度匹配、泛化风险和实操约束。",
+        "input_summary": "生成资源 + 检索证据片段",
+        "output_summary": "审核通过，标记 3 个风险点、2 条纠偏建议。",
+        "status": "completed",
+        "confidence": 0.9,
+        "evidence_ids": [
+          "composite_damage_notes-c004-5359317b",
+          "composite-k04",
+          "composite-k03",
+          "composite_damage_notes-c003-ae26f436",
+          "composite_springer_2024_cscan_ct-c001-31c82312"
+        ],
+        "details": {
+          "status": "通过，建议带纠偏提示使用",
+          "approved": true,
+          "requires_regeneration": false,
+          "rejection_reasons": [],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。",
+            "当前依据中实操任务片段不足，建议追加检查流程约束。"
+          ],
+          "corrections": [
+            "围绕“分层”补充证据来源、实验边界或检查记录模板。",
+            "围绕“损伤扩展”补充证据来源、实验边界或检查记录模板。"
+          ],
+          "evidence_ids": [
+            "composite_damage_notes-c004-5359317b",
+            "composite-k04",
+            "composite-k03",
+            "composite_damage_notes-c003-ae26f436",
+            "composite_springer_2024_cscan_ct-c001-31c82312"
+          ],
+          "asset_evidence_ids": [],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "sufficient_for_training",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果"
+          ],
+          "unsupported_claims": [],
+          "evidence_gaps": [
+            "检索结果缺少专门的实操任务片段"
+          ],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "knowledge-only",
+              "basis_ids": [],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "limited",
+              "basis_ids": [],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "bounded-inference",
+              "basis_ids": [
+                "composite_damage_notes-c004-5359317b",
+                "composite-k04",
+                "composite-k03",
+                "composite_damage_notes-c003-ae26f436",
+                "composite_springer_2024_cscan_ct-c001-31c82312"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "composite_damage_notes-c004-5359317b",
+                "composite-k04",
+                "composite-k03",
+                "composite_damage_notes-c003-ae26f436",
+                "composite_springer_2024_cscan_ct-c001-31c82312"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": false,
+          "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+          "consistency_check": "自动检查确认引用闭合和边界提示完整；专业机理正确性仍需专家复核。"
+        }
+      },
+      {
+        "agent_name": "学习路径决策 Agent",
+        "role": "根据诊断结果、资源难度和审核意见输出学习路径、训练建议和推荐动作。",
+        "input_summary": "score=60，level=基础一般",
+        "output_summary": "推荐动作：补充案例 + 继续巩固；下一步：围绕 分层、损伤扩展 追加胎面裂纹/剥落或对应方向案例，并继续巩固证据链表达。",
+        "status": "completed",
+        "confidence": 0.91,
+        "evidence_ids": [
+          "composite_damage_notes-c004-5359317b",
+          "composite-k04",
+          "composite-k03",
+          "composite_damage_notes-c003-ae26f436",
+          "composite_springer_2024_cscan_ct-c001-31c82312"
+        ],
+        "details": {
+          "learning_path": [
+            "画像确认",
+            "基础概念校准",
+            "典型损伤识别",
+            "机理证据链分析",
+            "实操检查任务",
+            "反馈测试与动态更新"
+          ],
+          "difficulty_match": {
+            "diagnosis_level": "基础一般",
+            "resource_difficulty": "巩固提升",
+            "reason": "机务维修新员工当前得分 60，资源优先覆盖 分层、损伤扩展。"
+          },
+          "next_training_plan": "围绕 分层、损伤扩展 追加胎面裂纹/剥落或对应方向案例，并继续巩固证据链表达。",
+          "recommended_action": "补充案例 + 继续巩固"
+        }
+      }
+    ]
+  },
+  "generated_resources": {
+    "personalized_lecture": {
+      "title": "飞机复合材料板损伤分析个性化讲义",
+      "difficulty": "巩固提升",
+      "target": "识别复合材料板冲击损伤、分层风险和无损检测图像，形成规范复检建议。",
+      "sections": [
+        {
+          "heading": "1. 明确检查任务与风险边界",
+          "content": "围绕 分层、损伤扩展 建立检查清单，先记录部件区域、尺寸和图像证据，再提出复检与升级报告建议，避免越权形成放行结论。",
+          "evidence_ids": [
+            "composite_damage_notes-c004-5359317b",
+            "composite-k04"
+          ]
+        },
+        {
+          "heading": "2. 从损伤征象定位可能影响因素",
+          "content": "证据1（composite_damage_notes-c004-5359317b）：损伤扩展分析需要综合冲击能量、初始损伤范围、载荷谱、边界条件和材料铺层，形成扩展风险和后续检测建议。 证据2（composite-k03）：超声 C 扫、红外热成像和 X 射线等方法可辅助定位内部损伤范围。判读时要比较外观损伤与内部异常区域的差异。 本画像训练要求：以检查流程、标准化记录、风险分级和升级报告边界组织知识。",
+          "evidence_ids": [
+            "composite_damage_notes-c004-5359317b",
+            "composite-k04",
+            "composite-k03"
+          ]
+        },
+        {
+          "heading": "3. 形成可复核记录与升级建议",
+          "content": "按“部件区域 - 损伤征象 - 尺寸位置 - 证据编号 - 风险提示 - 复检或升级报告”形成规范记录。",
+          "evidence_ids": [
+            "composite_damage_notes-c004-5359317b",
+            "composite-k04",
+            "composite-k03",
+            "composite_damage_notes-c003-ae26f436",
+            "composite_springer_2024_cscan_ct-c001-31c82312"
+          ]
+        }
+      ]
+    },
+    "practical_guide": {
+      "title": "复合材料板冲击损伤判读实操指南",
+      "steps": [
+        "按照检查单记录部件区域、尺寸、图像编号和异常等级；证据不足时提交复检或升级报告。",
+        "记录冲击能量、冲击位置和外观凹坑区域。",
+        "读取无损检测图像，圈定疑似分层或内部异常范围。",
+        "比较外观损伤与内部损伤范围差异。",
+        "写出损伤类型、扩展风险和后续检测建议。"
+      ],
+      "record_template": [
+        "部件与区域",
+        "服役信息",
+        "损伤征象",
+        "尺寸与位置",
+        "图像编号",
+        "复检项目",
+        "升级报告"
+      ],
+      "constraints": [
+        "必须说明实验或检查边界条件。",
+        "训练建议不能替代真实适航放行结论。",
+        "形貌判断需尽量结合多源表征。",
+        "所有处置内容均为训练建议，真实维修必须执行适用手册、工卡和授权放行流程。"
+      ],
+      "evidence_ids": [
+        "composite_damage_notes-c004-5359317b",
+        "composite-k04",
+        "composite-k03",
+        "composite_damage_notes-c003-ae26f436",
+        "composite_springer_2024_cscan_ct-c001-31c82312"
+      ]
+    },
+    "graded_quiz": [
+      {
+        "id": "feedback-composite-q4",
+        "level": "基础",
+        "question": "分层对结构性能的主要影响之一是？",
+        "options": [
+          "削弱层间载荷传递并影响损伤扩展",
+          "提高所有方向强度",
+          "消除基体裂纹",
+          "不影响疲劳行为"
+        ],
+        "answer": "削弱层间载荷传递并影响损伤扩展",
+        "knowledge_point": "分层",
+        "explanation": "分层会削弱层间载荷传递，在压缩或疲劳载荷下可能进一步扩展。",
+        "training_focus": "损伤判读、检查遗漏、记录规范和处置边界"
+      },
+      {
+        "id": "feedback-composite-q5",
+        "level": "基础",
+        "question": "复合材料损伤判读应结合外观检查和无损检测证据。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "正确",
+        "knowledge_point": "损伤扩展",
+        "explanation": "外观检查和无损检测互补，能更完整地识别损伤类型、范围和扩展风险。",
+        "training_focus": "损伤判读、检查遗漏、记录规范和处置边界"
+      },
+      {
+        "id": "feedback-composite-q1",
+        "level": "提升",
+        "question": "飞机复合材料板低速冲击后常见的内部损伤是？",
+        "options": [
+          "分层和基体开裂",
+          "胎面橡胶交联",
+          "刹车片摩擦膜增厚",
+          "金属熔化"
+        ],
+        "answer": "分层和基体开裂",
+        "knowledge_point": "冲击损伤",
+        "explanation": "低速冲击可能导致表面轻微、内部复杂的损伤组合，包括分层、基体开裂和纤维断裂。",
+        "training_focus": "损伤判读、检查遗漏、记录规范和处置边界"
+      },
+      {
+        "id": "feedback-composite-q2",
+        "level": "情景决策",
+        "question": "表面损伤轻微时，内部一定没有损伤。",
+        "options": [
+          "正确",
+          "错误"
+        ],
+        "answer": "错误",
+        "knowledge_point": "常见误区",
+        "explanation": "复合材料可能存在隐蔽损伤，需要结合无损检测判断内部范围和层间分布。",
+        "training_focus": "损伤判读、检查遗漏、记录规范和处置边界"
+      },
+      {
+        "id": "feedback-composite-q3",
+        "level": "情景决策",
+        "question": "超声 C 扫主要用于辅助判断什么？",
+        "options": [
+          "内部损伤范围和分布",
+          "文档字体",
+          "图片压缩率",
+          "试验报告页数"
+        ],
+        "answer": "内部损伤范围和分布",
+        "knowledge_point": "无损检测图像判读",
+        "explanation": "超声 C 扫常用于定位分层等内部损伤范围，并与外观图像形成证据互补。",
+        "training_focus": "损伤判读、检查遗漏、记录规范和处置边界"
+      }
+    ],
+    "case_task": {
+      "title": "案例分析任务",
+      "brief": "某复合材料板低速冲击后表面仅轻微凹陷，但超声 C 扫出现椭圆异常区域。请判断损伤类型和检测建议。",
+      "focus_points": [
+        "分层",
+        "损伤扩展"
+      ],
+      "expected_output": [
+        "损伤征象描述",
+        "检查记录",
+        "风险提示",
+        "复检项目",
+        "升级报告建议"
+      ],
+      "evidence_ids": [
+        "composite_damage_notes-c004-5359317b",
+        "composite-k04",
+        "composite-k03"
+      ]
+    },
+    "difficulty_match": {
+      "diagnosis_level": "基础一般",
+      "resource_difficulty": "巩固提升",
+      "reason": "机务维修新员工当前得分 60，资源优先覆盖 分层、损伤扩展。"
+    },
+    "personalization": {
+      "strategy_id": "maintenance",
+      "strategy_label": "检查决策型",
+      "learner_type": "机务维修新员工",
+      "explanation_style": "以检查流程、标准化记录、风险分级和升级报告边界组织知识。",
+      "practice_focus": "完成可追溯检查记录和后续检测建议，不越权替代适航放行。",
+      "assessment_focus": "损伤判读、检查遗漏、记录规范和处置边界"
+    },
+    "evidence_boundary": {
+      "observation": "可直接引用已检索片段和已审核实验资产中的观察记录。",
+      "parameter_fact": "仅使用资产工况字段或检索片段中明确记录的数值，不补齐缺失参数。",
+      "mechanism_inference": "机理只能表述为受证据支持的解释或待验证假设，不能由单张图像直接确定。",
+      "maintenance_decision": "仅提供训练性检查建议，不替代维修手册、工卡、适航或授权放行。"
+    },
+    "generation_mode": "mock-template"
+  },
+  "learning_report": {
+    "session_id": "6b0293b9-41a3-497d-a918-0a5b98013c03",
+    "profile": {
+      "profile_id": "maintenance_new",
+      "name": "机务维修新员工",
+      "learner_type": "机务维修新员工",
+      "background": "了解基本维修流程，需要把材料损伤知识转化为检查、记录和处置建议。",
+      "characteristics": "关注损伤判读、检查流程、维护决策和实操规范，需要避免越权结论。",
+      "default_goal": "掌握典型损伤识别流程，能规范描述证据、风险和后续检查建议。",
+      "self_level": "中",
+      "recommended_domains": [
+        "tire",
+        "brake",
+        "composite"
+      ]
+    },
+    "domain": {
+      "domain": "composite",
+      "title": "飞机复合材料板损伤分析",
+      "summary": "围绕冲击损伤、分层、基体开裂、纤维断裂、无损检测图像判读和损伤扩展开展训练。"
+    },
+    "diagnosis_score": 60,
+    "diagnosis_level": "基础一般",
+    "knowledge_blind_spots": [
+      "分层",
+      "损伤扩展"
+    ],
+    "strong_points": [
+      "冲击损伤",
+      "常见误区",
+      "无损检测图像判读"
+    ],
+    "diagnosis_summary": "机务维修新员工本次诊断得分 60 分，水平判定为“基础一般”。当前薄弱点集中在 分层、损伤扩展；相对优势为 冲击损伤、常见误区、无损检测图像判读。",
+    "resource_difficulty_match": {
+      "diagnosis_level": "基础一般",
+      "resource_difficulty": "巩固提升",
+      "reason": "机务维修新员工当前得分 60，资源优先覆盖 分层、损伤扩展。"
+    },
+    "personalization_strategy": {
+      "strategy_id": "maintenance",
+      "strategy_label": "检查决策型",
+      "learner_type": "机务维修新员工",
+      "explanation_style": "以检查流程、标准化记录、风险分级和升级报告边界组织知识。",
+      "practice_focus": "完成可追溯检查记录和后续检测建议，不越权替代适航放行。",
+      "assessment_focus": "损伤判读、检查遗漏、记录规范和处置边界"
+    },
+    "recommended_learning_path": [
+      "画像确认",
+      "基础概念校准",
+      "典型损伤识别",
+      "机理证据链分析",
+      "实操检查任务",
+      "反馈测试与动态更新"
+    ],
+    "next_training_suggestion": "围绕 分层、损伤扩展 追加胎面裂纹/剥落或对应方向案例，并继续巩固证据链表达。",
+    "recommended_action": "补充案例 + 继续巩固",
+    "agent_review": {
+      "status": "通过，建议带纠偏提示使用",
+      "approved": true,
+      "requires_regeneration": false,
+      "rejection_reasons": [],
+      "risk_points": [
+        "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+        "训练建议不能替代真实维修放行或适航决策。",
+        "当前依据中实操任务片段不足，建议追加检查流程约束。"
+      ],
+      "corrections": [
+        "围绕“分层”补充证据来源、实验边界或检查记录模板。",
+        "围绕“损伤扩展”补充证据来源、实验边界或检查记录模板。"
+      ],
+      "evidence_ids": [
+        "composite_damage_notes-c004-5359317b",
+        "composite-k04",
+        "composite-k03",
+        "composite_damage_notes-c003-ae26f436",
+        "composite_springer_2024_cscan_ct-c001-31c82312"
+      ],
+      "asset_evidence_ids": [],
+      "review_scope": {
+        "automated_checks": [
+          "引用闭合",
+          "工况字段",
+          "难度匹配",
+          "实操约束",
+          "高风险表述"
+        ],
+        "expert_review_required": [
+          "专业机理正确性",
+          "实验结论有效性",
+          "真实维修处置"
+        ]
+      },
+      "evidence_sufficiency": "sufficient_for_training",
+      "verified_claims": [
+        "资源中的证据 ID 均来自本次检索结果"
+      ],
+      "unsupported_claims": [],
+      "evidence_gaps": [
+        "检索结果缺少专门的实操任务片段"
+      ],
+      "claim_assessments": [
+        {
+          "category": "实验观察",
+          "status": "knowledge-only",
+          "basis_ids": [],
+          "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+        },
+        {
+          "category": "工况参数事实",
+          "status": "limited",
+          "basis_ids": [],
+          "boundary": "缺失参数保持未知，不进行插补。"
+        },
+        {
+          "category": "损伤机理推断",
+          "status": "bounded-inference",
+          "basis_ids": [
+            "composite_damage_notes-c004-5359317b",
+            "composite-k04",
+            "composite-k03",
+            "composite_damage_notes-c003-ae26f436",
+            "composite_springer_2024_cscan_ct-c001-31c82312"
+          ],
+          "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+        },
+        {
+          "category": "维护决策建议",
+          "status": "training-only",
+          "basis_ids": [
+            "composite_damage_notes-c004-5359317b",
+            "composite-k04",
+            "composite-k03",
+            "composite_damage_notes-c003-ae26f436",
+            "composite_springer_2024_cscan_ct-c001-31c82312"
+          ],
+          "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+        }
+      ],
+      "degraded_output": false,
+      "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+      "consistency_check": "自动检查确认引用闭合和边界提示完整；专业机理正确性仍需专家复核。"
+    },
+    "retrieved_knowledge": [
+      {
+        "id": "composite_damage_notes-c004-5359317b",
+        "domain": "composite",
+        "title": "composite_damage_notes · 损伤扩展分析",
+        "tags": [
+          "损伤扩展"
+        ],
+        "difficulty": "进阶",
+        "content": "损伤扩展分析需要综合冲击能量、初始损伤范围、载荷谱、边界条件和材料铺层，形成扩展风险和后续检测建议。",
+        "source_type": "parsed_markdown",
+        "source_id": "composite_damage_notes",
+        "source_locator": "损伤扩展分析",
+        "source_url": "",
+        "source_authority": "curated_local",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [],
+        "_score": 193.43758,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "composite-k04",
+        "domain": "composite",
+        "title": "损伤扩展分析",
+        "tags": [
+          "损伤扩展",
+          "分层",
+          "纤维断裂"
+        ],
+        "difficulty": "进阶",
+        "content": "损伤扩展分析需要综合冲击能量、初始损伤范围、载荷谱、边界条件和材料铺层，形成扩展风险和后续检测建议。",
+        "source_type": "research_design",
+        "applicable_learners": [
+          "材料方向研究生"
+        ],
+        "common_misconceptions": [
+          "只报告损伤面积不讨论扩展条件",
+          "忽略载荷谱"
+        ],
+        "source_id": "local_json_composite",
+        "source_locator": "损伤扩展分析",
+        "source_url": "",
+        "source_authority": "curated_local",
+        "chunk_file": "backend/app/data/knowledge_composite.json",
+        "_score": 193.43329,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "composite-k03",
+        "domain": "composite",
+        "title": "无损检测图像判读",
+        "tags": [
+          "无损检测图像判读",
+          "表征方法",
+          "冲击损伤"
+        ],
+        "difficulty": "基础",
+        "content": "超声 C 扫、红外热成像和 X 射线等方法可辅助定位内部损伤范围。判读时要比较外观损伤与内部异常区域的差异。",
+        "source_type": "inspection_rule",
+        "applicable_learners": [
+          "本科低年级学生",
+          "机务维修新员工",
+          "材料方向研究生"
+        ],
+        "common_misconceptions": [
+          "把无损检测图像的颜色直接等同损伤等级",
+          "不说明检测方法和阈值"
+        ],
+        "source_id": "local_json_composite",
+        "source_locator": "无损检测图像判读",
+        "source_url": "",
+        "source_authority": "curated_local",
+        "chunk_file": "backend/app/data/knowledge_composite.json",
+        "_score": 175.09387,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "composite_damage_notes-c003-ae26f436",
+        "domain": "composite",
+        "title": "composite_damage_notes · 无损检测图像判读",
+        "tags": [
+          "无损检测"
+        ],
+        "difficulty": "提升",
+        "content": "超声 C 扫、红外热成像和 X 射线等方法可辅助定位内部损伤范围。判读时要比较外观损伤与内部异常区域的差异，并说明检测方法和阈值。",
+        "source_type": "parsed_markdown",
+        "source_id": "composite_damage_notes",
+        "source_locator": "无损检测图像判读",
+        "source_url": "",
+        "source_authority": "curated_local",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [],
+        "_score": 169.36336,
+        "_retrieval_source": "elasticsearch"
+      },
+      {
+        "id": "composite_springer_2024_cscan_ct-c001-31c82312",
+        "domain": "composite",
+        "title": "Comparison of X-ray CT and Ultrasonic C-Scan Techniques for Impact Damage in a CFRP Laminate · Page 1",
+        "tags": [
+          "冲击损伤",
+          "损伤扩展",
+          "无损检测",
+          "无损检测图像判读"
+        ],
+        "difficulty": "基础",
+        "content": "Applied Composite Materials (2024) 31:249–264 https://doi.org/10.1007/s10443-023-10171-3 Comparison of X‑ray Computed Tomography and Ultrasonic C‑Scan Techniques and Numerical Modelling of Impact Damage in a CFRP Composite Laminate E. E. Evans1 · R. A. Brooks2 · J. Liu2 · Z. E. C. Hall2 · H. Liu3 · T. J. E. Lowe1 · P. J. Withers1 · A. J. Kinloch2 · J. P. Dear2 Received: 15 August 2023 / Accepted: 4 October 2023 / Published online: 8 November 2023 © The Author(s) 2023 Abstract Two different experimental techniques are employed to visualize the impact damage gen- erated by a low-velocity impact on a carbon-fibre reinforced-polymer (CFRP) composite laminate. At the relatively low impact-velocit",
+        "source_type": "parsed_markdown",
+        "source_id": "composite_springer_2024_cscan_ct",
+        "source_locator": "Page 1",
+        "source_url": "https://doi.org/10.1007/s10443-023-10171-3",
+        "source_authority": "peer_reviewed_open_access",
+        "applicable_learners": [
+          "本科低年级学生",
+          "材料方向研究生",
+          "机务维修新员工"
+        ],
+        "common_misconceptions": [],
+        "_score": 80.75258,
+        "_retrieval_source": "elasticsearch"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "domain": "composite",
+  "title": "飞机复合材料板损伤分析",
+  "summary": "围绕冲击损伤、分层、基体开裂、纤维断裂、无损检测图像判读和损伤扩展开展训练。",
+  "chunks": [
+    {
+      "id": "composite-k01",
+      "domain": "composite",
+      "title": "低速冲击与隐蔽损伤",
+      "tags": ["冲击损伤", "基体开裂", "纤维断裂", "常见误区"],
+      "difficulty": "基础",
+      "content": "复合材料板低速冲击后可能出现表面凹坑不明显但内部存在分层、基体开裂和纤维断裂的情况，必须警惕隐蔽损伤。",
+      "source_type": "domain_note",
+      "applicable_learners": ["本科低年级学生", "机务维修新员工"],
+      "common_misconceptions": ["表面轻微就等于内部无损", "只用外观判断损伤范围"]
+    },
+    {
+      "id": "composite-k02",
+      "domain": "composite",
+      "title": "分层对载荷传递的影响",
+      "tags": ["分层", "损伤扩展", "损伤机理"],
+      "difficulty": "提升",
+      "content": "分层会削弱层间载荷传递，使层合板在压缩或疲劳载荷下更容易发生损伤扩展，需要结合铺层方向和载荷路径分析。",
+      "source_type": "analysis_template",
+      "applicable_learners": ["材料方向研究生", "机务维修新员工"],
+      "common_misconceptions": ["只看表层裂纹而忽略层间损伤", "认为分层不会影响后续扩展"]
+    },
+    {
+      "id": "composite-k03",
+      "domain": "composite",
+      "title": "无损检测图像判读",
+      "tags": ["无损检测图像判读", "表征方法", "冲击损伤"],
+      "difficulty": "基础",
+      "content": "超声 C 扫、红外热成像和 X 射线等方法可辅助定位内部损伤范围。判读时要比较外观损伤与内部异常区域的差异。",
+      "source_type": "inspection_rule",
+      "applicable_learners": ["本科低年级学生", "机务维修新员工", "材料方向研究生"],
+      "common_misconceptions": ["把无损检测图像的颜色直接等同损伤等级", "不说明检测方法和阈值"]
+    },
+    {
+      "id": "composite-k04",
+      "domain": "composite",
+      "title": "损伤扩展分析",
+      "tags": ["损伤扩展", "分层", "纤维断裂"],
+      "difficulty": "进阶",
+      "content": "损伤扩展分析需要综合冲击能量、初始损伤范围、载荷谱、边界条件和材料铺层，形成扩展风险和后续检测建议。",
+      "source_type": "research_design",
+      "applicable_learners": ["材料方向研究生"],
+      "common_misconceptions": ["只报告损伤面积不讨论扩展条件", "忽略载荷谱"]
+    },
+    {
+      "id": "composite-k05",
+      "domain": "composite",
+      "title": "复合材料板实操训练任务",
+      "tags": ["实操训练任务", "无损检测图像判读", "损伤扩展"],
+      "difficulty": "基础",
+      "content": "训练任务包括圈定外观凹坑和无损检测异常区域、比较内外损伤范围、列出分层/基体开裂/纤维断裂证据，并提出后续检测建议。",
+      "source_type": "practice_task",
+      "applicable_learners": ["本科低年级学生", "机务维修新员工"],
+      "common_misconceptions": ["只画区域不解释证据", "不区分检测建议和维修放行结论"]
+    }
+  ]
+}

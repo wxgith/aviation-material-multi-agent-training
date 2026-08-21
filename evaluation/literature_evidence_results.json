@@ -1,0 +1,275 @@
+{
+  "generated_at": "2026-08-12T12:15:46.189846+00:00",
+  "evaluation_scope": "expert_reviewed_published_literature_experiment_evidence",
+  "metrics": {
+    "case_count": 10,
+    "source_hit_rate": 1.0,
+    "evidence_traceability_rate": 1.0,
+    "expert_review_coverage": 1.0,
+    "boundary_statement_coverage": 1.0,
+    "elasticsearch_usage_rate": 1.0
+  },
+  "automated_status": "passed",
+  "cases": [
+    {
+      "id": "lit-ret-001",
+      "domain": "tire",
+      "expected_source_id": "tire_pmc_10490132_thermal_aging",
+      "actual_source_ids": [
+        "tire_pmc_10490132_thermal_aging",
+        "tire_pmc_10490132_thermal_aging",
+        "local_json_tire",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "tire_pmc_10490132_thermal_aging-c041-17bf299c",
+        "tire_pmc_10490132_thermal_aging-c042-bd7547ad",
+        "tire-k01",
+        "tire-k04",
+        "tire-k02"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "record_reviewed": true,
+      "record_bounded": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "lit-ret-002",
+      "domain": "tire",
+      "expected_source_id": "tire_pmc_10490132_thermal_aging",
+      "actual_source_ids": [
+        "tire_pmc_10490132_thermal_aging",
+        "tire_pmc_10490132_thermal_aging",
+        "local_json_tire",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "tire_pmc_10490132_thermal_aging-c041-17bf299c",
+        "tire_pmc_10490132_thermal_aging-c042-bd7547ad",
+        "tire-k01",
+        "tire-k07",
+        "tire-k06"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "record_reviewed": true,
+      "record_bounded": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "lit-ret-003",
+      "domain": "tire",
+      "expected_source_id": "tire_pmc_8620932_fatigue_crack",
+      "actual_source_ids": [
+        "tire_pmc_8620932_fatigue_crack",
+        "tire_pmc_8620932_fatigue_crack",
+        "",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "tire_pmc_8620932_fatigue_crack-c013-1714d32e",
+        "tire_pmc_8620932_fatigue_crack-c014-96eb7169",
+        "tire-k06",
+        "tire-k05",
+        "tire-k01"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "record_reviewed": true,
+      "record_bounded": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "lit-ret-004",
+      "domain": "tire",
+      "expected_source_id": "tire_pmc_8620932_fatigue_crack",
+      "actual_source_ids": [
+        "tire_pmc_8620932_fatigue_crack",
+        "tire_pmc_8620932_fatigue_crack",
+        "",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "tire_pmc_8620932_fatigue_crack-c013-1714d32e",
+        "tire_pmc_8620932_fatigue_crack-c014-96eb7169",
+        "tire-k06",
+        "tire-k05",
+        "tire-k01"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "record_reviewed": true,
+      "record_bounded": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "lit-ret-005",
+      "domain": "brake",
+      "expected_source_id": "brake_nasa_tn_d_8006",
+      "actual_source_ids": [
+        "brake_nasa_tn_d_8006",
+        "brake_nasa_tn_d_8006",
+        "",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "brake_nasa_tn_d_8006-c001-f2c3c792",
+        "brake_nasa_tn_d_8006-c002-7bd8c3d6",
+        "brake-k04",
+        "brake-k03",
+        "brake-k02"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "record_reviewed": true,
+      "record_bounded": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "lit-ret-006",
+      "domain": "brake",
+      "expected_source_id": "brake_nasa_tn_d_8006",
+      "actual_source_ids": [
+        "brake_nasa_tn_d_8006",
+        "brake_nasa_tn_d_8006",
+        "brake_wear_notes",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "brake_nasa_tn_d_8006-c008-2b5246d3",
+        "brake_nasa_tn_d_8006-c004-60f1b891",
+        "brake_wear_notes-c001-07d5e4a8",
+        "brake-k02",
+        "brake-k01"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "record_reviewed": true,
+      "record_bounded": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "lit-ret-007",
+      "domain": "composite",
+      "expected_source_id": "composite_pmc_6865209_bvid_reconstruction",
+      "actual_source_ids": [
+        "composite_pmc_6865209_bvid_reconstruction",
+        "composite_pmc_6865209_bvid_reconstruction",
+        "local_json_composite",
+        "composite_damage_notes",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "composite_pmc_6865209_bvid_reconstruction-c025-4463f9af",
+        "composite_pmc_6865209_bvid_reconstruction-c026-863784f3",
+        "composite-k02",
+        "composite_damage_notes-c002-be4cb4cb",
+        "composite-k03"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "record_reviewed": true,
+      "record_bounded": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "lit-ret-008",
+      "domain": "composite",
+      "expected_source_id": "composite_pmc_6865209_bvid_reconstruction",
+      "actual_source_ids": [
+        "composite_pmc_6865209_bvid_reconstruction",
+        "composite_pmc_6865209_bvid_reconstruction",
+        "local_json_composite",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "composite_pmc_6865209_bvid_reconstruction-c044-ecec14b8",
+        "composite_pmc_6865209_bvid_reconstruction-c045-d11e1a6f",
+        "composite-k01",
+        "composite-k02",
+        "composite-k03"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "record_reviewed": true,
+      "record_bounded": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "lit-ret-009",
+      "domain": "composite",
+      "expected_source_id": "composite_pmc_9294053_impact_dataset",
+      "actual_source_ids": [
+        "composite_pmc_9294053_impact_dataset",
+        "composite_pmc_9294053_impact_dataset",
+        "",
+        "",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "composite_pmc_9294053_impact_dataset-c011-73a21be5",
+        "composite_pmc_9294053_impact_dataset-c012-94dc9585",
+        "composite-k04",
+        "composite-k03",
+        "composite-k02"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "record_reviewed": true,
+      "record_bounded": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    },
+    {
+      "id": "lit-ret-010",
+      "domain": "composite",
+      "expected_source_id": "composite_pmc_9294053_impact_dataset",
+      "actual_source_ids": [
+        "composite_pmc_9294053_impact_dataset",
+        "composite_pmc_9294053_impact_dataset",
+        "local_json_composite",
+        "composite_damage_notes",
+        ""
+      ],
+      "actual_evidence_ids": [
+        "composite_pmc_9294053_impact_dataset-c009-a1e47b14",
+        "composite_pmc_9294053_impact_dataset-c005-38ef5f6d",
+        "composite-k01",
+        "composite_damage_notes-c001-c1f9c709",
+        "composite-k02"
+      ],
+      "source_hit": true,
+      "evidence_traceable": true,
+      "record_reviewed": true,
+      "record_bounded": true,
+      "knowledge_source": "elasticsearch",
+      "effective_retrieval_mode": "hybrid-bm25-only",
+      "passed": true
+    }
+  ]
+}

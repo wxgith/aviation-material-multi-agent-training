@@ -1,0 +1,517 @@
+{
+  "schema_version": "1.0",
+  "dataset": "team_experiment_batch2_evaluation",
+  "description": "紫外老化摩擦形貌与载荷-距离-形貌矩阵专项测评集。",
+  "cases": [
+    {
+      "id": "b2-uv-ret-001",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "检索24小时紫外老化后的摩擦磨损形貌",
+      "expected_key_points": [
+        "24h",
+        "紫外老化",
+        "摩擦形貌"
+      ],
+      "expected_asset_ids": [
+        "RXQ-UV-H0024-IMG-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "继续巩固",
+      "pass_criteria": "返回24小时资产、来源和工况限制"
+    },
+    {
+      "id": "b2-uv-ret-002",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "比较504小时紫外老化的摩擦前与摩擦后表面",
+      "expected_key_points": [
+        "504h",
+        "摩擦前",
+        "摩擦后"
+      ],
+      "expected_asset_ids": [
+        "RXQ-UV-H0504-IMG-01",
+        "RXQ-UV-H0504-IMG-02"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "补充案例",
+      "pass_criteria": "同时返回摩擦前和摩擦后资产"
+    },
+    {
+      "id": "b2-uv-ret-003",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "查看576小时紫外老化后的不同视野形貌",
+      "expected_key_points": [
+        "576h",
+        "代表视野",
+        "尺度标签"
+      ],
+      "expected_asset_ids": [
+        "RXQ-UV-H0576-IMG-01",
+        "RXQ-UV-H0576-IMG-03"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "继续巩固",
+      "pass_criteria": "返回同一时长多个代表视野"
+    },
+    {
+      "id": "b2-uv-ret-004",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "紫外老化后磨屑证据有哪些",
+      "expected_key_points": [
+        "磨屑",
+        "24h",
+        "证据ID"
+      ],
+      "expected_asset_ids": [
+        "RXQ-UV-H0024-IMG-04"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "补充案例",
+      "pass_criteria": "命中磨屑资产并显示证据ID"
+    },
+    {
+      "id": "b2-uv-img-001",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "比较24、504、576小时紫外老化后表面形貌",
+      "expected_key_points": [
+        "变量控制",
+        "可见事实",
+        "跨时长"
+      ],
+      "expected_asset_ids": [
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0504-IMG-02",
+        "RXQ-UV-H0576-IMG-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "补充案例",
+      "pass_criteria": "讲义区分观察事实与机理假设"
+    },
+    {
+      "id": "b2-uv-img-002",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "根据单张504小时图像确定紫外老化导致裂纹的完整机理",
+      "expected_key_points": [
+        "单图不足",
+        "交叉表征",
+        "降级输出"
+      ],
+      "expected_asset_ids": [
+        "RXQ-UV-H0504-IMG-02"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "继续巩固",
+      "pass_criteria": "审核Agent拒绝无依据的确定性机理"
+    },
+    {
+      "id": "b2-uv-img-003",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "把文件名5.6解释为已确认的显微镜放大倍数",
+      "expected_key_points": [
+        "文件名标签",
+        "参数待核",
+        "不可推断"
+      ],
+      "expected_asset_ids": [
+        "RXQ-UV-H0576-IMG-03"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "降维解释",
+      "pass_criteria": "明确5.6仅为文件标签"
+    },
+    {
+      "id": "b2-uv-img-004",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "学习者把图像亮度直接当作老化程度",
+      "expected_key_points": [
+        "亮度误区",
+        "同尺度比较",
+        "补充表征"
+      ],
+      "expected_asset_ids": [
+        "RXQ-UV-H0024-IMG-01",
+        "RXQ-UV-H0504-IMG-02"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "继续巩固",
+      "pass_criteria": "反馈指出亮度不能单独表征老化"
+    },
+    {
+      "id": "b2-load-ret-001",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "检索40N下20到160米往复摩擦矩阵",
+      "expected_key_points": [
+        "40N",
+        "五个距离",
+        "光学形貌"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-L40-D020-OPT-01",
+        "LYQ-LOAD-L40-D160-OPT-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "继续巩固",
+      "pass_criteria": "命中40N距离序列"
+    },
+    {
+      "id": "b2-load-ret-002",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "比较80米时40、50、60N磨损",
+      "expected_key_points": [
+        "80m",
+        "载荷效应",
+        "磨损量"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L50-D080-OPT-01",
+        "LYQ-LOAD-L60-D080-OPT-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "进阶挑战",
+      "pass_criteria": "同距离比较三个载荷"
+    },
+    {
+      "id": "b2-load-ret-003",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "载荷距离矩阵的磨损量和硬度趋势",
+      "expected_key_points": [
+        "趋势图",
+        "磨损量",
+        "硬度"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "进阶挑战",
+      "pass_criteria": "返回趋势图和15个工况范围"
+    },
+    {
+      "id": "b2-load-ret-004",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "检索60N 160米的工况和形貌",
+      "expected_key_points": [
+        "60N",
+        "160m",
+        "1.8MPa"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-L60-D160-OPT-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "补充案例",
+      "pass_criteria": "工况字段与记录一致"
+    },
+    {
+      "id": "b2-load-gen-001",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "为本科生生成载荷距离变量控制实操指南",
+      "expected_key_points": [
+        "控制变量",
+        "同载荷",
+        "同距离"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "继续巩固",
+      "pass_criteria": "指南包含两种单变量比较路径"
+    },
+    {
+      "id": "b2-load-gen-002",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "tire",
+      "input": "为研究生分析60N下距离增加时磨损和硬度变化",
+      "expected_key_points": [
+        "60N",
+        "定量记录",
+        "形貌验证"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-L60-D020-OPT-01",
+        "LYQ-LOAD-L60-D160-OPT-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "进阶挑战",
+      "pass_criteria": "引用端点数值并说明外推边界"
+    },
+    {
+      "id": "b2-load-gen-003",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "生成载荷和距离交互效应的案例任务",
+      "expected_key_points": [
+        "二维矩阵",
+        "交互效应",
+        "重复试验"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "进阶挑战",
+      "pass_criteria": "任务要求定量与形貌交叉验证"
+    },
+    {
+      "id": "b2-load-gen-004",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "学习者混合不同载荷和距离后直接归因",
+      "expected_key_points": [
+        "混杂变量",
+        "分组比较",
+        "纠偏"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "降维解释",
+      "pass_criteria": "反馈要求固定一个变量后再比较"
+    },
+    {
+      "id": "b2-review-001",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "为15个工况补齐没有记录的温升数值",
+      "expected_key_points": [
+        "禁止插补",
+        "部分温升证据",
+        "证据不足"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "继续巩固",
+      "pass_criteria": "审核Agent拒绝编造温升"
+    },
+    {
+      "id": "b2-review-002",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "仅凭50 N、80 m的一张代表图判断整个样品磨损分布",
+      "expected_key_points": [
+        "代表视野",
+        "多视野统计",
+        "限制"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-L50-D080-OPT-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "补充案例",
+      "pass_criteria": "输出代表视野限制和复检建议"
+    },
+    {
+      "id": "b2-feedback-001",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "测试正确率40%，且混淆磨损量与磨损率",
+      "expected_key_points": [
+        "指标区分",
+        "降维解释",
+        "单位"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-MATRIX-TREND-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "降维解释",
+      "pass_criteria": "决策Agent输出降维解释"
+    },
+    {
+      "id": "b2-feedback-002",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "测试正确率85%，能比较80 m下40 N与60 N并完成证据引用",
+      "expected_key_points": [
+        "较高正确率",
+        "巩固训练",
+        "证据引用"
+      ],
+      "expected_asset_ids": [
+        "LYQ-LOAD-L40-D080-OPT-01",
+        "LYQ-LOAD-L60-D080-OPT-01"
+      ],
+      "expected_agent_steps": [
+        "DiagnosisAgent",
+        "MaterialRouterAgent",
+        "RetrievalAgent",
+        "GenerationAgent",
+        "ReviewAgent",
+        "DecisionAgent"
+      ],
+      "expected_next_action": "继续巩固",
+      "pass_criteria": "决策Agent按90%阈值前继续巩固"
+    }
+  ]
+}

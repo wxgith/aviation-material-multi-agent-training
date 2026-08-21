@@ -1,0 +1,1911 @@
+[
+  {
+    "id": "tire_nasa_tn_d_6963-c001-75fd5dbe",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 1",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "NASA T E C H N I C A L N O T E NASA TN D-6963 M *o gc ro c3 C WEAR AND RELATED CHARACTERISTICS OF AN AIRCRAFT TIRE DURING BRAKING by John Locke McCurty Lungley Research Center Hdmpton, Vu. 23365 N A T I O N A L AERONAUTICS A N D SPACE A Q M I ~ I S T R A T I O N 0 WASHINGTON, Q. C. NOVEMBER 1972",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 1",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c002-2ca27151",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 2",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "1. Report No. 2. Government Accession No. 3. Recipient’s Catalog No. NASA TN D-6963 4. Title and Subtitle 5. Report Date WEAR AND RELATED CHARACTERETICS O F AN November 1972 AIRCRAFT TIRE DURING BRAKING 6. Performing Organization Code 7. Author(s) 8. Performing Organization Report No. John Locke McCarty L-8107 10. Work Unit No. 9. PerformingOrganization Name and Address 501-38- 12-02 NASA Langley Research Center 11. Contract or Grant No. Hampton, Va. 23365 13. Type of Report and Period Covered 2. Sponsoring Agency Name and Address Technical Note National Aeronautics and Space Administration 14. Sponsoring Agency Code Washington, D.C. 20546 6. Abstract An experimental investigation was conduc",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 2",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c003-0109b1c5",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 2",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "Code Washington, D.C. 20546 6. Abstract An experimental investigation was conducted to evaluate the wear and related charac- teristics of friction and temperature developed during braking of size 22 X 5.5, type VII, aircraft tires. The testing technique involved gearing the tire to a driving wheel of a ground vehicle to provide operations at constant slip ratios on asphalt, concrete, and slurry-seal surfaces. Data were obtained over the range of slip ratios generally attributed to an aircraft braking system during dry runway operations. The results show that the cumulative tire wear varies linearly with distance traveled and the wear rate increases with increasing slip ratio and is influence",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 2",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c004-c7297131",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 2",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "traveled and the wear rate increases with increasing slip ratio and is influenced by the runway-surface character. Differences in the wear rates associated with the various surfaces suggest that runways can be rated on the basis of tire wear. The results also show that the friction coefficients developed during fixed-slip-ratio operations a r e in good agreement with those obtained by other investigators during cyclic braking, in that the dry friction is insensitive to the tire tread pattern or to the runway s u r - face, whether grooved or ungrooved. In addition, the tread temperature is shown to increase with increasing slip ratio and, at the higher ratios, to be greater during braking on",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 2",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c005-f2e8312b",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 2",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "ncreasing slip ratio and, at the higher ratios, to be greater during braking on asphalt and slurry seal than on concrete. Tread temperatures a r e apparently more dependent upon surface material than upon surface texture since the temperatures are observed to be essen- tially insensitive to transverse runway grooving. Unclassified - Unlimited T i r e wear Braking For sale by the National Technical Information Service, Springfield, Virginia 221 5 1",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 2",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c006-f058117a",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 3",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "WEAR AND RELATED CHARACTERISTICS OF AN AIRCRAFT TJRZ DURING BRAKING By John Locke McCarty Langley Research Center SUMMARY An experimental investigation w a s conducted to evaluate the wear and related char- acteristics of friction and temperature developed during braking of size 22 X 5.5, type VII, aircraft tires. The testing technique involved gearing the tire to a driving wheel of a ground vehicle to provide operations at constant slip ratios on asphalt, concrete, and slurry-seal surfaces. Data were obtained over the range of slip ratios generally attrib- uted to an aircraft braking system during dry runway operations. The results show that the cumulative tire wear varies linearly with dis",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 3",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c007-26a88890",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 3",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "rations. The results show that the cumulative tire wear varies linearly with distance traveled and the wear r a t e increases with increasing slip ratio and is influenced by the runway-surface character. Differences in the wear rates associated with the various surfaces suggest that runways can be rated on the basis of tire wear. The results also show that the friction coefficients developed during fixed-slip-ratio operations are in good agreement with those obtained by other investigators during cyclic braking, in that the dry friction is insensitive to the t i r e tread pattern or to the runway surface, whether grooved or ungrooved. In addition, the tread temperature is shown to increase w",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 3",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c008-21533dc9",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 3",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征",
+      "实操训练"
+    ],
+    "difficulty": "基础",
+    "content": "grooved or ungrooved. In addition, the tread temperature is shown to increase with increasing slip ratio and, at the higher ratios, to be greater during braking on asphalt and slurry seal than on concrete. Tread tempera- tures are apparently more dependent upon surface material than upon surface texture since the temperatures are observed to be essentially insensitive to transverse runway grooving . INTRODUCTION T i r e wear is of major economic concern to commercial and military aviation since tire replacement accounts for approximately half the overall landing-gear maintenance costs of present-day jet airplanes. T i r e wear is associated with all phases of the normal ground operations of",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 3",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c009-6e70b192",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 3",
+    "tags": [
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "s. T i r e wear is associated with all phases of the normal ground operations of an airplane but principally in the touchdown, roll-out, and taxi phases. Runway rubber deposits attest to the wear which occurs in the touchdown phase; however, this wear is generally considered to be less significant than that due t o the braking and cornering required during the roll-out and taxi phases. This paper presents",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 3",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c010-42613980",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 4",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "the results from an experimental program directed towards an examination of the tire- tread-wear effects attributed to braking. The extent of braking is generally consi heel slip ratio which is a nondimensional relationship involving the eel angular velocity and equals 0 when the wheel is unbraked or freely rotating and equals 1.0 when in a locked wheel skid. The life of a tire tread at a slip ratio of 1.0 can be measured in t e r m s of meters along the runway since the wear is limited to an isolated area of the tire. At a slip ratio less than 1.0, the wheel is rotating, and the tread wear is distributed around the tire periphery which thereby increases the tire life, until at a slip ratio",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 4",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c011-d4879f07",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 4",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "the tire periphery which thereby increases the tire life, until at a slip ratio of 0, tire life is measured in thousands of kilometers. The variation of tire wear with slip ratio between the freely rotating and the locked wheel states is unknown. The purpose of the investigation reported in this paper is to examine the wear and the related character- istics of friction and temperature developed by an aircraft tire over the range of slip ratios generally attributed to an aircraft braking system during dry runway operations. The testing technique involved gearing size 22 X 5.5, type VII, aircraft tires to a driving wheel of a ground vehicle to provide operations at a constant slip ratio on asp",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 4",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c012-aa94418a",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 4",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "wheel of a ground vehicle to provide operations at a constant slip ratio on asphalt, con- crete, and slurry-seal runway surfaces. The results from preliminary wear tests con- ducted with a smooth tread automotive tire and which employed this technique are pre- sented in reference 1. SYMBOLS Values are given in both SI and U.S. Customary Units. The measurements were made in U.S. Customary Units. FV nominal vertical load on test tire Nb number of revolutions of braked wheel over a measured distance NO number of revolutions of free-rolling (unbraked) wheel over a measured distance P tire inflation pressure V test speed of ground vehicle 2",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 4",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c013-43cabe6f",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 5",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读"
+    ],
+    "difficulty": "基础",
+    "content": "APPARATUS AND TEST PROCEDURE Tires The tires of +tisinvestigation were size 22 x 5.5, 8-ply rating, type VII, aircraft tires which were obtained from three manufacturers. Figure 1is a photograph of one tire from each source. A s shown in the figure, tire A, the primary test tire since it w a s most readily available, had a 6-groove tread, as did tire B, whereas the tread of tire C had 4 grooves. Under normal test conditions, the tires were inflated to the rated pres- sure of 83 N/cm2 (120 lb/in2) and subjected to the rated vertical loading of 17.8 kN (4000 lb). For comparison purposes, several tests were conducted with the tires under a 8.9-kN (2000-lb) loading both at the rated inflation pr",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c014-d65b802a",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 5",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "d with the tires under a 8.9-kN (2000-lb) loading both at the rated inflation pressure and at 40 N/cm2 (58 lb/in2). Wear, friction, and temperature data were obtained for each test condition throughout the test life of each tire, that is, until most of the tread rubber w a s removed. Test Surfaces An active runway and the landing research runway at NASA Wallops Station provided the primary test surfaces for this investigation. The active runway had an abrasive slurry-seal asphaltic surface and the research runway consisted of concrete and asphalt sections, both grooved and ungrooved. A description of the surfaces of the research run- way, upon which most of the testing w a s conducted, is gi",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c015-6e1495ba",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 5",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "of the research run- way, upon which most of the testing w a s conducted, is given in reference 2. The grooves on the asphalt and concrete surfaces were 0.6 cm (0.25 in.) deep, 0.6 cm (0.25 in.) wide, and sawed on 2.5-cm (1-in.) centers transversely to the runway. In addition to these surfaces, a concrete taxiway w a s employed for limited testing to evaluate the effects of certain tire parameters on the tread-wear characteristics. All testing was performed on dry surfaces with the exception of one series in which the concrete and asphalt surfaces were wetted to an average water depth of approximately 0.08 cm (0.03 in.). Ground Test Vehicle and Instrumentation Figure 2 is a photograph of th",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c016-a1434b91",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 5",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": ".03 in.). Ground Test Vehicle and Instrumentation Figure 2 is a photograph of the powered ground test vehicle used in this investiga- tion and shows the instrumented wheel test fixture which consisted of the tire and the loading cylinders. The test tire w a s chain-driven through sprocket wheels by a driving wheel of the vehicle, as shown, to provide operations at constant slip ratios effected by the relative sprocket wheel diameters. Vertical load w a s applied to the tire by means of two pneumatic cylinders and the effect of this loading on the vehicle attitude w a s compensated by ballast. The vertical load as well as the drag load on the tire was measured by strain gage beams in the whee",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c017-b4e9ce05",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 5",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读"
+    ],
+    "difficulty": "基础",
+    "content": "well as the drag load on the tire was measured by strain gage beams in the wheel test fixture. An optical pyrometer w a s mounted on the fixture in a position to monitor tread temperature after the t i r e had rotated approximately 3/8 of a 3",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c018-445b2726",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 6",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "revolution out of the footprint. This location was necessary to avoid contaminating the sensor element with dust and loose particles. Test Technique The testing technique involved driving the ground vehicle at a velocity of 17.4 knots (20 mph) Over a known distance with the test tire operating at a fixed slip ratio and moni- toring the number of test wheel revolutions, the tread wear, the vertical and drag loads, and the approximate tread temperature. Tread wear was obtained by weighing the tire and wheel assembly prior to testing and at frequent intervals during the tire test life. Since the vehicle had to be stopped and the tire and wheel assembly removed for weighing, testing on each surf",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c019-30f2b97f",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 6",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "opped and the tire and wheel assembly removed for weighing, testing on each surface was accomplished by making a number of passes over a carefully measured distance along the runway. In general, the pass lengths were set at 402 m (0.25 mile) but because of the length of the grooved test sections in the research runway, passes on those surfaces were limited to 213 m (700 Et). One series of tests was con- ducted on an ungrooved surface to evaluate the effect of pass length on tire-wear charac- teristics wherein the passes were extended to 1207 m (0.75 mile). At low slip ratios where the tread wear was slight, numerous passes were made between weighings whereas at higher slip ratios weighings w",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c020-0459ddff",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 6",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "ous passes were made between weighings whereas at higher slip ratios weighings were taken more frequently. In the conduct of a typical test at one slip ratio, the tire was first lowered to the runway and loaded with the vehicle in a stationary position. The vehicle was then driven at 17.4 knots over the fixed distance, with the acceleration and deceleration phases as brief as practicable. During the pass an oscillograph recorded the number of test wheel revolutions, the outputs from the vertical and drag load beams, and the response of the optical pyrometer. Figure 3 is a reproduction of a typical oscillograph record, but does not include the output from the wheel revolution counter. At the",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c021-46999b23",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 6",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "cord, but does not include the output from the wheel revolution counter. At the conclusion of the pass, the vertical load on the tire was removed, the tire raised from the surface, and the vehicle w a s realined with the runway for another pass. If a tire-wear data point w a s desired, the tire and wheel assembly was removed and weighed at this time and subse- quently reinstalled for additional passes. Tests at one slip ratio were concluded when most of the tread rubber had been removed from the tire and a wear rate had been established. Before and after each test, the tire was uncoupled from the driving wheel of the ground vehicle and, while fully loaded, driven over the pass length in the",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c022-f0a3552b",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 6",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "the ground vehicle and, while fully loaded, driven over the pass length in the free-rolling or unbraked state and the number of wheel revolutions recorded. A knowledge of the braked and unbraked wheel revolutions was necessary to define the test slip ratio of the braked tire. 4",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c023-ddf56b68",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 7",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "RESULTS AND DISCUSSION Genera1 The data from the tests included a revolution count of the free-rolling and driven (geared to a driving wheel of the ground vehicle) test wheel over the pass distance, tire weights at various distance intervals, and time histories of the vertical and drag tire loadings plus the output from the temperature sensor. These data defined the test slip ratio, the t i r e tread wear, the friction coefficient, and the approximate tread tempera- tures. The test slip ratio w a s computed from the relationship Slip ratio = N O - N b NO where NO and Nb are the unbraked (free rolling) and braked test wheel revolutions, respectively, over the same distance along the runway. T",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 7",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c024-8860e399",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 7",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "test wheel revolutions, respectively, over the same distance along the runway. The tire tread wear w a s deter- mined from the cumulative loss in tire weight as a function of distance. The friction coefficient w a s defined as the ratio of the measured drag load to the applied vertical load. These loads together with the output from the temperature sensor were monitored during every pass as typified by the reproduced oscillograph record of figure 3. The oscilla- tions noted in the force-gage response of this figure are attributed to runway roughness, t o motions in the wheel test fixture and vehicle, and to the elastic behavior of the tire. These oscillations occurred about faired levels whi",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 7",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c025-75c46592",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 7",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "lastic behavior of the tire. These oscillations occurred about faired levels which were observed to remain essen- tially constant throughout each pass. The friction coefficient for a pass was computed from the ratio of the faired drag load to the faired vertical load. A s also noted in the figure, the temperature of the tire tread generally increased during the early stages of the constant-velocity phase of each pass until a quasi-steady temperature was reached and essentially maintained for the remainder of that phase. It is this temperature which is referred to as tread temperature in the discussions t o follow. Data which typify the results from the tire wear tests are presented in figure",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 7",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c026-66f26be1",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 7",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": ". Data which typify the results from the tire wear tests are presented in figure 4 for three slip ratios, where the tire wear, steady-state friction coefficient, and tread temper- ature are plotted as a function of distance traveled on a dry concrete runway surface. Each slip ratio identifies a separate tire and, of course, a different set of sprocket wheels in the drive assembly. The tire wear was obtained from weighings at distance intervals commensurate with the wear rate, hence, the number of passes which ensued between weighings decrease with increasing slip ratio. Since the friction coefficient and tread temperature were generally obtained during every pass, values of those characteris",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 7",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c027-c0aebc8a",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 7",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "mperature were generally obtained during every pass, values of those characteristics are plotted in the figure at distances which represent the midpoint of each pass. The data of this figure illustrate the linear relationship which exists between the tire wear 5",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 7",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c028-125131e3",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 8",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "and the traversed distance. Tire wear over a given distance is shown to increase with increasing slip ratio. The figure also shows that, over the range of slip ratios con- sidered, the friction coefficient increases with increasing slip. It will be shown later that the friction level at a slip ratio of 0.144 is slightly below the maximum available with the test tire on this surface. The friction coefficient is also shown to increase slightly with distance. The reason for this increase is unknown, but may be attributed to slight increases in the slip ratio associated with a reduction in tire size due to tread wear and also may possibly be attributed t o tread-temperature effects. Figure 4 als",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c029-fc32bc47",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 8",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "and also may possibly be attributed t o tread-temperature effects. Figure 4 also points out that an increase in the relative slip between the t i r e and the pavement is accompanied by a corresponding increase in the tread temperature. The results of tests to define the effects of runway surface material and condition as well as certain test parameters on tire wear, developed friction, and tread tempera- ture a r e presented separately in the sections which follow. Runway-Surface Effects Surface material.- The results of tests t o evaluate the effects of various runway surfaces on the wear and related characteristics of the three test tires are presented in figures 5 , 6, and 7. The data of",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c030-c6faf7ea",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 8",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "stics of the three test tires are presented in figures 5 , 6, and 7. The data of figure 5 relate the tire-wear rate t o slip ratio, where the rate is defined by the slope of the wear/distance curves such as those presented in figure 4. The figure shows that the tire-wear rate is influenced by the nature, or texture, of the runway surface. The wear on the asphalt test surface is shown to be significantly less than that on the slurry-seal or on the concrete surfaces, particularly at the higher slip ratios. T i r e wear on the slurry seal was quite similar t o that on the concrete at low slip ratios; however, at the higher ratios the t i r e s began to experience severe chunking on the slurry s",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c031-9fb9c2f7",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 8",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "higher ratios the t i r e s began to experience severe chunking on the slurry seal which greatly magnified the rate of rubber removal. Tire A proved to be particularly susceptible to this damage which generally occurred during the second or third pass at a slip ratio as low as 0.08. Figure 5 includes the wear rates for this tire both before and during tread chunking. The inflection in the curves for all surfaces at the low slip ratios may be attributed to the elastic behavior of the tires which would tend to reduce the relative slippage at the tire-pavement interface and, hence, result in a lower wear rate. The data of this figure are not intended to imply that tire wear on all asphalt runw",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c032-7498e888",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 8",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "data of this figure are not intended to imply that tire wear on all asphalt runways is less than that on all concrete or slurry-seal surfaces, or that tread chunking is inherent on all slurry seals, because of the wide possible variation in the texture of those surfaces. However, differences in the wear rates associated with the various surfaces do suggest that runways can be rated on the basis of tire wear. The variation of friction coefficient with slip ratio for the different tire and runway combinations is presented in figure 6. Each plotted value of friction coefficient repre- sents the average value measured over the life of the tire at each slip ratio. The figure 6",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c033-86eba8ec",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 9",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "shows that the developed friction coefficient is essentially independent of both the tire and the surface since one curve fairs the data from free rolling to beyond the maximum. These data, obtained at fixed slip ratios, corroborate the cyclic-braking results reported in reference 3 where it was shown that the tire tread pattern has very little effect on dry- runway braking, and similarly corroborate the results of reference 4 where it w a s observed that the friction coefficient is generally insensitive to the character of the run- way surface when dry. Furthermore, the magnitude of the maximum friction coefficient, approximately 0.83, is in agreement with that predicted (0.80) from the emp",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 9",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c034-1c066692",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 9",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "ent, approximately 0.83, is in agreement with that predicted (0.80) from the empirical expres- sion developed in reference 5 at very low ground speeds. Figure 7 summarizes the approximate tire tread temperatures measured during constant slip-ratio operations on the different surfaces with the three test tires. These temperatures are the average of those recorded over the test distances and, again, each data point defines a separate tire. The figure shows that the tread temperature is essen- tially independent of the surface material from free rolling to a slip ratio of approxi- mately 0.08, with the temperature increasing from about 36' C at free rolling to 70' C. At slip ratios higher than",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 9",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c035-c959fe72",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 9",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "ncreasing from about 36' C at free rolling to 70' C. At slip ratios higher than 0.08, the tread temperatures continue to increase, but those generated on the asphalt and slurry-seal surfaces are higher than those on concrete. The thermal conductivity of asphalt and slurry seal is less than that of concrete; there- fore, more heat is dissipated to the latter surface and, as a consequence, the tire tread runs cooler. It is of interest to note that during the course of tests at slip ratios greater than approximately 0.18, the tread temperature was sufficiently high to melt the bitumin in the asphalt surface and leave a visible trail on the runway. Tests at lower slip ratios on asphalt and at al",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 9",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c036-ec31b287",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 9",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "e a visible trail on the runway. Tests at lower slip ratios on asphalt and at all test slip ratios on concrete left rubber dust particles which did not adhere to the surface. Transverse grooving.- Tire wear and related test results for fixed slip-ratio operations on dry grooved asphalt and concrete surfaces are presented in figure 8. For the purposes of comparison, the figure also includes the curves which fair the data from figures 5, 6, and 7 for the corresponding ungrooved surfaces. The tire-wear data of this figure corroborate the results from similar tests conducted on a smooth-tread automotive tire (ref. 1) in that the tire wear rate appears to be unaffected by runway grooving at low s",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 9",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c037-e4092c2b",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 9",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "in that the tire wear rate appears to be unaffected by runway grooving at low slip ratios (up to approximately 0.10 in ref. 1). However, the figure shows that the wear rate at higher slip ratios is greater on the grooved surfaces than on the ungrooved. Figure 8 also shows that the dry friction coefficient is insensitive to runway grooving which confirms the results presented in reference 2. The figure further shows little effect of runway grooving on measured tread temperatures, thus it would appear that the tread temperature is more dependent upon the runway surface material than the texture of the surface. 7",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 9",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c038-6806ef6a",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 10",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "Surface wetness.- In an attempt to obtain an indication of the effect of the lubrica- tion provided by surface wetness on tire wear characteristics, one series of tests w a s performed on both concrete and asphalt surfaces following artificial wetting of those surfaces. The wet condition (average water depth of 0.08 cm (0.03 in.)) was obtained from two passes of a water truck and w a s approximately 3 m (10 ft) wide and extended the length of each test section. The results from these tests are presented in figure 9 together with the results from corresponding tests on each surface when dry. The data of the figure include the average measured friction coefficient (fig. 9(a)) and the tire wear",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c039-f68440d5",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 10",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "include the average measured friction coefficient (fig. 9(a)) and the tire wear (fig. 9(b)). No data a r e presented for tire temperature since the heat measuring device measured the temperature of the water on the tire which remained essentially at the ambient value throughout each test. Figure 9(a) shows that the friction developed on the wet surfaces w a s only slightly less than that developed on the dry surfaces which is not surprising in view of the low test speed and the coarse texture of the two surfaces. The 17.4-knot test speed was well below the dynamic hydroplaning speed of 99 knots computed for the tire. It is of interest to note that although the gearing arrangement in the dri",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c040-67f2f6ee",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 10",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "tire. It is of interest to note that although the gearing arrangement in the drive-wheel assembly was the same for tests on both surfaces, slippage in the driving wheel of the ground vehicle on the more slippery wet concrete resulted in a lower test slip ratio on that surface. Therefore, to evaluate tire-wear effects (fig. 9(b)), the results obtained from the wet surfaces are compared with those from the dry surfaces at corresponding slip ratios. The data of figure 9(b) indicate that on the basis of these tests, tire wear on the wet surfaces was approximately 60 percent less than on the same surfaces when dry. Thus, these data suggest that for low-speed braking operation, there appears to be",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c041-9fdd0d20",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 10",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "us, these data suggest that for low-speed braking operation, there appears to be a siz- able reduction in tire wear on a lightly wetted surface as compared to that on a dry sur- face with but a slight loss in friction coefficient. Test Parameter Effects Limited tests were conducted to study the effects on tire-wear data attributed to variations in parameters associated with the testing technique and the test tire loading conditions. These parameters included the pass length and speed of the ground test vehicle, and the tire applied vertical loading and inflation pressure. The results from these tests are discussed in the paragraphs which follow. .- A pass is defined as the distance traverse&",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c042-ce4c886a",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 10",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "d in the paragraphs which follow. .- A pass is defined as the distance traverse& by the ground vehicle at one runway heading from start to stop, after which the test wheel is raised from the sur- face and, depending upon the wear, possibly removed for weighing prior to the next pass. At the high test slip ratios where the tire wear is high, pass lengths were necessarily short to provide sufficient weighings to establish a wear rate. At low slip ratios, how- ever, a considerable distance was generally required to obtain meaningful tire-wear 8",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c043-813e9a1a",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 11",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "characteristics. The results from tests to examine the effect of variations in pass length on tire wear and related characteristics are presented in figure 10. These tests con- sidered pass lengths of 402 m (0.25 mile) and 1207 m (0.75 mile) and were conducted on slurry seal at a nominal slip ratio of 0.048, which w a s necessarily low to provide suffi- cient data over the longer pass length. The figure shows that the tire wear, the developed friction, and the tread temperature are essentially independent of these pass lengths. The slightly higher tire wear and friction coefficients noted for the shorter pass may be attributed to the slightly higher slip ratio associated with that tire. Even",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c044-974b8887",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 11",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "be attributed to the slightly higher slip ratio associated with that tire. Even with the same gear arrangement in the test wheel drive assembly, as was the case for these tests, dif- ferent tires from the same manufacturer were observed to yield slight differences in slip ratio, perhaps due to minor differences in the tire diameter. Test speed.- The nominal ground speed for the tests of this paper was 17.4 knots, however, the wear data also include that which occurred during the acceleration and deceleration phases. The effect of the test speed on tire wear, friction, and temperature is illustrated in figure 11which presents the results obtained on slurry seal at nominal ground speeds of 8.",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c045-405e1ed2",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 11",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "hich presents the results obtained on slurry seal at nominal ground speeds of 8.7, 17.4, and 26.1 knots and at a nominal slip ratio of 0.048. The data of this figure show no discernible influence of vehicle ground speed on the tire-wear rate. Differences in the tire wear associated with the three test speeds may be at least par- tially explained on the basis of slight differences noted in the wheel slip ratio. The figure further shows that the friction coefficient is insensitive to the speeds investigated. The tread temperatures, however, are shown to increase with increasing test speed which would be expected since at the higher speeds, less time is available for the heat to be dissipated f",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c046-5d2616c9",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 11",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "nce at the higher speeds, less time is available for the heat to be dissipated from the free periphery of the tire. T i r e vertical loading.- The results from tests t o evaluate the effects of applied vertical loading on the tire wear and related characteristics are presented in figure 12. Two cases are considered. In the first, figure 12(a), the drive gears were fixed to pro- vide a slip ratio of 0.049 under the nominal tire loading and inflation pressure of FV = 17.8 kN (4000 lb) and p = 83 N/cm2 (120 lb/in2). In the second case, figure 12(b), the slip ratio w a s 0.084 under the nominal test conditions. In both cases, the tire w a s tested first under the nominal conditions and then with",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c047-ddfe0d9f",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 11",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "th cases, the tire w a s tested first under the nominal conditions and then with the vertical load reduced by 50 percent. As indicated in the keys t o the figure, a reduction in the vertical load on the test tire resulted in a slight decrease in the wheel slip ratio because of the reduced tire deflections. Figure 12 shows a considerable improvement in tire life with reduced vertical load. Although there is a slight increase in the friction coefficient associated with the lighter loading, the magnitude of the drag force is much less and thus the work being done by the tire per unit distance is correspondingly less than that associated with the t i r e under its 9",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c048-b5558256",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 12",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "nominal loading. This reduced workload perhaps accounts for both the lower tire wear and the somewhat cooler tread temperatures noted for the lighter loaded tire. Tire inflation pressure.- An additional test w a s conducted with the tire under the 50-percent lighter loading condition wherein the inflation pressure was reduced until the resulting tire deflection (and hence, footprint) was identical to that of the tire under the nominal loading and inflation pressure. It was necessary to reduce the inflation pressure from 83 to 40 N/cm2 (120 to 58 lb/in2) to provide identical deflections. The results from this test are presented in figure 13 and indicate that at essentially the same slip ratio",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c049-b9ada780",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 12",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "are presented in figure 13 and indicate that at essentially the same slip ratio, a change in the tire inflation pressure alone decreases the tread wear rate but has little or no effect on either the developed friction coefficient or the tread temperature. It is of interest to compare the data derived from the tire under nominal test con- ditions (circle symbols, fig. 12(b)) with that for a similar tire having the same deflection (and footprint) but under a reduced vertical load and inflation pressure (square symbols, fig. 13). The tread wear associated with the latter test condition is considerably less than that associated with the nominal since the effect of reducing either vertical load",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c050-f612a763",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 12",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "t associated with the nominal since the effect of reducing either vertical load or inflation pressure is to decrease the wear rate. The comparison does suggest, however, that the friction coefficient and tread temperature are essentially the same for the two test conditions. Remarks on Tire-Tread-Wear Behavior Tire A w a s the primary tire selected for these tests, but some tests were conducted with tire B which, like tire A, had a 6-groove tread and with tire C which was equipped with a 4-groove tread (see fig. 1). The wear characteristics of tires A and B were observed to be similar but, on the basis of tests on slurry seal, the wear performance of tire C was somewhat better. This differen",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c051-7d756042",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 12",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "n slurry seal, the wear performance of tire C was somewhat better. This difference in tread wear between tire C and the other two tires may be attributed to differences in the tread rubber compound or to the lower net bearing pressure of tire C as a result of having fewer grooves which, on the basis of data presented in figure 13, would suggest less tire wear. At slip ratios greater than approximately 0.08 on slurry seal, tire A experienced severe tread chunking whereas the tread of tire B developed a number of transverse superficial cuts with slight chunking which appeared to become more pronounced with increasing slip ratio. Tire C did not appear to be susceptible to unusual tread wear at",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c052-d31cf21a",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 12",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "ng slip ratio. Tire C did not appear to be susceptible to unusual tread wear at slip ratios up to approximately 0.10, the maximum tested on slurry seal. No chunking w a s observed in the tread of any tire on the asphalt and concrete test surfaces although some superficial cutting w a s noted during high slip ratio operations on the grooved sur- faces. Figure 14 presents photographs that illustrate typical tire-tread-wear behavior as well as wear which involved cutting and chunking. 10",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c053-106a7042",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 13",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "CONCLUSIONS A n experimental investigation was conducted to evaluate the wear and related char- acteristics of friction and temperature developed during braking of size 22 X 5.5, type VII, aircraft tires. The testing technique involved gearing the tire to a driving wheel of a ground vehicle to provide operations at constant slip ratios on asphalt, concrete, and slurry-seal runway surfaces. Data were obtained over the range of slip ratios generally attributed to an aircraft braking system during dry runway operations. The results of this investigation suggest the following conclusions: 1. Cumulative tire wear (trkad rubber removed) varies linearly with distance traveled and the wear rate (mas",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c054-497ef186",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 13",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "ad rubber removed) varies linearly with distance traveled and the wear rate (mass removed per unit distance) increases with increasing slip ratio and is influenced by the runway surface character. The wear on the asphalt test surface was significantly less than that on the slurry-seal or on the concrete test sur- faces, and transverse runway grooves increased the wear rate, particularly at the higher test slip ratios. Differences in the wear rates associated with the various surfaces sug- gest that runways can be rated on the basis of tire wear. 2. The friction coefficients developed during fixed-slip-ratio operations a r e in good agreement with those obtained by other investigators during",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c055-a72acc3f",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 13",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "tions a r e in good agreement with those obtained by other investigators during cyclic braking in that the dry friction is insensitive to the tire tread pattern or to the runway surface, whether grooved or ungrooved. 3. Tread temperatures increase with increasing slip ratio and, at the higher test slip ratios, the temperatures measured during braking operations on asphalt and slurry seal are higher than those measured on concrete. This difference is attributed to differ- ences in the thermal conductivity of these surfaces. The tread temperatures on a given surface are essentially insensitive to grooving, thus it appears that the temperature is more dependent upon surface material than upon s",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c056-019be7c8",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 13",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "appears that the temperature is more dependent upon surface material than upon surface texture. 4. The lubrication provided by wetting the runway reduces the tire wear rate but, at the low speeds of this investigation (17.4knots), with only a slight loss in traction. 5. T i r e wear and friction a r e insensitive to variations in the test distances from 402 to 1207 m (0.25 to 0.75 mile) and in the test velocity from 8.7 to 26.1 knots. How- ever, tread temperatures generally increase with increasing test velocity since less time is available for the heat to be dissipated from the tire free periphery. 6. A reduction in the vertical loading on the tire decreases the tread wear rate and temperat",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c057-7c0d2bfd",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 13",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "n in the vertical loading on the tire decreases the tread wear rate and temperature and produces a slight increase in the friction coefficient. 7. A reduction in the tire inflation pressure results in decreased wear rate and essentially no change in either friction coefficient or tread temperature. 11",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c058-53f192de",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 14",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "8 . Under heavy braking on an abrasive runway surface, the tread of some tires is more susceptible than others to such undesirable wear behavior as cutting and chunking. Langley Research Center, National Aeronautics and Space Administration, Hampton, Va., October 30, 1972. REFERENCES 1. Anon.: NASA Aircraft Safety and Operating Problems. Vol. I. NASA SP-270, 1971. 2. Horne, Walter B.: Results From Studies of Highway Grooving and Texturing at NASA Wallops Station. Pavement Grooving and Traction Studies, NASA SP-5073, 1969, pp. 425-464. 3. Horne, Walter B.; and Leland, Trafford J. W.: Influence of Tire Tread Pattern and Runway Surface Condition on Braking Friction and Rolling Resistance of a M",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 14",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c059-63ae0807",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 14",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "n and Runway Surface Condition on Braking Friction and Rolling Resistance of a Modern Aircraft Tire. NASA TN 0-1376, 1962. 4. Leland, Trafford J. W.; Yager, Thomas J.; and Joyner, Upshur ‘T.: Effects of Pave- ment Texture on Wet-Runway Braking Performance. NASA TN D-4323, 1968. 5. Smiley, Robert F.; and Horne, Walter B.: Mechanical Properties of Pneumatic Tires With Special Reference to Modern Aircraft Tires. NASA TR R-64, 1960. (Super- sedes NACA TN 4110.) 12",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 14",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c060-5a5a040b",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 15",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "a, a h -I . . +-, in X cv cv +I 0 m e cd k M 0 42 0 d -- PI I. rl 13",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 15",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c061-188d6008",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 16",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "c, rn Q) c, I cu 14",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 16",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c062-ff7965b0",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 17",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "(I 15",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 17",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c063-39f52a09",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 18",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "Distance, km I I I I 1- 0 1 2 3 4 5 6 Distance, mile Figure 4.- Typical test results obtained on a concrete runway. 16",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 18",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c064-0716d970",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 19",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "17",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 19",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c065-a1779bc3",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 20",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "k 0 +I 0 .d 44 cd k I 18",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 20",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c066-d13b5aca",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 21",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读"
+    ],
+    "difficulty": "基础",
+    "content": "160- V 0 n P $ cd k a, PI +.' 8 a cd a, k El 20 - I I I I I I I Figure 7. - Tire-tread temperatures measured during constant slip-ratio operations on the test runways. 19",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 21",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c067-166e6d36",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 22",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "200 r V Ungrooved asphalt 0 n 100 - - 01 I I I 1 I 1 1 1.2- -4 a, Surface d .ri B a, -3 2 n .P a, cd -P k cd -2 k k .4- cd z .d E-c 0 .04 .oa I I .12 I .16 I .20 I .24 ' .2a -0 Slip ratio Figure 8.- Effect of runway grooving on tire-wear test results. 20",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 22",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c068-e9fc1309",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 23",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "All d.ry s u r f a c e s 7 zt- Wet concrete \\ asphalt I I I I 0 .04 .oa .12 .16 .20 .24 .2a (a) Friction coefficient. 1 -2 .a - n .6 P kl 3-4 n a, -1 k -rl 3 f .4 Q, k .2 -0 0 *5 1.0 1.5 2.0 2. 5 Distance, km Distance, mile (b) Tire wear. Figure 9.- Effect of runway wetness on tire friction coefficient and wear. 21",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 23",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c069-f30a8fc3",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 24",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "Distance, km 1 I I I I I I 0 1 2 3 4 5 6 Distance, mile Figure 10.- Effect of pass length on tire-wear test results. Slurry-seal surface. 22",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 24",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c070-be901fe3",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 25",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "u 0 4 k H 80- 40- 0 - - +--+--O--+ - I 0 I a p- - u - V I I 1 c .d +-' .d F n I I I I bo X h k d E Distance, km I I I I I I I 0 1 2 3 4 5 6 Distance, mile Figure 11.- Effect of test speed on tire-wear test results. Slurry-seal surface. 23",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 25",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c071-1a02af93",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 26",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读",
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "I 1 S1i p Symbol - IrN (lb) ratio -c- 17.8 (4000) 0.049 -0- 8.9 (2000) .Oh -2 n M Lr: k cd n F; -1 cd a, k *rl E-c -0 Distance, km I I 1 I I I 0 1 2 3 4 5 Distance, mile (a) Slip ratio = 0.049 under nominal test conditions. Figure 12.- Effect of tire vertical loading on test results at two slip ratios; p = 83 N/cm2 (120 lb/in2); concrete surface. 24",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 26",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c072-9ca1949a",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 27",
+    "tags": [
+      "滑动磨损",
+      "跑道工况",
+      "实验表征"
+    ],
+    "difficulty": "基础",
+    "content": "-3 1.2- -2 2 .8- n k 5 / a, .d B -1 I I 0 1 2 3 4 -0 (b) Slip ratio = 0.084 under nominal test conditions. - Figure 12. Concluded. 25",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 27",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c073-f9991a9f",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 28",
+    "tags": [
+      "航空轮胎",
+      "损伤等级判读"
+    ],
+    "difficulty": "基础",
+    "content": "120r I I I I 1. 1. 0 , Distance, km L I I I I 1 0 .5 1 1.5 2 2.5 Distance, mile Figure 13.- Effect of tire inflation pressure on test results. FV = 9 kN (2020 lb); concrete surface. 26",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 28",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c074-49120dcb",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 29",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "03 In In CD I cv r- ti Ui E a, c, cd a -I s 0 a, -J k cc Y +, .r( 0 U NASA-Langley, 1972 -2 L-8107 27",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 29",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c075-272c90dc",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 30",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "NATIONAL AERONAUTICS A N D SPACE ADMINISTRATION WASHINGTON, D.C. 20546 P O S T A G E A N D FEES P A I D N A T I O N A L AERONAUTICS A N D OFFICIAL SUSINESS SPACE A D M I N I S T R A T I O N P E N A L T Y FOR P R I V A T E USE $300 S P E C I A L FOURTH-CLASS R A T E 4s I BOOK If Undeliverable (Section 158 POsTIIPASTER : Postal Manual) Do Not Return “The aeronautical and space activities of the United States shall be . conducted so as t o contribute . . to the expansion of hzlman howl- edge of phenomeca in the atmosphere and space. The Administration shall provide for the widest practicable and appropriate dissemimtion of information concerning its activities and the results thereof.” -NATIONA",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 30",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c076-61127904",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 30",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "tion of information concerning its activities and the results thereof.” -NATIONAL AERONAUTICS AND SPACEA m OF 1958 NASA SCIENTIFIC AND TECHNICAL PUBLICATIONS TECHNICAL REPORTS: Scientific and TECHNICAL TRANSLATIONS: Information technical information considered important, published in a foreign language considered complete, and a lasting contribution to existing to merit NASA distribution in English. knowledge. TECHNICAL NOTES: Information less broad SPECIAL PUBLICATIONS: Information in scope but nevertheless of importance as a derived from or of value to NASA activities. contribution to existing knowledge. Publications include final reports of major projects, monographs, data compilations, T",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 30",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c077-1f2e965e",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 30",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "ations include final reports of major projects, monographs, data compilations, TECHNICAL MEMORANDUMS: handbooks, sourcebooks, and special Information receiving limited distribution bibliographies. because of preliminary data, security classifica- tion, or other reasons. Also includes conference proceedings with either limited or unlimited PUBLICATIONS: Information. on technology distribution. used by NASA that may be of particular CONTRACTOR REPORTS: Scientific and interest in commercial and other- non-aerospace technical information generated under a NASA applications. Publications include Tech Briefs, contract or grant and considered an important Technology Utilization Reports and contribu",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 30",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "tire_nasa_tn_d_6963-c078-de2a21dd",
+    "domain": "tire",
+    "title": "Wear and Related Characteristics of an Aircraft Tire During Braking · Page 30",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "or grant and considered an important Technology Utilization Reports and contribution to existing knowledge. Technology Surveys. Details on the availability of these publications may b e obtained from: SCIENTIFIC AND TECHNICAL INFORMATION OFFICE NATIONAL AERONAUTICS AND SPACE A D M I N I S T R A T I O N Washington, D.C. 20546",
+    "source_type": "parsed_markdown",
+    "source_id": "tire_nasa_tn_d_6963",
+    "source_locator": "Page 30",
+    "source_url": "https://ntrs.nasa.gov/citations/19730002294",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  }
+]

@@ -1,0 +1,2206 @@
+{
+  "schema_version": "1.0",
+  "status": "ready",
+  "generated_at": "2026-08-04",
+  "source_policy": "Only reviewed derivatives are copied; full-resolution raw data remains on authorized source media.",
+  "topics": [
+    {
+      "topic": "service_tire_wear",
+      "title": "实胎偏磨与严重度判读",
+      "asset_count": 10,
+      "review_status": "reviewed"
+    },
+    {
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化多表征证据链",
+      "asset_count": 15,
+      "review_status": "reviewed"
+    },
+    {
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化后摩擦形貌证据",
+      "asset_count": 12,
+      "review_status": "reviewed"
+    },
+    {
+      "topic": "load_distance_morphology_matrix",
+      "title": "载荷-距离-形貌训练矩阵",
+      "asset_count": 16,
+      "review_status": "reviewed"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "LYQ-SERVICE-11-OPT-01",
+      "experiment_id": "TIRE-LYQ-SERVICE-001",
+      "sample_id": "LYQ-SERVICE-1-1",
+      "domain": "tire",
+      "topic": "service_tire_wear",
+      "title": "实胎样品 1-1 光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/service_tire/LYQ-SERVICE-11-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/轮胎/轮胎/1.1.tif",
+      "source_sha256": "94C280EC0B76BE4C1342556CFD462DCC4810A61FB8C3AF794052437327857AD5",
+      "derived_sha256": "9CE8DACC819C06482232B775D3517DBF75C66C7C86092D74CD8558F085406C9D",
+      "condition": {
+        "tire_model": "15x6.0-6",
+        "sample_position": "1-1",
+        "evidence_type": "service_tire_surface"
+      },
+      "labels": [
+        "局部磨损严重",
+        "严重"
+      ],
+      "severity": "严重",
+      "observation": "样品记录标注为局部磨损严重，等级为严重。图像仅用于表面形貌判读训练。",
+      "training_use": "比较同型号轮胎不同部位的磨损等级，记录可见特征并提出复检项目。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_service_tire_cases"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-SERVICE-CASE-1-1"
+      ],
+      "limitations": "等级来自样品映射表；不得仅凭单张图像作适航放行或报废判断。"
+    },
+    {
+      "asset_id": "LYQ-SERVICE-24-OPT-01",
+      "experiment_id": "TIRE-LYQ-SERVICE-001",
+      "sample_id": "LYQ-SERVICE-2-4",
+      "domain": "tire",
+      "topic": "service_tire_wear",
+      "title": "实胎样品 2-4 光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/service_tire/LYQ-SERVICE-24-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/轮胎/轮胎/2.4.tif",
+      "source_sha256": "97D03756F35DA71D64B0C48446A7220DB6E8B4DF84B0007EEDAFA331F246CF1B",
+      "derived_sha256": "1C9BBA9E2FED57E94BA46FE6A102C3DD6C6F7311D527B91135DB6D821C85E9FC",
+      "condition": {
+        "tire_model": "15x6.0-6",
+        "sample_position": "2-4",
+        "evidence_type": "service_tire_surface"
+      },
+      "labels": [
+        "偏磨",
+        "一般"
+      ],
+      "severity": "一般",
+      "observation": "样品记录标注为偏磨，等级为一般。图像仅用于表面形貌判读训练。",
+      "training_use": "比较同型号轮胎不同部位的磨损等级，记录可见特征并提出复检项目。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_service_tire_cases"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-SERVICE-CASE-2-4"
+      ],
+      "limitations": "等级来自样品映射表；不得仅凭单张图像作适航放行或报废判断。"
+    },
+    {
+      "asset_id": "LYQ-SERVICE-25-OPT-01",
+      "experiment_id": "TIRE-LYQ-SERVICE-001",
+      "sample_id": "LYQ-SERVICE-2-5",
+      "domain": "tire",
+      "topic": "service_tire_wear",
+      "title": "实胎样品 2-5 光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/service_tire/LYQ-SERVICE-25-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/轮胎/轮胎/2.5.tif",
+      "source_sha256": "6EFD2D16F53BEE66B28FD9A931FB8438A418FEE1E619C0378A1957E8644D634D",
+      "derived_sha256": "510A397BCB67B6C27CA87AF09DF3B8192295E8A15BA57106CC59E43C97017ECA",
+      "condition": {
+        "tire_model": "15x6.0-6",
+        "sample_position": "2-5",
+        "evidence_type": "service_tire_surface"
+      },
+      "labels": [
+        "偏磨",
+        "中等"
+      ],
+      "severity": "中等",
+      "observation": "样品记录标注为偏磨，等级为中等。图像仅用于表面形貌判读训练。",
+      "training_use": "比较同型号轮胎不同部位的磨损等级，记录可见特征并提出复检项目。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_service_tire_cases"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-SERVICE-CASE-2-5"
+      ],
+      "limitations": "等级来自样品映射表；不得仅凭单张图像作适航放行或报废判断。"
+    },
+    {
+      "asset_id": "LYQ-SERVICE-26-OPT-01",
+      "experiment_id": "TIRE-LYQ-SERVICE-001",
+      "sample_id": "LYQ-SERVICE-2-6",
+      "domain": "tire",
+      "topic": "service_tire_wear",
+      "title": "实胎样品 2-6 光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/service_tire/LYQ-SERVICE-26-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/轮胎/轮胎/2.6.tif",
+      "source_sha256": "37B68D42CB3AFA2474ED2BDB449F5F10200BBDC96D3999E07895BEC96FEF2A33",
+      "derived_sha256": "AE1ED13015478147093FA5E31FF6BF2B7605BD0AE1BFE4E2C77D3BE105EF5033",
+      "condition": {
+        "tire_model": "15x6.0-6",
+        "sample_position": "2-6",
+        "evidence_type": "service_tire_surface"
+      },
+      "labels": [
+        "偏磨",
+        "严重"
+      ],
+      "severity": "严重",
+      "observation": "样品记录标注为偏磨，等级为严重。图像仅用于表面形貌判读训练。",
+      "training_use": "比较同型号轮胎不同部位的磨损等级，记录可见特征并提出复检项目。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_service_tire_cases"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-SERVICE-CASE-2-6"
+      ],
+      "limitations": "等级来自样品映射表；不得仅凭单张图像作适航放行或报废判断。"
+    },
+    {
+      "asset_id": "LYQ-SERVICE-31-OPT-01",
+      "experiment_id": "TIRE-LYQ-SERVICE-001",
+      "sample_id": "LYQ-SERVICE-3-1",
+      "domain": "tire",
+      "topic": "service_tire_wear",
+      "title": "实胎样品 3-1 光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/service_tire/LYQ-SERVICE-31-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/轮胎/轮胎/3.1.tif",
+      "source_sha256": "9BA86BE17077F34354002823E87CA4540824B84F5AE6E5EDB22837A49C30D257",
+      "derived_sha256": "C812DC57A953CF7862CB36BBBF8201C19C3DE4D7E9CE97A6BA7F6D5C7588EDC3",
+      "condition": {
+        "tire_model": "15x6.0-6",
+        "sample_position": "3-1",
+        "evidence_type": "service_tire_surface"
+      },
+      "labels": [
+        "偏磨",
+        "一般"
+      ],
+      "severity": "一般",
+      "observation": "样品记录标注为偏磨，等级为一般。图像仅用于表面形貌判读训练。",
+      "training_use": "比较同型号轮胎不同部位的磨损等级，记录可见特征并提出复检项目。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_service_tire_cases"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-SERVICE-CASE-3-1"
+      ],
+      "limitations": "等级来自样品映射表；不得仅凭单张图像作适航放行或报废判断。"
+    },
+    {
+      "asset_id": "LYQ-SERVICE-32-OPT-01",
+      "experiment_id": "TIRE-LYQ-SERVICE-001",
+      "sample_id": "LYQ-SERVICE-3-2",
+      "domain": "tire",
+      "topic": "service_tire_wear",
+      "title": "实胎样品 3-2 光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/service_tire/LYQ-SERVICE-32-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/轮胎/轮胎/3.2.tif",
+      "source_sha256": "B5EB0DA6B9FACAECC804608272C54774D99D7F8CDEBDC9B17FD53C1BEA6174B9",
+      "derived_sha256": "25C5AE8AB23FDDA225294CA0DA7FDB09087308E6B3ADA4EA538CE342F2DA9169",
+      "condition": {
+        "tire_model": "15x6.0-6",
+        "sample_position": "3-2",
+        "evidence_type": "service_tire_surface"
+      },
+      "labels": [
+        "偏磨",
+        "中等"
+      ],
+      "severity": "中等",
+      "observation": "样品记录标注为偏磨，等级为中等。图像仅用于表面形貌判读训练。",
+      "training_use": "比较同型号轮胎不同部位的磨损等级，记录可见特征并提出复检项目。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_service_tire_cases"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-SERVICE-CASE-3-2"
+      ],
+      "limitations": "等级来自样品映射表；不得仅凭单张图像作适航放行或报废判断。"
+    },
+    {
+      "asset_id": "LYQ-SERVICE-33-OPT-01",
+      "experiment_id": "TIRE-LYQ-SERVICE-001",
+      "sample_id": "LYQ-SERVICE-3-3",
+      "domain": "tire",
+      "topic": "service_tire_wear",
+      "title": "实胎样品 3-3 光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/service_tire/LYQ-SERVICE-33-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/轮胎/轮胎/3.3.tif",
+      "source_sha256": "666C27AAC8FB10EE748B7BDDC5B728786742DD25A975B3EA018A1488B8714672",
+      "derived_sha256": "C9601CB732CA672230CF2A05166CD1C6C46D87DBC79E87EC55F9410AF155A062",
+      "condition": {
+        "tire_model": "15x6.0-6",
+        "sample_position": "3-3",
+        "evidence_type": "service_tire_surface"
+      },
+      "labels": [
+        "偏磨",
+        "严重"
+      ],
+      "severity": "严重",
+      "observation": "样品记录标注为偏磨，等级为严重。图像仅用于表面形貌判读训练。",
+      "training_use": "比较同型号轮胎不同部位的磨损等级，记录可见特征并提出复检项目。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_service_tire_cases"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-SERVICE-CASE-3-3"
+      ],
+      "limitations": "等级来自样品映射表；不得仅凭单张图像作适航放行或报废判断。"
+    },
+    {
+      "asset_id": "LYQ-SERVICE-41-OPT-01",
+      "experiment_id": "TIRE-LYQ-SERVICE-001",
+      "sample_id": "LYQ-SERVICE-4-1",
+      "domain": "tire",
+      "topic": "service_tire_wear",
+      "title": "实胎样品 4-1 光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/service_tire/LYQ-SERVICE-41-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/轮胎/轮胎/4-1.tif",
+      "source_sha256": "B6813074957FCA3AEDDFD34A37095B74B550880CAC29119E62E6418A2A3142A6",
+      "derived_sha256": "8FC6C3510726FF7574DABD752A0D67ACF3E744D318695278E63E4F5EA12477DE",
+      "condition": {
+        "tire_model": "22x7.75-10",
+        "sample_position": "4-1",
+        "evidence_type": "service_tire_surface"
+      },
+      "labels": [
+        "偏磨",
+        "未分级"
+      ],
+      "severity": "未分级",
+      "observation": "样品记录标注为偏磨，等级为未分级。图像仅用于表面形貌判读训练。",
+      "training_use": "比较同型号轮胎不同部位的磨损等级，记录可见特征并提出复检项目。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_service_tire_cases"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-SERVICE-CASE-4-1"
+      ],
+      "limitations": "等级来自样品映射表；不得仅凭单张图像作适航放行或报废判断。"
+    },
+    {
+      "asset_id": "LYQ-SERVICE-42-OPT-01",
+      "experiment_id": "TIRE-LYQ-SERVICE-001",
+      "sample_id": "LYQ-SERVICE-4-2",
+      "domain": "tire",
+      "topic": "service_tire_wear",
+      "title": "实胎样品 4-2 光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/service_tire/LYQ-SERVICE-42-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/轮胎/轮胎/4.2.tif",
+      "source_sha256": "969D462050A2F8CC37B92273518D7B12B91DEAFC37C463F474277453DAB217F4",
+      "derived_sha256": "8C884824ECAA98FAED46BF4EFFDAF61FAAA835C51B88B01946B2EFBFA9561C12",
+      "condition": {
+        "tire_model": "22x7.75-10",
+        "sample_position": "4-2",
+        "evidence_type": "service_tire_surface"
+      },
+      "labels": [
+        "偏磨",
+        "未分级"
+      ],
+      "severity": "未分级",
+      "observation": "样品记录标注为偏磨，等级为未分级。图像仅用于表面形貌判读训练。",
+      "training_use": "比较同型号轮胎不同部位的磨损等级，记录可见特征并提出复检项目。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_service_tire_cases"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-SERVICE-CASE-4-2"
+      ],
+      "limitations": "等级来自样品映射表；不得仅凭单张图像作适航放行或报废判断。"
+    },
+    {
+      "asset_id": "LYQ-SERVICE-43-OPT-01",
+      "experiment_id": "TIRE-LYQ-SERVICE-001",
+      "sample_id": "LYQ-SERVICE-4-3",
+      "domain": "tire",
+      "topic": "service_tire_wear",
+      "title": "实胎样品 4-3 光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/service_tire/LYQ-SERVICE-43-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/轮胎/轮胎/4.3.tif",
+      "source_sha256": "0BCD899E9DCA1863EAF232911F233849A8FB9CB9CFD7283DD73F59F0972CB36A",
+      "derived_sha256": "8C0B6D1007A72939AAB4516185B40876639FD754316D3A56A18F253079D424AD",
+      "condition": {
+        "tire_model": "22x7.75-10",
+        "sample_position": "4-3",
+        "evidence_type": "service_tire_surface"
+      },
+      "labels": [
+        "偏磨",
+        "未分级"
+      ],
+      "severity": "未分级",
+      "observation": "样品记录标注为偏磨，等级为未分级。图像仅用于表面形貌判读训练。",
+      "training_use": "比较同型号轮胎不同部位的磨损等级，记录可见特征并提出复检项目。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_service_tire_cases"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-SERVICE-CASE-4-3"
+      ],
+      "limitations": "等级来自样品映射表；不得仅凭单张图像作适航放行或报废判断。"
+    },
+    {
+      "asset_id": "RXQ-THERMAL-TREND-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "RXQ-AGING-GROUP-SUMMARY",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化时间与摩擦磨损指标趋势",
+      "modality": "derived_curve",
+      "media_type": "image/png",
+      "media_path": "media/thermal_aging/RXQ-THERMAL-TREND-01.png",
+      "source_reference": "授权团队实验资料/RXQ/tire_rxq_aging_experiment_records.xlsx",
+      "source_sha256": "9794F6ED18D08D16758678393540313B25ADF9904E3AA498D86EED1BCEDE8213",
+      "derived_sha256": "30B1F8815C5262C5BB3A9DE45A383A3D5ABFF7FA6473E94EBD2775145EE7F18A",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_days": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          14,
+          21,
+          28,
+          35
+        ],
+        "parallel_records_per_condition": 2
+      },
+      "labels": [
+        "热氧老化",
+        "摩擦系数",
+        "质量损失",
+        "界面温度"
+      ],
+      "severity": "not_applicable",
+      "observation": "按老化时长对两次平行试验求均值，用于识别趋势而非拟合寿命模型。",
+      "training_use": "要求学习者比较三个指标的变化并指出仅凭趋势不能得出的结论。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [],
+      "limitations": "样本量有限且包含源方案差异标记，不外推为真实服役寿命边界。"
+    },
+    {
+      "asset_id": "RXQ-IMG-D000-S15-SEM-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D000-S15",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 0 d 后SEM磨损形貌",
+      "modality": "sem_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D000-S15-SEM-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/SEM/IMG-RXQ-D000-S15-SEM-01.jpeg",
+      "source_sha256": "6531304B0AA7A412828EC4ED7AA4FAC76BE6360D0AB20E6A867A3DCE7DDCDF73",
+      "derived_sha256": "A435BE83E43BEFE29AA4A69A07A1CAA546F7EA2FA9C027851365B7C613975587",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 0,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": 5000
+      },
+      "labels": [
+        "surface_roughening",
+        "local_void"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见表面起伏与局部孔洞状区域；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D000-S15"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D000-S15-OPTICAL-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D000-S15",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 0 d 后optical磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D000-S15-OPTICAL-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/optical/IMG-RXQ-D000-S15-OPTICAL-01.jpg",
+      "source_sha256": "F3ECEF8C81DA444EC3B2A5C380F97984E9896353416015DE17E268BA3CB5E870",
+      "derived_sha256": "3BC647102E91BC4A35A06FE82A712844747BF2F8AE5A9AC25454289023AD1C40",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 0,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": null
+      },
+      "labels": [
+        "surface_roughening",
+        "local_void"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见表面起伏与局部孔洞状区域；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D000-S15"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D001-S17-SEM-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D001-S17",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 1 d 后SEM磨损形貌",
+      "modality": "sem_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D001-S17-SEM-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/SEM/IMG-RXQ-D001-S17-SEM-01.jpeg",
+      "source_sha256": "A5BB51B82E9EDD547B9A8DC87D76359D18BFA428581CAE73D84BBC293FCFBB09",
+      "derived_sha256": "F1795028CCEFBAFD20BA2D358F1F8A6F4FB40F39173C99A43C2022A3A84B40A3",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 1,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": 5000
+      },
+      "labels": [
+        "abrasion_texture",
+        "debris"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见平行磨痕纹理及离散颗粒；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D001-S17"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D001-S17-OPTICAL-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D001-S17",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 1 d 后optical磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D001-S17-OPTICAL-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/optical/IMG-RXQ-D001-S17-OPTICAL-01.jpg",
+      "source_sha256": "8A3B57CBBC2B0B4A388420D3E4FA216548B97C9029BB6D9EC137696E9866EA1B",
+      "derived_sha256": "44A1FE9B1475AFF1F59B6A8DD908267C82768978F058EDFC2097E2F76E115E5E",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 1,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": null
+      },
+      "labels": [
+        "abrasion_texture",
+        "debris"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见平行磨痕纹理及离散颗粒；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D001-S17"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D003-S26-SEM-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D003-S26",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 3 d 后SEM磨损形貌",
+      "modality": "sem_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D003-S26-SEM-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/SEM/IMG-RXQ-D003-S26-SEM-01.jpeg",
+      "source_sha256": "359C19E73CB014793159F42C6375A79D787EE0FE9D359C3E1E6CE9E1BA7583D7",
+      "derived_sha256": "543F887D237C487FAB9F2B7C79083E1A976AA92B5F8C0F95CD377ADE0593022E",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 3,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": 5000
+      },
+      "labels": [
+        "periodic_groove",
+        "abrasive_wear"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见方向性较强的周期沟槽；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D003-S26"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D003-S26-OPTICAL-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D003-S26",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 3 d 后optical磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D003-S26-OPTICAL-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/optical/IMG-RXQ-D003-S26-OPTICAL-01.jpg",
+      "source_sha256": "7D57C0D598958BFE8074C62F95296A7F08F6EE281F14B356A6CFD305F59F0FF2",
+      "derived_sha256": "671821C3DEC536AA5625711E29965D817C792F575BBC3C77DDE2365140D0A16E",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 3,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": null
+      },
+      "labels": [
+        "periodic_groove",
+        "abrasive_wear"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见方向性较强的周期沟槽；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D003-S26"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D007-S3-SEM-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D007-S3",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 7 d 后SEM磨损形貌",
+      "modality": "sem_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D007-S3-SEM-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/SEM/IMG-RXQ-D007-S3-SEM-01.jpeg",
+      "source_sha256": "8A4B2099F9BA03554B0344A7687EB74B53B969DCA089E984E2FC857F9970F8A9",
+      "derived_sha256": "981B56B6C7F34F542EDAA5CDC1836D88426DCFDD7A4D7B2BDAEFB31484C73DA3",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 7,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": 2000
+      },
+      "labels": [
+        "local_spalling",
+        "debris"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见局部片状翘起、剥落与磨屑；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D007-S3"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D007-S3-OPTICAL-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D007-S3",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 7 d 后optical磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D007-S3-OPTICAL-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/optical/IMG-RXQ-D007-S3-OPTICAL-01.jpg",
+      "source_sha256": "6AFA90FE1AF7F83CEB6BD2460526F53A8D2413F3E48FC9D782BA11C3BB6015BC",
+      "derived_sha256": "81335318B074E9EC4C990642935DDD90A039B28ECF411718B51D2792C7377783",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 7,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": null
+      },
+      "labels": [
+        "local_spalling",
+        "debris"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见局部片状翘起、剥落与磨屑；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D007-S3"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D014-S42-SEM-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D014-S42",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 14 d 后SEM磨损形貌",
+      "modality": "sem_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D014-S42-SEM-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/SEM/IMG-RXQ-D014-S42-SEM-01.jpeg",
+      "source_sha256": "485D7992AC66CCB2FE790835F6C052BAD0A78F70B2637A4B53C946EFEE6E0AF2",
+      "derived_sha256": "101249AD84959554AB55B187DB6A748D5B39828DCBF31BAE55F2E6154A120E18",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 14,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": 5000
+      },
+      "labels": [
+        "groove",
+        "surface_void"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见连续沟槽和局部孔洞；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D014-S42"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D014-S42-OPTICAL-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D014-S42",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 14 d 后optical磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D014-S42-OPTICAL-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/optical/IMG-RXQ-D014-S42-OPTICAL-01.jpg",
+      "source_sha256": "94977316CC5E53D0F6966A762F5A97B87C1CD9BB1BC32F3722B3CB03FD490A4F",
+      "derived_sha256": "62394D8C0214E956005B06C74793AEF380A54BCEFC2042F3AA727868E232A41C",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 14,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": null
+      },
+      "labels": [
+        "groove",
+        "surface_void"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见连续沟槽和局部孔洞；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D014-S42"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D021-S53-SEM-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D021-S53",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 21 d 后SEM磨损形貌",
+      "modality": "sem_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D021-S53-SEM-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/SEM/IMG-RXQ-D021-S53-SEM-01.jpeg",
+      "source_sha256": "FBADF742306C42AD4A1ADCCA21FC530400CF14F17E7DFCBABBA40CBB269E3155",
+      "derived_sha256": "BA0D009038E65E239FD0B181B0A426BE9BAB8A3C3CE0FF22C66B1CA0D829D83A",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 21,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": 5000
+      },
+      "labels": [
+        "groove",
+        "surface_roughening"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见连续磨痕沟槽与表面粗化；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D021-S53"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D021-S53-OPTICAL-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D021-S53",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 21 d 后optical磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D021-S53-OPTICAL-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/optical/IMG-RXQ-D021-S53-OPTICAL-01.jpg",
+      "source_sha256": "4BF23EA1A190C8F48ABFF9F648B5600FB041E364F07B927C41FA3F830A7C36ED",
+      "derived_sha256": "C2086941CE7579BBD5F6D8A626060B3280E9C6DFFC155D1F1E55B037C904CC5D",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 21,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": null
+      },
+      "labels": [
+        "groove",
+        "surface_roughening"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见连续磨痕沟槽与表面粗化；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D021-S53"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D028-S62-SEM-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D028-S62",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 28 d 后SEM磨损形貌",
+      "modality": "sem_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D028-S62-SEM-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/SEM/IMG-RXQ-D028-S62-SEM-01.jpeg",
+      "source_sha256": "6F60A619314DA2939F6103C5A4291D8669C1828FCC8C8D018871E5C0549D8319",
+      "derived_sha256": "FEC45F4BBC925E165724A70CCEFE7949F275390CD8E222A238AB39793E5B96A4",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 28,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": 5000
+      },
+      "labels": [
+        "debris_agglomeration",
+        "groove"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见片状磨屑聚集、沟槽与局部材料脱落；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D028-S62"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-IMG-D028-S62-OPTICAL-01",
+      "experiment_id": "TIRE-EXP-RXQ-AGING-001",
+      "sample_id": "TIR-RXQ-D028-S62",
+      "domain": "tire",
+      "topic": "thermal_aging_multimodal",
+      "title": "热氧老化 28 d 后optical磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/thermal_aging/RXQ-IMG-D028-S62-OPTICAL-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/images/optical/IMG-RXQ-D028-S62-OPTICAL-01.jpg",
+      "source_sha256": "93CAB3512952049EF3B5C49D04F3794340B590800B5EC28BC5E11D2A64168ACF",
+      "derived_sha256": "76949A6E3AB73597C6DCFB7025AEDF08B3AA036EF4BF459D80B21E34A4D20A4F",
+      "condition": {
+        "aging_temperature_C": 75,
+        "aging_duration_days": 28,
+        "normal_load_N": 50,
+        "speed_rpm": 100,
+        "cycles": 10000,
+        "magnification_x": null
+      },
+      "labels": [
+        "debris_agglomeration",
+        "groove"
+      ],
+      "severity": "training_unrated",
+      "observation": "可见片状磨屑聚集、沟槽与局部材料脱落；机理判断必须结合摩擦、温度和表征数据",
+      "training_use": "对照时序数据并结合 SEM、摩擦系数和温度进行多证据判读",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_tire_exp_rxq_aging_001",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-WEAR-D028-S62"
+      ],
+      "limitations": "代表视野；只用于形貌训练，不代表整件样品的统计分布"
+    },
+    {
+      "asset_id": "RXQ-UV-H0024-IMG-01",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0024H-01",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 24 h 后摩擦磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0024-IMG-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/24h/1-1.tif",
+      "source_sha256": "3B4D413CC20C42114AAA7B203B486EF21873AD3AEC0793B81D4CBEB91546978F",
+      "derived_sha256": "43C0FBF158AEB98C623BBC0FD66E155610C388F12252D40966582E50B4F386EB",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 24,
+        "image_role": "wear_track",
+        "nominal_scale_label_from_filename": "1",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦磨损形貌",
+        "24h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0024H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0024-IMG-02",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0024H-02",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 24 h 后摩擦磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0024-IMG-02.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/24h/2-1.tif",
+      "source_sha256": "57C9F8E5795933FE5D81265774C123F018B690ADF7E5FE93689670259CD70F7E",
+      "derived_sha256": "6DBB1867C3434A9B34B61665ACAF81D4B24484D146283CCD80F70C04CEB9FB10",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 24,
+        "image_role": "wear_track",
+        "nominal_scale_label_from_filename": "2",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦磨损形貌",
+        "24h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0024H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0024-IMG-03",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0024H-03",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 24 h 后摩擦磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0024-IMG-03.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/24h/5.6-1.1.tif",
+      "source_sha256": "59102165DAA1E682CF722C8D2DE2601E7F9C999504179F3869A410F99EA62C03",
+      "derived_sha256": "DFE860DED507E38D14A8B9C5BAABD0FD7E21D4CA5B0F88328D6B6569F880DF6E",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 24,
+        "image_role": "wear_track",
+        "nominal_scale_label_from_filename": "5.6",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦磨损形貌",
+        "24h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0024H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0024-IMG-04",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0024H-04",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 24 h 后磨屑形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0024-IMG-04.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/24h/磨屑.tif",
+      "source_sha256": "732D6C9D5BEE3B805C5096D181B6E10E8490487510A8587798F4354DBDEB2E38",
+      "derived_sha256": "60445870ECB8017405E52B3FE3B3FA706918288349F6144BBC3BE3FF725D27C6",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 24,
+        "image_role": "wear_debris",
+        "nominal_scale_label_from_filename": "debris",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "磨屑形貌",
+        "24h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0024H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0504-IMG-01",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0504H-01",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 504 h 后摩擦前表面形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0504-IMG-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/504h/1   yumo.tif",
+      "source_sha256": "9D5586474372641108E3B40691648190B5B628548729DB9B77A42FB599E3A68A",
+      "derived_sha256": "A9711BFEB937CD563A7CB8B28E27A5F753BF8C9741E3DD391A1EF66D81DCED79",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 504,
+        "image_role": "pre_wear_surface",
+        "nominal_scale_label_from_filename": "1",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦前表面形貌",
+        "504h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0504H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0504-IMG-02",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0504H-02",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 504 h 后摩擦磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0504-IMG-02.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/504h/1-1.tif",
+      "source_sha256": "8CAE7A92B26F94508C9B1830CAD38B059AFC3BB059C32E78DFE03BDC13EF5E83",
+      "derived_sha256": "BD21DB59C013AD1B163317095B67B190079681CB440E5504B617257CAEB0FDA6",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 504,
+        "image_role": "wear_track",
+        "nominal_scale_label_from_filename": "1",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦磨损形貌",
+        "504h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0504H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0504-IMG-03",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0504H-03",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 504 h 后摩擦磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0504-IMG-03.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/504h/2-1.tif",
+      "source_sha256": "66C369EAA021D6C14B29E7AD8A928FFF541F3603531B4D0AC669CE57764CE602",
+      "derived_sha256": "7AB50C65F0FA0079FA37EE8CDBF1BB9A9EC02AC144BB0B511876D24AB352BCA3",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 504,
+        "image_role": "wear_track",
+        "nominal_scale_label_from_filename": "2",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦磨损形貌",
+        "504h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0504H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0504-IMG-04",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0504H-04",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 504 h 后摩擦磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0504-IMG-04.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/504h/5.6-1.tif",
+      "source_sha256": "83344CAA5702EF0AD801A2AA84BF8928F02621F0783B7A685141D30DDC0983B8",
+      "derived_sha256": "842B1CC8F015A6670DC5FC4E8EFC079389F6125492DCA041888380CB22D0A2EF",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 504,
+        "image_role": "wear_track",
+        "nominal_scale_label_from_filename": "5.6",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦磨损形貌",
+        "504h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0504H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0576-IMG-01",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0576H-01",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 576 h 后摩擦磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0576-IMG-01.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/576H/1-1.tif",
+      "source_sha256": "2A44B7AE8DB35644613D55E85F56604470C24D8988698F1B18E4449E9CBE454E",
+      "derived_sha256": "255C0DDB25A4A4B05A78DCA4ECAAD92A7B2E8BB40241AB38264CA9BB558E7B46",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 576,
+        "image_role": "wear_track",
+        "nominal_scale_label_from_filename": "1",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦磨损形貌",
+        "576h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0576H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0576-IMG-02",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0576H-02",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 576 h 后摩擦磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0576-IMG-02.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/576H/2-1.tif",
+      "source_sha256": "B84CEDB4A356E30F266E22930AC8B53F0E880AA331823D97CA29C6DF599A1913",
+      "derived_sha256": "BB0402272512356FE6FD6A65A7DDB035FDC9D3CCE1A2EBBDEC4A116F31F9CBF2",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 576,
+        "image_role": "wear_track",
+        "nominal_scale_label_from_filename": "2",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦磨损形貌",
+        "576h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0576H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0576-IMG-03",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0576H-03",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 576 h 后摩擦磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0576-IMG-03.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/576H/5.6-1.1.tif",
+      "source_sha256": "CBD7A24F61DBF1A5A96DF4CC755DEF3044924DB381601FD89371400B942F4E17",
+      "derived_sha256": "40A54ED347A3511E04C52A6EADBA76977D064E06774C8F5CC3E173140010F654",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 576,
+        "image_role": "wear_track",
+        "nominal_scale_label_from_filename": "5.6",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦磨损形貌",
+        "576h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0576H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "RXQ-UV-H0576-IMG-04",
+      "experiment_id": "TIRE-RXQ-UV-WEAR-001",
+      "sample_id": "RXQ-UV-0576H-04",
+      "domain": "tire",
+      "topic": "uv_aging_wear_morphology",
+      "title": "紫外老化 576 h 后摩擦磨损形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/uv_aging_wear/RXQ-UV-H0576-IMG-04.jpg",
+      "source_reference": "授权团队实验资料/RXQ/紫外老化后摩擦补做/576H/5.6-3.1.tif",
+      "source_sha256": "FCCB1A0D0D8E477AA7B99252811D63F3FF626DD3C925A1F688F7C4699AD49619",
+      "derived_sha256": "F7A71A5A78B91B651CB295E41A0FCEEC8EC8A1474677F35017E2C7C3EE3205CF",
+      "condition": {
+        "uv_source": "UVA-340",
+        "wavelength_range_nm": "295-365",
+        "irradiance_W_m2": 0.6,
+        "aging_duration_h": 576,
+        "image_role": "wear_track",
+        "nominal_scale_label_from_filename": "5.6",
+        "friction_condition_status": "pending_source_confirmation"
+      },
+      "labels": [
+        "紫外老化",
+        "摩擦磨损形貌",
+        "576h"
+      ],
+      "severity": "training_unrated",
+      "observation": "该资产保留老化时长和图像角色，用于跨时长形貌描述训练。",
+      "training_use": "先描述可见形貌，再结合老化时长提出机理假设和所需补充证据。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_rxq_uv_wear_morphology",
+        "team_tire_rxq_aging_multimodal_evidence"
+      ],
+      "linked_evidence_ids": [
+        "RXQ-UV-WEAR-0576H"
+      ],
+      "limitations": "当前图像目录未提供可唯一核对的摩擦载荷、速度和行程；文件名中的数值只作为图像标签，不解释为已确认放大倍数。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-MATRIX-TREND-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-LOAD-MATRIX-SUMMARY",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "不同载荷与滑动距离下磨损量及硬度趋势",
+      "modality": "derived_curve",
+      "media_type": "image/png",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-MATRIX-TREND-01.png",
+      "source_reference": "授权团队实验资料/LYQ/tire_lyq_friction_records.json",
+      "source_sha256": "2F18DC5DEDBB1061D80DBC5812884214E43C44D33A28A018532CDF728E6D0DD3",
+      "derived_sha256": "404050043FA2124542F66C8E01320E55C5AFDD520F02784F27CE1943DC23F696",
+      "condition": {
+        "loads_N": [
+          40,
+          50,
+          60
+        ],
+        "distances_m": [
+          20,
+          40,
+          80,
+          120,
+          160
+        ],
+        "contact_mode": "cylinder_flat",
+        "temperature_evidence_coverage": "partial_by_load_group"
+      },
+      "labels": [
+        "载荷-距离矩阵",
+        "磨损量",
+        "硬度",
+        "部分温升证据"
+      ],
+      "severity": "not_applicable",
+      "observation": "图中汇总 15 个已核对工况，用于比较载荷和滑动距离对磨损量、硬度的共同影响。",
+      "training_use": "识别趋势、异常点和交互效应，并将结论限定在已测工况范围内。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.2-D020",
+        "LYQ-LOAD-P1.5-D020",
+        "LYQ-LOAD-P1.8-D020",
+        "LYQ-LOAD-P1.2-D040",
+        "LYQ-LOAD-P1.5-D040",
+        "LYQ-LOAD-P1.8-D040",
+        "LYQ-LOAD-P1.2-D080",
+        "LYQ-LOAD-P1.5-D080",
+        "LYQ-LOAD-P1.8-D080",
+        "LYQ-LOAD-P1.2-D120",
+        "LYQ-LOAD-P1.5-D120",
+        "LYQ-LOAD-P1.8-D120",
+        "LYQ-LOAD-P1.2-D160",
+        "LYQ-LOAD-P1.5-D160",
+        "LYQ-LOAD-P1.8-D160"
+      ],
+      "limitations": "温升原始记录未覆盖每个载荷-距离单元；本图不生成或插补单元级温升数值。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L40-D020-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-02",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "40 N、20 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L40-D020-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong/2 2.tif",
+      "source_sha256": "CE3EC28AF80EA954D11ACEB6E23C0035B476907A3154D40E54F5E009463E4DDD",
+      "derived_sha256": "410DE341A24FC8D3D0E72103CAE98B4C71DBF0916E0F47B5334AAE34B76680EE",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 40,
+        "contact_pressure_MPa": 1.2,
+        "sliding_distance_m": 20,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.0125,
+        "reported_hardness_HA": 65.275,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "40N",
+        "20m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.2-D020"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L50-D020-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-12",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "50 N、20 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L50-D020-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong2/12 2.tif",
+      "source_sha256": "A6E1C006A18DB5CCBCA8BC283E3E9A40F2F4AAE7361172E8B1C5E513D6D5D595",
+      "derived_sha256": "BA964D910C5E1ECCD8A10094BB2668065AB29D173A7C680EE495651B4FFAEBCA",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 50,
+        "contact_pressure_MPa": 1.5,
+        "sliding_distance_m": 20,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.018,
+        "reported_hardness_HA": 60.62857,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "50N",
+        "20m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.5-D020"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L60-D020-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-22",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "60 N、20 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L60-D020-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong3/22 2.tif",
+      "source_sha256": "0B8360AE29F721CE2E2428DAB689E1889505B3475EA7AD4C886A1935BF1A9AFE",
+      "derived_sha256": "3FA816BF30704920F26C73A22F279F4FA82910D251E2B1E2629054025F08AD3E",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 60,
+        "contact_pressure_MPa": 1.8,
+        "sliding_distance_m": 20,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.0365,
+        "reported_hardness_HA": 58.88571,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "60N",
+        "20m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.8-D020"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L40-D040-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-04",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "40 N、40 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L40-D040-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong/4 2.tif",
+      "source_sha256": "E37E05CF482B3D12602BC316593FFB5A544597C8CE7AD2F1F4FBE2392892EC92",
+      "derived_sha256": "AD090B25F7C630FA1F9C44FC28622AC24F7BA179D4A842EBF94EFC8A80AD510D",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 40,
+        "contact_pressure_MPa": 1.2,
+        "sliding_distance_m": 40,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.0155,
+        "reported_hardness_HA": 63.92857,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "40N",
+        "40m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.2-D040"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L50-D040-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-14",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "50 N、40 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L50-D040-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong2/14 2.tif",
+      "source_sha256": "B3EA0D133342F5D191FCACCA480B7CFDB2FFFF97C65384F5525440D64AB62AED",
+      "derived_sha256": "18CBEB26B89C586AED362D8A2F74937631C6433F889AFD7CC57F34C3B6AC6DF1",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 50,
+        "contact_pressure_MPa": 1.5,
+        "sliding_distance_m": 40,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.0295,
+        "reported_hardness_HA": 58.9,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "50N",
+        "40m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.5-D040"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L60-D040-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-24",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "60 N、40 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L60-D040-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong4/24 2.tif",
+      "source_sha256": "1C378527647205C78EB1F446F277AFAA215F283FF83AA9874146DF40A7E40CA1",
+      "derived_sha256": "F8F891B255ED55445C3478840027869EE38E95F5D598960AB77AD4D46DDDB226",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 60,
+        "contact_pressure_MPa": 1.8,
+        "sliding_distance_m": 40,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.0685,
+        "reported_hardness_HA": 57.68571,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "60N",
+        "40m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.8-D040"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L40-D080-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-06",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "40 N、80 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L40-D080-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong/6 2.tif",
+      "source_sha256": "010B4A17B8A4FFFC3EE2053EDAA326DAE5AFBF2503D6312FD2C17EB466C8ABF6",
+      "derived_sha256": "F2F95AABA9361DD72464C463B8D7D477F32895E2DF870A36F8D924AF9D982849",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 40,
+        "contact_pressure_MPa": 1.2,
+        "sliding_distance_m": 80,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.037,
+        "reported_hardness_HA": 60.56667,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "40N",
+        "80m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.2-D080"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L50-D080-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-16",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "50 N、80 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L50-D080-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong2/16 2.tif",
+      "source_sha256": "079FBDB1B19D75D93C8CEAB51E124278E199835562032BFB76A202E423E56DBD",
+      "derived_sha256": "DDA0AFB520E26D783C47AE4BF0FA0853AE42E872D634D2B17E229A4D93011DAC",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 50,
+        "contact_pressure_MPa": 1.5,
+        "sliding_distance_m": 80,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.0505,
+        "reported_hardness_HA": 55.14286,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "50N",
+        "80m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.5-D080"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L60-D080-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-26",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "60 N、80 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L60-D080-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong4/26 2.tif",
+      "source_sha256": "68CDEA90B701B49ACB52DEE185C828D2B408BAAE7BE9468CADAE99BBF967E1AD",
+      "derived_sha256": "8EF436C96947DE0D398775629EBF549E9B72F5873F0C11CABB4E40490DA06CD9",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 60,
+        "contact_pressure_MPa": 1.8,
+        "sliding_distance_m": 80,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.1025,
+        "reported_hardness_HA": 53.11429,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "60N",
+        "80m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.8-D080"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L40-D120-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-08",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "40 N、120 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L40-D120-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong/8 2.tif",
+      "source_sha256": "4230E703A28AEF8E945FA7D6A654639E28D4368868258C49C958C546FF3D0806",
+      "derived_sha256": "EAEE1A3BA643A7E6BD65163B4BB5FB4E314308C8D50BD04D75AF3148A3EEDE58",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 40,
+        "contact_pressure_MPa": 1.2,
+        "sliding_distance_m": 120,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.0445,
+        "reported_hardness_HA": 56.37143,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "40N",
+        "120m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.2-D120"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L50-D120-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-18",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "50 N、120 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L50-D120-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong3/18 2.tif",
+      "source_sha256": "613D0F10CC3AE9323A112607F52BAF4370286EBAF1F6C3CD070FD6EC34AB89A0",
+      "derived_sha256": "559FBE4134F13B5B9CFFA04345390833FBD6331E61965CFCC53F248A92AD9A48",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 50,
+        "contact_pressure_MPa": 1.5,
+        "sliding_distance_m": 120,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.089,
+        "reported_hardness_HA": 53.38333,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "50N",
+        "120m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.5-D120"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L60-D120-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-28",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "60 N、120 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L60-D120-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong4/28 2.tif",
+      "source_sha256": "901C4B322442E192E9A7A88A9C5E9C9C32C0C6546743BA61E8CCDB3748B6E892",
+      "derived_sha256": "B8F4FA6D5457EAB72B6EB42E4E394487038CDBD1B849A32B08372913333692FC",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 60,
+        "contact_pressure_MPa": 1.8,
+        "sliding_distance_m": 120,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.139,
+        "reported_hardness_HA": 49.75,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "60N",
+        "120m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.8-D120"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L40-D160-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-10",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "40 N、160 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L40-D160-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong2/10 2.tif",
+      "source_sha256": "82EBA674DF19565600A591A369B41C4685850089D2788F069541207C352127E6",
+      "derived_sha256": "73EF44BFA6170D62D1A831E8BFCB1688036CE4A3B1DFFF863CADDE484EB2DF27",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 40,
+        "contact_pressure_MPa": 1.2,
+        "sliding_distance_m": 160,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.06,
+        "reported_hardness_HA": 52.55714,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "40N",
+        "160m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.2-D160"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L50-D160-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-20",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "50 N、160 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L50-D160-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong3/20 2.tif",
+      "source_sha256": "7B1A17DD0BE813BC20D9B1C28F62C683293FDB3CE81DB86B634B752591D68FFA",
+      "derived_sha256": "A3591D19D125097169DAC18179FD93B64D20A5DCF093FAE2D8BFC7A3A547B2C6",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 50,
+        "contact_pressure_MPa": 1.5,
+        "sliding_distance_m": 160,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.1205,
+        "reported_hardness_HA": 51.22857,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "50N",
+        "160m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.5-D160"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    },
+    {
+      "asset_id": "LYQ-LOAD-L60-D160-OPT-01",
+      "experiment_id": "TIRE-EXP-LYQ-FRICTION-001",
+      "sample_id": "LYQ-RECIP-30",
+      "domain": "tire",
+      "topic": "load_distance_morphology_matrix",
+      "title": "60 N、160 m 往复摩擦光学形貌",
+      "modality": "optical_image",
+      "media_type": "image/jpeg",
+      "media_path": "media/load_distance_matrix/LYQ-LOAD-L60-D160-OPT-01.jpg",
+      "source_reference": "授权团队实验资料/LYQ/不同载荷往复实验/光学显微镜/huadong4/30 2.tif",
+      "source_sha256": "DDF7A352F0ECB76F176C8F83A1BD9892D20DF878D60D7025BDB80D719181FA96",
+      "derived_sha256": "0399F25582489BE6BA6C4D594CDC6F22433CF2920E96B17A0A94E24AF21D8F90",
+      "condition": {
+        "contact_mode": "cylinder_flat",
+        "normal_load_N": 60,
+        "contact_pressure_MPa": 1.8,
+        "sliding_distance_m": 160,
+        "stroke_mm": 10,
+        "frequency_Hz": 3.3,
+        "reported_wear_loss_g": 0.1605,
+        "reported_hardness_HA": 46.57143,
+        "nominal_scale_label_from_filename": "2",
+        "temperature_evidence_status": "not_available_for_this_matrix_cell"
+      },
+      "labels": [
+        "往复摩擦",
+        "60N",
+        "160m",
+        "磨损形貌"
+      ],
+      "severity": "training_unrated",
+      "observation": "该图像与载荷、接触压力、距离、磨损量和硬度记录绑定。",
+      "training_use": "在同载荷或同距离条件下比较形貌，并用定量记录验证趋势判断。",
+      "review_status": "reviewed",
+      "authorization_status": "authorized",
+      "linked_source_ids": [
+        "team_tire_lyq_load_distance_matrix",
+        "team_tire_lyq_contact_load_temperature_evidence"
+      ],
+      "linked_evidence_ids": [
+        "LYQ-LOAD-P1.8-D160"
+      ],
+      "limitations": "采用每个矩阵单元的一张代表性光学图像；代表视野不能替代多视野统计，温升证据不可从图像反推。"
+    }
+  ]
+}

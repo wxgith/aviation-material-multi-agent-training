@@ -1,0 +1,152 @@
+[
+  {
+    "id": "tire-q1",
+    "domain": "tire",
+    "question": "热氧老化对航空轮胎胎面橡胶最直接的影响通常包括哪一项？",
+    "options": ["交联网络和表面力学响应变化", "纤维铺层完全断裂", "刹车片摩擦膜增厚", "金属基体熔化"],
+    "answer": "交联网络和表面力学响应变化",
+    "knowledge_point": "热氧老化",
+    "difficulty": "基础",
+    "explanation": "热和氧会共同作用于橡胶分子链与交联网络，进而改变硬度、裂纹敏感性和磨损响应。"
+  },
+  {
+    "id": "tire-q2",
+    "domain": "tire",
+    "question": "分析滑动磨损时，最应同时记录的一组工况参数是？",
+    "options": ["载荷、速度、温度、滑动距离", "文件名、页码、字体、颜色", "拍摄角度、图片大小、作者", "样品编号、目录层级、报告页数"],
+    "answer": "载荷、速度、温度、滑动距离",
+    "knowledge_point": "滑动磨损与实验表征方法",
+    "difficulty": "基础",
+    "explanation": "滑动磨损高度依赖载荷、速度、温度和接触历程，缺少工况会削弱机理判断可信度。"
+  },
+  {
+    "id": "tire-q3",
+    "domain": "tire",
+    "question": "胎面裂纹、剥落和磨耗深度用于损伤等级判读时，哪种做法更合理？",
+    "options": ["结合位置、面积、深度、循环历史和图像尺度综合判断", "只看单张照片是否明显", "只依据颜色深浅判断", "忽略起降循环次数"],
+    "answer": "结合位置、面积、深度、循环历史和图像尺度综合判断",
+    "knowledge_point": "损伤等级判读",
+    "difficulty": "提升",
+    "explanation": "损伤等级需要多维证据，尤其要结合裂纹/剥落几何量、位置和服役循环信息。"
+  },
+  {
+    "id": "tire-q4",
+    "domain": "tire",
+    "question": "热氧老化与滑动磨损耦合分析中，更关键的问题是？",
+    "options": ["不同老化条件下磨损阈值和形貌机制如何变化", "图片是否足够美观", "报告是否使用统一字体", "是否只做一次观察"],
+    "answer": "不同老化条件下磨损阈值和形貌机制如何变化",
+    "knowledge_point": "热氧老化-滑动磨损耦合损伤",
+    "difficulty": "提升",
+    "explanation": "耦合损伤关注老化状态改变后续摩擦磨损响应，需要比较阈值、形貌和力学状态。"
+  },
+  {
+    "id": "tire-q5",
+    "domain": "tire",
+    "question": "只凭一张胎面形貌图就可以给出真实适航放行结论。",
+    "options": ["正确", "错误"],
+    "answer": "错误",
+    "knowledge_point": "常见误区",
+    "difficulty": "基础",
+    "explanation": "训练系统可给出学习建议，但真实维护决策需要标准、工况、检测记录和授权流程。"
+  },
+  {
+    "id": "brake-q1",
+    "domain": "brake",
+    "question": "航空刹车片热衰退通常表现为哪种现象？",
+    "options": ["摩擦系数下降或波动增大", "材料永不磨损", "温度越高越稳定", "裂纹自动闭合"],
+    "answer": "摩擦系数下降或波动增大",
+    "knowledge_point": "热衰退",
+    "difficulty": "基础",
+    "explanation": "高能制动导致界面温度上升，摩擦膜失稳或氧化层变化可能造成热衰退。"
+  },
+  {
+    "id": "brake-q2",
+    "domain": "brake",
+    "question": "判断刹车片高温摩擦失效时，应优先结合哪组证据？",
+    "options": ["摩擦曲线、温度历史、磨损形貌和氧化特征", "文件名和页码", "单张照片", "主观手感"],
+    "answer": "摩擦曲线、温度历史、磨损形貌和氧化特征",
+    "knowledge_point": "失效机理",
+    "difficulty": "提升",
+    "explanation": "刹车片失效分析需要建立工况、界面变化、性能衰退和风险之间的证据链。"
+  },
+  {
+    "id": "brake-q3",
+    "domain": "brake",
+    "question": "热裂纹可能与热应力循环有关。",
+    "options": ["正确", "错误"],
+    "answer": "正确",
+    "knowledge_point": "裂纹",
+    "difficulty": "基础",
+    "explanation": "反复制动加热和冷却会产生热应力循环，促进裂纹萌生和扩展。"
+  },
+  {
+    "id": "brake-q4",
+    "domain": "brake",
+    "question": "磨屑压实层、沟槽、剥落坑主要属于哪类观察对象？",
+    "options": ["磨损形貌", "学习者画像", "接口参数", "目录结构"],
+    "answer": "磨损形貌",
+    "knowledge_point": "磨损形貌",
+    "difficulty": "基础",
+    "explanation": "这些特征通常通过显微观察、三维轮廓或表面分析进行判读。"
+  },
+  {
+    "id": "brake-q5",
+    "domain": "brake",
+    "question": "航空刹车片失效分析可以完全脱离制动能量和温度历史。",
+    "options": ["正确", "错误"],
+    "answer": "错误",
+    "knowledge_point": "常见误区",
+    "difficulty": "基础",
+    "explanation": "制动能量和温度历史是理解摩擦膜、氧化、热裂纹和热衰退的重要边界条件。"
+  },
+  {
+    "id": "composite-q1",
+    "domain": "composite",
+    "question": "飞机复合材料板低速冲击后常见的内部损伤是？",
+    "options": ["分层和基体开裂", "胎面橡胶交联", "刹车片摩擦膜增厚", "金属熔化"],
+    "answer": "分层和基体开裂",
+    "knowledge_point": "冲击损伤",
+    "difficulty": "基础",
+    "explanation": "低速冲击可能导致表面轻微、内部复杂的损伤组合，包括分层、基体开裂和纤维断裂。"
+  },
+  {
+    "id": "composite-q2",
+    "domain": "composite",
+    "question": "表面损伤轻微时，内部一定没有损伤。",
+    "options": ["正确", "错误"],
+    "answer": "错误",
+    "knowledge_point": "常见误区",
+    "difficulty": "基础",
+    "explanation": "复合材料可能存在隐蔽损伤，需要结合无损检测判断内部范围和层间分布。"
+  },
+  {
+    "id": "composite-q3",
+    "domain": "composite",
+    "question": "超声 C 扫主要用于辅助判断什么？",
+    "options": ["内部损伤范围和分布", "文档字体", "图片压缩率", "试验报告页数"],
+    "answer": "内部损伤范围和分布",
+    "knowledge_point": "无损检测图像判读",
+    "difficulty": "基础",
+    "explanation": "超声 C 扫常用于定位分层等内部损伤范围，并与外观图像形成证据互补。"
+  },
+  {
+    "id": "composite-q4",
+    "domain": "composite",
+    "question": "分层对结构性能的主要影响之一是？",
+    "options": ["削弱层间载荷传递并影响损伤扩展", "提高所有方向强度", "消除基体裂纹", "不影响疲劳行为"],
+    "answer": "削弱层间载荷传递并影响损伤扩展",
+    "knowledge_point": "分层",
+    "difficulty": "提升",
+    "explanation": "分层会削弱层间载荷传递，在压缩或疲劳载荷下可能进一步扩展。"
+  },
+  {
+    "id": "composite-q5",
+    "domain": "composite",
+    "question": "复合材料损伤判读应结合外观检查和无损检测证据。",
+    "options": ["正确", "错误"],
+    "answer": "正确",
+    "knowledge_point": "损伤扩展",
+    "difficulty": "基础",
+    "explanation": "外观检查和无损检测互补，能更完整地识别损伤类型、范围和扩展风险。"
+  }
+]

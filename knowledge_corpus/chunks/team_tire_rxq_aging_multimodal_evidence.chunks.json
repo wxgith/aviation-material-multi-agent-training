@@ -1,0 +1,305 @@
+[
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c001-2a1e1aa9",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 航空轮胎胎面橡胶老化-磨损多维实验依据",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "提升",
+    "content": "以下数值均来自已授权实验工作簿。它们用于教学中的趋势识别和多证据判读，不构成航空器维修限值。",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "航空轮胎胎面橡胶老化-磨损多维实验依据",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+    "tags": [
+      "热氧老化",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "| 老化/d | 样品 | 摩擦系数 | 界面温度/°C | 质量损失/mg | 硬度变化/HA | 证据ID | | --- | --- | --- | --- | --- | --- | --- | | 0 | 15 | 0.542421 | 79.91674 | 17.8000 | 7.7800 | `RXQ-WEAR-D000-S15` | | 0 | 16 | 0.450941 | 63.32903 | 27.8000 | 11.4000 | `RXQ-WEAR-D000-S16` | | 1 | 17 | 0.485534 | 74.17528 | 22.0000 | 11.0000 | `RXQ-WEAR-D001-S17` | | 1 | 18 | 0.459774 | 76.57370 | 15.6000 | 7.3800 | `RXQ-WEAR-D001-S18` | | 2 | 21 | 0.487240 | 75.39103 | 20.8000 | 11.8600 | `RXQ-WEAR-D002-S21` | | 2 | 22 | 0.497470 | 80.13497 | 25.6000 | 9.4000 | `RXQ-WEAR-D002-S22` | | 3 | 26 | 0.517363 | 84.29762 | 17.8000 | 6.2600 | `RXQ-WEAR-D003-S26` | | 3 | 28 | 0.464941 | 75.92598 | 30.2000 | 10.8600 | `RXQ-WEAR-D003-S28` | |",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "热氧老化后摩擦、温度与质量损失",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c003-6f6f48bf",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+    "tags": [
+      "热氧老化",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "| | 3 | 28 | 0.464941 | 75.92598 | 30.2000 | 10.8600 | `RXQ-WEAR-D003-S28` | | 7 | 3 | 0.480925 | 73.40564 | 32.6000 | 12.7200 | `RXQ-WEAR-D007-S3` | | 7 | 5 | 0.464625 | 74.73690 | 26.6000 | 8.1600 | `RXQ-WEAR-D007-S5` | | 14 | 41 | 0.497359 | 76.62628 | 22.6000 | 10.2200 | `RXQ-WEAR-D014-S41` | | 14 | 42 | 0.450232 | 69.57641 | 10.6000 | 9.7600 | `RXQ-WEAR-D014-S42` | | 21 | 53 | 0.480276 | 78.85325 | 8.2000 | 8.0800 | `RXQ-WEAR-D021-S53` | | 21 | 57 | 0.463476 | 70.34245 | 10.0000 | 8.9400 | `RXQ-WEAR-D021-S57` | | 28 | 62 | 0.481118 | 73.78951 | 7.6000 | 4.9200 | `RXQ-WEAR-D028-S62` | | 28 | 63 | 0.454697 | 69.56326 | 6.4000 | 8.0200 | `RXQ-WEAR-D028-S63` | | 35 | 80 | 0.458298 | 73.256",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "热氧老化后摩擦、温度与质量损失",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c004-2ba132e5",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+    "tags": [
+      "热氧老化",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "基础",
+    "content": "69.56326 | 6.4000 | 8.0200 | `RXQ-WEAR-D028-S63` | | 35 | 80 | 0.458298 | 73.25613 | 10.8000 | 6.7400 | `RXQ-WEAR-D035-S80` | | 35 | 78 | 0.485468 | 73.49467 | 8.8000 | 8.4600 | `RXQ-WEAR-D035-S78` |",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "热氧老化后摩擦、温度与质量损失",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c005-dd56b4e0",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 表面粗糙度 Sa",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "| 老化时间/天 | 表面粗糙度/Sa | | --- | --- | | 0 | 0.599 | | 3 | 0.4138 | | 7 | 0.2737 | | 14 | 0.4395 | | 21 | 0.2526 | | 28 | 0.197 |",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "表面粗糙度 Sa",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c006-9a37faac",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · EDS 元素原子分数",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "| 老化时间/天 | C | O | N | S | Zn | | --- | --- | --- | --- | --- | --- | | 0 | 0.896765 | 0.0490742 | 0.0280224 | 0.0167304 | 0.00940752 | | 3 | 0.90364 | 0.0445595 | 0.0227585 | 0.0193493 | 0.0096931 | | 7 | 0.845205 | 0.0777367 | 0.0495122 | 0.0179322 | 0.0096143 | | 14 | 0.889213 | 0.0666642 | 0.0178584 | 0.0174024 | 0.0088621 | | 21 | 0.899149 | 0.0589739 | 0.0159022 | 0.0167545 | 0.00922062 | | 28 | 0.806602 | 0.105193 | 0.0615091 | 0.0176339 | 0.00906161 |",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "EDS 元素原子分数",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c007-f3e90895",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · DMA 指标",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "| 老化时间 | 正切值 | 储能模量 | 损耗模量 | 温度 | | --- | --- | --- | --- | --- | | 0 | 0.1783 | 10.22 | 1.823 | 82 | | 3 | 0.1882 | 11.55 | 2.174 | 98.5 | | 7 | 0.1322 | 5.414 | 0.71568 | 133 | | 14 | 0.1577 | 9.849 | 1.553 | 96.5 | | 28 | 0.1474 | 8.765 | 1.292 | 116 |",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "DMA 指标",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c008-96dfd807",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 定伸应力",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "| 老化时间 | 100%定伸应力 | 300%定伸应力 | | --- | --- | --- | | 0 | 2.24222 | 18.1842 | | 1 | 4.53827 | 20.9026 | | 3 | 4.40178 | 20.11661 | | 7 | 5.31454 | 21.9026 | | 14 | 5.42142 | 23.11668 | | 21 | 5.5559 | 22.23158 | | 28 | 6.40079 | 21.80978 | | 35 | 4.32271 | 24.54127 |",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "定伸应力",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c009-ece3c3fb",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 印泥法接触压力辅助记录",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "| load(N) | Area(mm²) | cpress(MPa) | | --- | --- | --- | | 40 | 56.4 | 0.7092 | | 50 | 62.46 | 0.8005 | | 60 | 68.45 | 0.8766 | | 70 | 73.26 | 0.9555 | | 80 | 78.77 | 1.0156 | | 90 | 86.9 | 1.0357 |",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "印泥法接触压力辅助记录",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c010-49b28124",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 可复现实验条件",
+    "tags": [
+      "热氧老化",
+      "滑动磨损"
+    ],
+    "difficulty": "基础",
+    "content": "热氧老化采用 HD-E701 通风老化箱，75 °C，空气气氛，按 GB/T 3512-2014。滑动磨损采用 CFT-I、50 N、100 r/min、10000 r、100 min，环境为 25±1 °C、45±3% RH；80 目砂轮，2000 目砂纸预处理。 紫外老化采用 HZ-2008A 与 UVA-340 灯管，295-365 nm，0.6 W/m²。拉伸采用 WDT-10，按 GB/T 528，25 °C、500 mm/min、标距 25 mm。",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "可复现实验条件",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c011-d70dd371",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 紫外拉伸样品-时长-曲线映射",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "| 老化/h | 样品 | CSV | 报告最大力/N | 抗拉强度/MPa | 弹性模量/MPa | 断裂伸长率/% | 原始曲线最大应力/MPa | 证据ID | | --- | --- | --- | --- | --- | --- | --- | --- | --- | | 0 | S23 | `Raw- 9_.csv` | 401.96 | 29.13 | 6.92 | 461.12 | 29.12769 | `RXQ-UV-TENSILE-H0000-S23` | | 72 | S4 | `Raw- 1_.csv` | 408.63 | 29.61 | 6.98 | 467.39 | 29.61051 | `RXQ-UV-TENSILE-H0072-S4` | | 144 | S5 | `Raw- 2_.csv` | 387.38 | 28.07 | 6.76 | 433.11 | 28.07133 | `RXQ-UV-TENSILE-H0144-S5` | | 216 | S8 | `Raw- 3_.csv` | 427.59 | 30.98 | 7.67 | 454.35 | 30.98443 | `RXQ-UV-TENSILE-H0216-S8` | | 288 | S10 | `Raw- 4_.csv` | 425.26 | 30.82 | 7.63 | 445.30 | 30.81593 | `RXQ-UV-TENSILE-H0288-S10` | | 360 | S12 | `Raw- 5_.csv` | 351.21 | 25.45 | 7.24 |",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "紫外拉伸样品-时长-曲线映射",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c012-8bdde693",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 紫外拉伸样品-时长-曲线映射",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "Q-UV-TENSILE-H0288-S10` | | 360 | S12 | `Raw- 5_.csv` | 351.21 | 25.45 | 7.24 | 366.80 | 25.44987 | `RXQ-UV-TENSILE-H0360-S12` | | 432 | S14 | `Raw- 6_.csv` | 400.71 | 29.04 | 7.25 | 446.31 | 29.03696 | `RXQ-UV-TENSILE-H0432-S14` | | 504 | S15 | `Raw- 7_.csv` | 386.80 | 28.03 | 7.03 | 391.60 | 28.02920 | `RXQ-UV-TENSILE-H0504-S15` | | 576 | S17 | `Raw- 8_.csv` | 409.16 | 29.65 | 7.29 | 467.27 | 29.64939 | `RXQ-UV-TENSILE-H0576-S17` |",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "紫外拉伸样品-时长-曲线映射",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 图像证据链",
+    "tags": [
+      "热氧老化",
+      "滑动磨损",
+      "磨损形貌"
+    ],
+    "difficulty": "提升",
+    "content": "热氧老化 0、1、3、7、14、21、28 d 各保留一张 SEM 和一张光学代表图。图像、样品和磨损记录通过 RXQ-IMG、RXQ-CASE 与 RXQ-WEAR 编号关联。形貌标签用于训练观察，不应被解释为唯一损伤机理。",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "图像证据链",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "team_tire_rxq_aging_multimodal_evidence-c014-4d259d39",
+    "domain": "tire",
+    "title": "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 来源差异与证据边界",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "进阶",
+    "content": "9 份 CSV 已通过拉伸报告中的机号-样品映射和紫外拉伸协议中的样品-时长映射完成双重绑定。该补做数据不含 24 h 组。协议、文件夹和报告映射采用 504 h，而论文表 2.3 记为 507 h，本版采用实际文件的 504 h 并保留冲突说明。报告的最大变形/伸长率采用有效断裂点，CSV 还可能包含断裂后采样，因此两者同时保留且不相互覆盖。 热氧源磨损工作簿包含 2 d 组，而定稿论文试验方案未列 2 d；该组按原始记录保留为 source-record variant。所有结果仅用于教学与科研训练，不构成维修放行边界。",
+    "source_type": "parsed_markdown",
+    "source_id": "team_tire_rxq_aging_multimodal_evidence",
+    "source_locator": "来源差异与证据边界",
+    "source_url": "",
+    "source_authority": "team_authorized_experiment",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  }
+]

@@ -1,0 +1,1039 @@
+---
+source_id: composite_faa_ac20_107b
+domain: composite
+title: "Composite Aircraft Structure with Change 1"
+url: https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-107B_with_change_1.pdf
+parser: pdftotext-layout
+source_sha256: B41E2BD8B5D94A8F0530B7FE803ED8F319209B234E9FEB67F990DD18DD7A1588
+review_status: machine_parsed_pending_expert_review
+---
+
+# Composite Aircraft Structure with Change 1
+
+## Page 8
+
+9/8/09                                                                                AC 20-107B
+
+
+degradation in material properties should be provided for conditions expected in service and
+demonstrated by test. Where necessary, provide provisions for ventilation and drainage.
+Isolation layers are needed at the interfaces between some composite and metal materials to
+avoid corrosion (e.g., glass plies may be used to isolate carbon composite layers from
+aluminum). In addition, qualification of the special fasteners and installation procedures used for
+parts made from composite materials need to address the galvanic corrosion issues, as well as the
+potential for damaging the composite (delamination and fiber breakage) in forming the fastener.
+
+    f. Design Values. Data used to derive design values must be obtained from stable and
+repeatable material, which are procured per a mature material specification and processed per a
+representative production process specification. This is done to ensure that the permitted
+variability of the production materials is captured in the statistical analysis used to derive the
+design values. Design values derived too early in the material’s development stage, before raw
+material and composite part production processes have matured, may not satisfy the intent of the
+associated rules. Laminated material system design values should be established on the laminate
+level by either test of the laminate or by test of the lamina in conjunction with a test validated
+analytical method. Similarly, design values for non-laminated material forms and advanced
+composite processes must be established at the scale that best represents the material as it
+appears in the part or by tests of material substructure in conjunction with a test validated
+analytical method.
+
+    g. Structural Details. For a specific structural configuration of an individual component
+(point design), design values may be established which include the effects of appropriate design
+features (holes, joints, etc.). Specific metrics that quantify the severity of composite structural
+damage states caused by foreign impact damage threats are needed to perform analysis (i.e., the
+equivalent of a metallic crack length). As a result, testing will often be needed to characterize
+residual strength, including the structural effects of critical damage location and combined loads.
+Different levels of impact damage are generally accommodated by limiting the design strain
+levels for ultimate and limit combined load design criteria. In this manner, rational analyses
+supported by tests can be established to characterize residual strength for point design details.
+
+7. Proof of Structure – Static. The structural static strength substantiation of a composite
+design should consider all critical load cases and associated failure modes. It should also include
+effects of environment (including structural residual stresses induced during the fabrication
+process), material and process variability, non-detectable defects or any defects that are allowed
+by the quality control, manufacturing acceptance criteria, and service damage allowed in
+maintenance documents of the end product. The static strength of the composite design should
+be demonstrated through a program of component ultimate load tests in the appropriate
+environment, unless experience with similar designs, material systems, and loadings is available
+to demonstrate the adequacy of the analysis supported by subcomponent, element and coupon
+tests, or component tests to accepted lower load levels. The necessary experience to validate an
+analysis should include previous component ultimate load tests with similar designs, material
+systems, and load cases.
+
+   a. The effects of repeated loading and environmental exposure which may result in material
+property degradation should be addressed in the static strength evaluation. This can be shown by
+
+
+
+                                              Page 7
+
+## Page 9
+
+9/8/09                                                                                  AC 20-107B
+
+
+analysis supported by test evidence, by tests at the coupon, element or subcomponent level, as
+appropriate, or alternatively by relevant existing data. Earlier discussions in this AC address the
+effects of environment on material properties (paragraph 6.d) and protection of structure
+(paragraph 6.e). For critical loading conditions, three approaches exist to account for prior
+repeated loading and/or environmental exposure in the full scale static test.
+
+        (1) In the first approach, the full scale static test should be conducted on structure with
+prior repeated loading and conditioned to simulate the critical environmental exposure and then
+tested in that environment.
+
+        (2) The second approach relies upon coupon, element, and subcomponent test data to
+determine the effect of repeated loading and environmental exposure on static strength. The
+degradation characterized by these tests should then be accounted for in the full scale static
+strength demonstration test (e.g., overload factors), or in analysis of these results (e.g., showing a
+positive margin of safety with design values that include the degrading effects of environment
+and repeated load).
+
+        (3) In practice, aspects of the first two approaches may be combined to get the desired
+result (e.g., a full scale static test may be performed at critical operating temperature with a load
+factor to account for moisture absorbed over the aircraft structure’s life). Alternate means to
+account for environment using validated tests and analyses (e.g., an equivalent temperature
+enhancement to account for the effect of moisture without chemically altering the material) may
+be proposed by the applicant to the administrator for approval.
+
+    b. The strength of the composite structure should be reliably established, incrementally,
+through a program of analysis and a series of tests conducted using specimens of varying levels
+of complexity. Often referred to in industry as the “building block” approach, these tests and
+analyses at the coupon, element, details, and subcomponent levels can be used to address the
+issues of variability, environment, structural discontinuity (e.g., joints, cut-outs or other stress
+risers), damage, manufacturing defects, and design or process-specific details. Typically, testing
+progresses from simple specimens to more complex elements and details over time. This
+approach allows the data collected for sufficient analysis correlation and the necessary replicates
+to quantify variations occurring at the larger structural scales to be economically obtained. The
+lessons learned from initial tests also help avoid early failures in more complex full scale tests,
+which are more costly to conduct and often occur later in a certification program schedule.
+
+         (1) Figures 1 and 2 provide a conceptual schematic of tests typically included in the
+building block approach for fixed wing and rotor blade structures, respectively. The large
+quantity of tests needed to provide a statistical basis comes from the lowest levels (coupons and
+elements) and the performance of structural details are validated in a lesser number of sub-
+component and component tests. Detail and subcomponent tests may be used to validate the
+ability of analysis methods to predict local strains and failure modes. Additional statistical
+considerations (e.g., repetitive point design testing and/or component overload factors to cover
+material and process variability) will be needed when analysis validation is not achieved. The
+static strength substantiation program should also consider all critical loading conditions for all
+critical structure. This includes an assessment of residual strength and stiffness requirements
+
+
+
+                                               Page 8
+
+## Page 10
+
+9/8/09                                                                                                                                                                                          AC 20-107B
+
+
+after a predetermined length of service, which takes into account damage and other degradation
+due to the service period.
+
+                                                                                                           ,,
+                                                                                      I COMP'o 'NENTS I
+                                                                                                       '        '                                                  ...
+                                                                                                      ~                                                            T='              V,
+
+                                                                                                  '                  '                                                              ,,-<
+                                                                                                                                                                                    C
+                                                                                 '      '
+                                                                      I       SUB-COMPONENTS                                                         I                              Q
+                                                                                                                                                                                    C
+
+                                                                                                                                                                                    ~
+                                                                          ,,,~··.
+                                                                                  :'~                                            \
+                                                              , / , IDETAILSI .·                                                                 \.._
+
+
+
+                                                      '
+                                                          / ·,· ~ ....                        r=:c-=-=:'=~                                                     '
+                                                 :'                                           I ELE MENTS I                                                        '
+
+                                              /~1                                                 ):i )             1:,r ~                                             \                   0
+
+                                             '                                                =~=~
+                                             • - - - - • • • • • • · 1couP0Ns 1· • • • • • • • • • • ',                                                                    '               ~
+                                                                                                                                                                                           )>
+
+                                                                                                                                                                                           "'
+                                                                                                                                                                                           ~
+                                                  111111                                               -                                         ..
+                                      :'~ ~ mmm IIIllIIID ~ ~ \
+                                     ----------------- -- ------- ---- ---- -- ------·
+            Figure 1 - Schematic diagram of building block tests for a fixed wing
+
+                                                                                                           .
+                                                                                          I   ~EHTS                      I
+                                !1
+
+                                I
+                                u
+                                                                                          ,
+                                                                                                                     '
+                                                                                  ~
+                                                                                                                                                                               :I
+
+
+                                I                                                 -----
+                                                                                  I
+                                                                                      I
+                                                                                              I
+                                                                                                           .
+
+
+                                                                                                                    I
+                                                                                                                             I
+                                                                                                                                 I
+                                                                                                                                                                               ~
+                                                                                                                                                                               I
+                                                                                                      DETAILS
+                                                                              I                                                      I
+                                                                          I                                                              I
+
+
+                                                                   ~
+                                                                      I                                                                      I
+                                                                  I                                                                              I
+                                                              I
+
+                                                          '
+                                                              ,------------~                  I - -I  EL<M(NTI                                           \I
+                                                          I                                   -
+                                                  ,[E] ·2'e?\
+                                             L-------- -------~                                                                                                                     1
+                                           ,'       I      I         \                                COUPONS                                                                       i
+                                                      =
+                                         /I l!fflffl ttmttl IIM!I \ I
+                                         I
+                                                             lllPJll
+                                                                                                                                                                           \
+                                        I ~                       ~                            11IID            [IlTI                ~                        1?:ZiJ I
+                                        '-------- --------- ---!
+         Figure 2 - Schematic diagram of building block tests for a tail rotor blade
+
+        (2) Successful static strength substantiation of composite structures has traditionally
+depended on proper consideration of stress concentrations (e.g., notch sensitivity of details and
+impact damage), competing failure modes, and out-of-plane loads. A complete building block
+approach to composite structural substantiation addresses most critical structural issues in test
+articles with increasing levels of complexity such that many areas of reliable performance can be
+demonstrated prior to the component tests. The details and subcomponent testing should
+establish failure criteria and account for impact damage in assembled composite structures.
+
+
+                                                                                              Page 9
+
+## Page 11
+
+9/8/09                                                                                 AC 20-107B
+
+
+Component tests are needed to provide the final validation accounting for combined loads and
+complex load paths, which include some out-of-plane effects. When using the building block
+approach, the critical load cases and associated failure modes would be identified for component
+tests using the analytical methods, which are supported by test validation.
+
+    c. The component static test may be performed in an ambient atmosphere if the effects of
+the environment are reliably predicted by building block tests and are accounted for in the static
+test or in the analysis of the results of the static test.
+
+    d. The static test articles should be fabricated and assembled in accordance with production
+specifications and processes so that the test articles are representative of production structure
+including defects consistent with the limits established by manufacturing acceptance criteria.
+
+    e. The material and processing variability of the composite structure should be considered
+in the static strength substantiation. This is primarily achieved by establishing sufficient process
+and quality controls to manufacture structure and reliably substantiate the required strength by
+test and analysis. The scatter in strength properties due to variability in materials and processes
+are characterized by proper allowables or design values, which are derived in compliance with
+14 CFR § 2x.613. When the detail, subcomponent and component tests show that local strains
+are adequately predicted, and positive margins of safety exist using a validated analysis
+everywhere on the structure, then proof of static strength is said to be substantiated using
+analysis supported by test evidence. Alternatively, in the absence of sufficient building block
+test data and analysis validation, overloads are needed in the component test to gain proof of
+static strength for the structure using an approach referred to as substantiated by tests. The
+overload factors applied in this case need to be substantiated either through tests or past
+experience and must account for the expected material and process variation.
+
+    f. It should be shown that impact damage that can be likely expected from manufacturing
+and service, but not more than the established threshold of detectability for the selected
+inspection procedure, will not reduce the structural strength below ultimate load capability. This
+can be shown by analysis supported by test evidence, or by a combination of tests at the coupon,
+element, subcomponent, and component levels. The realistic test assessment of impact damage
+requires proper consideration of the structural details and boundary conditions. When using a
+visual inspection procedure, the likely impact damage at the threshold of reliable detection has
+been called barely visible impact damage (BVID). Selection of impact sites for static strength
+substantiation should consider the criticality of the local structural detail, and the ability to
+inspect a location. The size and shape of impactors used for static strength substantiation should
+be consistent with likely impact damage scenarios that may go undetected for the life of an
+aircraft. Note that it is possible for some designs to have detectable impact damage and still
+meet static strength loads and other requirements without repair (refer to allowable damage
+discussions in paragraph 10.c.(1)).
+
+    g. Major material and process changes on existing certified structure require additional
+static strength substantiation (e.g., refer to Appendix 3).
+
+
+
+
+                                              Page 10
+
+## Page 12
+
+9/8/09                                                                                   AC 20-107B
+
+
+8. Proof of Structure – Fatigue and Damage Tolerance. The evaluation of composite
+structure should be based on the applicable requirements of 14 CFR §§ 23.573(a), 25.571,
+27.571, and 29.571. Such evaluation must show that catastrophic failure due to fatigue,
+environmental effects, manufacturing defects, or accidental damage will be avoided throughout
+the operational life of the aircraft. The nature and extent of analysis or tests on complete
+structures and/or portions of the primary structure will depend upon applicable previous
+fatigue/damage tolerant designs, construction, tests, and service experience on similar structures.
+In the absence of experience with similar designs, FAA-approved structural development tests of
+components, subcomponents, and elements should be performed (following the same principles
+discussed in paragraph 7.b and Appendix 3). The following considerations are unique to the use
+of composite material systems and provide guidance for the method of substantiation selected by
+the applicant. When establishing details for the damage tolerance and fatigue evaluation,
+attention should be given to a thorough damage threat assessment, geometry, inspectability, good
+design practice, and the types of damage/degradation of the structure under consideration.
+
+            Composite damage tolerance and fatigue performance is strongly dependent on
+             structural design details (e.g., skin laminate stacking sequence, stringer or frame
+             spacing, stiffening element attachment details, damage arrestment features, and
+             structural redundancy).
+
+            Composite damage tolerance and fatigue evaluations require substantiation in
+             component tests unless experience with similar designs, material systems, and
+             loadings is available to demonstrate the adequacy of the analysis supported by
+             coupons, elements, and subcomponent tests.
+
+            Final static strength, fatigue, and damage tolerance substantiation may be gained in
+             testing a single component test article if sufficient building block test evidence exists
+             to ensure that the selected sequence of repeated and static loading yield results
+             representative of service or provide a conservative evaluation.
+
+            Peak repeated loads are needed to practically demonstrate the fatigue and damage
+             tolerance of composite aircraft structure in a limited number of component tests. As a
+             result, metal structures present in the test article generally require additional
+             consideration and testing. The information contained in AC 25.571-1 provides
+             fatigue and damage tolerance guidance for metallic structures.
+
+   a. Damage Tolerance Evaluation.
+
+       (1) Damage tolerance evaluation starts with identification of structure whose failure
+would reduce the structural integrity of the aircraft. A damage threat assessment must be
+performed for the structure to determine possible locations, types, and sizes of damage
+considering fatigue, environmental effects, intrinsic flaws, and foreign object impact or other
+accidental damage (including discrete source) that may occur during manufacture, operation or
+maintenance.
+
+
+
+
+                                                Page 11
+
+## Page 13
+
+8/24/10                                                                               AC 20-107B
+
+
+            (a) There currently are very few industry standards that outline the critical damage
+threats for particular composite structural applications with enough detail to establish the
+necessary design criteria or test and analysis protocol for complete damage tolerance evaluation.
+In the absence of standards, it is the responsibility of individual applicants to perform the
+necessary development tasks to establish such data in support of product substantiation. Some
+factors to consider in development of a damage threat assessment for a particular composite
+structure include part function, location on the airplane, past service data, accidental damage
+threats, environmental exposure, impact damage resistance, durability of assembled structural
+details (e.g., long-term durability of bolted and bonded joints), adjacent system interface (e.g.,
+potential overheating or other threats associated with system failure), and anomalous service or
+maintenance handling events that can overload or damage the part. As related to the damage
+threat assessment and maintenance procedures for a given structure, the damage tolerance
+capability and ability to inspect for known damage threats should be developed.
+
+             (b) Foreign object impact is a concern for most composite structures, requiring
+attention in the damage threat assessment. This is needed to identify impact damage severity and
+detectability for design and maintenance. It should include any available damage data collected
+from service plus an impact survey. An impact survey consists of impact tests performed with
+representative structure, which is subjected to boundary conditions characteristic of the real
+structure. Many different impact scenarios and locations should be considered in the survey,
+which has a goal of identifying the most critical impacts possible (i.e., those causing the most
+serious damage but are least detectable). When simulating accidental impact damage at
+representative energy levels, blunt or sharp impactors of different sizes and shapes should be
+selected to cause the most critical and least detectable damage, according to the load conditions
+(e.g., tension, compression or shear). Until sufficient service experience exists to make good
+engineering judgments on energy and impactor variables, impact surveys should consider a wide
+range of conceivable impacts, including runway or ground debris, hail, tool drops, and vehicle
+collisions. This consideration is important to the assumptions needed for use of probabilistic
+damage threat assessments in defining design criteria, inspection methods, and repeat inspection
+intervals for maintenance. Service data collected over time can better define impact surveys and
+design criteria for subsequent products, as well as establish more rational inspection intervals and
+maintenance practice. In review of such information, it should be realized that the most severe
+and critical impact damages, which are still possible, may not be part of the service database.
+
+            (c) Once a damage threat assessment is completed, various damage types can be
+classified into five categories of damage as described below (refer to figure 3). These categories
+of damage are used for communication purposes in this AC. Other categories of damage, which
+help outline a specific path to fatigue and damage tolerance substantiation, may be used by
+applicants in agreement with the regulatory authorities.
+
+                    (i) Category 1: Allowable damage that may go undetected by scheduled or
+directed field inspection and allowable manufacturing defects. Structural substantiation for
+Category 1 damage includes demonstration of a reliable service life, while retaining ultimate
+load capability. By definition, such damage is subjected to the requirements and guidance
+associated with paragraph 7 of this AC. Some examples of Category 1 damage include BVID
+and allowable defects caused in manufacturing or service (e.g., small delamination, porosity,
+
+
+
+                                             Page 12
+
+## Page 14
+
+8/24/10                                                                                                                    AC 20-107B
+
+
+small scratches, gouges, and minor environmental damage) that have substantiation data showing
+ultimate load is retained for the life of an aircraft structure.
+
+
+                                         Category 1 Damage:
+                                       BVID, Allowed Mfg. damage
+
+                                                                   Category 2 Damage:
+                                                              VID, damage requiring repair per
+                           Ultimate                              normal inspection process
+
+                Design                                                         Category 3 Damage:
+                          1.5 Factor                                       Obvious damage found within a
+                Load       of Safety                                          few flights of occurrence,
+                Level                                                        requiring immediate repair
+                                                Limit
+                                             ~ Maximum load                                 Category 4 Damage:
+                                               per lifetime                                 Discrete source damage,
+                                                                                             obvious to flight crew,
+                                                                     Continued             requiring repair after flight
+                                                                     safe flight
+
+
+
+
+                                    Allowable           Critical Damage
+                                   Damage Limit            Threshold                 Category 5 Damage:
+                                       (ADL)               (CDT)                Anomalous damage not covered in
+                              ______ I                                           design but known to operations,
+                             Increasing Damage Severity                            requiring immediate repair
+
+
+
+  Figure 3 - Schematic diagram of design load levels versus categories of damage severity
+
+                    (ii) Category 2: Damage that can be reliably detected by scheduled or
+directed field inspections performed at specified intervals. Structural substantiation for Category
+2 damage includes demonstration of a reliable inspection method and interval while retaining
+loads above limit load capability. The residual strength for a given Category 2 damage may
+depend on the chosen inspection interval and method of inspection. Some examples of Category
+2 damage include visible impact damage (VID), VID (ranging in size from small to large), deep
+gouges or scratches, manufacturing mistakes not evident in the factory, detectable delamination
+or debonding, and major local heat or environmental degradation that will sustain sufficient
+residual strength until found. This type of damage should not grow or, if slow or arrested growth
+occurs, the level of residual strength retained for the inspection interval is sufficiently above
+limit load capability.
+
+                    (iii) Category 3: Damage that can be reliably detected within a few flights
+of occurrence by operations or ramp maintenance personnel without special skills in composite
+inspection. Such damage must be in a location such that it is obvious by clearly visible evidence
+or cause other indications of potential damage that becomes obvious in a short time interval
+because of loss of the part form, fit or function. Both indications of significant damage warrant
+an expanded inspection to identify the full extent of damage to the part and surrounding
+structural areas. In practice, structural design features may be needed to provide sufficient large
+damage capability to ensure limit or near limit load is maintained with easily detectable,
+Category 3 damage. Structural substantiation for Category 3 damage includes demonstration of
+a reliable and quick detection, while retaining limit or near limit load capability. The primary
+difference between Category 2 and 3 damages are the demonstration of large damage capability
+
+
+                                                        Page 13
+
+## Page 15
+
+9/8/09                                                                                   AC 20-107B
+
+
+at limit or near limit load for the latter after a regular interval of time which is much shorter than
+the former. The residual strength demonstration for Category 3 damage may be dependent on
+the reliable short time detection interval. Some examples of Category 3 damage include large
+VID or other obvious damage that will be caught during walk-around inspection or during the
+normal course of operations (e.g., fuel leaks, system malfunctions or cabin noise).
+
+                    (iv) Category 4: Discrete source damage from a known incident such that
+flight maneuvers are limited. Structural substantiation for Category 4 damage includes a
+demonstration of residual strength for loads specified in the regulations. It should be noted that
+pressurized structure will generally have Category 4 residual strength requirements at a level
+higher than shown in figure 3. Some examples of Category 4 damage include rotor burst,
+birdstrikes (as specified in the regulations), tire bursts, and severe in-flight hail.
+
+                     (v) Category 5: Severe damage created by anomalous ground or flight
+events, which is not covered by design criteria or structural substantiation procedures. This
+damage is in the current guidance to ensure the engineers responsible for composite aircraft
+structure design and the FAA work with maintenance organizations in making operations
+personnel aware of possible damage from Category 5 events and the essential need for
+immediate reporting to responsible maintenance personnel. It is also the responsibility of
+structural engineers to design-in sufficient damage resistance such that Category 5 events are
+self-evident to the operations personnel involved. An interface is needed with engineering to
+properly define a suitable conditional inspection based on available information from the
+anomalous event. Such action will facilitate the damage characterization needed prior to repair.
+Some examples of Category 5 damage include severe service vehicle collisions with aircraft,
+anomalous flight overload conditions, abnormally hard landings, maintenance jacking errors, and
+loss of aircraft parts in flight, including possible subsequent high-energy, wide-area (blunt)
+impact with adjacent structure. Some Category 5 damage scenarios will not have clearly visual
+indications of damage, particularly in composite structures. However, there should be
+knowledge of other evidence from the related events that ensure safety is protected, starting with
+a complete report of possible damage by operations.
+
+            (d) The five categories of damage will be used as examples in subsequent discussion
+in this paragraph and in paragraphs 9 and 10. Note that Category 2, 3, 4, and 5 damages all have
+associated repair scenarios.
+
+        (2) Structure details, elements, and subcomponents of critical structural areas should be
+tested under repeated loads to define the sensitivity of the structure to damage growth. This
+testing can form the basis for validating a no-growth approach to the damage tolerance
+requirements. The testing should assess the effect of the environment on the flaw and damage
+growth characteristics and the no-growth validation. The environment used should be
+appropriate to the expected service usage. Residual stresses will develop at the interfaces
+between composite and metal structural elements in a design due to differences in thermal
+expansion. This component of stress will depend on the service temperature during repeated
+load cycling and is considered in the damage tolerance evaluation. Inspection intervals should
+be established, considering both the likelihood of a particular damage and the residual strength
+capability associated with this damage. The intent of this is to assure that structure is not
+
+
+
+                                               Page 14
+
+## Page 16
+
+9/8/09                                                                                                   AC 20-107B
+
+
+exposed to an excessive period of time with residual strength less than ultimate, providing a
+lower safety level than in the typical slow growth situation, as illustrated in figure 4.
+Conservative assumptions for capability with large damage sizes that would be detected within a
+few flights may be needed when probabilistic data on the likelihood of given damage sizes does
+not exist. Once the damage is detected, the component is either repaired to restore ultimate load
+capability or replaced.
+                                   Damage initiation
+         Residual strength
+
+
+
+
+                                •
+                                   or occurrence
+                           H
+                                                       Slow-growth approach *
+
+          Ultimate loads            r - - ---------
+
+
+                                                       "'
+                                    I
+                                    I
+                                    I
+                                    I    No-growth approach **
+            Limit loads
+
+                                                                   * Repair to Restore Ultimate St rength
+                                                                   **No growth without repair is n ot acceptable
+
+                                                                                           Time
+                                                                                               -
+                                                                                               --
+         - - - - - - - Shows Acceptable Interval at reduced RS before being repaired (No-growth case).
+         - - - Shows Unacceptable Interval at reduced RS before being repaired (No-growth case).
+
+ Figure 4 - Schematic diagram of residual strength illustrating that significant accidental
+damage with “no-growth” should not be left in the structure without repair for a long time
+
+             (a) The traditional slow growth approach may be appropriate for certain damage
+types found in composites if the growth rate can be shown to be slow, stable and predictable.
+Slow growth characterization should yield conservative and reliable results. As part of the slow
+growth approach, an inspection program should be developed consisting of the frequency, extent,
+and methods of inspection for inclusion in the maintenance plan. Inspection intervals should be
+established such that the damage will have a very high probability of detection between the time
+it becomes initially inspectable and the time at which the extent of the damage reduces the
+residual static strength to limit load (considered as ultimate), including the effects of
+environment. For any detected damage size that reduces the load capability below ultimate, the
+component is either repaired to restore ultimate load capability or replaced. Should functional
+impairment (such as unacceptable loss of stiffness) occur before the damage becomes otherwise
+critical, part repair or replacement will also be necessary.
+
+            (b) Another approach involving growth may be appropriate for certain damage types
+and design features adopted for composites if the growth can reliably be shown to be predictable
+and arrested before it becomes critical. Figure 5 shows schematic diagrams for all three damage
+growth approaches applied to composite structure. The arrested growth method is applicable
+when the damage growth is mechanically arrested or terminated before becoming critical
+(residual static strength reduced to limit load), as illustrated in figure 5. Arrested growth may
+occur due to design features such as a geometry change, reinforcement, thickness change, or a
+structural joint. This approach is appropriate for damage growth that is inspectable and found to
+be reliably arrested, including all appropriate dynamic effects. Structural details, elements, and
+
+
+                                                       Page 15
+
+## Page 17
+
+9/8/09                                                                                                                              AC 20-107B
+
+
+subcomponents of critical structural areas, components or full-scale structures, should be tested
+under repeated loads for validating an arrested growth approach. As was the case for a “no-
+growth” approach to damage tolerance, inspection intervals should be established, considering
+the residual strength capability associated with the arrested growth damage size (refer to the
+dashed lines added to figure 5 to conceptually show inspection intervals consistent with the slow
+growth basis). Again, this is intended to ensure that the structure does not remain in a damaged
+condition with residual strength capability close to limit load for long periods of time before
+repair. For any damage size that reduces load capability below ultimate, the component is either
+repaired to restore ultimate load capability or replaced.
+
+                                                     See Figure 4 for an example residual strength curve for the "No Growth" Case.
+
+
+                          Ultimat~!==r===============-==:----------­
+                                                        ~ :.:_ - - - - +
+           Static Strength
+                           Limit               --1-------'l:.:-=-=-==Ar=--re=st-=e=d=--G=row=-=t=h=--=-=-=-==--=-=------------"-i..----
+
+
+
+
+                                                         + ------ ..
+           Damage Size                                         _ _J       Arrested Growth
+                                                                     -+-- ·· - ·· - ·· - ·· - ·· +
+                                                        I _J         I No G~~th .. -        .. -   .. -   . ~low Growth
+                        Threshold of
+                        Detectability_            ---- - I -
+
+                                                                                                   Slow Growth                 time
+                                                                                           Inspection Interval Basis
+
+                 -+-- ·· -   ·· -   ·· -   •       Acceptable "No-growth" Inspection Interval for
+                                                   Damage Shown
+
+                 ..... --------- ~                 Acceptable "Arrested Growth" Inspection Interval for
+                                                   Damage Shown
+
+    Figure 5 - Illustrations of residual strength and damage size relationships for three
+      different approaches to composite structural damage tolerance substantiation
+
+           (c) The repeated loading should be representative of anticipated service usage. The
+repeated load testing should include damage levels (including impact damage) typical of those
+that may occur during fabrication, assembly, and in-service, consistent with the inspection
+techniques employed. The damage tolerance test articles should be fabricated and assembled in
+accordance with production specifications and processes so that the test articles are
+representative of production structure.
+
+        (3) The extent of initially detectable damage should be established and be consistent with
+the inspection techniques employed during manufacture and in service. This information will
+naturally establish the transition between Category 1 and 2 damage types (i.e., inspection
+methods used by trained inspectors in scheduled maintenance). For damage that is clearly
+detectable to an extent that it will likely be found before scheduled maintenance (i.e., allowing
+classification as Category 3 damage), detection over shorter intervals and by untrained personnel
+
+
+
+                                                                   Page 16
+
+## Page 18
+
+9/8/09                                                                                  AC 20-107B
+
+
+may be permitted. Flaw/damage growth data should be obtained by repeated load cycling of
+intrinsic flaws or mechanically introduced damage. The number of cycles applied to validate
+both growth and no-growth concepts should be statistically significant, and may be determined
+by load and/or life considerations and a function of damage size. The growth or no growth
+evaluation should be performed by analysis supported by test evidence or by tests at the coupon,
+element, or subcomponent level.
+
+        (4) The extent of damage for residual strength assessments should be established,
+including considerations for the probability of detection using selected field inspection
+procedures. The first four categories of damage should be considered based on the damage
+threat assessment. In addition, Category 3 damage should be detected in a walk-around
+inspection or through the normal course of operations. Residual strength evaluation by
+component or subcomponent testing or by analysis supported by test evidence should be
+performed considering that damage. The evaluation should demonstrate that the residual
+strength of the structure will reliably be equal to or greater than the strength required for the
+specified design loads (considered as ultimate), including environmental effects. The statistical
+significance of reliable subcomponent and detail residual strength assessments may include
+conservative methods and engineering judgment. It should be shown that stiffness properties
+have not changed beyond acceptable levels.
+
+            (a) For the no-growth, slow growth, arrested growth approaches, residual strength
+testing should be performed after repeated load cycling. All probabilistic analyses applied for
+residual strength assessments should properly account for the complex nature of damage defined
+from a thorough damage threat assessment. Conservative damage metrics are permitted in such
+analyses assuming sufficient test data on repeated load and environmental exposure exists.
+
+            (b) Composite designs should afford the same level of fail-safe, multiple load path
+structure assurance as conventional metals design. Such is also the expectation in justifying the
+use of static strength allowables with a statistical basis of 90 percent probability with 95 percent
+confidence.
+
+           (c) Some special residual strength considerations for bonded structure are given in
+paragraph 6.c.(3).
+
+        (5) The repeated load spectrum developed for fatigue testing and analysis purposes
+should be representative of the anticipated service usage. Low amplitude load levels that can be
+shown not to contribute to damage growth may be omitted (truncated). Reducing maximum load
+levels (clipping) is generally not accepted. Variability in repeated load behavior should be
+covered by appropriate load enhancement or life scatter factors and these factors should take into
+account the number of specimens tested. The use of such factors to demonstrate reliability in
+component tests should be consistent with the fatigue and damage tolerance behavior
+characterized for the materials, processes and other design details of the structure in building
+block tests.
+
+      (6) An inspection program should be developed consisting of frequency, extent, and
+methods of inspection for inclusion in the maintenance plan. Inspection intervals should be
+
+
+
+                                              Page 17
+
+## Page 19
+
+9/8/09                                                                               AC 20-107B
+
+
+established such that the damage will be reliably detected between the time it initially becomes
+detectable and the time at which the extent of damage reaches the limits for required residual
+strength capability. The potential for missed inspections should be considered.
+
+            (a) For the case of no-growth design concept, inspection intervals should be
+established as part of the maintenance program. In selecting such intervals, the residual strength
+level associated with the assumed damages should be considered. This point was illustrated in
+figures 4 and 5. Note that an acceptable inspection interval for the larger damages shown for the
+“no-growth” and “arrested growth” options in figures 4 and 5 was conceptually shown as related
+to an acceptable slow growth basis in terms of the residual strength and time below ultimate load
+before damage was detected and repaired. Data on the probability of occurrence for different
+damage sizes also helps define an inspection interval.
+
+            (b) A thorough composite damage threat assessment and the separation of different
+damage sizes into categories, each with associated detection methods, supports programs using a
+rigorous damage tolerance assessment to avoid conservative design criteria with very large
+damage assumptions. In such cases, Category 2 damage types will require the structural
+substantiation of well-specified and reliable inspection methods applied by trained inspectors at
+scheduled maintenance intervals (by default, Category 1 damage is at the threshold of this
+evaluation). Those damages classified as Category 3 may take advantage of shorter service time
+intervals provided sufficient structural substantiation exists with demonstrated proof that there
+will be early detection by untrained ramp maintenance or operations personnel. By definition,
+Category 4 damage will require residual strength substantiation to levels that complete a flight
+with limited maneuvers based on the associated regulatory loads. Due to the nature of service
+events leading to Category 4 damage, suitable inspections will need to be defined to evaluate the
+full extent of damage, prior to subsequent aircraft repair and return to service. By definition,
+Category 5 damages do not have associated damage tolerance design criteria or related structural
+substantiation tasks. Category 5 damage will require suitable inspections based on engineering
+assessment of the anomalous service event, and appropriate structural repair and/or part
+replacement, prior to the aircraft re-entering service.
+
+        (7) The structure should be able to withstand static loads (considered as ultimate loads)
+which are reasonably expected during a completion of the flight on which damage resulting from
+obvious discrete sources occur (i.e., uncontained engine failures, etc.). The extent of damage
+should be based on a rational assessment of service mission and potential damage relating to
+each discrete source. Structural substantiation will be needed for the most critical Category 4
+damage as related to the associated load cases. Those Category 4 damages that will not require
+specific residual strength assessments for the associated get home loads because they have high
+margins (e.g., severe in-flight hail) will likely still require suitable inspections because their
+detectability may not be consistent with the substantiations validated for Category 2 damage
+types.
+
+        (8) The effects of temperature, humidity, and other environmental or time-related aging
+factors which may result in material property degradation should be addressed in the damage
+tolerance evaluation. Unless tested in the environment, appropriate environmental factors should
+be derived and applied in the evaluation.
+
+
+
+                                             Page 18
+
+## Page 20
+
+9/8/09                                                                                  AC 20-107B
+
+
+
+    b. Fatigue Evaluation. Fatigue substantiation should be accomplished by component
+fatigue tests or by analysis supported by test evidence, accounting for the effects of the
+appropriate environment. The test articles should be fabricated and assembled in accordance
+with production specifications and processes so that the test articles are representative of
+production structures. Sufficient component, subcomponent, element or coupon tests should be
+performed to establish the fatigue scatter and the environmental effects. Component,
+subcomponent, and/or element tests may be used to evaluate the fatigue response of structure
+with impact damage levels typical of those that may occur during fabrication, assembly, and in
+service, consistent with the inspection procedures employed. Other allowed manufacturing and
+service defects, which would exist for the life of the structure, should also be included in fatigue
+testing. It should be demonstrated during the fatigue tests that the stiffness properties have not
+changed beyond acceptable levels. Replacement lives should be established based on the test
+results. By definition, Category 1 damage is subjected to fatigue evaluation and expected to
+retain ultimate load capability for the life of the aircraft structure.
+
+    c. Combined Damage Tolerance and Fatigue Evaluation. Generally, it is appropriate for
+a given structure to establish both an inspection program and demonstrate a service life to cover
+all detectable and non-detectable damage, respectively, which is anticipated for the intended
+aircraft usage. Extensions in service life should include evidence from component repeated load
+testing, fleet leader programs (including NDI and destructive tear-down inspections), and
+appropriate statistical assessments of accidental damage and environmental service data
+considerations.
+
+9. Proof of Structure – Flutter and Other Aeroelastic Instabilities. The aeroelastic
+evaluations, which includes flutter, control reversal, divergence, and any undue loss of stability
+and control as a result of structural loading and resulting deformation, are required. Flutter and
+other aeroelastic instabilities must be avoided through design, quality control, maintenance, and
+systems interaction.
+
+     a. The evaluation of composite structure needs to account for the effects of repeated
+loading, environmental exposure, and service damage scenarios (e.g., large Category 2, 3 or 4
+damage) on critical properties such as stiffness, mass, and damping. Some control surfaces
+exposed to large damage retain adequate residual strength margins, but the potential loss of
+stiffness or mass increase (e.g., sandwich panel disbond and/or water ingression) may adversely
+affect flutter and other aeroelastic characteristics. This is particularly important for control
+surfaces that are prone to accidental damage and environmental degradation. Other factors such
+as the weight or stiffness changes due to repair, manufacturing flaws, and multiple layers of paint
+need to be evaluated. There may also be issues associated with the proximity of high
+temperature heat sources near structural components (e.g., empennage structure in the path of jet
+engine exhaust streams or engine bleed air pneumatic system ducting). These effects may be
+determined by analysis supported by test evidence, or by tests at the coupon, element or
+subcomponent level.
+
+10. Continued Airworthiness. The maintenance and repair of composite aircraft structure
+should meet all general, design and fabrication, static strength, fatigue/damage tolerance, flutter,
+
+
+
+                                              Page 19
+
+## Page 21
+
+9/8/09                                                                                 AC 20-107B
+
+
+and other considerations covered by this AC as appropriate for the particular type of structure
+and its application.
+
+     a. Design for Maintenance. Composite aircraft structure should be designed for inspection
+and repair access in a field maintenance environment. The inspection and repair methods
+applied for structural details should recognize the special documentation and training needed for
+critical damage types that are difficult to detect, characterize, and repair. The inspection
+intervals and life limits for any structural details and levels of damage that preclude repair must
+be clearly documented in the appropriate continued airworthiness documents.
+
+    b. Maintenance Practices. Maintenance manuals should be developed by the appropriate
+organizations to include the necessary inspection, maintenance, and repair procedures for
+composite structures, including jacking, disassembly, handling, part drying methods, and
+repainting instructions (including restrictions for paint colors that increase structural
+temperatures). Special equipment, repair materials, ancillary materials, tooling, processing
+procedures, and other information needed for inspection or repair of a given part should be
+identified since standard field practices, which have been substantiated for different aircraft types
+and models, are not common.
+
+         (1) Damage Detection.
+
+            (a) Procedures used for damage detection must be shown to be reliable and capable
+of detecting degradation in structural integrity below ultimate load capability. These procedures
+must be documented in the appropriate sections of the instructions for continued airworthiness.
+This should be substantiated in static strength, environmental resistance, fatigue, and damage
+tolerance efforts as outlined in paragraphs 6, 7, and 8. Substantiated detection procedures will be
+needed for all damage types identified by the threat assessment, including a wide range of
+foreign object impact threats, manufacturing defects, and degradation caused by overheating.
+Degradation in surface layers (e.g., paints and coatings) that provide structural protection against
+ultraviolet exposure must be detected. Any degradation to the lightning strike protection system
+that affects structural integrity, fuel tank safety, and electrical systems must also be detected.
+
+           (b) Visual inspection is the predominant damage detection method used in the field
+and should be performed under prescribed lighting conditions. Visual inspection procedures
+should account for access, time relaxation in impact damage dent depth, and the color, finish,
+and cleanliness of part surfaces.
+
+        (2) Inspection. Visual indications of damage, which are often used for composite
+damage detection, provide limited details on the hidden parts of damage that require further
+investigation. As a result, additional inspection procedures used for complete composite damage
+characterization will generally be different than those used for initial damage detection and need
+to be well documented. Nondestructive inspection performed prior to repair and destructive
+processing steps performed during repair must be shown to locate and determine the full extent
+of the damage. In-process controls of repair quality and post-repair inspection methods must be
+shown to be reliable and capable of providing engineers with the data to determine degradation
+in structural integrity below ultimate load capability caused by the process itself. Certain
+
+
+
+                                              Page 20
+
+## Page 22
+
+9/8/09                                                                                 AC 20-107B
+
+
+processing defects cannot be reliably detected at completion of the repair (e.g., weak bonds). In
+such cases, the damage threat assessment, repair design features, and limits should ensure
+sufficient damage tolerance.
+
+        (3) Repair. All bolted and bonded repair design and processing procedures applied for a
+given structure shall be substantiated to meet the appropriate requirements. Of particular safety
+concern are the issues associated with bond material compatibilities, bond surface preparation
+(including drying, cleaning, and chemical activation), cure thermal management, composite
+machining, special composite fasteners, and installation techniques, and the associated in-process
+control procedures. The surface layers (e.g., paints and coatings) that provide structural
+protection against ultraviolet exposure, structural temperatures, and the lightning strike
+protection system must also be properly repaired.
+
+        (4) Documentation and Reporting. Documentation on all repairs must be added to the
+maintenance records for the specific part number. This information supports future maintenance
+damage disposition and repair activities performed on the same part. It is recommended that
+service difficulties, damage, and degradation occurring to composite parts in service should be
+reported back to the original equipment manufacturer (OEM) to aid in continuous updates of
+damage threat assessments to support future design detail and process improvements. Such
+information will also support future design criteria, analysis, and test database development.
+
+   c. Substantiation of Repair.
+
+        (1) When repair procedures are provided in FAA-approved documents or the
+maintenance manual, it should be demonstrated by analysis and/or test that the method and
+techniques of repair will restore the structure to an airworthy condition. Repairable damage
+limits (RDL), which outline the details for damage to structural components that may be repaired
+based on existing data, must be clearly defined and documented. Allowable damage limits
+(ADL), which do not require repair, must also be clearly defined and documented. Both RDL
+and ADL must be based on sufficient analysis and test data to meet the appropriate structural
+substantiation requirements and other considerations outlined in this AC. Additional
+substantiation data will generally be needed for damage types and sizes not previously
+considered in design development. Some damage types may require special instructions for field
+repair and the associated quality control. Bonded repair is subjected to the same structural
+bonding considerations as the base design (refer to paragraph 6.c).
+
+         (2) Operators and maintenance repair organizations (MRO) wishing to complete major
+repairs or alterations outside the scope of approved repair documentation should be aware of the
+extensive analysis, design, process, and test substantiation required to ensure the airworthiness of
+a certificated structure. Documented records and the certification approval of this substantiation
+should be retained to support any subsequent maintenance activities.
+
+   d. Damage Detection, Inspection and Repair Competency.
+
+       (1) All technicians, inspectors, and engineers involved in damage disposition and repair
+should have the necessary skills to perform their supporting maintenance tasks on a specific
+
+
+
+                                             Page 21
+
+## Page 23
+
+9/8/09                                                                               AC 20-107B
+
+
+composite structural part. The continuous demonstration of acquired skills goes beyond initial
+training (e.g., similar to a welder qualification). The repair design, inspection methods, and
+repair procedures used will require approved structural substantiation data for the particular
+composite part. Society of Automotive Engineers International (SAE) Aerospace Information
+Report (AIR) 5719 outlines training for an awareness of the safety issues for composite
+maintenance and repair. Additional training for specific skill-building will be needed to execute
+particular engineering, inspection, and repair tasks.
+
+        (2) Pilots, ramp maintenance, and other operations personnel that service aircraft should
+be trained to immediately report anomalous ramp incidents and flight events that may potentially
+cause serious damage to composite aircraft structures. In particular, immediate reporting is
+needed for those service events that are outside the scope of the damage tolerance substantiation
+and standard maintenance practices for a given structure. The immediate detection of Category 4
+and 5 damages are dependent on the proper reaction of personnel that operate and service the
+aircraft. Please refer to regulations in parts 21, 121, and 135 for reporting requirements.
+
+11. Additional Considerations.
+
+   a. Crashworthiness.
+
+        (1) The crashworthiness of the aircraft is dominated by the impact response
+characteristics of the fuselage. Regulations, in general, evolve based on either experience gained
+through incidents and accidents of existing aircraft or in anticipation of safety issues raised by
+new designs. In the case of crashworthiness, regulations have evolved as experience has been
+gained during actual aircraft operations. For example, emergency load factors and passenger
+seat loads have been established to reflect dynamic conditions observed from fleet experience
+and from controlled FAA and industry research. Fleet experience has not demonstrated a need to
+have an aircraft level crashworthiness standard. As a result, the regulations reflect the
+capabilities of traditional aluminum aircraft structure under survivable crash conditions. This
+approach was satisfactory as aircraft have continued to be designed using traditional construction
+methods. With the advent of composite fuselage structure and/or the use of novel design, this
+historical approach may no longer be sufficient to substantiate the same level of protection for
+the passengers as provided by similar metallic designs.
+
+        (2) Airframe design should assure that occupants have every reasonable chance of
+escaping serious injury under realistic and survivable crash impact conditions. A composite
+design should account for unique behavior and structural characteristics, including major repairs
+or alterations, as compared with conventional metal airframe designs. Structural evaluation may
+be done by test or analysis supported by test evidence. Service experience may also support
+substantiation.
+
+       (3) The crash dynamics of an aircraft and the associated energy absorption are difficult to
+model and fully define representative tests with respect to structural requirements. Each aircraft
+product type (i.e., transport, small airplane, rotorcraft) has unique regulations governing the
+crashworthiness of particular aircraft structures. The regulations and guidance associated
+
+
+
+
+                                             Page 22
+
+## Page 24
+
+9/8/09                                                                                 AC 20-107B
+
+
+with each product type should be used accordingly. The regulations for transport airplane and
+rotorcraft address some issues that go beyond those required of small airplanes.
+
+        (4) Special conditions are anticipated for transport category airplanes with composite
+fuselage structure to address crashworthiness survivability. The impact response of a composite
+transport fuselage structure must be evaluated to ensure the survivability is not significantly
+different from that of a similar-sized aircraft fabricated from metallic materials. Impact loads
+and resultant structural deformation of the supporting airframe and floor structures must be
+evaluated. Four main criteria areas should be considered in making such an evaluation.
+
+            (a) Occupants must be protected during the impact event from release of items of
+mass (e.g., overhead bins).
+
+           (b) The emergency egress paths must remain following a survivable crash.
+
+           (c) The acceleration and loads experienced by occupants during a survivable crash
+must not exceed critical thresholds.
+
+           (d) A survivable volume of occupant space must be retained following the impact
+event.
+
+        (5) The criticality of each of these four criteria will depend on the particular crash
+conditions. For example, the loads and accelerations experienced by passengers may be higher
+at lower impact velocities where structural failures have not started to occur. As a result,
+validated analyses may be needed to practically cover all the crashworthiness criteria for
+transport fuselage.
+
+       (6) Existing transport airplane requirements also require that fuel tank structural integrity
+be addressed during a survivable crash impact event as related to fire safety (also refer to
+paragraph 11.b). As related to crashworthiness, composite fuel tank structure must not fail or
+deform to the extent that fire becomes a greater hazard than with metal structure.
+
+         (7) Physics and mechanics of the crashworthiness for composite structures involve
+several issues. The local strength, energy absorbing characteristics, and multiple, competing
+failure modes need to be addressed for composite structure subjected to a survivable crash. This
+is not simply achieved for airframe structures made from anisotropic, quasi-brittle, composite
+materials. As a result, the accelerations and load histories experienced by passengers and
+equipment on a composite aircraft may differ significantly from that seen on a similar metallic
+aircraft unless specific considerations are designed into the composite structure. In addition, care
+should be taken when altering composite structure to achieve specific mechanical behaviors.
+(For example, where the change in behavior of a metallic structure with a change in material
+thickness may be easily predicted, an addition or deletion of plies to a composite laminate may
+also require data for the effects of laminate stacking sequence on the failure mode and energy
+absorption characteristics of a composite element.)
+
+
+
+
+                                              Page 23

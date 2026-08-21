@@ -1,0 +1,1311 @@
+---
+source_id: tire_faa_ac65_15a_landing_gear
+domain: tire
+title: "FAA Airframe and Powerplant Mechanics Airframe Handbook: Aircraft Tire Inspection"
+url: https://www.faa.gov/documentlibrary/media/advisory_circular/ac_65-15a.pdf
+parser: pdftotext-layout
+source_sha256: DB5DFC68045FA7F71EA5BC79A30439DB2718CA5B1AA210194D9D4AB43B15A310
+review_status: machine_parsed_pending_expert_review
+---
+
+# FAA Airframe and Powerplant Mechanics Airframe Handbook: Aircraft Tire Inspection
+
+## Page 388
+
+Suitable retainers are supplied inboard of the inner          Beads
+bearing to prevent grease from reaching the brake                Made of steel wires embedded in rubber and
+lining. Felt seals are provided to prevent dirt               wrapped in fabric, the beads anchor the carcass
+from fouling multiple-disk brakes. Seals are also             plies and provide firm mounting surfaces on the
+supplied on amphibian airplanes to keep out water.            wheel.
+AIRCRAFT TIRES
+                                                              Flippers
+  Aircraft tires, tubeless or tube type, provide a
+cushion of air that helps absorb the shocks and                  These layers of fabric and rubber insulate the
+roughness of landings and takeoffs: they support              carcass from the bead wires and improve the dura-
+the weight of the aircraft while on the ground and            bility of the tire.
+provide the necessary traction for braking and
+~topping aircraft on landing. Thus, aircraJt tires            Chafers
+must be carefully maintained to meet the- rigorous              Layers of fabric and rubber that protect -the
+demands of their basic job ... to accept' a variety           carcass from damage during mounting and de-
+of static and dynamic stresses dependably-in a                mounting. They insulate the carcass from brake
+wide range of operating conditions.                           heat and provide a good seal against movement
+Aircraft Tire Construction                                    during dynamic operations.
+   Dissect an aircraft tire and you'll find that it's
+one of the strongest and toughest pneumatic tires             Bead Toe
+made. It must withstand high speeds and very                     The inner bead edge closest to the tire center
+heavy static and dynamic loads. For example, the              line.
+main gear tires of a four-engine jet transport are
+required to withstand landing speeds up to 250                Bead Heel
+mph, as well as static and dynamic loads as high                 The outer bead edge which fits against the wheel
+as 22 and 33 tons respectively. Typical construc-             flange.
+tion is shown in figure 9-49.
+Tread                                                         lnnerliner
+  Made of rubber compound for toughness and                      On tubeless tires, this inner layer of less perme-
+durability, the tread is patterned in accordance              able rubber acts as a built-in tube, it prevents air
+with aircraft operational requirements. The cir-              from seeping through casing plies. For tube type
+cumferential ribbed pattern is widely used today              tires, a thinner rubber liner is used to prevent tube
+because it provides good traction under widely                chafing against the inside ply.
+varying runway conditions.
+                                                              Tread Reinforcing Ply
+Tread Reinforcement                                             Rubber compound cushion between tread and
+   One or more layers of reinforced nylon cord                casing plies, provides toughness and durability.
+fabric strengthens the tread for high speed opera-            It adds protection against cutting and bruising
+tion. Used mainly for high speed tires.                       throughout the life of the tread.
+
+Breakers                                                      Sidewall
+   Not always used, these extra layers of reinforc-              Sidewalls are primarily covers over the sides of
+ing nylon cord fabric are placed under the tread              the cord body to protect the cords from injury and
+rubber to protect casing plies and strengthen tread           exposure. Little strength is imparted to the cord
+area. They are considered an intf'gral part of the            body by the sidewalls. A special sidewall con-
+carcass construction.                                         struction, the "chine tire," is a nose wheel tire
+                                                              designed with built-in deflector to divert runway
+Casing Plies/Cord Body                                        water to the side, thus reducing water spray in the
+                                                              area of rear mounted jet engines.
+   Diagonal layers of rubber-coated nylon cord
+fabric (running at opposite angles to one another)
+provide the strength of a tire. Completely encom-             Apex Strip
+passing the tire body, the carcass plies are folded             The apex strip is additional rubber formed
+around the wire beads and back against the tire               around the bead to give a conture for anchoring
+sidewalls (the "ply turn ups") .                              the ply turnups.
+
+                                                        377
+
+## Page 389
+
+                                     Frc;uRE 9-49. Aircraft tire construction.
+
+Aircraft Tire Care                                         according to information available from a tire
+   Tires are as vital to the operation of aircraft as      dealer.
+they are to the operation of an automobile. During            Even though using a tire gage is the only ac-
+ground operation tires can be considered as ground         curate way to spot-check inflation, a quick visual
+control surfaces. The same rules of safe driving           inspection of the tread can reveal if air pressure
+and careful inspection apply on the runway as on           has been consistently high or low. Excessive wear
+the highway.                                               in the shoulder area of the tire is an indication of
+   They include control of speed, braking, and             under inflation. Excessive wear in the center of the
+cornering, and inspection for proper inflation, cuts,      tire suggests over inflation.
+bruises, and signs of tread wear. Contrary to
+what most people think-including many beginning              Tires should also be carefully inspected for cuts
+pilots-the toughest demand on aircraft tires is            or bruises. The best way to avoid aircraft tire
+rapid heat buildup during lengthy ground opera-            cuts and bruises is to slow down when unsure of
+tions, not the impact of hard landings.                    runway or taxiing surface conditions.
+   Aircraft tires are designed to flex more than              Since airplane tires .have to grip the runway in
+automotive tires-over twice as much. This flexing          the same way car tires grip the road, tread depth
+causes internal stress and friction as tires roll on       is also important. Tread grooves must be deep
+the runway. High temperatures are generated,               enough to permit water to pass under the tires,
+damaging the body of the tire.                             minimizing the danger of skidding or hydroplan-
+   The best safeguards against heat buildup in air-        ing on wet runways. Tire trea·ds should be in-
+craft tires are short ground rolls, slow taxi speeds,      spected visually or with an approved depth gage
+minimum braking, and proper tire inflation.                according to manufacturers' specifications.
+   Excessive braking increases tread abrasion. Like-          Another inspection goal is detection and re-
+wise, fast cornering accelerates tread wear. Proper        moval of any traves of gasoline or oil on the tires.
+inflation assures the correct amount of flexing and        Such mineral fluids damage rubber, reducing tire
+keeps heat buildup to a minimum, increasing tire           life. Likewise, tires should be inspected for ozone
+life and preventing excessive tread wear.                  or weather checking. Electricity changes oxygen
+   Inflation pressure should always be maintained          in the air to ozone, which also prematurely ages
+as specified in the aircraft maintenance manual or         rubber.
+
+                                                        378
+
+## Page 390
+
+                                               MATCHING DUAl, TIRES
+
+  Matching tires on dual wheels, or dual wheels on a               0. D. Range of Tires      Maximum Tolerance
+  multi-wheel gear configuration, is necessarv so that each                                     Permissable
+  tire will have the same contact area with the ground and
+  thereby carry an equal share of the load. Only those                   Up to 24"                 1/4"
+  tires having inflated diameters within the tolerances                  25" to 32"              --5/16"
+  listed below should be paired together on dual wheels.                 33" to 40"                3/8"
+                                                                         41" to 48"                7/16"
+  Tires should not be measured until thev have been                      49" to 55"                1/2'"
+  mounted and kept fully inflated for at )past 12 hours,                 56" to 65"                9/16"
+  at normal room temperatttrPs.                                          66" and up                5/8"
+
+                               FICURF. 9-50.   Matching tires on dual wheel installations.
+
+   Aircraft tires should be stored in a cool dry               Allow For Nylon Stretch
+place away from electric motors. The manufac·                    All aircraft tires are now made with nylon cord,
+turers specifications should be followed at all times          and the initial 24-hour stretch of a newly mounted
+when performing tire maintenance.                              nylon tire may result in a 5 percent to 10 percent
+  Tires on dual wheel aircraft will have a longer              drop in air pressure. Thus, such a tire should not
+operational lift• if matched as suggested in figure            be placed in service until it has been left to stand
+9-50.                                                          at least 12 hours after being mounted and inflated
+                                                               to regular operating prt>ssure. The air pressure
+                                                               should then be adjusted to compensate for the
+AIRCRAFT TIRE MAINTENANCE                                      decrease in pressure caused by the stretching of
+  All aircraft tire manufacturers publish mainte·              the cord body.
+nance manuals and instruction manuals.
+                                                               Tubeless Air Diffusion Loss
+  The following discussion on aircraft tires is ex-
+cerpted from the B.F. Goodrich publication Care                   Maximum allowable diffusion is 5 percent
+and Maintenance of Aircraft Tires, Fourth Edition,             for any 24-hour period. However, no accurate
+and is published with their permission.                        tests can be made until after the tire has been
+                                                               mounted and inflated foF at least 12 hours, and air
+Proper Inflation For Satisfactory Service                      added to compensate for pressure drop due to
+   Proper inflation is undoubtedly the most neces-             normal nylon cord body expansion, and any
+sary maintenance function for safe, long service               changes in tire temperature. A pressure drop of
+from aircraft tires.                                           over 10 percent during this initial period should be
+   Tire pressures should be checked with an ac·                sufficient reason to not place tht> tire and wheel
+curate gage at least once a week or oftener, and it            assembly into service.
+is recommended that they be checked before each                For Duals: Equalize Pressures
+flight. Otherwise, if a slow leak should develop, it
+                                                                  Differences of air pressure in tires mounted as
+could cause severe loss of air within two or three
+                                                               duals, whether main or nose, should be cause for
+days, with resulting damage to the tire and tube.
+                                                               concern, as it ordinarily means that one tire is
+Air pressures should only be checked when tires
+                                                               carrying more of the load than the other. If there
+are cool. Wait at least two hours after a flight
+                                                               is a difference of more than 5 lbs., it should be
+before checking pressures (three hours in hot
+                                                               noted in the log. The log-book should then be
+weather).
+                                                               referred to on each subsequrnt inflation check.
+For New Mountings                                              Impending tire or tube failure can often be de-
+   A newly mounted tire and/or tube should be                  tected by this method. Should a pressure differ-
+checked at least daily for several days, after which           ence be found, check the valve core by spreading
+the regular inflation control schedule may be fol-             a little water owr the end of the valve. If no
+lowed. This is necessary because air is usually                bubble appears, it can be assumed that the valve
+trapped between the tire and tube at the time of               core is holding pressure satisfactorily.
+mounting, giving a false pressure reading. As this
+trapped air seeps out under the beads of the tire              Sources of Pressure Data
+and around the valve hole in the wheel, the tire                  Inflation of nose wheel tires should follow the
+may become severely under inflated within a day                recommendations of the aircraft manufacturers,
+or two.                                                        because they take into consideration both the extra
+
+                                                           379
+
+## Page 391
+
+load transferred to the nose wheel by the braking               Observe Load Recommendations
+effect and by the static load. Air pressure in the                 Since the beginning of air transportation, air·
+nose wheel tire, based on the static load only, would           craft tires have been doing tht>ir required job with
+result in under inflation for the load carried when             increasing efficiency and safety. But there is a
+the brakes are applied. Tail wheel tires, however,              limit to the load that any aircraft tire can safely
+should be inflated in accordance with the axle                  and efficiently carry.
+static load.                                                       Loading aircraft tires above the limit can result
+  When tires are inflated under load, the recom·                in these undesirable effects:
+mended pressure should be increased by 4 percent.                  1. Undue str~in is put on the cord body and
+The reason is that the deflected portion of the tire                  beads of the tire, reducing the factor of safety
+causes the volume of the air chamber to be reduced,                    and reducing service life.
+and increases the inflation pressure reading, which                2. There is grt>ater chance of bruising upon
+must then be offset in accordance with the above                       striking an obstruction or upon landing
+rule.                                                                  (bruise brt>aks, impact breaks and flex breaks
+                                                                       in the sidewall or shoulder) .
+ Effects of Under Inflation                                       3. Possibility of damaging wheels. Under the
+                                                                      severe strain of an extra load, a wheel may
+   Undt>r inflation rt>sults in harmful and potentially
+dangerous effects. Aircraft tires which are under                     fail before the tire does.
+inflated are much mort> likt>ly to crt't'p or slip on       Note: While additional air pressure (inflation) to
+the wheels on landing or when brakes are applied.           offset incrt>aSt>d loads can reduce excessive tire de·
+Tube valves can shear off, and the complete tire,           flection, it puts an added strain on the cord body,
+tube and wheel assembly can be destroyed under              and increases its susceptibility to cutting, bruiSt>s
+such conditions. Too-low prt>ssures can also cause          and impact breaks.
+rapid or unevt>n W('ar at or near the edge of the
+tread.                                                      Nylon Flat-Spotting
+   Undt>r inflation provides more ooportunity for the          Nylon aircraft tires will develop temporary fiat
+sidt>walls or the shouldt>rs of the tirt> to be crushed     spots under static load. The degree of this Oat·
+by the wheel's rim flanges on landing or upon               spotting will vary according to the drop in the
+striking the edge of a runway while maneuvering             internal prt>ssure in the tire and the amount of
+the aircraft. Tires may flt>x over the wheel flange.        weight being sustained by the tire. Naturally, Oat·
+with greater possibility of damage to the bt>ad and         spotting can be more severe during cold weather
+lowt>r sidewall areas. A bruise break or rupture            and is more difficult to work out of a tire at lower
+of the tirt>'s cord body can result.                        temperatures.
+   Severe under inflation may result in cords being            Under normal conditions, a Oat spot will dis·
+looSt>ned and the tire dt>stroyt>d bt>cause of extreme      appear by the end of the taxi run. If it doesn't,
+heat and strain product>d by the excessive flexing          the tire can generally be reshaped by overinflating
+action. This same condition could cause inner tube          it 25 percent or 50 percent and moving the aircraft
+chafing and a resultant blowout.                            until the low spot is on the upper side. This pres·
+
+
+
+
+                                  PREVENTIVE MAINTENANCE SUMMARY
+
+   • Check tire pressures with an accurate gage at              • Check for abnormal diffusion loss.
+     least once a week, and before each flight. Tires
+     should be at ambient temperature.                          • Follow inflation recommendations carefully - guard
+                                                                  against underinflation.
+   • Check newly mounted tires or tubes daily for sev-
+     eral days.                                                 • Observe load recommendations.
+   • Newly mounted tires should not be placed in                • Move aircraft regularly or block up when out of
+     service until cord body stretch has beeri compen·            service for long periods.
+     sated with re-inflation.
+
+
+
+                                   FIGURE 9-51.   Preventive maintenance summary.
+
+                                                          380
+
+## Page 392
+
+ sure ~hould he left in the tire for one hour. It may             Tires with cuts or other injuries which expose
+ even he necessarv to taxi or tow the aircraft until           or penetrate the cord body, should he removed and
+the reshaping is. accompli~hed. Needless to say,               repaired, recapped or scrapped. Where a cut does
+any flat spot can cause sewre vibration and other              not expose the carcass cord body, taking the tire
+unpleasant sensations to both pilot and passengers.            out of service is not required.
+    Aircraft that is to remain idle for a period                  Remove any tires that show si-gns of a bulge in
+ longer than three days should either he moved                 the tread or sidewall. This may be the result of
+every 48 hours or blocked up so that no weight is              an injury to the cord body, or may indicate tread
+on the tires. Aircraft in storage (out of service              or ply separation. Always mark such a bulged
+for more than 14 days) should he blocked up so                 area with tire crayon before deflating the tire;
+that there is no weight on the tires.                          otherwise, it may he very difficult, if not impos-
+   Figure 9-51 gives a brief, summary checklist of             sible, to locate the area after the tire is deflated.
+tire preventive maintenance.                                   Sidewall Injuries
+                                                                 Inspect both sidewalls for evidence of weather
+                                                               or ozone checking and cracking, radial cracks, cuts,
+ TIRE INSPECTION-MOUNTED ON WHEEL                              snags, gouge~, t•tc. If cords are exposed or dam-
+ Leaks Or Damage At Valve                                      aged. the tires should be removed from sen·ice.
+   To check valves for leaks, put a small amount               When To Remove For Recapping
+ of water on the end of the \·alve stem and watch
+                                                                 Check tires for possible need of recapping. They
+ for air bubbles. If bubbles appear, replace the
+                                                               should he taken out of service when:
+ valve core and repeat this check.
+   Always inspect the valve to he sure the threads                (a) They have one or more flat spots. Generally,
+ are not damaged; otherwise, the valve core and                       a single flat spot or skid burn does not ex-
+ valve cap ·will not fit properly. If threads are                     pose the carcass cord body and the tire may
+damaged, the valve can usually he rethreaded, in·                     remain in service, unless severe unbalance
+side or outside, by use of a valve repair tool, with-                 is reported by the aircraft crew.
+out demounting the tire from the wheel.                           (b) They show 80 percent or more tread wear.
+   Make certain that every valve has a valve cap on               (c) There are numerous cuts that would require
+it-screwed on firmly with the fingers. The cap                        repair. In other words, if the cost of re-
+prevents dirt, oil and moistun• from getting inside                   pairing the cuts would amount to 50 percent
+the valve and damaging the core. It also seals in                     or more of tht• recapping cost. it would bC'
+air and serves as protection in case a leak develops                  considered more economical to have the tire
+in the valve core.                                                    recapped.
+   Check the valve to be sure it is not rubbing
+against the wheel. If it is bent, crackl'd, or severely        Uneven Wear
+worn, demount the tire and replact• the tube or                   Check tires for evidencl.' of wheel misalignment.
+valve at once.                                                 Tires showing such Wt'ar should bt' demounted.
+Tread Injuries
+                                                               turned around and remountt'd, in order to even up
+                                                               the wear. Also, cht'ck for spotty, uneven wear due
+    Carefully inspect the tread area for cuts or other         to faulty brakt's so mechanical corrections can
+ injuries. Be sure to remove any glass, stones,                be made as soon as possible.
+metal or other foreign objects that might he em·
+bedded in the tread or that have penetrated the                Wheel Damage
+cord body.                                                        Inspect the entire wheel for damage. Wheel!'<
+   Use a blunt awl for this purpose, although a                which are cracked or injured !'<hould be taken out
+medium size screwdriver can be used if a blunt                 of service and laid aside for further checking, re-
+awl is not available. When probing an injury for               pair or replacement.
+foreign material, be careful not to enlarge the in-               When inspecting a mounted tire on the wheel of
+jury or drive the point of the awl or screwdriver              a plane, always be sure that nothing is caught
+into the cord body beyond the depth of the injury.             between the landing gear and the tire, and that no
+When prying out foreign material that might he                 parts of the landing gear are rubbing against tht•
+embedded, the other hand should he held over the               tire.
+injury in such a way that the object will not fly                 At this time, also check thr nacelle into which
+out and strike the person conducting the in~pection            the tire fits, whl'n the landing gear is retracted.
+in the face.                                                   Clearances are sometimrs close and any foreign
+
+                                                         381
+
+## Page 393
+
+  A. A valve cap for every valve.       B. Depth gage shows wear.             C. Mark and remove foreign objects.
+
+                                    FIGURE 9-52.   Basic tire maintenance
+
+material or loose or broken parts in the nacelle             and are easily repaired without the need for fabric
+can cause severe damage to the tire and even cause           reinforcement inside the tire. Tires qualified to
+it to fail upon landing.                                     speeds over 160 mph can be repaired if they
+   Figure 9-52 shows checks to be accomplished               meet the following qualifications: injuries through
+while tire is mounted.                                       the tread must not penetrate more than 40 percent
+                                                             of the actual body plies; they should measure no
+TIRE INSPECTION-TIRE DEMOUNTED                               more than 1Y2" long and %," wide before tread is
+                                                             removed; and after the tread has been removed,
+Periodic Demounting                                          injuries should not be over 1" long and Ys" wide
+   A definite schedule can be set up to provide for          on the surface.
+regular inspections of tires and tubes, after a cer-            Tires qualified to speeds of less than 160 mph
+tain number of hours or landings, and that each              can be repaired if the injury penetrates through
+individual tire and tube be removed from the wheel           more than 40 percent of the actual plies, and is
+for that inspection. However, if an airplane has             no larger than 1" in length. Naturally, there must
+made an emergency or particularly rough landing,             be a limit as to the number of such injuries that
+the tire and tube should be demounted and in-                there can be in the tire. The decision to recondi-
+spected as soon as possible to determine whether             tion or not recondition such a tire should be left
+any hidden damage exists. The wheel should also              up to the tire manufacturer.
+be examined at the same time.
+                                                             Sidewall Conditions
+Probe Injuries
+                                                               Inspect both sidewalls for evidence of weather
+   Probe all cuts, punctures and other tread in-             or ozone checking and cracking, radial cracks, cuts
+juries with a blunt awl and remove any foreign               or snags.
+material. When prying out the foreign material
+imbedded in the tread, the hand should be held                 (a) Scrap any tires with radial cracks extend-
+over the injury in such a position that the object                 ing to the cords.
+will not fly out and strike the person conducting              (b) Scrap any tires with weather-checking,
+the inspection in the face.                                        ozone-checking, or cracking, which extends
+  Squeezing the sidewalls together will also assist,               to the cords. Weather-checking is a normal
+as this will open up the cuts and injuries. Size                   condition affecting all tires and, until cords
+and depth of cuts and injuries can then be deter-                  are exposed, will in no way affect the serv-
+mined by probing with the awl. Do not push the                     iceability or safety of the tire.
+awl point into the cord body beyond the depth of               (c) Tires with cuts or snags in the sidewall area
+the injury.                                                        which have damaged the outer ply should
+                                                                   be scrapped.
+Repairable Injuries
+  Injuries into, or through, the carcass cord body,          Bead Damage
+measuring no more than 1;4" on the outside and                 Check the entire bead and the area just above
+Ys" on the inside, would be considered punctures             the heel of the bead on the outside of the tire for
+
+                                                       382
+
+## Page 394
+
+A. Probe with blunt awl, shield work.         B. Are sidewall cords exposed?           C. Finishing & trip damage,
+                                                                                          repairable.
+                                        FIGURE 9-53.   Basic tire maintenance
+
+chafing from the wheel flange or damage from tire            this area, so examine it carefully for evidence of
+tools. Any blistering or separation of the chafer            damage by tire tools, slippage while in service, or
+strips from the first ply beneath requires repairing         damage that would permit air to escape from in-
+or replacement of the chafer strip. If cords in the          side the tire. Bare cords on the face of the bead
+first ply under the chafer strip are damaged, the            normally will cause no trouble, and such a tire
+tire should be scrapped.                                     should be fit for continued service either as is, or
+   If protruding bead wire, bead wire separation,            after retreading.
+or a badly kinked bead is found, the tire should
+be scrapped.                                                 Liner Blisters
+   Loose or blistered finishing strips can generally            Tubeless tires with liner blisters or liner separa-
+be replaced during the retreading process, but tires         tion areas, larger than 4" x 8", should be scrapped.
+should not be continued in service in that condition.        Generally, small blisters (not over two inches in
+   Figure 9-53 shows checks to be made with tire             diameter) will cause no trouble and do not need
+demounted.                                                   to be repaired. However, do not pierce the
+                                                             blisters or cut them, as this will destroy the air-
+Bulges-Broken Cords
+                                                             retaining ability of the tire.
+   Check any tires which were marked for bulges
+when the tire was mounted and inflated. If no                Thermal Fuze
+break is found on the inside of the tire, probe with
+an awl to determine whether separation exists. If               Some aircraft wheels have fusible plugs that are
+separation is found, the tire should be discarded,           designed to melt at specific elevated temperatures
+unless there is only a small localized separation            and relieve air pressure to prevent the tire's blow-
+between the tread or sidewall rubber and the cord            ing out or breaking of the wheel. Should air be
+body. In this case, spot repair or retreading may            lost due to the melting of one of these plugs, it is
+be satisfactory.                                             recommended that the tire involved be scrapped.
+                                                             However, an effort should be made to determine
+   Any tire found with loose, frayed or broken
+                                                             whether the plug melted at a much lower tempera-
+cords inside should be scrapped.
+                                                             ture than it should have, or whether air could have
+   IMPORT ANT: Do not use an awl or any pointed              been lost around the plug because of improper
+tool on the inside of a tubeless tire for probing or         installation.
+inspection purposes.
+                                                                If a tire has been subjected to a temperature
+Tubeless Tires-Bead Area                                     high enough to melt one of these fuze plugs, it
+  A tubeless tire fits tighter on the wheel than a           should be carefully inspected for evidence of re-
+tube type tire, in order to properly retain air pres-        version of the rubber coating in the rim contact
+sure. Therefore, the face of the bead (the flat              area.
+surface between the toe and heel of the bead) must              Figure 9-54 shows typical marking for bulged
+not be demaged as this may cause the tire to leak.           area, rubber reversion around rim, and outer side-
+The primary sealing surface of the tubeless tire is          wall damage.
+
+                                                         383
+
+## Page 395
+
+      A. Mark bulged areas.           B. Outer sidewall ply damaged,             C. Reversion of rubber from high
+                                                scrap tire.                                wheel heat.
+
+                                     FrcuRE 9-54.   Basic tire maintenance
+
+
+TUBE INSPECTION                                              Chafing
+Proper Size                                                    Inspect tubes for evidence of chafing by the toes
+                                                             of the tire beads. If considerable evidence of this
+   In tube type tires, failure of an inner tube can
+                                                             chafing is present, remove the tube from service
+easily cause irreparable damage to the tire in
+which it is mounted, as well as to the wheel and             and scrap.
+the aircraft itself. It is very important that tubes
+be of the proper size and equipped with the correct
+valves.                                                      Thinning
+   When inspecting tubes do. not inflate with more          Where the heat is greatest, the tube has a tend-
+air than that which is required to simply round           ency to be stretched over the rounded edge of the
+out the inner circumference of the tube. Too             bead seat of the wheel. This is one of the reasons
+much air places a strain on splices and areas around     why, when mounting, tubes should always be in-
+valve stems. In addition, excessive air will damage      flated until the tire beads are in position, and then
+fabric base tubes by causing the fabric base to pull     completely deflated and reinflated to the final pres-
+away from the outside of the tube.                       sure. The stretch on the tube is then equalized
+   Inspect the tube carefully for leaks while under      throughout its inner and outer periphery.
+pressure, preferably by inflating and submerging
+in water. If the tube is too large to be submerged              Also check tubes for possible thinning out due
+in an available water tank, spread water over the            to brake drum heat in the area where they contact
+surface as you inspect the tube, and look for                the wheel and bead toes.
+bubbles.                                                         In fi baure 9-55 it can be seen that the "set" or
+Valve Stems                                                  shape of the tube can assist in determining when
+                                                             it should be removed from service because of thin-
+   Examine the tube carefully around the valve               ning in the bead area. In addition, feeling the
+stem for leaks, signs of valve pad separation, and           tube with the fingers in that area will tell, after a
+bent or damaged valve stems.                                 little practice, when the life has gone out of the
+Wrinkles                                                     tube and it should be scrapped.
+   Tubes with severe wrinkles should be removea                 On wheels with only one brake drum this heat-
+from service and scrapped. These wrinkles are                set condition will normally show up on only one
+evidence of improper fitting of the tube within the          side of the tube. In those cases where the brake
+tire, and wherever a wrinkle occurs, chafing take5           drum is a considerable distance from the rim, it is
+place. A blowout could result.                               unlikely that this condition will ever be experienced.
+
+                                                       384
+
+## Page 396
+
+                        )'~'
+                      ·.•;;,
+
+
+        A. Natural contour.                     B. Taking a "set".                     C. Thinned out at edges.
+
+                                        FIGURE 9-55.   Inner tube inspection.
+
+Fabric Base Tubes                                              sticking to the inside of the tire or to the tire
+   In cases where brake drum heat is a recogniz-               beads.
+ able factor, careful checking of the tube, as well               Dusting also helps the tube assume its normal
+as the tire beads, should be made to prevent a                 shape inside the tire during inflation, and lessens
+failure which might be disastrous. In such in-                 the chances of wrinkling or thinning out.
+stances, fabric base tubes should always be used.                 It is good practice to always mount the tube in
+These have a layer of nylon cord directly im-                  the tire with the valve projecting on the serial side
+bedded in the inner circumference of the tubes to              of the tire.
+protect them from thinning out under brake drum
+heat. Additional protection is also provided against           Lubrication
+chafing action of the tire bead toes and from
+damage during mounting and demounting.                        Tubeless tires fit tighter on the wheel than the
+                                                           tube type. It is therefore desirable to lubricate
+MOUNTING AND DEMOUNTING                                    the toes of the beads with an approved 10 percent
+                                                           vegetable oil soap solution, or plain water. This will
+   The object of these instructions is to show how         facilitate mounting and accomplish proper seating
+to do the job as easily, and safely as possible, using     of the tire beads against the wheel flanges so there
+proper tools, without damaging tires, tubes or             will be no air loss. Care must be used, however,
+wheels.                                                    to make certain that none of the solution gets on
+   Almost every experienced aircraft tire service          the area of the bead making contact with the
+man has developed methods which are more or less           wheel flange.
+his own, and undoubtedly some of these methods                On tube type tires, lubrication of tire beads
+are as practical as the suggestions given here.            may or may not be necessary, depending upon the
+   These instructions are intended to be simple, so        type of wheel being used. An approved mounting
+that they can be carried out with tools which are          solution, such as the 10 percent vegetable oil soap
+commonly available, in contrast to the specialized         solution, or water mentioned above, can be used on
+equipment that is usually available only at larger         the bead toes, and even on the rim side of the inner
+airports or military installations.                        tube, to facilitate mounting.
+
+                                                           Balance
+Inspection, Tube Installation
+                                                              Balance in an aircraft wheel assembly is very
+   Before mounting any tire, examine the wheel             important. From a wear standpoint, when the
+carefully to make sure there are no cracked or             wheels are in landing position a heavy spot in a
+injured parts. Naturally, the tire and tube should         wheel assembly will have a tendency to remain at
+be carefully inspected, as described in the pages          the bottom and thus will always strike the ground
+dealing with tire and tube inspection. A quick             or runway first. This results in severe wear at
+check should always be made to be certain that no          one area of the tire tread and can necessitate early
+foreign material is inside the tire or clinging to         replacement. In addition, unbalanced tires can
+the inner tube.                                            cause severe vibration which may affect the opera-
+   Dust the inside of the tire and the inner tube          tion of the aircraft. In fact, pilots have reported
+outer surface with tire talc or soapstone before the       that sometimes instruments could not be read be-
+tube is installed in the tire. This will prevent its       cause of such vibration.
+
+                                                         385
+
+## Page 397
+
+      A. Valve projecting on serial side of tire.                  R Tube balance mark aligned with tire balance mark.
+
+                                       FIGURE 9-56.    Basic tire and tube assembly.
+
+  Balance marks appear on certain aircraft tubes                   Inflation Safety
+to indicate the heavy portion of the tube. These                   After the tire and tube are mounted on the wheel
+marks are approximately Y2" wide by 2" long.                    the assembly should be placed in a safety cage for
+When the tube is inserted in the tire, the balance              inflation. The cage should be placed against an
+mark on the tube should be located at the balance               outside wall, constructed so as to withstand, if
+mark on the tire (figure 9-56) . If the tube has no             necessary, the effects of an explosion of either the
+balance mark, place the valve at the balance mark               tire, tube or wheel (figure 9-57).
+on the tire.
+                                                                   The air line from the compressor or other air
+  When mounting tubeless aircraft tires, the "red               source should he run to a point at least 20 to 30 ft.
+dot" balance mark on the tire must always be                    away from the safety cage and a valve and pres-
+placed at the valve that is mounted in the wheel.               sure gage installed at that point. The line should
+
+
+
+
+        A. Clip-on chuck permits inflation at                            B. Recommended for all aircraft tire shops.
+           safe distance from tire safety cage.
+
+                                            FIGURE    9-57. Inflation precautions.
+
+                                                             386
+
+## Page 398
+
+then be continued and fastened to the safety cage            Handle Beads and Wheels With Care
+with a rubber hose extending from that connection.          With any type of wheel, the tire beads must be
+A clip-on chuck is then fitted on the end of the         loosened from the wheel flange and bead seat be·
+hose for actual inflation purposes. This arrange·        fore any further steps are taken in demounting.
+ment makes it unnecessary to reach into the cage         Be very careful not to injure the beads of the tire
+to check air pressures or to be anywhere near the
+                                                         or the relatively soft metal of the wheel. Even
+safety cage while the tire is being inflated.            with approved tools, extreme care must be taken.
+Seating Tube Type Tires
+   To seat the tire beads properly on the wheel,             A. Tubeless-Split Wheels
+first inflate the tire to the pressure recommended               In the tubeless design, the tire and wheel are
+for that particular size and for the aircraft on             used to retain air pressure. Inflation is accom·
+which it is to be mounted. Then the tire should              plished through a tubeless tire inflation valve in·
+be completely deflated and finally reinflated to the         stalled in the wheel. The wheel valve hole, in
+correct pressure (do not fasten valve to rim until           which the tubeless tire inflation valve is mounted,
+this has been done) . Use the valve extension for            is sealed against loss of air by a packing ring or
+inflation purposes, if necessary.                             by an "0" ring. (See figure 9-58.)
+   This procedure accomplishes the following: it                 Split wheels are sealed against loss of air by an
+helps to remove any wrinkles in the tube and to              "0" ring mounted in a groove in the mating sur·
+prevent pinching the tube under the toe of the               face of one of the wheel halves.
+bead; it eliminates the possibility of one section
+                                                                Demountable flange wheels are similarly sealed
+of the tube stretching more than the rest and
+                                                             against loss of air by an "0" ring installed in a
+thinning out in that area ; and it assists in the
+                                                             groove on the wheel base under the area covered
+removal of air that might be trapped between the
+                                                             by the demountable flange.
+inner tube and the tire.
+                                                                The air pressure contained in the tubeless tire
+NOTE: With tubeless tires, it is not necessary to
+                                                             seals the tire bead against the wheel bead seat to
+go through this inflation-deflation-reinflation pro·
+                                                             prevent loss of air.
+cedure.
+                                                                Wheels used with disc brakes have thermal fuze
+Let Stand-Then Recheck                                        (relief) plugs installed in the rotor drive area of
+                                                             the wheel as a protective measure against the tire
+   It is recommended that a newly-mounted as·                blowouts due to excessive heat. The plugs have a
+sembly be stored away from work areas for at                 fusible metal core that melts at a predetermined
+least 12 hours and preferably for 24 hours. This             temperature to relieve the high pressure build-up.
+is for the purpose of determining if there is any
+structural weakness in either the tire, tube or
+wheel. This also permits rechecking of the tire,         Mounting
+after the 12- or 24-hour period, to determine any           Check tubeless tire inflation valve and thermal
+drop in pressure and to judge whether this drop          relief plugs for proper installation, and absence of
+in pressure is in accordance with normal tire            damage. Refer to wheel manufacturer's manual
+growth.                                                  for installation procedure.
+   By such a test, when the assembly is mounted             Inspect "0" ring used to seal wheel for damage
+on the aircraft, it can be done with the ·assurance      and replace if necessary.
+that each part of the assembly is satisfactory for          Lubricate "0" ring (as specified by the wheel
+service.                                                 manufacturer) and install in wheel groove. Make
+                                                         sure the "0" ring is free of kinks or twists and is
+Demounting Safety                                        seated properly.
+   Always be sure to deflate tires completely before        Mounting a demountable flange on a wheel base,
+demounting. There have been many serious acci·           be careful not to dislocate or damage the "0'' ring
+dents caused by failure to follow this important         previously installed in the wheel base.
+step. For even a better practice, it is recommended         Mount tubeless tires in the same manner as tube
+that tires be deflated before wheels are removed         type tires. Make sure that the wheel bead seats
+from the aircraft.                                       are clean and dry to insure proper sealing of the
+NOTE: Use caution when unscrewing valve cores,           tubeless tire bead.
+as the air pressure within the tube or tire can             Assemble wheel halves of split type wheels with
+cause a valve core to be ejected like a bullet.          the light sides (impression stamped "L" on the
+
+                                                       387
+
+## Page 399
+
+                                                                   ,
+                                                                  ..   :::--·
+                                                                        ·,
+                                                                       •...·... ·····•·.· ..
+                                                                               '   ...·:.
+                                                                                   '~·''
+
+                                                                                               •                      •.
+                                                                                                                                •
+                                                                                                                                l
+
+
+                                                                                                                           •
+                                                                                                                           ~-
+
+
+
+
+ A. "0"-ring seal is vital- handle and install carefully.                          B. Inspect valve seals for signs of damage
+                                                                                      or deterioration.
+
+                                        FIGURE 9-58.   Split wheel seal inspection.
+
+
+flanges) 180° apart from each other to insure                     Apply with brush or swab a 10 percent solution
+minimum out-of-balance condition.                              of vegetable oil soap to the rim of the tube extend-
+   Be sure that nuts, washers, and bolts used to               ing well up into the tire. Use care not to lubricate
+assemble split type wheels are in proper order and             any part of the bead which comes in contact with
+that the bearing surfaces of these parts are prop-             the rim flange.
+erly lubricated. Tighten to recommended torque                   Insert the valve hole section of the wheel into
+values. See wheel manufacturer's manual for rec-               the tire and push the valve through the valve hole
+ommended procedures.                                           in the wheeL
+                                                                  Insert the other side of the wheel while holding
+Demounting                                                     the valve. in position. Be careful during this op-
+  The procedure for demounting tubeless tires is               eration not to pinch the tube between the wheel
+generally the same as for tires with tubes. How-               sections.
+ever, care must be taken to avoid damaging: (1)                   Inflate, deflate and reinflate to the recommended
+the wheel's "0" ring groove and mating register                pressure.
+surfaces; (2) the flange area that seats the tire                Install the locking nut or nuts and tighten se-
+bead; and ( 3) the tubeless tire inflation valve hole          curely. Put on valve cap and tighten with fingers.
+sealing area. These areas of the wheel are critical
+                                                               Demounting
+and if damaged will result in failure of the wheel
+and tire unit to maintain required air pressure.                  Remove valve core and fully deflate.
+                                                                  Do not use a pry bar, tire irons or any other
+                                                               sharp tool to loosen tire bead as the wheel may be
+                                                               damaged. Break bead before loosening tie bolts
+B. Tube Type Tires
+                                                               to prevent damage to register surfaces.
+Mounting                                                          Use a bea-d breaker only to loosen tire bead
+   With the tube entirely deflated, insert it in the           from both wheel half flanges by applying pressure
+tire (folding makes this easier, particularly in               around the entire circumference of each sidewall.
+small -diameter tires), and inflate until the tube is             Remove the tie bolts and the bolt nuts from the
+just rounded out. The valve core should be in the              wheel and pull out both parts of the wheel from
+valve during this operation.                                   the tire.
+
+                                                            388
+
+## Page 400
+
+C. Removable Side Flange Drop Center Wheels               F. Flat lase Wheels Removable Flange Locking
+Mounting                                                  ling
+   Fully deflate tube and line up tube balance mark       Mounting
+with tire balance mark. Start tire over flange on           Examine wheel and flanges carefully for burrs
+an angle, being careful not to damage valve.              or gouges.
+   Be sure to remove valve extensions or valve              Line up tube and tire balan~ marks.
+fishing tools before wheel is inatalled.                    Dust tube with talc.
+Demounting                                                  Lean tire against bench or wall_:_ftange outward.
+                                                          Pry flange loose evenly to prevent binding.
+   Be sure to deflate fully.
+   Make full. use of the wheel in pulling bead over       Demounting
+flange on removable side.                                    Loosen bead carefully.
+   Work wheel up and down to ease it out of tire.            Use lead hammer or rubber mallet to loosen side
+                                                          ring.
+   For one-man demounting, tire can be leaned
+against a wall or ben«!h, valve side out.                    Pry up side ring carefully and evenly.
+                      ~
+                                                             Place wheel and tire on a wooden block about
+                                                          14" high and large enough to fit over the wheel
+D. Smooth Contour Tall Wh"l Tires                         hub, so that wheel can be removed easily.
+   Note: Smooth contour tires are usually harder          CAUSES OF AIR PRESSURE LOSS
+to handle because of "stiffer beads, small clearances
+                                                          IN TUBELESS AIRCRAFT TIRES
+and small diameters.                                         There can be numerous causes for loss of air
+                                                           pressure within an aircraft wheel and tire as-
+Mounting                                                   sembly, therefore, it is economical and wise tt'
+   Inflate tube sufficiently to round out and be sure     follow a systematic check list. Without such a
+tube is worked in all around to avoid pinching.            procedure, trial and error substitution of parts can
+                                                           needlessly increase tire maintenance costs.
+   Work bead opposite valve over edge of wheel
+                                                             For example, complaints of air loss in tubeless
+first. Deflate tube.
+                                                          aircraft tire assemblies, while more common during
+   Keep second bead on edge· of wheel to allow for        cold weather, have no seasonal limitations. Factors
+inserting valve in valve hole.                            which may seem distantly related to the problem--
+   Inflate, deflate, reinflate.                           changes in tire maintenance personnel, inaccurate
+Demounting                                                gages, air temperature fluctuations--are often the
+                                                          underlying causes of unsatisfactory tire service,
+  Be sure to use tools with good leverage.                further emphasizing the need for simple check
+  Be careful not to damage soft metal of rim flange.      procedures.                                         /
+  Keep tube inflated after lock ring is removed.             For guidance in setting up uniform inspection
+  Work tube out carefully, using water as a lubri·        methods, there are general .areas of the tire and
+cant before completing demounting.                        wheel assembly which can be involved in air pres-
+                                                          sure loss. (See figure 9-59.)
+
+E. One Piece Drop Center Wheels
+Mounting
+   Insert wheel in tire, reversing the CWJtomary
+procedure. (Valve hole side goes in first.)
+   Pry bead over flange with small bite.-use a
+fairly thin tool.
+   When first bead is on wheel, insert tube. Be
+sure no part of tube is caught under bead.                                                                    Mr.
+   Inflate, deflate, reinflate.
+Demounting
+  After loosening bead, lay tire flat with wooden
+block, 3 to 4 inches high under sidewall. Work
+bead off in small bites.                                           FICURE 9-59.   Air loss in split wheels.
+
+                                                        389
+
+## Page 401
+
+   Damaged Beads-Cht"ck for t"xposure of the                     determined if there is any true air loss within the
+carcass cord body in ht"ad toe art"a or undt"r face              tire.
+of the bt"ad.
+   Improperly Seated Beads-Condition can he                  THE WHEEL
+caust"d by: (a) insufficit>nt air pressurE"; (b) heads              Any of the following wheel conditions can con·
+not luhricatt>d; (c) kinked or distortt"d heads.                 tribute to air loss in the bead area of the tire:
+   Cut or Puncture-Cht>ck for cut or puncture
+<'ntirt>ly through tht> carcass cord body and liner.             Cracks Or Scratches In The Bead Ledge Or
+                                                                 Flange Area
+Air Temperature
+                                                                Cracks can usually he traced to fatigue failure
+   Was tir<' inflatt"d in heated room and tht>n stored       while scratches and gouges are the result of han·
+outside? Air pressure will drop approximately                dling damage or the improper use of tire irons.
+1 psi for every 4° drop in temperaturE". Tires
+should he checkt>d and prt"ssure adjusted for spe·
+cific rt>quiremt"nts when tirt>s have rt>ached the out·          Exceptionally Smooth Enamel Surface
+sidt> amhit>nt tt>mpt"rature.                                    On Bead Seat Ledges
+
+Venting of Tubeless Tires
+                                                                 Corrosion Or Wear In Bead Ledge Area
+    Tuht>less aircraft tirE's are \"ented in the sidewaU
+                                                                   Usually occurs at the toe area of the tire head.
+art>a to pt>rmit any air that has diffused through
+the liner and cord body to escape, thus prevt>nting
+prt'ssure build up within tht" carcass cord body and             Poor Seating In Bead Area
+possible tread or ply st"paration. Rate of diffusion           May he caused by accumulation of rubber from
+will vary by manufacturer and the maximum per·               the tire or dirt.
+missihle is no more than 5 percent in any 24-hour
+period.
+                                                                 Knurls
+    Vent holt>s pt>nt"trate the sidewall rubber to, or
+into. tht> carcass cord body and may vary in size,             Wheels converted from tube-type use should
+dt>pth and anglt>. Tht>rt>fort>, tht> amount of air          have knurls removed.
+diffuSf'd through tht>st> holt•s will vary. Thus, when
+water or a soapy solution is hrusht>d over the out·              Porous Wheel Assemblies
+sidt> of an inflated tuht"'ess tire, air bubbles form.
+Some vt>nt holt's may emit a continuous stream of               Can he protected either by proper paint proce-
+bubbles, where otht>rs may produce intermittent              dure and/or an impregnation process.
+hubbies. This is normal and dot's not mt>an that                Holes for attachmt>nt of components of wheel
+therE" is anything wrong with the tire. In fact, as          assembly. In case of through holts used to attach
+long as a tuht>less tin• is in an inflated condition,        such itt>ms as drive lugs for brake assembly, etc.,
+air will he coming out of tht>se vent holt's. Where          the mounting screws or holts must he properly
+the rate of loss t'XCt>t>ds 5 percent 24 hours, recheck      sealed. The recommendations of the wheel manu-
+for possihlt> injurit>s. Vt>nt holes may hE" covt>red        facturer should he followed.
+or closed hy spillt>d soh-ent or by the tirE" paint.            Cracks in the wheel well area, in most cases,
+Tht>y may also he cowrt"d during tht> retreading             cannot he repaired.
+proct"ss. Cht>ck for t>vidt>nce that tubeless tirt>s
+have ht>en revented after being retreaded.                   Sealing Surfaces
+Initial Stretch Period                                          Look for damage or improper machining of
+   All aircraft tires are of nylon construction and          sealing surfaces. Care should he taken to see that
+a C<'rtain amount of stretch occurs after the tire           there is no handling damage. Any irregularities
+has been inflated. This, in itself, will reduce air          should he corrected before remounting wheel and
+pres:o;ure within the tire. It is absolutely necessary       tire. (See figure 9-60.)
+that the tire be inflated to its regular air pressure           Foreign material or paint can impair the sealing
+and let stand at least 12 hours in ordt>r to permit          surface. Thus, all foreign material should be
+this expansion of the cord body. This may result             cleaned from the sealing surface before assembly
+in as much as 10 perct>nt drop in air pressure.              of the wheel, A light, even coat of primer is per·
+Compensate by reinflating the tire to original pres·         missihle. However, surface must he free of runs
+sure. Only after this initial stretch period can it he       or dirt inclusions.
+
+                                                           390
+
+## Page 402
+
+                                                              Thermal Fuze Installation
+                                                                 A faulty thermal fuze may cause leakage and
+                                                               require replacement. Usually this is the result of
+                                                               a poor bond between thermal melting material and
+                                                              bolt body.
+                                                                 Sealing surface for thermal fuze gasket must be
+                                                              clean and free from scratches and dirt. In some
+                                                              cases, surface can be repaired in accordance with
+                                                              manufacturer's instruction.
+                                                                 Be sure that sealing gasket is the one specified
+                                                              by the wheel manufacturer, sized and compounded
+                                                              for its specific job. Gasket should be free of dis·
+                                                              tortion, cuts, etc.
+                                                                 To guard against air prf'ssure losses bt'fore as
+                                                              serribly the best insurance is a careful and complete
+                                                              inspection. After assembly, if air loss occurs, the
+                                                              use of a soap solution (or, if possible, complete
+                                                              immersion of wheel-tire assembly) may pinpoint
+                                                              the exact source of l<>akage.
+            FrcuRE 9-60.   Wheel inspection.                  GOOD PRESSURE GAGE PRACTICE
+
+Improper Installation of "0" Rings                               Quite often it is found that the differ<>nces in
+                                                              reported air pressures are entirely due to the dif-
+   Twisting or failure to proYide lubricant when              ference in accuracy in different gages, rather than
+specified, may cause loss of air. The wrong size              in any change in air pressure.
+or type of "0" ring, or an "0" ring of the wrong
+compound for special low temperature service, may            It is not unusual to find an inaccurate tire gage
+also cause leakage.                                        in constant use with a tag that states that the gage
+                                                           reads a certain number of pounds too high, or too
+   Inspect used "0" rings carefully. Be sure they
+                                                          low. Unfortunately, this error ·will change as dif-
+are not thinned out, deformed, chipped, damaged
+                                                          ferent pressures are checked. A tire gage reading
+or otherwise deteriorated.
+                                                           10 lbs. high at 80 lbs. pressure may very wdl read
+Wheel Tie Bolts                                           25 lbs. too high at 150 lbs. pressure. Therefore,
+   Proper torque and torquing procedure, as speci-        incorrect tire gages should either be repaired or
+fied by the wheel manufacturer, should be followed        replaced. They should not be continued in service.
+to assure adequate compression of sealing "0" ring           Cold temperatures may also affect tire gages and
+under all temperature conditions. Low torques,            cause pressure readings lower than they actually
+low temperatures, and shrinkage of the wheel halves       are. Occasionally, too, a gage has been mistakenly
+may cause a significant lessening of compression          treated with oil or some other lubricant in expecta-
+on the "0" ring seal.                                     tion of making it work better. This, of course,
+                                                          will actually cause incorrect readings and probably
+Tubeless Wheel Valve Holes                                render the gage unfit for further service.
+   Tubeless wheel valve holes and surrounding                It is good practice to haYe gages recalibrated
+area must be free of scratches, gouges and foreign        periodically and to use the same gage for perform-
+material.                                                 ing an inflation cycle-for the original 12- or 24-
+   The proper rubber grommet or "0" ring must             hour stretch period. Dial type gages, of good
+be used as specified by the wheel manufacturer.           quality, are highly recommended for all tire main-
+Seals other than those specified may not function         tenance installations-regardless of size!
+properly under the compression loads and low tem-
+peratures required for good sealing. Tightening               Storing Aircraft Tires and Tubes
+of tubeless valve should follow specific instructions        The ideal location for tire and tube storage is
+of wheel manufacturer.                                    a cool, dry and reasonably dark location, free from
+   Valve core should be checked and replaced when         air currents and dirt. While low temperatures
+found leaking.                                            (not below 32° F.) are not objectionable, high
+   Valve caps should be used and tightened finger         room temperatures (80° F.) are detrimental and
+tight.                                                    should be avoided.
+
+                                                        391
+
+## Page 403
+
+Avoid Moisture, Ozone                                        sible, 3 to 4 inches wide in order that no permanent
+   Wet or moist conditions have a rotting effect and         distortion to the tire is caused. If tires are piled
+may be even more damaging when the moisture                  on top of one another, they should not be stacked
+                                                             too high, as this will cause distortion of the tire
+contains foreign elements that are further detri·
+mental to rubber and cord fabric. Strong air                 and might result in trouble when the tires are put
+currents should be avoided, since they increase the          into service. This is particularly true of tubeless
+supply of oxygen and quite often carry ozone, both           tires, as those on the bottom of the stack may have·
+of which cause rapid aging of rubber. Also, par·             the beads pressed so closely together that a bead
+ticular care should be taken to store tires away             seating tool will have to be used to force the tire
+from electric motors, battery chargers, electric             beads onto the wheel far enough to retain air pres-
+welding equipment, electric generators and similar           sure for inflation (figure· 9-61).
+equipment as they all create ozone.
+                                                             Safe Tube Storage
+Fuel and Solvent Hazards
+                                                                Tubes Should always be stored in their original
+   Care should be taken that tires do not come in            cartons, so that they are protected from light and
+contact with oil,· gasoline, jet fuel, hydraulic fluids,     air currents. They should never be stored in bins
+or any type of rubber solvent, since all of these are        ~r on shelves without being wrapped, preferably
+natural enemies of rubber and cause it to disinte·           m several layers of heavy paper.
+grate rapidly. Be especially careful not to stand
+or lay tires on floors that are covered with oil or             Tubes can also be stored by inflating slightly
+grease. When working on engines or landina gear,             and inserting them in the same size of tire. This
+tires should be covered so that oil does n:t drip            of course, should only be done as a more or less
+                                                             temporary measure. However, before using such
+on them.
+                                                             an assembly, the tube should be removed from the
+Store In Dark                                                tire and the inside of the tire carefully examined,
+   The storage room should be dark, or at least              since quite often foreign material will get between
+free from direct sunlight. Windows should either             the two and if not removed, could cause irrepatable
+be given a coat of blue paint or covered with                damage to both tire and tube.
+black plastic. Either of these will provide some                Unde~ no circum~ces should tubes be hung
+diffused lighting during the daytime. Black plastic          over nails or pegs, or over any other object that
+is preferred as it will lower the temperature in the         might form a crease in the tube. Such a crease
+room during the warm months and permit tires to              will eventually produce a crack in the rubber.
+be stored closer to the windows.
+
+Tire Racks Preferred                                         REPAIRING
+  Whenever possible, tires should be stored in                  Many aircraft tires and tubes which become in-
+regular tire racks which hold them up vertically.            jured in service can be successfully repaired. Like-
+The surface of the tire rack against which the               wise, aircraft tires which have become worn out in
+weight of the tire rests should be flat and, if pos·         service, or flat spotted and removed prematurely,
+
+
+                          Without         With Tahe                              Without   With Tahe
+            Size           Tube            Jnsertecf             SJze             Tube       Iaserted
+
+                                                                 58"' sc
+                                                                    and larger     3           4
+            28x8             5                 8                 12.50-18          4           5
+            33•              4                 5                 15.00.18          3           4
+            38"              4                 5                 17.00.18          3           4
+             «·              4                 5                 15~               3           4
+             47•             3                 4                 17.00.20          3           4
+
+
+           SmaUer sizes of tubess tires may be stacked five high. This would iaducle sizes· tluough
+           39 x 13. I.arg(T si7.e~ of tublcs.'l tires should not be stacked more than four high.
+
+                                       FtCURE 9-61. Permissible tire stacking.
+
+                                                           392
+
+## Page 404
+
+can be recapped so that the new tread will give             Tires That May Be Recapped
+service comparable to the original tread. The re·
+                                                               Tires with sound cord bodies and beads, or
+capping and repairing of aircraft tires has been
+                                                            which meet injury limitations described under
+practiced for many years and has saved aircraft
+                                                            "Repairable Aircraft Tires."
+operators considerable sums of money. Tires
+which might otherwise have been discarded have                 Tires which are worn to 80 percent or more of
+been safely reconditioned (many repeatedly) for             their total tread depth.
+continued service.                                             Tires with one or more flat spots severe enough
+                                                            to cause an out-of-balance condition, regardless of
+Recapping Aircraft Tires                                    the percentage of wear. Tires having so many
+   Recapping is a general term meaning recondi-             tread cuts that repairing the tread rubber would
+tioning of a tire by renewing the tread, or renew-          be uneconomical.
+ing the tread plus one or both sidewalls. (See
+                                                            Nonrecappable Tires
+figure 9-62.) There are actually four different
+types of recapping for aircraft tires.                         Tires having injuries which would make them
+                                                            nonrepairable.
+  Top Capping-For tires worn to the bottom of                 Tires with six full plies or more having any
+the tread design, with no more than slight flat             spot worn through more than one body ply. (It
+spotting and/or shoulder wear, the old tread is             is generally not considered economical to retread
+roughened a:nd a new tread is applied.                      4 and 6 ply aircraft tires.)
+                                                              Tires with weather checking or ozone cracking
+   Full Capping-For tires worn all around, those            of tread or sidewall that exposes the cords.
+flat spotted to the cords, or those with numerous
+cuts in the tread area, the new tread material is           Repairable Aircraft Tires
+wider than that used on a top cap, and comes                 When considering a tire for repairing only, the
+down over the shoulder of the tire for several            amount of service remaining in the tire is im-
+inches.                                                   portant. Any tire with at least 30 percent of trea·d
+   Three-Quarter Retread-For tires needing a              life remaining, normally would be considered as
+new tread, plus renewing of the sidewall rubber           having enough service left in it to warrant repair
+on one side, due to damage or weather checking,           only.
+a full cap is applied, and in addition, approxi-          Nonrepairable Aircraft Tires
+mately %6 " of the thickness of the old sidewall             The following conditions disqualify a tire for
+rubber is buffed off one side. New sidewall rubber        repair:
+is then applied from the head to the edge of the
+                                                             Any mJury to the beads, or in the bead area
+new tread, on the buffed side only.
+                                                           (except injuries limited to the bead cover or finish-
+  Bead-to-Bead Retread-A new tread and both               ing strip as previously mentioned under repairable
+new sidewalls are applied by this method.                 aircraft tires) .
+
+
+
+
+A. Sidewall cords damaged beyond     B. Sidewall cords OK for retread.         C. Worn through breaker only.
+             repair.                                                                 OK for retread.
+                                     FIGURE   9-62.   Operational damage
+
+                                                      393
+
+## Page 405
+
+   Any tire with protruding bead wire or badly                    Liner blisters smaller than 4" x 8" may be re-
+ kinked bead.                                                   paired if there are no more than two in any one
+   Any tire which shows evidence of ply or tread                quarter section of the tire, and no more than five
+ separation.                                                    in the complete tire. Normally, however, it would
+   Any tire with loose, damaged, or broken cords                be more economical to do this repair at the time
+on the inside.                                                  the tire is recapped.
+   Tires with broken or cut cords in the outside of               It is generally considered uneconomical to re-
+the sidewall or shoulder area.                                  pair 4- and 6-ply aircraft tires.
+   Tires that have gone flat, or partially flat, due
+                                                                OPERATING AND HANDLING TIPS
+to the melting or failure of fuze plugs in the wheels
+should normally be scrapped, even though there                  Taxiing
+may be no visible evidence of damage to the inside                 Needless tire damage or excessive wear can be
+or outside of the tire. The only exceptions would               prevented by proper handling of the aircraft dur-
+be where it was known that the fuze plug leaked                 ing taxiing.
+air because of its being defective.
+                                                                    Most of the aross weight of any aircraft is on
+                                                                the main landint:>g gear wheel~n two, four, eight
+Spot Repairs                                                    or more tires. The tires are designed and inflated
+                                                                to absorb shock of landing and will deflect (bulge
+   When considered economical, spot repairs can                 at the sidewall) about two and one-half times more
+ be made to take care of tread injuries such as cuts,
+                                                                than a passenger car or truck tire. The greater
+snags, etc., which are through no more than 25                  deflection causes more working of the tread, pro-
+ percent of the actual body plies of the tire,. and not          duces a scuffing action along the outer edges of the
+over 2" in length at the surface. Vulcamzed spot                 tread and results in more rapid wear.
+ repairs are also made at times to fill in tread gouges
+that do not go deeper than the tread rubber and                     Also, if an aircraft tire strikes a chuck hole, a
+ do not penetrate the cord body.                                stone, or some foreign objects lying on the runway,
+                                                                taxi strip, or ramp, there is more possibility of its
+   Low speed tires (under 160 mph) with tread
+injuries that penetrate no more than 25 percent of
+                                                                being cut, snagged or bruised because    o!  the ~er­
+                                                                centage of deflection. Or, one of the mam landmg
+the actual body (breaker strips not included), and
+                                                                gear wheels, when making a turn, may drop off the
+have a maximum surface length of 2", may be re-
+                                                                edge of the paved surface causing severe sidewall
+paired. If the injury penetrates beyond 25 p:rcent              or shoulder damage. The same type of damage
+of the actual body plies, it may still be repanable
+                                                                may also occur when the wheel rolls back over the
+but the surface length of the injury should be no
+                                                                edge of the paved surface.
+more than 1".
+                                                                   With dual main landing gear wheels, one tire
+   High speed tires (over 160 mph) with tread
+                                                                miaht be forced to take a damaging impact (which
+injuries that penetrate no more than 40 percent of
+the actual body plies (breaker strips and fabric re-
+                                                                tw:   could withstand without damage) simply be-
+                                                                cause all the weight on one side of the plane is
+inforcement strips in the tread not included) and
+                                                                concentrated on one tire instead of being divided
+have a maximum surface length of 1¥2" with
+                                                                between two.
+maximum width no more than ~", may be re·
+paired.                                                            As airports grow in size and taxi runs become
+                                                                longer, chances for tire damage and wear increase.
+   Injuries through the cord body in the tread area,
+                                                                Taxi runs should be no longer than absolutely
+measuring Ys" or less at the largest point, are
+                                                                necessary and should be made at speeds no greater
+considered punctures and are easily repaired.
+                                                                than 25 mph, particularly for aircraft not equipped
+   Shallow cuts in the sidewall or shoulder rubber              with nose wheel steering.
+only are repairable if cords are exposed but not
+                                                                    For less damage in taxiing, all personnel should
+damaged.
+                                                                see that ramps, parking areas, taxi strips, runways
+   Tires having minor injuries through the finish-              and other paved areas are regularly cleaned and
+ing strip, or slight injuries caused by tire tools in           cleared of all objects that might cause tire damage.
+the general bead area, are repairable if the injury
+does not extend into the plies of the tire, and pro-            Braking and Pivoting
+vided there is no sign of separation in · the bead                 Increasing airport traffic, longer taxi runs and
+area. If the finishing strips are loose or blistered,           longer runs on takeoff and landing are subjecting
+they can only be replaced by bead-to-bead re-                   tires to more abrasion resulting from braking,
+treading.                                                       turning and pivoting.
+
+                                                          394
+
+## Page 406
+
+   Severe use of brakes can wear flat spots on tires      three point landing, but is ordinarily made at con-
+and cause them to be out of balance, making               sidf'rahly higher speed. As a result, more braking
+premature recapping or replacement necessary.             may he required to bring the aircraft to a stop.
+   Severe or prolonged application of the brakes          If tires are skidded on the runway at high speed,
+can be avoided when ground speed is reduced.              the action is similar to tires being ground against
+   Careful pivoting of aircraft also helps to prolong     a fast turning emery wheel.
+tire tread life. If an aircraft turned as an auto-            Sometimes an aircraft will be brought in so fast
+mobile or truck does-in a rather wide radius-             that full advantage will not be taken of runway
+the wear on the tire tread would be materially            lf'ngth an·d hrakf's are applied so severely that flat
+reduced. However, when an aircraft is turned by           spots are produced on the tires. Or. if brakes are
+locking one wheel (or wheels), the tire on the            applied when the plane is still traveling at high
+locked wheel is twisted with great force against          speed and still has considerable lift, tires may
+the pavement. A small piece of rock or stone that         skid on the runway and become damaged beyond
+would ordinarily cause no damage, can, in such a          further use or reconditioning.
+case, be literally screwed into the tire. This               The same thing may occur during a rough land-
+scuffing or grinding action takes off tread rubber        ing if brakes are applied after the first bounce.
+and places a very severe strain on the sidewalls          For maximum tire Sf'rvice, delay brake application
+and beads of the tire at the same time.                   until the plane is definitely settled into its final roll.
+   To keep this action at a minimum, it is recom-            More tires fail on takeoff than on landing and
+mended that whenever a turn is made, the inside           such failurf's on takeoff can be extremely danger-
+wheel (wheels) be allowed to roll on a radius of          ous. For that reason, emphasis must be placed on
+20 to 25 feet and up to 40 feet for aircraft with         proper pr~Aight inspection of tires and wheels.
+bogies.
+                                                          Condition of Landing Field
+Takeoffs and Landings                                       Regardless of the preventive maintenance and
+                                                          extreme care taken by the pilot and ground crew
+   Aircraft tire assemblies are always under severe
+                                                          in handling the aircraft, tire damage is almost
+strain on takeoff or landing. But under normal
+                                                          sure to result if runways, taxi strips, ramps and
+conditions, with proper control and maintenance
+                                                          other paved field areas are in a bad condition or
+of tires, they are able to withstand many such
+                                                          poorly maintained.
+stresses without damage.
+   Tire damage on takeoff, up to the point of being          Chuck holes, pavement cracks or step-offs from
+airborne, is generally the result of running over         thf'se areas to the ground, all can cause tire dam-
+some foreign object. Flat spots or cuts incurred          age. In cold climates, especially ·during the winter,
+in pivoting can also be a cause of damage during          all pavement breaks should be repaired imme-
+takeoff or landing.                                       diately.
+   Tire damage at the time of landing can be traced          Another hazardous condition often overlooked
+to errors in judgment or unforeseen circumstances.        is accumulated loose material on paved areas and
+Smooth landings result in longer tread wear and           hangar floors. Stones and other foreign materials
+eliminate much of the excessive strain on tires at        should also be swept off all the paved areas. In
+the moment of impact.                                     addition, tools, bolts, rivets and other repair ma-
+                                                          terials are sometimes left lying on the aircraft and
+   Landings with brakes locked, while almost a
+                                                          when the aircraft is moved, these materials drop
+thing of the past, can result in flat spotting. Re-
+                                                          off. These objects picked up by the tires of an-
+moval of the tire for recapping or replacement is
+                                                          other aircraft can cause punctures, cuts, or com-
+almost invariably indicated. Brakes-on landings
+                                                          plete failure of the tire, tube and even the wheel.
+also cause very severe heat at the point of contact
+                                                          With jet aircraft, it is even more important that
+on the tire tread and may even melt the tread
+                                                          foreign material be kept off areas used by aircraft.
+rubber (skid burn). Heat has a tendency to
+wea~en the cord body and places severe strain on
+the beads. In addition, heat buildup in the brakes            Hydroplaning
+may literally devulcanize the tire in the bea·d area.        This is a condition whereby on wet runways, a
+Under these circumstances, blowouts are not un-           wave of water can build up in front of spinning
+common because air under compression must ex-             tires and when over-run, tires will no longer make
+pand when heated.                                         contact with the runway. This results in the com-
+   On aircraft equipped with tail wheels, a two           plete loss of steering capability and braking action.
+point landing is usually somewhat smoother than a         Hydroplaning can also be caused by a thin film of
+
+                                                        395
+
+## Page 407
+
+water on the runway mixing with the contaminants                       Replacement of this valve can be made by
+present. (See figure 9-63.)                                            most any gasoline service station or garage,
+   Cross cutting of runways has been completed at                      providing they have the proper valve for
+some of the major airports and reportedly has                          replacement.
+greatly reduced the danger of hydroplaning. How-                   2. Metal valve with rubber base. These are
+ever, the ridges of concrete created by this cross-                   easily recognized since _the rubber base is
+cuttin"g can cause a chevron type of cutting of                       similar to the one used on the all-rubber
+tread ribs, particularly with the higher pressure                     valve just described. Generally, replace-
+tires used on jet aircraft. These cuts are at right                   ment is made by the same method but it is
+angles to the ribs and rarely penetrate to the fabric                 absOlutely necessary that the replacement
+tread reinforcing strip. Such damage would not                        valve have the same dimensions as the
+be considered cause for removal unless fabric was                     original.
+exposed due to a piece of tread rib being torn out.                3. Metal valve with a fabric-reinforced rubber
+                                                                      base. The base may be cured on top of the
+                                                                      tube, or it may be cured into the tube. The
+                                                                      metal valve may have to be bent to the
+                                                                      proper angle, or angles. Repairing of this
+                                                                      type of tube is more difficult because it is
+                                                                      necessary to replace the valve pad. Ex-
+                                                                      perienced personnel and special equipment
+                                                                      are necessary to effect the proper cure of
+                                                                      the replacement valve pad to the inner
+                                                                      tube.
+                                                                  Repair type valves are also available for valves
+                                                               mentioned in 2 and 3 above. These are applied by
+                                                               cutting off the original valve and screwing on a
+                                                               replacement repair valve to the spud of the original
+                                                               valve. Follow instructions provided by the manu-
+                                                               facturer of these repair type valves.
+
+                                                               SIDEWALL-INFLATED AIRCRAFT TIRES
+   FICURf: 9-63.   Cro~'cuttinl!: runways redm·es danj!;er
+                      of hydroplaning.                            Some tires for small aircraft are manufactured
+TUBE REPAIR                                                    with a valve in the sidewall, thus eliminating the
+                                                               need for machining the wheel to take a conven-
+   Most tube repairs are necessary because of valves           tional valve (see figure 9-64).
+being broken off or otherwise damaged. However,
+occasionally, a tube might be cut, punctured, or
+damaged by the tire tools during mounting or de-
+mounting. Injuries larger than one inch can be
+repaired by using a reinforcement patch inside the
+tube. This reinforcement would be the same ma-
+terial that is used for repairing the tube on the
+outside. An injury smaller than one inch should
+not need a reinforcement piece.
+   Chaffing damage caused by the toe of the tire
+bead, or thinning out of the tube from brake heat
+should be cause for immediate scrapping of the
+tube.
+   There are three general types of valves used in
+aircraft inner tubes:
+      l. The rubber valve, which has a rubber stem
+         and a rubber base cured to the outside
+         surface of the inner tube. This valve is
+         similar to those used on inner tubes in pas-
+         senger car service.                                             FICt;Rf: 9-64.   Sidewall-inflated tire.
+
+                                                             396
+
+## Page 408
+
+   Inflation as well as checking air pressure, is ac·           serting the replacement valve. It is even possible
+complished by inserting a needle through the rub-               to replace these valves without completely remov-
+ber sidewall valve, similar to the way footballs and            ing the tin~ from the wheel.
+other sporting goods equipment are inflated. Care               liRE INSPECTION SUMMARY
+should be given these needles. If damaged, they
+                                                                   Tire~ in service should be inspected regula"rly for
+may injure the valve, resulting in air loss, par·
+                                                                excessive wear or other conditions which may ren-
+ticularly when the tire is under load.
+                                                                der the tire unsafe. This will-~educe tire costs
+  Replacing these valves is easy. The only equip·               noticeably and. may prevent a serious accident.
+ment needed is a knife or scis...<10rs to cut off the old       Figure 9-65 shows the most common types of tire
+valve inside the tire, and a piece of string for in·            wear and damage.
+
+
+
+                                                            A
+
+
+
+
+                                                                   ,.
+
+
+
+
+           A. Normal                    B. Worn out                     C. Under inflation       D. Over inflation
+
+
+
+
+                                                            B
+
+
+
+
+   A. Open tread splice               B. Thrown tread                    C. Peeled rib          D. Tread chunking
+
+
+                   F1ct:RE 9--65.   Common types of tire damage: A, Tread wear: B, Tread: C, Sidewall;
+                                                 D, Carcass; and E, Bead.
+
+                                                            397
+
+## Page 409
+
+                                          B-Cont.
+
+
+
+
+ A. Cut            B. Blister and tread             C. Groove cracking      D. Flaking and chipping
+                      separation                    and rib undercutting
+
+
+
+
+A. Skid         B. Tread rubber reversion           C. Chevron cutting          D. Fabric fraying
+
+
+                                            c
+
+
+
+
+          A. Circumferential        B. Radial cracks         C.   Weather checking.
+             cracks
+                                    FlGl"RJ:: 65-Cont.
+
+
+                                            398
+
+## Page 410
+
+                                                         D
+                                                   .,,., ........ .
+                                         .
+
+                                ,.
+
+
+
+
+                                ~
+
+
+
+
+      A. Impact break
+                                ~~-             B. Liner breakdown                           C. Contamination
+
+
+                                                        E
+
+
+
+
+                              A. Brake heat damage               ll.   Chaff damage
+
+                                              FICI:RE 65-Cont.
+
+
+
+ANTISKID SYSTEM                                              control box, two skid control valves, a skid control
+   The purpose of a wheel brake is to bring a rap·           switch, a warning lamp, and an electrical control
+idly moving aircraft to a stop during ground roll.         . harness with a connection to the squat switch.
+It does this by changing the energy of movement                Normal Skid Control
+into heat energy through the friction developed in
+the brakes. A feature found in high performance                   Normal skid control comes into play when wheel
+aircraft braking ~ystems is skid control or antiskid          rotation slows down but has not come to a stop.
+protection. This is an important system because               When this slowing down happens, the wheel sliding
+if a wheel goes into a skid, its braking value is             action has just begun but has not yet reached a
+greatly reduced.                                              full scale slide. In this situation the skid control
+                                                              valve removes some of the hydraulic pressure to
+   The skid control system performs four functions:           the wheel. This permits the wheel to rotate a
+ (I) normal skid control, ( 2) locked wheel skid              little faster and stop its sliding. The more intense
+control, ( 3) touchdown protection, and (4) fail-             the ~kid is, the more braking pressure is removed.
+safe protection. The main components of the sys-              The skid detection and control of each wheel is
+tem consist of two skid control generatorf', a skid           completely independent of the others. The wheel
+
+                                                       399

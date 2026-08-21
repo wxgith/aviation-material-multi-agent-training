@@ -1,0 +1,5536 @@
+{
+  "generated_at": "2026-08-12T12:15:38.507140+00:00",
+  "review_type": "machine-assisted technical pre-review",
+  "expert_signature_status": "pending_human_domain_expert",
+  "runtime_mode": {
+    "database_enabled": false,
+    "data_backend": "json",
+    "es_enabled": true,
+    "retrieval_mode": "hybrid",
+    "bge_enabled": false,
+    "llm_enabled": false
+  },
+  "metrics": {
+    "executed_cases": 50,
+    "passed_cases": 50,
+    "needs_review_cases": 0,
+    "execution_pass_rate": 1.0,
+    "agent_completeness_rate": 1.0,
+    "core_key_point_proxy_coverage": 0.9727,
+    "core_key_points_matched": 107,
+    "core_key_points_total": 110,
+    "difficulty_rule_match_accuracy": 0.96,
+    "unresolved_claim_risk_proxy_rate": 0.0,
+    "unresolved_review_blocks": 0,
+    "claim_assessments_total": 200,
+    "feedback_decision_accuracy": 1.0,
+    "correction_cases": 8,
+    "by_type": {
+      "个性化资源生成测试": {
+        "passed": 10,
+        "total": 10
+      },
+      "反馈迭代测试": {
+        "passed": 10,
+        "total": 10
+      },
+      "学情诊断测试": {
+        "passed": 10,
+        "total": 10
+      },
+      "审核纠偏测试": {
+        "passed": 10,
+        "total": 10
+      },
+      "知识检索测试": {
+        "passed": 10,
+        "total": 10
+      }
+    },
+    "metric_boundary": {
+      "core_key_point_proxy_coverage": "规则与同义词辅助覆盖，不替代专家语义判断",
+      "difficulty_rule_match_accuracy": "验证系统难度规则一致性，不等于专家适配准确率",
+      "unresolved_claim_risk_proxy_rate": "验证审核后未解决的结构化风险，不等于正式专业幻觉率"
+    }
+  },
+  "cases": [
+    {
+      "id": "diag-001",
+      "test_type": "学情诊断测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "航空轮胎基础题中热氧老化和滑动磨损题错误",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化",
+          "滑动磨损与实验表征方法"
+        ],
+        "strong_points": [
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "tire-q1",
+            "tire-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+          "team_tire_rxq_aging_multimodal_evidence-c003-6f6f48bf",
+          "tire-k02",
+          "tire-k01",
+          "tire-k06"
+        ],
+        "evidence_titles": [
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化",
+          "热氧老化-滑动磨损耦合边界"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "识别热氧老化薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['热氧老化']"
+        },
+        {
+          "key_point": "识别滑动磨损薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['滑动磨损']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "diag-002",
+      "test_type": "学情诊断测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "brake",
+      "input": "高温摩擦和热衰退概念混淆",
+      "diagnosis": {
+        "score": 40,
+        "level": "基础薄弱",
+        "weak_points": [
+          "热衰退",
+          "失效机理",
+          "裂纹"
+        ],
+        "strong_points": [
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 40,
+          "wrong_question_ids": [
+            "brake-q1",
+            "brake-q2",
+            "brake-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake-k03"
+        ],
+        "evidence_titles": [
+          "高温摩擦与热衰退",
+          "brake_wear_notes · 高温摩擦与热衰退",
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "氧化与热裂纹扩展"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "降维解释",
+        "actual_next_action": "降维解释",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "识别高温摩擦薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['高温摩擦']"
+        },
+        {
+          "key_point": "识别热衰退薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['热衰退']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "diag-003",
+      "test_type": "学情诊断测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "composite",
+      "input": "无损检测和分层题错误",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "无损检测图像判读",
+          "分层"
+        ],
+        "strong_points": [
+          "冲击损伤",
+          "常见误区",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "composite-q3",
+            "composite-q4"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k03",
+          "composite_damage_notes-c003-ae26f436",
+          "composite_springer_2024_cscan_ct-c001-31c82312",
+          "composite-k02",
+          "composite-k05"
+        ],
+        "evidence_titles": [
+          "无损检测图像判读",
+          "composite_damage_notes · 无损检测图像判读",
+          "Comparison of X-ray CT and Ultrasonic C-Scan Techniques for Impact Damage in a CFRP Laminate · Page 1",
+          "分层对载荷传递的影响",
+          "复合材料板实操训练任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "识别无损检测薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['无损检测']"
+        },
+        {
+          "key_point": "识别分层薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['分层']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "diag-004",
+      "test_type": "学情诊断测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "tire",
+      "input": "基础题正确但耦合损伤边界题错误",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化-滑动磨损耦合损伤"
+        ],
+        "strong_points": [
+          "热氧老化",
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "tire-q4"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire-k06",
+          "tire_damage_notes-c004-91c8dc2f",
+          "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+          "tire-k02",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "热氧老化-滑动磨损耦合边界",
+          "tire_damage_notes · 热氧老化与滑动磨损耦合",
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Aging conditions",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "识别耦合损伤薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['耦合损伤']"
+        },
+        {
+          "key_point": "保留基础强项",
+          "matched": true,
+          "basis": "matched_concepts=['基础强项']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "diag-005",
+      "test_type": "学情诊断测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "brake",
+      "input": "失效机理证据链题错误",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热衰退",
+          "失效机理"
+        ],
+        "strong_points": [
+          "裂纹",
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "brake-q1",
+            "brake-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k03"
+        ],
+        "evidence_titles": [
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "高温摩擦与热衰退",
+          "brake_wear_notes · 高温摩擦与热衰退",
+          "氧化与热裂纹扩展"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "识别证据链薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['证据链']"
+        },
+        {
+          "key_point": "推荐机理分析训练",
+          "matched": true,
+          "basis": "matched_concepts=['机理分析训练']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "diag-006",
+      "test_type": "学情诊断测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "composite",
+      "input": "损伤扩展分析题错误",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "损伤扩展"
+        ],
+        "strong_points": [
+          "冲击损伤",
+          "常见误区",
+          "无损检测图像判读",
+          "分层"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "composite-q5"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k04",
+          "composite_damage_notes-c004-5359317b",
+          "composite-k02",
+          "composite_damage_notes-c002-be4cb4cb",
+          "composite-k05"
+        ],
+        "evidence_titles": [
+          "损伤扩展分析",
+          "composite_damage_notes · 损伤扩展分析",
+          "分层对载荷传递的影响",
+          "composite_damage_notes · 分层对载荷传递的影响",
+          "复合材料板实操训练任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "识别损伤扩展薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['损伤扩展']"
+        },
+        {
+          "key_point": "推荐载荷路径分析",
+          "matched": true,
+          "basis": "matched_concepts=['载荷路径']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "diag-007",
+      "test_type": "学情诊断测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "tire",
+      "input": "裂纹剥落判读题错误",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化",
+          "损伤等级判读"
+        ],
+        "strong_points": [
+          "滑动磨损与实验表征方法",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "tire-q1",
+            "tire-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire-k03",
+          "tire_damage_notes-c003-d87c13a2",
+          "tire-k04",
+          "tire-k01",
+          "tire-k06"
+        ],
+        "evidence_titles": [
+          "胎面裂纹与剥落判读",
+          "tire_damage_notes · 胎面裂纹与剥落判读",
+          "起降次数与损伤累积",
+          "热氧老化与橡胶交联网络变化",
+          "热氧老化-滑动磨损耦合边界"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "识别维护判读薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['维护判读']"
+        },
+        {
+          "key_point": "强调不能替代放行结论",
+          "matched": true,
+          "basis": "matched_concepts=['放行']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "diag-008",
+      "test_type": "学情诊断测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "brake",
+      "input": "只凭形貌判断失效机理",
+      "diagnosis": {
+        "score": 40,
+        "level": "基础薄弱",
+        "weak_points": [
+          "失效机理",
+          "磨损形貌",
+          "常见误区"
+        ],
+        "strong_points": [
+          "热衰退",
+          "裂纹"
+        ],
+        "answer_fixture": {
+          "target_score": 40,
+          "wrong_question_ids": [
+            "brake-q2",
+            "brake-q4",
+            "brake-q5"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake-k02",
+          "brake_wear_notes-c002-a6714a3c",
+          "brake-k03"
+        ],
+        "evidence_titles": [
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "磨损形貌识别",
+          "brake_wear_notes · 磨损形貌识别",
+          "氧化与热裂纹扩展"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "降维解释",
+        "actual_next_action": "降维解释",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "识别形貌误区",
+          "matched": true,
+          "basis": "matched_concepts=['形貌']"
+        },
+        {
+          "key_point": "强调摩擦曲线和温度历史",
+          "matched": true,
+          "basis": "matched_concepts=['摩擦曲线', '温度历史']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "diag-009",
+      "test_type": "学情诊断测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "composite",
+      "input": "认为表面轻微即内部无损伤",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "常见误区",
+          "无损检测图像判读"
+        ],
+        "strong_points": [
+          "冲击损伤",
+          "分层",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "composite-q2",
+            "composite-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k03",
+          "composite_damage_notes-c003-ae26f436",
+          "composite_springer_2024_cscan_ct-c001-31c82312",
+          "composite_springer_2024_cscan_ct-c002-00ce6d4f",
+          "composite-k01"
+        ],
+        "evidence_titles": [
+          "无损检测图像判读",
+          "composite_damage_notes · 无损检测图像判读",
+          "Comparison of X-ray CT and Ultrasonic C-Scan Techniques for Impact Damage in a CFRP Laminate · Page 1",
+          "Comparison of X-ray CT and Ultrasonic C-Scan Techniques for Impact Damage in a CFRP Laminate · Page 1",
+          "低速冲击与隐蔽损伤"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "识别隐蔽损伤误区",
+          "matched": true,
+          "basis": "matched_concepts=['隐蔽损伤']"
+        },
+        {
+          "key_point": "推荐无损检测训练",
+          "matched": true,
+          "basis": "matched_concepts=['无损检测']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "diag-010",
+      "test_type": "学情诊断测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "5 道诊断题全部正确",
+      "diagnosis": {
+        "score": 100,
+        "level": "掌握较好",
+        "weak_points": [
+          "综合迁移应用"
+        ],
+        "strong_points": [
+          "热氧老化",
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 100,
+          "wrong_question_ids": []
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "team_tire_lyq_service_tire_cases-c001-cb4082bf",
+          "team_tire_lyq_contact_load_temperature_evidence-c002-f014f7c5",
+          "tire-k02",
+          "tire-k01",
+          "tire-k07"
+        ],
+        "evidence_titles": [
+          "航空轮胎实胎偏磨与严重度判读案例 · 航空轮胎实胎偏磨与严重度判读案例",
+          "航空轮胎胎面橡胶多接触方式、载荷与温度摩擦磨损实验依据 · 三种接触方式及训练边界",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化",
+          "胎面损伤检查实操任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "进阶挑战",
+        "actual_next_action": "进阶挑战",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "识别基础较好",
+          "matched": true,
+          "basis": "matched_concepts=['基础较好']"
+        },
+        {
+          "key_point": "推荐进阶挑战或继续巩固",
+          "matched": true,
+          "basis": "matched_concepts=['进阶挑战']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "ret-001",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "薄弱点为热氧老化和滑动磨损",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化",
+          "滑动磨损与实验表征方法"
+        ],
+        "strong_points": [
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "tire-q1",
+            "tire-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+          "team_tire_rxq_aging_multimodal_evidence-c003-6f6f48bf",
+          "tire-k02",
+          "tire-k01",
+          "tire-k06"
+        ],
+        "evidence_titles": [
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化",
+          "热氧老化-滑动磨损耦合边界"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "命中 tire-k01",
+          "matched": true,
+          "basis": "evidence_ids=['tire-k01']"
+        },
+        {
+          "key_point": "命中 tire-k02",
+          "matched": true,
+          "basis": "evidence_ids=['tire-k02']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "ret-002",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "目标为胎面裂纹和剥落判读",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化",
+          "损伤等级判读"
+        ],
+        "strong_points": [
+          "滑动磨损与实验表征方法",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "tire-q1",
+            "tire-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire-k03",
+          "tire_damage_notes-c003-d87c13a2",
+          "tire-k04",
+          "tire-k06",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "胎面裂纹与剥落判读",
+          "tire_damage_notes · 胎面裂纹与剥落判读",
+          "起降次数与损伤累积",
+          "热氧老化-滑动磨损耦合边界",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "命中 tire-k03",
+          "matched": true,
+          "basis": "evidence_ids=['tire-k03']"
+        },
+        {
+          "key_point": "命中 tire-k07",
+          "matched": false,
+          "basis": "evidence_ids=['tire-k01', 'tire-k03', 'tire-k04', 'tire-k06', 'tire_damage_notes-c003-d87c13a2']"
+        }
+      ],
+      "key_point_coverage": 0.5,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "ret-003",
+      "test_type": "知识检索测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "tire",
+      "input": "目标为构建耦合损伤边界",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化-滑动磨损耦合损伤"
+        ],
+        "strong_points": [
+          "热氧老化",
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "tire-q4"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire-k06",
+          "tire_damage_notes-c004-91c8dc2f",
+          "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+          "tire-k02",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "热氧老化-滑动磨损耦合边界",
+          "tire_damage_notes · 热氧老化与滑动磨损耦合",
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Aging conditions",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "命中 tire-k06",
+          "matched": true,
+          "basis": "evidence_ids=['tire-k06']"
+        },
+        {
+          "key_point": "命中 tire-k05",
+          "matched": false,
+          "basis": "evidence_ids=['team_tire_tire_exp_rxq_aging_001-c005-33d4856d', 'tire-k01', 'tire-k02', 'tire-k06', 'tire_damage_notes-c004-91c8dc2f']"
+        }
+      ],
+      "key_point_coverage": 0.5,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "ret-004",
+      "test_type": "知识检索测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "tire",
+      "input": "关注起降次数与维护判读",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化",
+          "损伤等级判读"
+        ],
+        "strong_points": [
+          "滑动磨损与实验表征方法",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "tire-q1",
+            "tire-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire-k04",
+          "tire-k03",
+          "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+          "tire-k06",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "起降次数与损伤累积",
+          "胎面裂纹与剥落判读",
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+          "热氧老化-滑动磨损耦合边界",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "命中 tire-k04",
+          "matched": true,
+          "basis": "evidence_ids=['tire-k04']"
+        },
+        {
+          "key_point": "命中 tire-k03",
+          "matched": true,
+          "basis": "evidence_ids=['tire-k03']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "ret-005",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "brake",
+      "input": "薄弱点为高温摩擦和热衰退",
+      "diagnosis": {
+        "score": 40,
+        "level": "基础薄弱",
+        "weak_points": [
+          "热衰退",
+          "失效机理",
+          "裂纹"
+        ],
+        "strong_points": [
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 40,
+          "wrong_question_ids": [
+            "brake-q1",
+            "brake-q2",
+            "brake-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake-k03"
+        ],
+        "evidence_titles": [
+          "高温摩擦与热衰退",
+          "brake_wear_notes · 高温摩擦与热衰退",
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "氧化与热裂纹扩展"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "降维解释",
+        "actual_next_action": "降维解释",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "命中 brake-k01",
+          "matched": true,
+          "basis": "evidence_ids=['brake-k01']"
+        },
+        {
+          "key_point": "命中 brake-k05",
+          "matched": false,
+          "basis": "evidence_ids=['brake-k01', 'brake-k03', 'brake-k04', 'brake_wear_notes-c001-07d5e4a8', 'brake_wear_notes-c004-01ffd247']"
+        }
+      ],
+      "key_point_coverage": 0.5,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "ret-006",
+      "test_type": "知识检索测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "brake",
+      "input": "目标为失效机理证据链",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "失效机理"
+        ],
+        "strong_points": [
+          "热衰退",
+          "裂纹",
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "brake-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake_wear_notes-c002-a6714a3c",
+          "brake-k03",
+          "brake-k02"
+        ],
+        "evidence_titles": [
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "brake_wear_notes · 磨损形貌识别",
+          "氧化与热裂纹扩展",
+          "磨损形貌识别"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "命中 brake-k04",
+          "matched": true,
+          "basis": "evidence_ids=['brake-k04']"
+        },
+        {
+          "key_point": "命中 brake-k03",
+          "matched": true,
+          "basis": "evidence_ids=['brake-k03']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "ret-007",
+      "test_type": "知识检索测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "brake",
+      "input": "只看最终磨损量忽略摩擦曲线",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "磨损形貌",
+          "常见误区"
+        ],
+        "strong_points": [
+          "热衰退",
+          "失效机理",
+          "裂纹"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "brake-q4",
+            "brake-q5"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k02",
+          "brake_wear_notes-c002-a6714a3c",
+          "brake-k05",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k04"
+        ],
+        "evidence_titles": [
+          "磨损形貌识别",
+          "brake_wear_notes · 磨损形貌识别",
+          "刹车片实操训练任务",
+          "brake_wear_notes · 高温摩擦与热衰退",
+          "失效机理证据链"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "命中 brake-k02",
+          "matched": true,
+          "basis": "evidence_ids=['brake-k02']"
+        },
+        {
+          "key_point": "命中 brake-k05",
+          "matched": true,
+          "basis": "evidence_ids=['brake-k05']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "ret-008",
+      "test_type": "知识检索测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "composite",
+      "input": "薄弱点为冲击损伤和隐蔽损伤",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "冲击损伤",
+          "常见误区"
+        ],
+        "strong_points": [
+          "无损检测图像判读",
+          "分层",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "composite-q1",
+            "composite-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k01",
+          "composite_damage_notes-c001-c1f9c709",
+          "composite-k04",
+          "composite-k05",
+          "composite-k03"
+        ],
+        "evidence_titles": [
+          "低速冲击与隐蔽损伤",
+          "composite_damage_notes · 低速冲击与隐蔽损伤",
+          "损伤扩展分析",
+          "复合材料板实操训练任务",
+          "无损检测图像判读"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "命中 composite-k01",
+          "matched": true,
+          "basis": "evidence_ids=['composite-k01']"
+        },
+        {
+          "key_point": "命中 composite-k03",
+          "matched": true,
+          "basis": "evidence_ids=['composite-k03']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "ret-009",
+      "test_type": "知识检索测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "composite",
+      "input": "目标为损伤扩展分析",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "损伤扩展"
+        ],
+        "strong_points": [
+          "冲击损伤",
+          "常见误区",
+          "无损检测图像判读",
+          "分层"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "composite-q5"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k04",
+          "composite_damage_notes-c004-5359317b",
+          "composite-k02",
+          "composite_damage_notes-c002-be4cb4cb",
+          "composite-k05"
+        ],
+        "evidence_titles": [
+          "损伤扩展分析",
+          "composite_damage_notes · 损伤扩展分析",
+          "分层对载荷传递的影响",
+          "composite_damage_notes · 分层对载荷传递的影响",
+          "复合材料板实操训练任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "命中 composite-k04",
+          "matched": true,
+          "basis": "evidence_ids=['composite-k04']"
+        },
+        {
+          "key_point": "命中 composite-k02",
+          "matched": true,
+          "basis": "evidence_ids=['composite-k02']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "ret-010",
+      "test_type": "知识检索测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "composite",
+      "input": "目标为无损检测图像判读",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "冲击损伤",
+          "无损检测图像判读"
+        ],
+        "strong_points": [
+          "常见误区",
+          "分层",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "composite-q1",
+            "composite-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k03",
+          "composite_damage_notes-c003-ae26f436",
+          "composite_springer_2024_cscan_ct-c001-31c82312",
+          "composite-k01",
+          "composite-k05"
+        ],
+        "evidence_titles": [
+          "无损检测图像判读",
+          "composite_damage_notes · 无损检测图像判读",
+          "Comparison of X-ray CT and Ultrasonic C-Scan Techniques for Impact Damage in a CFRP Laminate · Page 1",
+          "低速冲击与隐蔽损伤",
+          "复合材料板实操训练任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "命中 composite-k03",
+          "matched": true,
+          "basis": "evidence_ids=['composite-k03']"
+        },
+        {
+          "key_point": "命中 composite-k05",
+          "matched": true,
+          "basis": "evidence_ids=['composite-k05']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "gen-001",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "诊断显示热氧老化薄弱",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化",
+          "滑动磨损与实验表征方法"
+        ],
+        "strong_points": [
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "tire-q1",
+            "tire-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+          "team_tire_rxq_aging_multimodal_evidence-c003-6f6f48bf",
+          "tire-k02",
+          "tire-k01",
+          "tire-k06"
+        ],
+        "evidence_titles": [
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化",
+          "热氧老化-滑动磨损耦合边界"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "降维解释",
+          "matched": true,
+          "basis": "matched_concepts=['降维解释']"
+        },
+        {
+          "key_point": "基础讲义",
+          "matched": true,
+          "basis": "matched_concepts=['基础讲义']"
+        },
+        {
+          "key_point": "胎面实操指南",
+          "matched": true,
+          "basis": "matched_concepts=['实操']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "gen-002",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "brake",
+      "input": "诊断显示热衰退薄弱",
+      "diagnosis": {
+        "score": 40,
+        "level": "基础薄弱",
+        "weak_points": [
+          "热衰退",
+          "失效机理",
+          "裂纹"
+        ],
+        "strong_points": [
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 40,
+          "wrong_question_ids": [
+            "brake-q1",
+            "brake-q2",
+            "brake-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake-k03"
+        ],
+        "evidence_titles": [
+          "高温摩擦与热衰退",
+          "brake_wear_notes · 高温摩擦与热衰退",
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "氧化与热裂纹扩展"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "降维解释",
+        "actual_next_action": "降维解释",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "热衰退讲义",
+          "matched": true,
+          "basis": "matched_concepts=['热衰退']"
+        },
+        {
+          "key_point": "摩擦曲线实操",
+          "matched": true,
+          "basis": "matched_concepts=['摩擦曲线', '实操']"
+        },
+        {
+          "key_point": "分阶题",
+          "matched": true,
+          "basis": "matched_concepts=['分阶']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "gen-003",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "composite",
+      "input": "诊断显示分层和无损检测薄弱",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "无损检测图像判读",
+          "分层"
+        ],
+        "strong_points": [
+          "冲击损伤",
+          "常见误区",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "composite-q3",
+            "composite-q4"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k03",
+          "composite_damage_notes-c003-ae26f436",
+          "composite_springer_2024_cscan_ct-c001-31c82312",
+          "composite-k02",
+          "composite-k05"
+        ],
+        "evidence_titles": [
+          "无损检测图像判读",
+          "composite_damage_notes · 无损检测图像判读",
+          "Comparison of X-ray CT and Ultrasonic C-Scan Techniques for Impact Damage in a CFRP Laminate · Page 1",
+          "分层对载荷传递的影响",
+          "复合材料板实操训练任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "隐蔽损伤解释",
+          "matched": true,
+          "basis": "matched_concepts=['隐蔽损伤']"
+        },
+        {
+          "key_point": "无损检测任务",
+          "matched": true,
+          "basis": "matched_concepts=['无损检测']"
+        },
+        {
+          "key_point": "基础测试",
+          "matched": true,
+          "basis": "matched_concepts=['基础测试']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "gen-004",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "tire",
+      "input": "目标为耦合损伤边界构建",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化-滑动磨损耦合损伤"
+        ],
+        "strong_points": [
+          "热氧老化",
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "tire-q4"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire-k06",
+          "tire_damage_notes-c004-91c8dc2f",
+          "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+          "tire-k02",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "热氧老化-滑动磨损耦合边界",
+          "tire_damage_notes · 热氧老化与滑动磨损耦合",
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Aging conditions",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "进阶讲义",
+          "matched": true,
+          "basis": "matched_concepts=['进阶讲义']"
+        },
+        {
+          "key_point": "实验设计",
+          "matched": true,
+          "basis": "matched_concepts=['实验设计']"
+        },
+        {
+          "key_point": "证据链表达",
+          "matched": true,
+          "basis": "matched_concepts=['证据链']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "gen-005",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "brake",
+      "input": "目标为刹车片失效机理分析",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "失效机理"
+        ],
+        "strong_points": [
+          "热衰退",
+          "裂纹",
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "brake-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake-k05",
+          "brake-k02",
+          "brake-k03"
+        ],
+        "evidence_titles": [
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "刹车片实操训练任务",
+          "磨损形貌识别",
+          "氧化与热裂纹扩展"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "摩擦膜演化",
+          "matched": true,
+          "basis": "matched_concepts=['摩擦膜']"
+        },
+        {
+          "key_point": "氧化裂纹",
+          "matched": true,
+          "basis": "matched_concepts=['裂纹', '氧化裂纹']"
+        },
+        {
+          "key_point": "性能变化",
+          "matched": true,
+          "basis": "matched_concepts=['性能变化']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "gen-006",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "composite",
+      "input": "目标为冲击后损伤扩展分析",
+      "diagnosis": {
+        "score": 100,
+        "level": "掌握较好",
+        "weak_points": [
+          "综合迁移应用"
+        ],
+        "strong_points": [
+          "冲击损伤",
+          "常见误区",
+          "无损检测图像判读",
+          "分层",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 100,
+          "wrong_question_ids": []
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k04",
+          "composite_damage_notes-c004-5359317b",
+          "composite-k01",
+          "composite-k05",
+          "composite-k02"
+        ],
+        "evidence_titles": [
+          "损伤扩展分析",
+          "composite_damage_notes · 损伤扩展分析",
+          "低速冲击与隐蔽损伤",
+          "复合材料板实操训练任务",
+          "分层对载荷传递的影响"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "进阶挑战",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "进阶挑战",
+        "actual_next_action": "进阶挑战",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "载荷谱",
+          "matched": true,
+          "basis": "matched_concepts=['载荷谱']"
+        },
+        {
+          "key_point": "边界条件",
+          "matched": true,
+          "basis": "matched_concepts=['边界条件']"
+        },
+        {
+          "key_point": "铺层方向",
+          "matched": true,
+          "basis": "matched_concepts=['铺层方向']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "gen-007",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "tire",
+      "input": "关注胎面裂纹检查流程",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化",
+          "损伤等级判读"
+        ],
+        "strong_points": [
+          "滑动磨损与实验表征方法",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "tire-q1",
+            "tire-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire-k07",
+          "tire-k03",
+          "tire_damage_notes-c003-d87c13a2",
+          "tire-k06",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "胎面损伤检查实操任务",
+          "胎面裂纹与剥落判读",
+          "tire_damage_notes · 胎面裂纹与剥落判读",
+          "热氧老化-滑动磨损耦合边界",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "检查步骤",
+          "matched": true,
+          "basis": "matched_concepts=['检查步骤']"
+        },
+        {
+          "key_point": "记录字段",
+          "matched": true,
+          "basis": "matched_concepts=['记录字段']"
+        },
+        {
+          "key_point": "放行边界",
+          "matched": true,
+          "basis": "matched_concepts=['放行']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "gen-008",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "brake",
+      "input": "关注制动后表面异常判读",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热衰退",
+          "磨损形貌"
+        ],
+        "strong_points": [
+          "失效机理",
+          "裂纹",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "brake-q1",
+            "brake-q4"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k05",
+          "brake-k02",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake_wear_notes-c005-f41f94af",
+          "brake-k01"
+        ],
+        "evidence_titles": [
+          "刹车片实操训练任务",
+          "磨损形貌识别",
+          "brake_wear_notes · 高温摩擦与热衰退",
+          "brake_wear_notes · 实操训练任务",
+          "高温摩擦与热衰退"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "形貌标注",
+          "matched": true,
+          "basis": "matched_concepts=['形貌']"
+        },
+        {
+          "key_point": "温度历史",
+          "matched": true,
+          "basis": "matched_concepts=['温度历史']"
+        },
+        {
+          "key_point": "风险提示",
+          "matched": true,
+          "basis": "matched_concepts=['风险提示']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "gen-009",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "composite",
+      "input": "关注外观凹坑和内部损伤差异",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "冲击损伤",
+          "常见误区"
+        ],
+        "strong_points": [
+          "无损检测图像判读",
+          "分层",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "composite-q1",
+            "composite-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k01",
+          "composite_damage_notes-c001-c1f9c709",
+          "composite-k03",
+          "composite_damage_notes-c005-d24d62ab",
+          "composite-k05"
+        ],
+        "evidence_titles": [
+          "低速冲击与隐蔽损伤",
+          "composite_damage_notes · 低速冲击与隐蔽损伤",
+          "无损检测图像判读",
+          "composite_damage_notes · 实操训练任务",
+          "复合材料板实操训练任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "外观圈定",
+          "matched": true,
+          "basis": "matched_concepts=['外观圈定']"
+        },
+        {
+          "key_point": "NDT 异常区域",
+          "matched": true,
+          "basis": "matched_fragments=['异常区域']; manual_review_if_empty=true"
+        },
+        {
+          "key_point": "后续检测建议",
+          "matched": true,
+          "basis": "matched_concepts=['后续检测']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "gen-010",
+      "test_type": "个性化资源生成测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "目标为理解基础概念并完成判读",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化"
+        ],
+        "strong_points": [
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "tire-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire_damage_notes-c001-ee0fe1e5",
+          "tire-k01",
+          "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+          "tire_damage_notes-c004-91c8dc2f",
+          "tire-k07"
+        ],
+        "evidence_titles": [
+          "tire_damage_notes · 热氧老化与橡胶网络",
+          "热氧老化与橡胶交联网络变化",
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 图像证据链",
+          "tire_damage_notes · 热氧老化与滑动磨损耦合",
+          "胎面损伤检查实操任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "基础概念",
+          "matched": true,
+          "basis": "matched_fragments=['基础概念']; manual_review_if_empty=true"
+        },
+        {
+          "key_point": "实操任务",
+          "matched": true,
+          "basis": "matched_concepts=['实操']"
+        },
+        {
+          "key_point": "5 道测试题",
+          "matched": true,
+          "basis": "quiz_count=5"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "rev-001",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "生成内容声称训练系统可替代适航放行",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化",
+          "滑动磨损与实验表征方法"
+        ],
+        "strong_points": [
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "tire-q1",
+            "tire-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "team_tire_rxq_aging_multimodal_evidence-c010-49b28124",
+          "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+          "tire-k02",
+          "tire-k01",
+          "tire-k06"
+        ],
+        "evidence_titles": [
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 可复现实验条件",
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化",
+          "热氧老化-滑动磨损耦合边界"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，已按证据边界降级",
+        "approved": true,
+        "degraded_output": true,
+        "unsupported_claims": [
+          "以训练输出替代适航或维修放行"
+        ],
+        "rejection_reasons": [],
+        "correction_rounds": 1,
+        "initial_review": {
+          "status": "需纠偏后复核",
+          "approved": false,
+          "requires_regeneration": true,
+          "rejection_reasons": [
+            "实操指南缺少边界条件与安全约束"
+          ],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。",
+            "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。",
+            "当前依据中实操任务片段不足，建议追加检查流程约束。"
+          ],
+          "corrections": [
+            "围绕“热氧老化”补充证据来源、实验边界或检查记录模板。",
+            "围绕“滑动磨损与实验表征方法”补充证据来源、实验边界或检查记录模板。",
+            "将“以训练输出替代适航或维修放行”改写为证据边界内的观察、假设或待验证问题。"
+          ],
+          "evidence_ids": [
+            "team_tire_rxq_aging_multimodal_evidence-c010-49b28124",
+            "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+            "tire-k02",
+            "tire-k01",
+            "tire-k06"
+          ],
+          "asset_evidence_ids": [
+            "RXQ-THERMAL-TREND-01",
+            "RXQ-IMG-D000-S15-SEM-01",
+            "RXQ-IMG-D000-S15-OPTICAL-01",
+            "RXQ-IMG-D001-S17-SEM-01",
+            "RXQ-UV-H0024-IMG-01",
+            "RXQ-UV-H0024-IMG-02",
+            "RXQ-UV-H0024-IMG-03",
+            "RXQ-UV-H0024-IMG-04"
+          ],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "limited",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果",
+            "实验资产具备来源记录和限制说明",
+            "实验资产工况字段可追溯"
+          ],
+          "unsupported_claims": [
+            "以训练输出替代适航或维修放行"
+          ],
+          "evidence_gaps": [
+            "检索结果缺少专门的实操任务片段"
+          ],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "evidence-bound",
+              "basis_ids": [
+                "RXQ-THERMAL-TREND-01",
+                "RXQ-IMG-D000-S15-SEM-01",
+                "RXQ-IMG-D000-S15-OPTICAL-01",
+                "RXQ-IMG-D001-S17-SEM-01",
+                "RXQ-UV-H0024-IMG-01",
+                "RXQ-UV-H0024-IMG-02",
+                "RXQ-UV-H0024-IMG-03",
+                "RXQ-UV-H0024-IMG-04"
+              ],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "verified-fields",
+              "basis_ids": [
+                "RXQ-THERMAL-TREND-01",
+                "RXQ-IMG-D000-S15-SEM-01",
+                "RXQ-IMG-D000-S15-OPTICAL-01",
+                "RXQ-IMG-D001-S17-SEM-01",
+                "RXQ-UV-H0024-IMG-01",
+                "RXQ-UV-H0024-IMG-02",
+                "RXQ-UV-H0024-IMG-03",
+                "RXQ-UV-H0024-IMG-04"
+              ],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "degraded-hypothesis",
+              "basis_ids": [
+                "team_tire_rxq_aging_multimodal_evidence-c010-49b28124",
+                "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+                "tire-k02",
+                "tire-k01",
+                "tire-k06"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "team_tire_rxq_aging_multimodal_evidence-c010-49b28124",
+                "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+                "tire-k02",
+                "tire-k01",
+                "tire-k06"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": true,
+          "degradation_notice": "证据不足或请求超出证据边界，系统仅输出训练性观察、假设与补充验证建议。",
+          "consistency_check": "存在证据或难度约束问题，需要按纠偏建议重新生成。"
+        }
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "标记高风险",
+          "matched": true,
+          "basis": "matched_fragments=['高风险']; manual_review_if_empty=true"
+        },
+        {
+          "key_point": "纠正放行边界",
+          "matched": true,
+          "basis": "matched_concepts=['放行']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "rev-002",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "tire",
+      "input": "生成内容缺少耦合损伤实验变量",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化-滑动磨损耦合损伤"
+        ],
+        "strong_points": [
+          "热氧老化",
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "tire-q4"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire-k06",
+          "tire_damage_notes-c004-91c8dc2f",
+          "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+          "tire-k02",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "热氧老化-滑动磨损耦合边界",
+          "tire_damage_notes · 热氧老化与滑动磨损耦合",
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Aging conditions",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 1,
+        "initial_review": {
+          "status": "需纠偏后复核",
+          "approved": false,
+          "requires_regeneration": true,
+          "rejection_reasons": [
+            "科研分析任务缺少自变量、控制变量与对照记录"
+          ],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。",
+            "当前依据中实操任务片段不足，建议追加检查流程约束。"
+          ],
+          "corrections": [
+            "围绕“热氧老化-滑动磨损耦合损伤”补充证据来源、实验边界或检查记录模板。"
+          ],
+          "evidence_ids": [
+            "tire-k06",
+            "tire_damage_notes-c004-91c8dc2f",
+            "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+            "tire-k02",
+            "tire-k01"
+          ],
+          "asset_evidence_ids": [
+            "RXQ-THERMAL-TREND-01",
+            "RXQ-IMG-D000-S15-SEM-01",
+            "RXQ-IMG-D000-S15-OPTICAL-01",
+            "RXQ-IMG-D001-S17-SEM-01"
+          ],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "sufficient_for_training",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果",
+            "实验资产具备来源记录和限制说明",
+            "实验资产工况字段可追溯"
+          ],
+          "unsupported_claims": [],
+          "evidence_gaps": [
+            "检索结果缺少专门的实操任务片段"
+          ],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "evidence-bound",
+              "basis_ids": [
+                "RXQ-THERMAL-TREND-01",
+                "RXQ-IMG-D000-S15-SEM-01",
+                "RXQ-IMG-D000-S15-OPTICAL-01",
+                "RXQ-IMG-D001-S17-SEM-01"
+              ],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "verified-fields",
+              "basis_ids": [
+                "RXQ-THERMAL-TREND-01",
+                "RXQ-IMG-D000-S15-SEM-01",
+                "RXQ-IMG-D000-S15-OPTICAL-01",
+                "RXQ-IMG-D001-S17-SEM-01"
+              ],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "bounded-inference",
+              "basis_ids": [
+                "tire-k06",
+                "tire_damage_notes-c004-91c8dc2f",
+                "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+                "tire-k02",
+                "tire-k01"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "tire-k06",
+                "tire_damage_notes-c004-91c8dc2f",
+                "team_tire_tire_exp_rxq_aging_001-c005-33d4856d",
+                "tire-k02",
+                "tire-k01"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": false,
+          "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+          "consistency_check": "存在证据或难度约束问题，需要按纠偏建议重新生成。"
+        }
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "指出证据不足",
+          "matched": true,
+          "basis": "matched_concepts=['证据不足']"
+        },
+        {
+          "key_point": "补充变量组合",
+          "matched": true,
+          "basis": "matched_concepts=['变量组合']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "rev-003",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "brake",
+      "input": "生成内容用单一形貌断定失效机理",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "失效机理",
+          "磨损形貌"
+        ],
+        "strong_points": [
+          "热衰退",
+          "裂纹",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "brake-q2",
+            "brake-q4"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake_wear_notes-c002-a6714a3c",
+          "brake-k02",
+          "brake-k03"
+        ],
+        "evidence_titles": [
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "brake_wear_notes · 磨损形貌识别",
+          "磨损形貌识别",
+          "氧化与热裂纹扩展"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，已按证据边界降级",
+        "approved": true,
+        "degraded_output": true,
+        "unsupported_claims": [
+          "由单一形貌或图像断定失效机理"
+        ],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "标记过度泛化",
+          "matched": true,
+          "basis": "matched_concepts=['过度泛化']"
+        },
+        {
+          "key_point": "要求摩擦曲线和温度历史",
+          "matched": true,
+          "basis": "matched_concepts=['摩擦曲线', '温度历史']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "rev-004",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "brake",
+      "input": "讲义难度过高且缺少基础定义",
+      "diagnosis": {
+        "score": 40,
+        "level": "基础薄弱",
+        "weak_points": [
+          "热衰退",
+          "失效机理",
+          "裂纹"
+        ],
+        "strong_points": [
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 40,
+          "wrong_question_ids": [
+            "brake-q1",
+            "brake-q2",
+            "brake-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k03"
+        ],
+        "evidence_titles": [
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "高温摩擦与热衰退",
+          "brake_wear_notes · 高温摩擦与热衰退",
+          "氧化与热裂纹扩展"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 1,
+        "initial_review": {
+          "status": "需纠偏后复核",
+          "approved": false,
+          "requires_regeneration": true,
+          "rejection_reasons": [
+            "资源难度与基础薄弱学习者不匹配"
+          ],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。",
+            "当前依据中实操任务片段不足，建议追加检查流程约束。"
+          ],
+          "corrections": [
+            "围绕“热衰退”补充证据来源、实验边界或检查记录模板。",
+            "围绕“失效机理”补充证据来源、实验边界或检查记录模板。",
+            "围绕“裂纹”补充证据来源、实验边界或检查记录模板。"
+          ],
+          "evidence_ids": [
+            "brake-k04",
+            "brake_wear_notes-c004-01ffd247",
+            "brake-k01",
+            "brake_wear_notes-c001-07d5e4a8",
+            "brake-k03"
+          ],
+          "asset_evidence_ids": [],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "sufficient_for_training",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果"
+          ],
+          "unsupported_claims": [],
+          "evidence_gaps": [
+            "检索结果缺少专门的实操任务片段"
+          ],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "knowledge-only",
+              "basis_ids": [],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "limited",
+              "basis_ids": [],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "bounded-inference",
+              "basis_ids": [
+                "brake-k04",
+                "brake_wear_notes-c004-01ffd247",
+                "brake-k01",
+                "brake_wear_notes-c001-07d5e4a8",
+                "brake-k03"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "brake-k04",
+                "brake_wear_notes-c004-01ffd247",
+                "brake-k01",
+                "brake_wear_notes-c001-07d5e4a8",
+                "brake-k03"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": false,
+          "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+          "consistency_check": "存在证据或难度约束问题，需要按纠偏建议重新生成。"
+        }
+      },
+      "decision": {
+        "expected_next_action": "降维解释",
+        "actual_next_action": "降维解释",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "难度不匹配",
+          "matched": true,
+          "basis": "matched_concepts=['难度不匹配']"
+        },
+        {
+          "key_point": "建议降维解释",
+          "matched": true,
+          "basis": "matched_concepts=['降维解释']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "rev-005",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "brake",
+      "input": "失效分析没有证据链",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "失效机理"
+        ],
+        "strong_points": [
+          "热衰退",
+          "裂纹",
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "brake-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake_wear_notes-c002-a6714a3c",
+          "brake-k03",
+          "brake-k02"
+        ],
+        "evidence_titles": [
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "brake_wear_notes · 磨损形貌识别",
+          "氧化与热裂纹扩展",
+          "磨损形貌识别"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 1,
+        "initial_review": {
+          "status": "需纠偏后复核",
+          "approved": false,
+          "requires_regeneration": true,
+          "rejection_reasons": [
+            "生成资源缺少 evidence_ids 绑定，无法完成知识溯源"
+          ],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。",
+            "当前依据中实操任务片段不足，建议追加检查流程约束。"
+          ],
+          "corrections": [
+            "围绕“失效机理”补充证据来源、实验边界或检查记录模板。"
+          ],
+          "evidence_ids": [
+            "brake-k04",
+            "brake_wear_notes-c004-01ffd247",
+            "brake_wear_notes-c002-a6714a3c",
+            "brake-k03",
+            "brake-k02"
+          ],
+          "asset_evidence_ids": [],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "sufficient_for_training",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果"
+          ],
+          "unsupported_claims": [],
+          "evidence_gaps": [
+            "检索结果缺少专门的实操任务片段"
+          ],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "knowledge-only",
+              "basis_ids": [],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "limited",
+              "basis_ids": [],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "bounded-inference",
+              "basis_ids": [
+                "brake-k04",
+                "brake_wear_notes-c004-01ffd247",
+                "brake_wear_notes-c002-a6714a3c",
+                "brake-k03",
+                "brake-k02"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "brake-k04",
+                "brake_wear_notes-c004-01ffd247",
+                "brake_wear_notes-c002-a6714a3c",
+                "brake-k03",
+                "brake-k02"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": false,
+          "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+          "consistency_check": "存在证据或难度约束问题，需要按纠偏建议重新生成。"
+        }
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "证据链不足",
+          "matched": true,
+          "basis": "matched_concepts=['证据链']"
+        },
+        {
+          "key_point": "建议补充摩擦膜氧化裂纹性能",
+          "matched": true,
+          "basis": "matched_concepts=['裂纹', '摩擦膜', '氧化裂纹']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "rev-006",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "composite",
+      "input": "系统仅凭外观凹坑给出内部无损伤结论",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "常见误区",
+          "无损检测图像判读"
+        ],
+        "strong_points": [
+          "冲击损伤",
+          "分层",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "composite-q2",
+            "composite-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k03",
+          "composite_damage_notes-c003-ae26f436",
+          "composite-k05",
+          "composite_springer_2024_cscan_ct-c001-31c82312",
+          "composite-k01"
+        ],
+        "evidence_titles": [
+          "无损检测图像判读",
+          "composite_damage_notes · 无损检测图像判读",
+          "复合材料板实操训练任务",
+          "Comparison of X-ray CT and Ultrasonic C-Scan Techniques for Impact Damage in a CFRP Laminate · Page 1",
+          "低速冲击与隐蔽损伤"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，已按证据边界降级",
+        "approved": true,
+        "degraded_output": true,
+        "unsupported_claims": [
+          "由外观征象排除内部隐蔽损伤"
+        ],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "标记幻觉风险",
+          "matched": true,
+          "basis": "matched_concepts=['幻觉风险']"
+        },
+        {
+          "key_point": "建议无损检测",
+          "matched": true,
+          "basis": "matched_concepts=['无损检测']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "rev-007",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "composite",
+      "input": "损伤扩展分析缺少载荷谱",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "损伤扩展"
+        ],
+        "strong_points": [
+          "冲击损伤",
+          "常见误区",
+          "无损检测图像判读",
+          "分层"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "composite-q5"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k04",
+          "composite_damage_notes-c004-5359317b",
+          "composite-k02",
+          "composite_damage_notes-c002-be4cb4cb",
+          "composite-k05"
+        ],
+        "evidence_titles": [
+          "损伤扩展分析",
+          "composite_damage_notes · 损伤扩展分析",
+          "分层对载荷传递的影响",
+          "composite_damage_notes · 分层对载荷传递的影响",
+          "复合材料板实操训练任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 1,
+        "initial_review": {
+          "status": "需纠偏后复核",
+          "approved": false,
+          "requires_regeneration": true,
+          "rejection_reasons": [
+            "实操指南缺少边界条件与安全约束"
+          ],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。"
+          ],
+          "corrections": [
+            "围绕“损伤扩展”补充证据来源、实验边界或检查记录模板。"
+          ],
+          "evidence_ids": [
+            "composite-k04",
+            "composite_damage_notes-c004-5359317b",
+            "composite-k02",
+            "composite_damage_notes-c002-be4cb4cb",
+            "composite-k05"
+          ],
+          "asset_evidence_ids": [],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "sufficient_for_training",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果"
+          ],
+          "unsupported_claims": [],
+          "evidence_gaps": [],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "knowledge-only",
+              "basis_ids": [],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "limited",
+              "basis_ids": [],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "bounded-inference",
+              "basis_ids": [
+                "composite-k04",
+                "composite_damage_notes-c004-5359317b",
+                "composite-k02",
+                "composite_damage_notes-c002-be4cb4cb",
+                "composite-k05"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "composite-k04",
+                "composite_damage_notes-c004-5359317b",
+                "composite-k02",
+                "composite_damage_notes-c002-be4cb4cb",
+                "composite-k05"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": false,
+          "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+          "consistency_check": "存在证据或难度约束问题，需要按纠偏建议重新生成。"
+        }
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "指出条件缺失",
+          "matched": true,
+          "basis": "matched_concepts=['条件缺失']"
+        },
+        {
+          "key_point": "建议补充边界条件",
+          "matched": true,
+          "basis": "matched_concepts=['边界条件']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "rev-008",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "composite",
+      "input": "测试题没有解析",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "冲击损伤"
+        ],
+        "strong_points": [
+          "常见误区",
+          "无损检测图像判读",
+          "分层",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "composite-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k01",
+          "composite_damage_notes-c001-c1f9c709",
+          "composite_pmc_9294053_impact_dataset-c010-9e1e2b7e",
+          "composite-k05",
+          "composite-k03"
+        ],
+        "evidence_titles": [
+          "低速冲击与隐蔽损伤",
+          "composite_damage_notes · 低速冲击与隐蔽损伤",
+          "Dataset for Surface and Internal Damage after Impact on CFRP Laminates · Low-Velocity Impact Test [sec0002]",
+          "复合材料板实操训练任务",
+          "无损检测图像判读"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 1,
+        "initial_review": {
+          "status": "需纠偏后复核",
+          "approved": false,
+          "requires_regeneration": true,
+          "rejection_reasons": [
+            "分阶测试题缺少答案解析"
+          ],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。",
+            "降维讲义需保留关键边界条件，避免过度简化热-力-氧耦合关系。"
+          ],
+          "corrections": [
+            "围绕“冲击损伤”补充证据来源、实验边界或检查记录模板。"
+          ],
+          "evidence_ids": [
+            "composite-k01",
+            "composite_damage_notes-c001-c1f9c709",
+            "composite_pmc_9294053_impact_dataset-c010-9e1e2b7e",
+            "composite-k05",
+            "composite-k03"
+          ],
+          "asset_evidence_ids": [],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "sufficient_for_training",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果"
+          ],
+          "unsupported_claims": [],
+          "evidence_gaps": [],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "knowledge-only",
+              "basis_ids": [],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "limited",
+              "basis_ids": [],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "bounded-inference",
+              "basis_ids": [
+                "composite-k01",
+                "composite_damage_notes-c001-c1f9c709",
+                "composite_pmc_9294053_impact_dataset-c010-9e1e2b7e",
+                "composite-k05",
+                "composite-k03"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "composite-k01",
+                "composite_damage_notes-c001-c1f9c709",
+                "composite_pmc_9294053_impact_dataset-c010-9e1e2b7e",
+                "composite-k05",
+                "composite-k03"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": false,
+          "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+          "consistency_check": "存在证据或难度约束问题，需要按纠偏建议重新生成。"
+        }
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "资源完整性不足",
+          "matched": true,
+          "basis": "matched_concepts=['资源完整性']"
+        },
+        {
+          "key_point": "补充解析",
+          "matched": true,
+          "basis": "matched_concepts=['解析']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "rev-009",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "tire",
+      "input": "实操指南没有记录图像尺度",
+      "diagnosis": {
+        "score": 60,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化",
+          "滑动磨损与实验表征方法"
+        ],
+        "strong_points": [
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 60,
+          "wrong_question_ids": [
+            "tire-q1",
+            "tire-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+          "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+          "tire-k02",
+          "tire-k01",
+          "tire-k06"
+        ],
+        "evidence_titles": [
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 图像证据链",
+          "航空轮胎胎面橡胶热氧/紫外老化-磨损多维实验依据 · 热氧老化后摩擦、温度与质量损失",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化",
+          "热氧老化-滑动磨损耦合边界"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 1,
+        "initial_review": {
+          "status": "需纠偏后复核",
+          "approved": false,
+          "requires_regeneration": true,
+          "rejection_reasons": [
+            "图像判读记录缺少尺度参照字段"
+          ],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。",
+            "当前依据中实操任务片段不足，建议追加检查流程约束。"
+          ],
+          "corrections": [
+            "围绕“热氧老化”补充证据来源、实验边界或检查记录模板。",
+            "围绕“滑动磨损与实验表征方法”补充证据来源、实验边界或检查记录模板。"
+          ],
+          "evidence_ids": [
+            "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+            "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+            "tire-k02",
+            "tire-k01",
+            "tire-k06"
+          ],
+          "asset_evidence_ids": [
+            "RXQ-THERMAL-TREND-01",
+            "RXQ-IMG-D000-S15-SEM-01",
+            "RXQ-IMG-D000-S15-OPTICAL-01",
+            "RXQ-IMG-D001-S17-SEM-01",
+            "RXQ-UV-H0024-IMG-01",
+            "RXQ-UV-H0024-IMG-02",
+            "RXQ-UV-H0024-IMG-03",
+            "RXQ-UV-H0024-IMG-04"
+          ],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "sufficient_for_training",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果",
+            "实验资产具备来源记录和限制说明",
+            "实验资产工况字段可追溯"
+          ],
+          "unsupported_claims": [],
+          "evidence_gaps": [
+            "检索结果缺少专门的实操任务片段"
+          ],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "evidence-bound",
+              "basis_ids": [
+                "RXQ-THERMAL-TREND-01",
+                "RXQ-IMG-D000-S15-SEM-01",
+                "RXQ-IMG-D000-S15-OPTICAL-01",
+                "RXQ-IMG-D001-S17-SEM-01",
+                "RXQ-UV-H0024-IMG-01",
+                "RXQ-UV-H0024-IMG-02",
+                "RXQ-UV-H0024-IMG-03",
+                "RXQ-UV-H0024-IMG-04"
+              ],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "verified-fields",
+              "basis_ids": [
+                "RXQ-THERMAL-TREND-01",
+                "RXQ-IMG-D000-S15-SEM-01",
+                "RXQ-IMG-D000-S15-OPTICAL-01",
+                "RXQ-IMG-D001-S17-SEM-01",
+                "RXQ-UV-H0024-IMG-01",
+                "RXQ-UV-H0024-IMG-02",
+                "RXQ-UV-H0024-IMG-03",
+                "RXQ-UV-H0024-IMG-04"
+              ],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "bounded-inference",
+              "basis_ids": [
+                "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+                "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+                "tire-k02",
+                "tire-k01",
+                "tire-k06"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "team_tire_rxq_aging_multimodal_evidence-c013-42f50acf",
+                "team_tire_rxq_aging_multimodal_evidence-c002-6b120286",
+                "tire-k02",
+                "tire-k01",
+                "tire-k06"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": false,
+          "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+          "consistency_check": "存在证据或难度约束问题，需要按纠偏建议重新生成。"
+        }
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例 + 继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "实操约束缺失",
+          "matched": true,
+          "basis": "matched_concepts=['实操', '实操约束']"
+        },
+        {
+          "key_point": "补充记录模板",
+          "matched": true,
+          "basis": "matched_concepts=['记录模板']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "rev-010",
+      "test_type": "审核纠偏测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "tire",
+      "input": "资源没有引用 evidence_ids",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化"
+        ],
+        "strong_points": [
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "tire-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire_damage_notes-c001-ee0fe1e5",
+          "tire-k01",
+          "team_tire_tire_exp_rxq_aging_001-c018-9d5d079b",
+          "tire-k06",
+          "tire-k02"
+        ],
+        "evidence_titles": [
+          "tire_damage_notes · 热氧老化与橡胶网络",
+          "热氧老化与橡胶交联网络变化",
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Case records",
+          "热氧老化-滑动磨损耦合边界",
+          "滑动摩擦磨损工况记录"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 1,
+        "initial_review": {
+          "status": "需纠偏后复核",
+          "approved": false,
+          "requires_regeneration": true,
+          "rejection_reasons": [
+            "生成资源缺少 evidence_ids 绑定，无法完成知识溯源"
+          ],
+          "risk_points": [
+            "形貌观察不能直接等同于机理结论，需要结合工况和多源表征。",
+            "训练建议不能替代真实维修放行或适航决策。",
+            "当前依据中实操任务片段不足，建议追加检查流程约束。"
+          ],
+          "corrections": [
+            "围绕“热氧老化”补充证据来源、实验边界或检查记录模板。"
+          ],
+          "evidence_ids": [
+            "tire_damage_notes-c001-ee0fe1e5",
+            "tire-k01",
+            "team_tire_tire_exp_rxq_aging_001-c018-9d5d079b",
+            "tire-k06",
+            "tire-k02"
+          ],
+          "asset_evidence_ids": [
+            "RXQ-THERMAL-TREND-01",
+            "RXQ-IMG-D000-S15-SEM-01",
+            "RXQ-IMG-D000-S15-OPTICAL-01",
+            "RXQ-IMG-D001-S17-SEM-01"
+          ],
+          "review_scope": {
+            "automated_checks": [
+              "引用闭合",
+              "工况字段",
+              "难度匹配",
+              "实操约束",
+              "高风险表述"
+            ],
+            "expert_review_required": [
+              "专业机理正确性",
+              "实验结论有效性",
+              "真实维修处置"
+            ]
+          },
+          "evidence_sufficiency": "sufficient_for_training",
+          "verified_claims": [
+            "资源中的证据 ID 均来自本次检索结果",
+            "实验资产具备来源记录和限制说明",
+            "实验资产工况字段可追溯"
+          ],
+          "unsupported_claims": [],
+          "evidence_gaps": [
+            "检索结果缺少专门的实操任务片段"
+          ],
+          "claim_assessments": [
+            {
+              "category": "实验观察",
+              "status": "evidence-bound",
+              "basis_ids": [
+                "RXQ-THERMAL-TREND-01",
+                "RXQ-IMG-D000-S15-SEM-01",
+                "RXQ-IMG-D000-S15-OPTICAL-01",
+                "RXQ-IMG-D001-S17-SEM-01"
+              ],
+              "boundary": "仅描述资产记录中的可见现象，不由单一视野推断整体分布。"
+            },
+            {
+              "category": "工况参数事实",
+              "status": "verified-fields",
+              "basis_ids": [
+                "RXQ-THERMAL-TREND-01",
+                "RXQ-IMG-D000-S15-SEM-01",
+                "RXQ-IMG-D000-S15-OPTICAL-01",
+                "RXQ-IMG-D001-S17-SEM-01"
+              ],
+              "boundary": "缺失参数保持未知，不进行插补。"
+            },
+            {
+              "category": "损伤机理推断",
+              "status": "bounded-inference",
+              "basis_ids": [
+                "tire_damage_notes-c001-ee0fe1e5",
+                "tire-k01",
+                "team_tire_tire_exp_rxq_aging_001-c018-9d5d079b",
+                "tire-k06",
+                "tire-k02"
+              ],
+              "boundary": "机理属于受证据约束的解释，仍需交叉表征和专家复核。"
+            },
+            {
+              "category": "维护决策建议",
+              "status": "training-only",
+              "basis_ids": [
+                "tire_damage_notes-c001-ee0fe1e5",
+                "tire-k01",
+                "team_tire_tire_exp_rxq_aging_001-c018-9d5d079b",
+                "tire-k06",
+                "tire-k02"
+              ],
+              "boundary": "不能替代适用维修手册、工卡、适航要求和授权放行。"
+            }
+          ],
+          "degraded_output": false,
+          "degradation_notice": "当前证据可支持训练性讲解；专业结论仍需领域专家复核。",
+          "consistency_check": "存在证据或难度约束问题，需要按纠偏建议重新生成。"
+        }
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": null,
+      "key_point_results": [
+        {
+          "key_point": "溯源不足",
+          "matched": true,
+          "basis": "matched_concepts=['溯源']"
+        },
+        {
+          "key_point": "要求绑定证据片段",
+          "matched": true,
+          "basis": "matched_concepts=['绑定证据片段']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": true
+    },
+    {
+      "id": "fb-001",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "反馈测试正确率 40%",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化"
+        ],
+        "strong_points": [
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "tire-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "team_tire_tire_exp_rxq_aging_001-c018-9d5d079b",
+          "team_tire_tire_exp_rxq_aging_001-c017-c34d9002",
+          "tire-k07",
+          "tire-k06",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Case records",
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Case records",
+          "胎面损伤检查实操任务",
+          "热氧老化-滑动磨损耦合边界",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "降维解释",
+        "actual_next_action": "降维解释",
+        "matched": true
+      },
+      "feedback": {
+        "score": 40,
+        "fixture_note": "来自测试输入中的明确正确率",
+        "actual_next_action": "降维解释",
+        "explanation": "反馈测试正确率偏低，建议回到核心概念，用更直观案例重新解释。 学习者反馈：反馈测试正确率 40%",
+        "iteration_agent_steps": [
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ]
+      },
+      "key_point_results": [
+        {
+          "key_point": "基础薄弱",
+          "matched": true,
+          "basis": "matched_concepts=['基础薄弱']"
+        },
+        {
+          "key_point": "需要降维解释",
+          "matched": true,
+          "basis": "matched_concepts=['降维解释']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "fb-002",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "tire",
+      "input": "反馈测试正确率 60%",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化"
+        ],
+        "strong_points": [
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "tire-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "team_tire_tire_exp_rxq_aging_001-c018-9d5d079b",
+          "tire_damage_notes-c005-3c968eb5",
+          "tire-k07",
+          "tire-k06",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Case records",
+          "tire_damage_notes · 实操训练任务",
+          "胎面损伤检查实操任务",
+          "热氧老化-滑动磨损耦合边界",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例",
+        "matched": true
+      },
+      "feedback": {
+        "score": 60,
+        "fixture_note": "来自测试输入中的明确正确率",
+        "actual_next_action": "补充案例",
+        "explanation": "已具备部分理解，但迁移不足，建议补充同类案例并继续巩固。 学习者反馈：反馈测试正确率 60%",
+        "iteration_agent_steps": [
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ]
+      },
+      "key_point_results": [
+        {
+          "key_point": "部分掌握",
+          "matched": true,
+          "basis": "matched_concepts=['部分掌握']"
+        },
+        {
+          "key_point": "迁移不足",
+          "matched": true,
+          "basis": "matched_concepts=['迁移']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "fb-003",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "brake",
+      "input": "反馈测试正确率 80%",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热衰退"
+        ],
+        "strong_points": [
+          "失效机理",
+          "裂纹",
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "brake-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake_wear_notes-c005-f41f94af",
+          "brake-k02",
+          "brake-k05"
+        ],
+        "evidence_titles": [
+          "高温摩擦与热衰退",
+          "brake_wear_notes · 高温摩擦与热衰退",
+          "brake_wear_notes · 实操训练任务",
+          "磨损形貌识别",
+          "刹车片实操训练任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": {
+        "score": 80,
+        "fixture_note": "来自测试输入中的明确正确率",
+        "actual_next_action": "继续巩固",
+        "explanation": "掌握较稳定，建议继续完成一轮证据链表达训练。 学习者反馈：反馈测试正确率 80%",
+        "iteration_agent_steps": [
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ]
+      },
+      "key_point_results": [
+        {
+          "key_point": "掌握较稳定",
+          "matched": true,
+          "basis": "matched_fragments=['掌握较稳定']; manual_review_if_empty=true"
+        },
+        {
+          "key_point": "继续训练",
+          "matched": true,
+          "basis": "matched_concepts=['继续训练']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "fb-004",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "tire",
+      "input": "反馈测试正确率 95%",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化"
+        ],
+        "strong_points": [
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "tire-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "tire-k06",
+          "tire_damage_notes-c004-91c8dc2f",
+          "team_tire_tire_exp_rxq_aging_001-c018-9d5d079b",
+          "tire-k02",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "热氧老化-滑动磨损耦合边界",
+          "tire_damage_notes · 热氧老化与滑动磨损耦合",
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Case records",
+          "滑动摩擦磨损工况记录",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "进阶挑战",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "进阶挑战",
+        "actual_next_action": "进阶挑战",
+        "matched": true
+      },
+      "feedback": {
+        "score": 95,
+        "fixture_note": "来自测试输入中的明确正确率",
+        "actual_next_action": "进阶挑战",
+        "explanation": "反馈表现较好，可进入耦合因素或复杂工况挑战任务。 学习者反馈：反馈测试正确率 95%",
+        "iteration_agent_steps": [
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ]
+      },
+      "key_point_results": [
+        {
+          "key_point": "表现好",
+          "matched": true,
+          "basis": "matched_concepts=['表现好']"
+        },
+        {
+          "key_point": "进入进阶挑战",
+          "matched": true,
+          "basis": "matched_concepts=['进阶挑战']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "fb-005",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "composite",
+      "input": "反馈称仍无法判断 NDT 图像",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "无损检测图像判读"
+        ],
+        "strong_points": [
+          "冲击损伤",
+          "常见误区",
+          "分层",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "composite-q3"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k03",
+          "composite_damage_notes-c003-ae26f436",
+          "composite_damage_notes-c005-d24d62ab",
+          "composite-k05",
+          "composite-k01"
+        ],
+        "evidence_titles": [
+          "无损检测图像判读",
+          "composite_damage_notes · 无损检测图像判读",
+          "composite_damage_notes · 实操训练任务",
+          "复合材料板实操训练任务",
+          "低速冲击与隐蔽损伤"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例",
+        "matched": true
+      },
+      "feedback": {
+        "score": 60,
+        "fixture_note": "定性反馈执行夹具；正式结论仍需人工复核",
+        "actual_next_action": "补充案例",
+        "explanation": "已具备部分理解，但迁移不足，建议补充同类案例并继续巩固。 学习者反馈：反馈称仍无法判断 NDT 图像",
+        "iteration_agent_steps": [
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ]
+      },
+      "key_point_results": [
+        {
+          "key_point": "补充案例",
+          "matched": true,
+          "basis": "matched_fragments=['案例']; manual_review_if_empty=true"
+        },
+        {
+          "key_point": "聚焦无损检测",
+          "matched": true,
+          "basis": "matched_concepts=['无损检测']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "fb-006",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "brake",
+      "input": "反馈称证据链表达仍不完整",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "失效机理"
+        ],
+        "strong_points": [
+          "热衰退",
+          "裂纹",
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "brake-q2"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k04",
+          "brake_wear_notes-c004-01ffd247",
+          "brake_wear_notes-c002-a6714a3c",
+          "brake-k03",
+          "brake-k02"
+        ],
+        "evidence_titles": [
+          "失效机理证据链",
+          "brake_wear_notes · 失效机理证据链",
+          "brake_wear_notes · 磨损形貌识别",
+          "氧化与热裂纹扩展",
+          "磨损形貌识别"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": {
+        "score": 80,
+        "fixture_note": "定性反馈执行夹具；正式结论仍需人工复核",
+        "actual_next_action": "继续巩固",
+        "explanation": "掌握较稳定，建议继续完成一轮证据链表达训练。 学习者反馈：反馈称证据链表达仍不完整",
+        "iteration_agent_steps": [
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ]
+      },
+      "key_point_results": [
+        {
+          "key_point": "继续巩固",
+          "matched": true,
+          "basis": "matched_fragments=['继续巩固']; manual_review_if_empty=true"
+        },
+        {
+          "key_point": "强化证据链",
+          "matched": true,
+          "basis": "matched_concepts=['证据链']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "fb-007",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "tire",
+      "input": "反馈测试正确率 55% 且自评需要更多案例",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热氧老化"
+        ],
+        "strong_points": [
+          "滑动磨损与实验表征方法",
+          "损伤等级判读",
+          "热氧老化-滑动磨损耦合损伤",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "tire-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "team_tire_tire_exp_rxq_aging_001-c018-9d5d079b",
+          "team_tire_tire_exp_rxq_aging_001-c017-c34d9002",
+          "tire-k07",
+          "tire-k06",
+          "tire-k01"
+        ],
+        "evidence_titles": [
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Case records",
+          "航空轮胎胎面橡胶热氧/紫外老化与滑动磨损实验数据集 · Case records",
+          "胎面损伤检查实操任务",
+          "热氧老化-滑动磨损耦合边界",
+          "热氧老化与橡胶交联网络变化"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "补充案例",
+        "actual_next_action": "补充案例",
+        "matched": true
+      },
+      "feedback": {
+        "score": 55,
+        "fixture_note": "来自测试输入中的明确正确率",
+        "actual_next_action": "补充案例",
+        "explanation": "已具备部分理解，但迁移不足，建议补充同类案例并继续巩固。 学习者反馈：反馈测试正确率 55% 且自评需要更多案例",
+        "iteration_agent_steps": [
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ]
+      },
+      "key_point_results": [
+        {
+          "key_point": "补充案例",
+          "matched": true,
+          "basis": "matched_fragments=['案例']; manual_review_if_empty=true"
+        },
+        {
+          "key_point": "胎面裂纹剥落",
+          "matched": true,
+          "basis": "matched_concepts=['裂纹', '剥落']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "fb-008",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "本科低年级学生",
+      "domain": "composite",
+      "input": "反馈测试正确率 30%",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "冲击损伤"
+        ],
+        "strong_points": [
+          "常见误区",
+          "无损检测图像判读",
+          "分层",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "composite-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite-k01",
+          "composite_damage_notes-c001-c1f9c709",
+          "composite-k03",
+          "composite_damage_notes-c003-ae26f436",
+          "composite-k05"
+        ],
+        "evidence_titles": [
+          "低速冲击与隐蔽损伤",
+          "composite_damage_notes · 低速冲击与隐蔽损伤",
+          "无损检测图像判读",
+          "composite_damage_notes · 无损检测图像判读",
+          "复合材料板实操训练任务"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "降维入门",
+        "strategy_id": "undergraduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "降维解释",
+        "actual_next_action": "降维解释",
+        "matched": true
+      },
+      "feedback": {
+        "score": 30,
+        "fixture_note": "来自测试输入中的明确正确率",
+        "actual_next_action": "降维解释",
+        "explanation": "反馈测试正确率偏低，建议回到核心概念，用更直观案例重新解释。 学习者反馈：反馈测试正确率 30%",
+        "iteration_agent_steps": [
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ]
+      },
+      "key_point_results": [
+        {
+          "key_point": "降维解释",
+          "matched": true,
+          "basis": "matched_concepts=['降维解释']"
+        },
+        {
+          "key_point": "基础概念",
+          "matched": true,
+          "basis": "matched_fragments=['基础概念']; manual_review_if_empty=true"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "fb-009",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "材料方向研究生",
+      "domain": "composite",
+      "input": "反馈测试正确率 85%",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "冲击损伤"
+        ],
+        "strong_points": [
+          "常见误区",
+          "无损检测图像判读",
+          "分层",
+          "损伤扩展"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "composite-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "composite_damage_notes-c005-d24d62ab",
+          "composite-k03",
+          "composite-k05",
+          "composite-k02",
+          "composite-k01"
+        ],
+        "evidence_titles": [
+          "composite_damage_notes · 实操训练任务",
+          "无损检测图像判读",
+          "复合材料板实操训练任务",
+          "分层对载荷传递的影响",
+          "低速冲击与隐蔽损伤"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "巩固提升",
+        "strategy_id": "graduate",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "继续巩固",
+        "actual_next_action": "继续巩固",
+        "matched": true
+      },
+      "feedback": {
+        "score": 85,
+        "fixture_note": "来自测试输入中的明确正确率",
+        "actual_next_action": "继续巩固",
+        "explanation": "掌握较稳定，建议继续完成一轮证据链表达训练。 学习者反馈：反馈测试正确率 85%",
+        "iteration_agent_steps": [
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ]
+      },
+      "key_point_results": [
+        {
+          "key_point": "继续巩固",
+          "matched": true,
+          "basis": "matched_fragments=['继续巩固']; manual_review_if_empty=true"
+        },
+        {
+          "key_point": "扩展分析训练",
+          "matched": true,
+          "basis": "matched_concepts=['扩展分析训练']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    },
+    {
+      "id": "fb-010",
+      "test_type": "反馈迭代测试",
+      "learner_profile": "机务维修新员工",
+      "domain": "brake",
+      "input": "反馈测试正确率 92%",
+      "diagnosis": {
+        "score": 80,
+        "level": "基础一般",
+        "weak_points": [
+          "热衰退"
+        ],
+        "strong_points": [
+          "失效机理",
+          "裂纹",
+          "磨损形貌",
+          "常见误区"
+        ],
+        "answer_fixture": {
+          "target_score": 80,
+          "wrong_question_ids": [
+            "brake-q1"
+          ]
+        }
+      },
+      "agent_steps": [
+        "学情诊断 Agent",
+        "材料领域路由 Agent",
+        "专业知识检索 Agent",
+        "个性化资源生成 Agent",
+        "专家审核纠偏 Agent",
+        "学习路径决策 Agent"
+      ],
+      "agent_complete": true,
+      "retrieval": {
+        "knowledge_source": "elasticsearch",
+        "retrieval_mode": "hybrid",
+        "evidence_ids": [
+          "brake-k01",
+          "brake_wear_notes-c001-07d5e4a8",
+          "brake-k05",
+          "brake_wear_notes-c005-f41f94af",
+          "brake-k02"
+        ],
+        "evidence_titles": [
+          "高温摩擦与热衰退",
+          "brake_wear_notes · 高温摩擦与热衰退",
+          "刹车片实操训练任务",
+          "brake_wear_notes · 实操训练任务",
+          "磨损形貌识别"
+        ]
+      },
+      "resources": {
+        "complete": true,
+        "difficulty": "进阶挑战",
+        "strategy_id": "maintenance",
+        "quiz_count": 5
+      },
+      "review": {
+        "status": "通过，建议带纠偏提示使用",
+        "approved": true,
+        "degraded_output": false,
+        "unsupported_claims": [],
+        "rejection_reasons": [],
+        "correction_rounds": 0,
+        "initial_review": null
+      },
+      "decision": {
+        "expected_next_action": "进阶挑战",
+        "actual_next_action": "进阶挑战",
+        "matched": true
+      },
+      "feedback": {
+        "score": 92,
+        "fixture_note": "来自测试输入中的明确正确率",
+        "actual_next_action": "进阶挑战",
+        "explanation": "反馈表现较好，可进入耦合因素或复杂工况挑战任务。 学习者反馈：反馈测试正确率 92%",
+        "iteration_agent_steps": [
+          "专业知识检索 Agent",
+          "个性化资源生成 Agent",
+          "专家审核纠偏 Agent",
+          "学习路径决策 Agent"
+        ]
+      },
+      "key_point_results": [
+        {
+          "key_point": "进阶挑战",
+          "matched": true,
+          "basis": "matched_concepts=['进阶挑战']"
+        },
+        {
+          "key_point": "复杂工况",
+          "matched": true,
+          "basis": "matched_concepts=['复杂工况']"
+        }
+      ],
+      "key_point_coverage": 1.0,
+      "category_check_passed": true,
+      "execution_status": "passed",
+      "human_review_required": false
+    }
+  ],
+  "official_metric_notice": "核心知识点覆盖率、专业幻觉率和难度适配准确率的正式比赛数值，仍需航空工程材料领域专家根据本结果逐条复核并签字。"
+}

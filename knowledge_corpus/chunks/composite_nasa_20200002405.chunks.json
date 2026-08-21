@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "composite_nasa_20200002405-c001-d24066a7",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 1",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "分层",
+      "冲击后剩余强度"
+    ],
+    "difficulty": "基础",
+    "content": "Impact Damage Tolerance of Composite Laminates with Through-the-Thickness Stitches Vipul Ranatunga1, Savannah N. Minor2 Air Force Research Laboratory, Wright Patterson AFB, 45433, USA Dawn Jegley3 NASA Langley Research Center, Hampton, VA 23681, USA The ability of through-the-thickness stitches to contain damage during a low-velocity impact event and increase the residual strength of stitched panels was investigated in this research. The impact response, spread of interlaminar delaminations, dent depth, surface damage, and static residual strength after impact were studied for carbon-epoxy specimens fabricated from HTS40 TohoTenax standard modulus fibers, stitched together with Vectran 1200",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 1",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c002-89272c81",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 1",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "分层",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "om HTS40 TohoTenax standard modulus fibers, stitched together with Vectran 1200 denier thread and infused with API 1078 resin after through-the-thickness stitching. Three different stitch patterns were used to explore the ability to arrest impact damage during and after impact. Simply supported boundary conditions were maintained during the impact testing. Non-destructive evaluations were performed using ultrasonic C-scans and X-ray computed tomography (CT) imaging to determine the shape, size, and location of delaminations. Results indicate that while the dynamic response during the impact event was almost the same for the unstitched specimens and all stitch patterns considered, the extent",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 1",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c003-b8c0e93b",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 1",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "冲击后剩余强度"
+    ],
+    "difficulty": "基础",
+    "content": "ame for the unstitched specimens and all stitch patterns considered, the extent of delamination and the compression strength after impact varied greatly. For both the 60 J and 80 J impact energies, the delamination area was significantly less for the stitched specimens than for the unstitched specimens, but the range of delamination areas among the stitch patterns was much larger for the lower impact energy than for the greater impact energy. Similarly, while the presence of stitching influenced the compression after impact strength, the strength values for all stitch patterns were very similar. These results are a step toward quantifying the influence of through-the-thickness stitching. I.",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 1",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c004-51d383a4",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 1",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "无损检测",
+      "无损检测图像判读",
+      "冲击后剩余强度"
+    ],
+    "difficulty": "基础",
+    "content": "a step toward quantifying the influence of through-the-thickness stitching. I. Nomenclature AFRL = Air Force Research Laboratory ASTM = American Society for Testing and Materials CAI = compression after impact CSAI = compression strength after impact CT = computed tomography DIC = Digital Image Correlation DTL = Damage Threshold Load NDE = Nondestructive evaluations II. Introduction While the use of composite materials can lead to increased stiffness and reduced weight of aircraft primary structure compared to aluminum, the layered nature of traditional carbon-epoxy materials has a significant drawback to widespread use in its susceptibility to delamination between layers and lack of damage",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 1",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c005-6ae9d91a",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 1",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "read use in its susceptibility to delamination between layers and lack of damage tolerance. One way to address these problems is to add through-the-thickness reinforcement to the laminate. Stitching, z-pinning, and tufting 1 Senior Research Engineer, Aerospace Systems Directorate, AIAA Senior Member. 2 Lieutenant, United States Air Force. 3 Senior Research Aerospace Engineer, Structural Mechanics and Concepts Branch, AIAA Associate Fellow. 1",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 1",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c006-4066ffa6",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 2",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "分层"
+    ],
+    "difficulty": "基础",
+    "content": "are examples of through-the-thickness reinforcement approaches that have been considered. Any of these approaches could reduce delamination and improve damage tolerance, arrest crack growth, and allow for a lighter structure with more gradual failures than traditional composites without through-the-thickness reinforcement. Some of the benefits of stitched structures which are representative of aircraft components are described in Ref. [1] and damage arrestment is described through post-test evaluation of specimens in Ref. [2]. However, the quantification of damage arrestment in coupons subjected to impact damage has not been well documented. This paper describes the details of specimen prepa",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 2",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c007-ea657c41",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 2",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "冲击后剩余强度"
+    ],
+    "difficulty": "基础",
+    "content": "has not been well documented. This paper describes the details of specimen preparation, low-velocity impact tests conducted on through-the- thickness stitched composites, two types of non-destructive techniques used to assess the delamination damage, and the compression after impact (CAI) testing used to estimate the residual strength after impact. The effectiveness of three patterns of stitching to contain damage was evaluated by comparing the behavior of stitched and unstitched specimens. The behavior during an impact event was determined by examining subsurface delaminations while the improved damage tolerance due to stitching was evaluated by comparing the residual static strength of the",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 2",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c008-4f9a834e",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 2",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "due to stitching was evaluated by comparing the residual static strength of the impacted specimens. III. Fabrication of Test Articles Impact specimens were fabricated using non-crimp (warp-knit) dry fabric with HTS40 TohoTenax standard modulus fiber. “Stacks” of fibers with [+45/-45] or [90/0] fiber layup with cured thickness of 0.38 mm (0.015 in.) per stack were used to build up laminates. In order to be consistent with ongoing testing at the Air Force Research Laboratory (AFRL) in a collaborative research effort [3], 16 stacks were combined to result in a 6.1 mm (0.24 in.) cured thickness. These specimens had a stacking sequence of [+45/-45/90/0]4s. The dry fabric layup was stitched with",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 2",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c009-966e964e",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 2",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "a stacking sequence of [+45/-45/90/0]4s. The dry fabric layup was stitched with 1200 denier Vectran thread. The stacks were stitched with several reinforcement patterns, identified as stitch-patch, stitch-frame, single stitch line, and unstitched specimens, to explore the relationship between stitch patterns and impact damage. These stitch patterns can be seen in Figures 1-3. Additional stitching was included around the perimeter of each large panel to hold the pre-cured layers together. These dry fabric laminates were then infused with API 1078 resin in an out-of-autoclave process. The pre-cured panels are shown in Figure 1 and the cured panels are shown in Figure 2. Fig. 1 Dry fabric with",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 2",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c010-094eceb4",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 2",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "in Figure 1 and the cured panels are shown in Figure 2. Fig. 1 Dry fabric with damage arrestment patterns stitched in a large panel. 2",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 2",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c011-22cd907a",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 3",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "Fig. 2 Cured stitched panels before cutting them into test specimens. All panels were machined using a diamond grit saw and sanded to a 178 mm by 178 mm (7 in. by 7 in.) specimen size for impact testing. Three different stitch patterns were used in this study; a 88.9 mm by 88.9 mm (3.5 in. by 3.5 in.) stitch-patch, as shown in Figure 3(a), a 88.9 mm by 88.9 mm (3.5 in. by 3.5 in.) stitch-frame with a 38 mm by 38 mm (1.5 in. by 1.5 in.) unreinforced area, as shown in Figure 3(b), a 25.4 mm by 25.4 mm (1 in. by 1 in.) single line of stitching, as shown in Figure 3(c). Additionally, specimens without any stitching were cut from each laminate. After the impact tests were completed, each specimen",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 3",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c012-06d89d66",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 3",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "ere cut from each laminate. After the impact tests were completed, each specimen was machined along the “CAI Trim” lines shown in Figure 3 to produce 152.4 mm by 101.6 mm (6 in. by 4 in.) specimens for CAI tests. Strain gages were mounted in the top corners on the front and back faces of the specimens, 25.4 mm (1 in.) below the top edge and 25.4 mm (1 in.) from the left and right edges, per American Society for Testing and Materials (ASTM) D7137 [4]. These strain gages were used to align the specimens properly in the CAI test rig to minimize the effect of bending during compression testing. (a) Stitch-patch: square patch 88.9 mm by 88.9 mm. (b) Stitch-frame: 25.4 mm wide stitch boundary surr",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 3",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c013-487dd790",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 3",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "re patch 88.9 mm by 88.9 mm. (b) Stitch-frame: 25.4 mm wide stitch boundary surrounding 38 mm by 38 mm unreinforced area. 3",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 3",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c014-201f1101",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 4",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "分层"
+    ],
+    "difficulty": "基础",
+    "content": "(c) Single stitch line: Single line of stitches surrounding 25.4 mm by 25.4 mm area. Fig. 3 Three stitch patterns in the 178 mm by 178 mm (7 in. by 7 in.) specimens for impact testing. Dimensions are in mm. IV. Experimental Testing A. Impact Testing Impact testing was conducted at AFRL using Instron® Ceast® 9350 instrumented drop weight test tower. A one- inch diameter hardened steel tip attached to an instrumented tup with strain gage load sensor was used to induce impact damage. The shape and size of the striker tip was chosen to cause maximum subsurface delamination with minimal surface damage visible on the impacted specimen. Impact tests were conducted following the D7136-12 [5] standar",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 4",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c015-d3fbd359",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 4",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "mpacted specimen. Impact tests were conducted following the D7136-12 [5] standard and the time, displacement, velocity, force, and energy histories were recorded at a 2000 kHz sampling rate with 25,000 data points per channel, resulting in approximately 12.5 milliseconds of total data acquisition time. A strain gage load-cell signal was used to trigger the data collection at 10% pre-trigger level and 1000 points were recorded prior to the trigger. Measurement of the impact velocity was conducted using the flag installed on the tup carrier passing through a photocell beam. The support fixture used to hold the impact panels had a 127 mm by 127 mm (5 in. by 5 in.) opening, as shown in Figure 4.",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 4",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c016-bf96baf5",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 4",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "ct panels had a 127 mm by 127 mm (5 in. by 5 in.) opening, as shown in Figure 4. Each specimen placed under the impact test tower was held by clamp-plates on both sides of the specimen with this opening area to facilitate imaging and visual alignment with the striker tip. Four bolts were used to apply pressure on the specimen and each bolt was finger-tightened to maintain contact between the top and bottom clamp- plates. Simply supported boundary conditions around the impact specimen were maintained with the use of rounded supports on the top and bottom plates. These supports were 152.4 mm (6 in.) apart, resulting in a square support system around the test specimen. 4",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 4",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c017-f9441db0",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 5",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "基体开裂",
+      "冲击损伤",
+      "纤维断裂",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "Fig. 4 Test fixture with rounded support edges to clamp the specimens during impact. B. Non-Destructive Evaluations Ultrasonic C-scaning and X-ray computed tomography (CT) imaging are two of the most widely used nondestructive evaluation (NDE) techniques to detect subsurface delaminations in composites. Ultrasonic C-scans can be used to visualize the overall size of delamination area, but layer-by-layer damage mapping is not possible with a C-scan. In contrast, X-ray CT imaging can be used to dissect the sample into layers and estimate the interlaminar delaminations as well as matrix cracking and fiber breakage. But this process is expensive, time consuming, and the specimens have to be mach",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c018-dd25f2ea",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 5",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "But this process is expensive, time consuming, and the specimens have to be machined to about 50 mm by 50 mm (2 in. by 2 in.), size. Only a few samples have been subjected to CT scanning and these results will be presented in a future publication. In this paper, only the ultrasonic C-scan data is discussed; both through-transmission and pulse-echo C-scans were obtained to assess the size, spread and shape of interlaminar delamination. Size and spread information is important for marking the partitioning lines for subsequent machining. It is necessary to maintain about half an inch gap between the delamination spread and the specimen cutoff line to prevent further damage during the machining",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c019-635e7f59",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 5",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "ead and the specimen cutoff line to prevent further damage during the machining and polishing of these specimens. In a through- transmission C-scan, the time of flight between the transmitter and the receiver sound waves was measured when the waves propagated through the thickness of the specimen. The projected area of interlaminar delaminations is shown as a gray patch in Figure 5. The stitch locations are visible in the central portion of the figure in a square pattern. After the specimens were cut to 152.4 mm by 101.6 mm (6 in. by 4 in.), X-ray CT images of the impact site were recorded. Only a selected set of specimens from each reinforcement pattern at different energy levels were subje",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c020-16abdfd7",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 5",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "specimens from each reinforcement pattern at different energy levels were subjected to CT imaging due to time constraints and expenses. These detailed three-dimensional (3D) images were used to obtain the detailed subsurface delaminations before subjecting these specimens to compression testing. Fig. 5 Through-transmission ultrasonic C-scan displaying the projected area of delamination in a stitch- patch specimen. C. Surface Profile Immediately after the impact, specimens were subjected to surface measurement using an optical profilometer. Only a 51 mm by 51 mm (2 in. x 2 in.) square pattern surrounding the impacted site was taken in 0.02 mm (0.0008 in.) increments and scan lines were about",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c021-995a28ca",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 5",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "cted site was taken in 0.02 mm (0.0008 in.) increments and scan lines were about 1 mm (0.04 in.) apart. The height measurement from a surface profile has been projected to a two-dimensional (2D) plane to obtain the maximum dent depth, as displayed in Figure 6. Since the laminated composite specimen surface is less reflective compared to a polished metallic surface, the reflections measured from an optical profilometer have a significant amount of signal noise, which has not been filtered in this display. The scanned specimen was not leveled on the traveling profilometer table, resulting in the projected readings 5",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 5",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c022-b5b199d2",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 6",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "being displayed with an inclination angle. An estimate of the maximum dent depth was recorded for each specimen, measuring the maximum depth of the profile from an average reference surface, as indicated by the line perpendicular to the surface of the specimen. Depth (µm) Average reference surface Maximum measured dent depth Projected scan length (mm) Fig. 6 Projected dent depth measured using an optical profilometer. The average depth of indentation for each type of specimen was used to compare the maximum dent depth for each specimen type and impact energy level. A complete 3D construction of the dent depth profile over a 51 mm by 51 mm (2 in. x 2 in.) area surrounding the impact location",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c023-cabb8f33",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 6",
+    "tags": [
+      "冲击后剩余强度",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "file over a 51 mm by 51 mm (2 in. x 2 in.) area surrounding the impact location is available as metadata for future use. D. Compression after Impact Testing Instructions in ASTM D7137-12 standard [4] were followed to prepare the specimens for CAI testing, maintaining the specified dimensional tolerance, parallelism, perpendicularity, and surface roughness requirements. Specimens were tested using a standard compression test fixture, as shown in Figure 7, following ASTM D7137-12 [4]. Four strain gages placed on the opposite faces and aligned in the longitudinal direction were used to prevent premature bending or buckling during the compression loading. The strains measured on the opposite fac",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c024-0fe01edc",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 6",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "uckling during the compression loading. The strains measured on the opposite faces of the specimen were required to be within 10% of each other in order to prevent specimen bending and subsequent premature failure. To prepare the specimen for compression test, a compressive force up to 10% of the anticipated ultimate failure load was applied and strain gage measurements were recorded, then the compressive force on the specimen was reduced to 156 N (35 lbf). Percentage bending at the maximum load was calculated according to ASTM D7137-12 [4] and corrective measures were taken to align the fixture, test specimen, and the loading platens to avoid the onset of specimen instability. Once a proper",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c025-cdc4a2c4",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 6",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "nd the loading platens to avoid the onset of specimen instability. Once a proper alignment was established, a compressive load under displacement control was applied at a crosshead rate of 1.25 mm/min (0.05 in./min) until the final failure. Most of the failures observed during these tests were catastrophic, leading to an immediate load reversal. If the failure was progressive and slow, the load frame was returned to the original position after 30% of load-drop. The load and cross-head displacement data were recorded at 5 Hz, and the nature of the final failure was photographed and documented. Full-field strain measurements were recorded using a digital image correlation (DIC) technique. Comp",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c026-dc18f7f7",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 6",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "asurements were recorded using a digital image correlation (DIC) technique. Compression testing typically required about 90 seconds to reach the maximum load and a sudden failure occurred. Image data were collected to a five-second ring-buffer at 25 Hz and the data was recorded for post processing at 1 Hz until the maximum load. Using this system, when the load dropped suddenly due to failure, the buffered data for the previous five seconds were recorded at 25 Hz. The data acquisition continued for another second past the maximum load point at 25 Hz and recorded at the same rate to capture the failure load and the post-failure mode shape at high fidelity. 6",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 6",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c027-14b2c245",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 7",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "Fig. 7 CAI test specimen in hydraulic test frame. V. Results and Discussion The load transducer mounted inside the impact striker measured the dynamic force while the displacement, velocity, and acceleration were back-calculated from the measured force and the impactor mass. The displacement and force data can be used to interpret the Damage Threshold Load (DTL) as described by Schoeppner et al. [6] as shown in Figure 8. When an impacted specimen has clamped boundary conditions, the oscillatory vibrations are minimal and the significant load drop is clearly visible on the load vs time response. In contrast, simply supported boundary conditions allow the specimen to vibrate and the DTL has to",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 7",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c028-0ed92c77",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 7",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "y supported boundary conditions allow the specimen to vibrate and the DTL has to be excised from the harmonic oscillations. The significant load drop and the large oscillations are attributed to the unstable interlaminar delamination growth and subsequent stiffness reduction of the impacted specimen. Clamped boundary conditions introduce frictional effects and unrealistic boundary conditions in an aircraft structure subjected to impacts. Therefore, all the specimens discussed herein are held with simply supported boundary conditions during impact and the oscillations are present in the subsequent load responses. Fig. 8 Impact force vs time for 60 J impacts on unstitched specimens. 7",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 7",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c029-433b1616",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 8",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "The results for one unstitched specimen and two specimens with each stitch pattern at each energy level are shown in Figures 9-12. The results for specimens with no stitching are shown in light blue. The results for stitch-patch, stitch- frame, and single stitch line patterns are shown in green, red, and dark blue, respectively. The load-time history data for unstitched and stitched specimens impacted at 60 J are plotted in Figure 9. These graphs show that the response is nearly identical until significant delaminations took place, irrespective of the arrestment pattern used in these specimens. The maximum measured force was approximately 20,000 N. The unstitched specimen had the most signif",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c030-9259b4b5",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 8",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "ed force was approximately 20,000 N. The unstitched specimen had the most significant load drop while the specimen with the single stitch line had the next largest drop, however, the difference between single stitch line and other stitch patterns are not considerably different. The load vs displacement response shown in Figure 10 displays a considerable difference in loading and unloading curves, attributed to the energy dissipation as delamination and other forms of damage. However, The maximum measured force was only slightly greater for the 80 J impacts than for the 60 J impacts, at 22,000 N. Furthermore, the response is nearly identical for all the specimens until the sudden drop of stif",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c031-97509c4d",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 8",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "response is nearly identical for all the specimens until the sudden drop of stiffness, regardless of reinforcement pattern deployed in each specimen. The largest total displacement was recorded in unstitched specimens and those with the single stitch line. Identical specimens were studied under 80 J impacts and a similar pattern of load-time history (Figure 11) and load-displacement (Figure 12) behavior were recorded. The load-time history was similar between different types of stitch patterns at the higher impact energy compared to the specimens impacted with 60 J. Fig. 9 Impact force vs time for 60 J impacts. 8",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 8",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c032-27cd90b9",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 9",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "Fig. 10 Impact force vs impactor displacement for 60 J impacts. Fig. 11 Impact force vs time for 80 J impacts. 9",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 9",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c033-c44034a5",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 10",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "Fig. 12 Impact force vs impactor displacement for 80 J impacts. Post-impact results are shown in Figures 13-15. The results for specimens with no stitching are shown in red; stitch-patch, stitch-frame, and single stitch line are shown in green, yellow, and dark blue, respectively. The projected area of delamination estimated from the ultrasonic C-scans are compared at two energy levels in Figure 13 to see whether the spread of delamination is affected by the patterns of reinforcement used to contain damage. As expected, the unreinforced specimens have the maximum spread of delamination damage, while the stitch-patch possesses the least delamination spread. For the 60 J impacts, the delaminat",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c034-9bb43497",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 10",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "tch possesses the least delamination spread. For the 60 J impacts, the delamination area for the stitch-patch is approximately 75% of the size of delamination for the unstitched specimen. For the 80 J impacts, the delamination area for the stitch-patch and single stitch line is approximately 50% of the size of delamination for the unstitched specimen. Unlike the delamination spread at 60 J, the higher energy impact at 80 J tends to have similar delamination spread for all the reinforcement patterns. Furthermore, the delamination spread with unstitched specimens is significantly larger than for the stitched specimens at 80 J compared to 60 J impacts. 10",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 10",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c035-0a1b7bcf",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 11",
+    "tags": [
+      "分层",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "Fig. 13 Comparison of delamination damage size after impact for stitched and unstitched specimens. The value of compression strength after impact (CSAI) reflects a similar response under 60 J impacts as for delamination spread. As shown in Figure 14, the stitch-patch has the highest CSAI while unreinforced and single stitch line specimens have the lowest CSAI. For 80 J impact, there is little difference among the results for the different stitch patterns while the unreinforced specimens have a CSAI approximately 70% of the stitched specimens. Note that the stitch-frame symbol is largely hidden by the other data points for the 80 J impact. Fig. 14 Comparison of static compression strength aft",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c036-3cefc522",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 11",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "oints for the 80 J impact. Fig. 14 Comparison of static compression strength after impact for stitched and unstitched specimens. The localized damage under the impactor, measured from the projected average dent-depth profile, did not produce a consistent outcome. As shown in Figure 15, the single stitch line has, on average, the least dent depth under the impactor at both energy levels while the stitch-frame has the greatest dent depth. The average single value of dent depth plotted on Figure 15 is not consistent with the size of localized damage under the impactor. A contributing factor to the apparent lack of consistency in these results could be the noise found in the surface measurements",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c037-e3339fd0",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 11",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "onsistency in these results could be the noise found in the surface measurements themselves. 11",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 11",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c038-df013817",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 12",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "Fig. 15 Comparison of dent depth after impact for stitched and unstitched specimens. Failures on the back surface and DIC images of out-of-plane deformation immediately before and after failure of specimens subjected to compression testing are shown in Figures 16-20 to compare the modes of failure in the presence of different reinforcements patterns. Unstitched specimens without impact damage failed at the bottom of the specimen as shown in Figure 16 (a). The failure occurred at this location because the supporting vertical knife edges of the compression test fixture leaves a small gap at the top and bottom of the specimen, allowing a local out-of-plane displacement at the bottom corners, re",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c039-70ae71c7",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 12",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "e specimen, allowing a local out-of-plane displacement at the bottom corners, resulting in a local stress concentration which triggered failure near this unsupported gap. DIC images prior to failure show minimal out-of-plane deformation while the post-test image shows a noticiable out-of-plane deformation with failure at the bottom of the specimen. a) Back surface damage b) DIC images immediately before and after failure Fig. 16 Failure patterns of a typical unstitched, unimpacted specimen. All impacted specimens failed through the impact site as shown in Figures 17-20. Photographs of the specimen with the 60 J and 80 J impact are shown in parts (a) and (b), respectively, while DIC images ar",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c040-b1c1f29c",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 12",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "nd 80 J impact are shown in parts (a) and (b), respectively, while DIC images are shown in part (c). In each DIC image, red represents outward deformation and blue represents inward deformation. All specimens failed suddenly across the width of the specimen. 12",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 12",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c041-211cdf62",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 13",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "The impacted specimens without stitching displayed back-splitting, particularly for the 80 J impact, as shown Figures 17 (a) and (b). The DIC images shown in Figure 17 (c) show the out-of-plane displacement field of the specimen impacted at 60 J. The pre-failure displacement patten shows a concentrated inward displacement in the area surrounding the impact damage while the rest of the specimen has an outward displacement field. Similar behavior was seen for the specimen with 80 J impact but is not shown for brevity. The post-failure DIC image shows the failure in the center and across the width of the specimen. a) 60 J impact b) 80 J impact c) DIC images immediately before and after failure",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c042-0f4bbd2b",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 13",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": ") 60 J impact b) 80 J impact c) DIC images immediately before and after failure for 60 J impact Fig. 17 Failure of typical unstitched impacted specimen. The impacted specimens with the stitch-patch displayed minimal back-splitting, as shown in Figures 18 (a) and (b). Failure initiated from the top and bottom corners of the impacted site and propagated across the specimen to the sides evenly. The pre-failure displacement field for 80 J impact shown in Figure 18 (c) displays an outwards displacement above the impacted site and a slight inward displacement immediately below the impact, then an outward displacement field further below. The post-failure displacement field is outwards above the fa",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c043-603fe33a",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 13",
+    "tags": [
+      "纤维断裂",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "ield further below. The post-failure displacement field is outwards above the failure line, and inwards below the failure line. A similar displacement pattern was observed in 60 J impact, but is not shown here for brevity. a) 60 J impact b) 80 J impact c) DIC images immediately before and after failure for 80 J impact Fig. 18 Failure of typical stitch-patch impacted specimen. The stitch-frame test specimens had minor back-splitting and fiber breakage, but the damage during compression testing was similar to the stitch-patch specimens, as shown in Figures 19 (a) and (b). The DIC displacement for 60 J specimen, as shown in Figure 19 (c), shows significant outward and inward displacements above",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c044-b6c575ea",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 13",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "shown in Figure 19 (c), shows significant outward and inward displacements above and below the 13",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 13",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c045-c54e6e4b",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 14",
+    "tags": [
+      "纤维断裂",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "damage site, respectively. Similar fields were observed after the failure for the stitch-frame as for the stitch-patch specimens. Nearly identical pre- and post-failure displacement patterns were observed in specimen with 80 J impact. a) 60 J impact b) 80 J impact c) DIC images immediately before and after failure for 60 J impact Fig. 19 Failure of typical stitch-frame impacted specimen. Significant back-splitting and fiber breakage was observed in specimens with a single stitch line, as shown in Figures 20 (a) and (b). The failure initiated from the diagonal corners of the specimen and propagated to the sides of the test article, displaying a different failure pattern compared to the two ot",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 14",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c046-459e9c87",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 14",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "the test article, displaying a different failure pattern compared to the two other stitch patterns. The DIC images in Figure 20 (c) shows the displacement pattern of a specimen subjected to 80 J impact. An outward and inward displacement field above and below the damage site, respectively, was observed prior to the failure. A significant outward displacement field above the failure line was observed immediately after the sudden failure. Somewhat different failure patterns were observed between the duplicates of 60 J and 80 J impacts and these are not included in this paper but will be evaluated more thoroughly at a later date. Since only one or two specimens of each type were tested, only l",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 14",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c047-f654da51",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 14",
+    "tags": [
+      "领域知识"
+    ],
+    "difficulty": "基础",
+    "content": "t a later date. Since only one or two specimens of each type were tested, only limited conclusions can be drawn, however, the failure behavior of the impacted specimens without stitching is noticeably different from the failure behavior of the specimens with stitching since stitching limits the spread of back surface damage. a) 60 J impact b) 80 J impact c) DIC images immediately before and after failure for 80 J impact Fig. 20 Failure of typical single line stitched impacted specimen. 14",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 14",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c048-21fa612a",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 15",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "分层",
+      "冲击后剩余强度"
+    ],
+    "difficulty": "基础",
+    "content": "VI. Concluding Remarks A series of tests were conducted to compare the behavior during impact and the consequence of impact damage for carbon-epoxy specimens with three patterns of through-the-thickness reinforcement and with no reinforcement. Specimens were impacted with impact energies of 60 J and 80 J and then subjected to a standard compression after impact testing. Results indicate that the dynamic response during the impact event was almost the same for the unstitched specimens and all stitch patterns considered. However, the extent of delamination and the compression strength after impact varied greatly. For both the 60 J and 80 J impact energies, the delamination area was significant",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 15",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c049-70cb3f62",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 15",
+    "tags": [
+      "分层",
+      "损伤扩展",
+      "无损检测",
+      "无损检测图像判读",
+      "冲击后剩余强度"
+    ],
+    "difficulty": "基础",
+    "content": "or both the 60 J and 80 J impact energies, the delamination area was significantly less for the stitched specimens than for the unstitched specimens, but the range of delamination areas among the stitch patterns was much larger for lower impact energy than for the greater impact energy. Similarly, while the presence of stitching influenced the compression after impact strength, the strength value for all stitch patterns were very similar. These results are a step toward quantifying the influence of through-the-thickness stitching. Additional evaluations include a more complete evaluation of data acquired during testing such as using digital correlation as well as X-ray data of specimens imme",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 15",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c050-5a32f8a9",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 15",
+    "tags": [
+      "无损检测",
+      "无损检测图像判读"
+    ],
+    "difficulty": "基础",
+    "content": "esting such as using digital correlation as well as X-ray data of specimens immediately after impact. Future work will include evaluation of additional stitch patterns and other stacking sequences. In addition, a comparison between results for stitching and z-pinning is planned. References [1] Karal, M, “AST Composite Wing Program - Executive Summary,” NASA CR-2001-210650, March 2001. [2] Johnston, P., and Juarez, P., “Ultrasonic Nondestructive Evaluation of Pultruded Rod Stitched Efficient Unitized Structure (PRSEUS) During Large-Scale Load Testing and Rod Push-Out Testing,” NASA/TM–2016-218978, May 2016. [3] Ranatunga, V., Minor S., and Clay, S. B., “Assessment of Damage Tolerance and Stat",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 15",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c051-4861727f",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 15",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展",
+      "分层",
+      "冲击后剩余强度"
+    ],
+    "difficulty": "基础",
+    "content": "natunga, V., Minor S., and Clay, S. B., “Assessment of Damage Tolerance and Static Residual Strength of Z-Pin Reinforced Composites,” AIAA 2019 SciTech Forum, San Diego, CA, January 7th – 11th 2019. [4] ASTM-D7137, \"Standard Test Methods for Compressive Residual Strength Properties of Damaged Polymer Matrix Composite Plates,\" ASTM International, West Conshohocken, PA, 2012. [5] ASTM-D7136, \"Standard Test Methods for Measuring the Damage Resistance of a Fiber-Reinforced Polymer Matrix Composite to a Drop-Weight Impact Event,\" ASTM International, West Conshohocken, PA, 2015. [6] Schoeppner, GA and Abrate, A. “Delamination Threshold for a Low Velocity Impact on Composite Laminates,” Composites",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 15",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  },
+  {
+    "id": "composite_nasa_20200002405-c052-be4b37b5",
+    "domain": "composite",
+    "title": "Impact Damage Tolerance of Composite Laminates with Through-The-Thickness Stitches · Page 15",
+    "tags": [
+      "冲击损伤",
+      "损伤扩展"
+    ],
+    "difficulty": "基础",
+    "content": "ination Threshold for a Low Velocity Impact on Composite Laminates,” Composites Part A, 2000, V31: pp. 903-915. 15",
+    "source_type": "parsed_markdown",
+    "source_id": "composite_nasa_20200002405",
+    "source_locator": "Page 15",
+    "source_url": "https://ntrs.nasa.gov/citations/20200002405",
+    "source_authority": "official_primary",
+    "applicable_learners": [
+      "本科低年级学生",
+      "材料方向研究生",
+      "机务维修新员工"
+    ],
+    "common_misconceptions": []
+  }
+]

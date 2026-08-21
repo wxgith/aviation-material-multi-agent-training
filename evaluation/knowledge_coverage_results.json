@@ -1,0 +1,423 @@
+{
+  "generated_at": "2026-08-12T11:34:56.731728+00:00",
+  "method": "inventory coverage proxy based on title/tag/source metadata; not a professional accuracy score",
+  "total_chunks": 1766,
+  "registered_sources": 39,
+  "domains": {
+    "tire": {
+      "label": "航空轮胎",
+      "inventory_score": 100.0,
+      "chunk_count": 795,
+      "source_count": 17,
+      "authoritative_source_count": 9,
+      "experimental_source_count": 9,
+      "team_experiment_source_count": 6,
+      "authority_chunk_counts": {
+        "curated_local": 12,
+        "team_authorized_experiment": 57,
+        "official_primary": 621,
+        "peer_reviewed_open_access": 105
+      },
+      "categories": [
+        {
+          "category": "材料与基础概念",
+          "status": "strong",
+          "chunk_count": 92,
+          "source_count": 10,
+          "sample_evidence_ids": [
+            "tire-k01",
+            "tire-k03",
+            "tire-k07",
+            "team_tire_lyq_contact_load_temperature_evidence-c001-0ceb15e3",
+            "team_tire_lyq_contact_load_temperature_evidence-c002-f014f7c5"
+          ]
+        },
+        {
+          "category": "热氧与紫外老化",
+          "status": "strong",
+          "chunk_count": 52,
+          "source_count": 8,
+          "sample_evidence_ids": [
+            "tire-k01",
+            "tire-k06",
+            "team_tire_lyq_contact_load_temperature_evidence-c006-19765927",
+            "team_tire_rxq_aging_multimodal_evidence-c001-2a1e1aa9",
+            "team_tire_rxq_aging_multimodal_evidence-c002-6b120286"
+          ]
+        },
+        {
+          "category": "摩擦磨损",
+          "status": "strong",
+          "chunk_count": 286,
+          "source_count": 16,
+          "sample_evidence_ids": [
+            "tire-k02",
+            "tire-k05",
+            "tire-k06",
+            "team_tire_lyq_contact_load_temperature_evidence-c001-0ceb15e3",
+            "team_tire_lyq_contact_load_temperature_evidence-c002-f014f7c5"
+          ]
+        },
+        {
+          "category": "裂纹与剥落",
+          "status": "strong",
+          "chunk_count": 64,
+          "source_count": 12,
+          "sample_evidence_ids": [
+            "tire-k03",
+            "tire-k07",
+            "team_tire_lyq_contact_load_temperature_evidence-c002-f014f7c5",
+            "team_tire_lyq_service_tire_cases-c004-87fa5212",
+            "team_tire_rxq_uv_wear_morphology-c003-12dc6f83"
+          ]
+        },
+        {
+          "category": "实验工况",
+          "status": "strong",
+          "chunk_count": 138,
+          "source_count": 12,
+          "sample_evidence_ids": [
+            "tire-k02",
+            "team_tire_lyq_contact_load_temperature_evidence-c001-0ceb15e3",
+            "team_tire_lyq_contact_load_temperature_evidence-c002-f014f7c5",
+            "team_tire_lyq_contact_load_temperature_evidence-c003-163d377a",
+            "team_tire_lyq_contact_load_temperature_evidence-c004-531955f3"
+          ]
+        },
+        {
+          "category": "表征与图像",
+          "status": "strong",
+          "chunk_count": 231,
+          "source_count": 14,
+          "sample_evidence_ids": [
+            "tire-k02",
+            "tire-k05",
+            "team_tire_lyq_contact_load_temperature_evidence-c007-4ed6059b",
+            "team_tire_lyq_contact_load_temperature_evidence-c008-5a35ade6",
+            "team_tire_lyq_load_distance_matrix-c001-84f52425"
+          ]
+        },
+        {
+          "category": "检查与维护判读",
+          "status": "strong",
+          "chunk_count": 558,
+          "source_count": 13,
+          "sample_evidence_ids": [
+            "tire-k03",
+            "tire-k04",
+            "tire-k07",
+            "team_tire_lyq_service_tire_cases-c001-cb4082bf",
+            "team_tire_lyq_service_tire_cases-c002-83c8b834"
+          ]
+        },
+        {
+          "category": "实操训练",
+          "status": "strong",
+          "chunk_count": 97,
+          "source_count": 11,
+          "sample_evidence_ids": [
+            "tire-k02",
+            "tire-k07",
+            "team_tire_lyq_contact_load_temperature_evidence-c002-f014f7c5",
+            "team_tire_lyq_load_distance_matrix-c001-84f52425",
+            "team_tire_lyq_load_distance_matrix-c002-cfaaef8c"
+          ]
+        }
+      ],
+      "priorities": []
+    },
+    "brake": {
+      "label": "航空刹车",
+      "inventory_score": 91.2,
+      "chunk_count": 536,
+      "source_count": 9,
+      "authoritative_source_count": 7,
+      "experimental_source_count": 3,
+      "team_experiment_source_count": 0,
+      "authority_chunk_counts": {
+        "curated_local": 10,
+        "official_primary": 286,
+        "peer_reviewed_open_access": 240
+      },
+      "categories": [
+        {
+          "category": "结构与基础概念",
+          "status": "strong",
+          "chunk_count": 532,
+          "source_count": 9,
+          "sample_evidence_ids": [
+            "brake-k05",
+            "brake_faa_ac65_15a_landing_gear-c001-071d9116",
+            "brake_faa_ac65_15a_landing_gear-c002-4dabee9f",
+            "brake_faa_ac65_15a_landing_gear-c003-4eb13e21",
+            "brake_faa_ac65_15a_landing_gear-c004-4de41fc1"
+          ]
+        },
+        {
+          "category": "高温摩擦",
+          "status": "strong",
+          "chunk_count": 273,
+          "source_count": 9,
+          "sample_evidence_ids": [
+            "brake-k01",
+            "brake-k04",
+            "brake_faa_ac65_15a_landing_gear-c005-0df984c3",
+            "brake_faa_ac65_15a_landing_gear-c006-1c383580",
+            "brake_faa_ac65_15a_landing_gear-c010-231f96c8"
+          ]
+        },
+        {
+          "category": "磨损与形貌",
+          "status": "strong",
+          "chunk_count": 436,
+          "source_count": 9,
+          "sample_evidence_ids": [
+            "brake-k02",
+            "brake-k05",
+            "brake_faa_ac65_15a_landing_gear-c010-231f96c8",
+            "brake_faa_ac65_15a_landing_gear-c016-16e7a875",
+            "brake_faa_ac65_15a_landing_gear-c031-0be9fcd4"
+          ]
+        },
+        {
+          "category": "氧化与裂纹",
+          "status": "strong",
+          "chunk_count": 83,
+          "source_count": 5,
+          "sample_evidence_ids": [
+            "brake-k03",
+            "brake_mdpi_aerospace_2025_predictive_wear-c118-2ea17e33",
+            "brake_nasa_cr_134989-c001-bada4d0c",
+            "brake_nasa_cr_134989-c002-5664f5db",
+            "brake_nasa_cr_134989-c003-ae2afc56"
+          ]
+        },
+        {
+          "category": "性能与热衰退",
+          "status": "strong",
+          "chunk_count": 250,
+          "source_count": 9,
+          "sample_evidence_ids": [
+            "brake-k01",
+            "brake-k04",
+            "brake-k05",
+            "brake_faa_ac65_15a_landing_gear-c005-0df984c3",
+            "brake_faa_ac65_15a_landing_gear-c006-1c383580"
+          ]
+        },
+        {
+          "category": "试验工况",
+          "status": "missing",
+          "chunk_count": 0,
+          "source_count": 0,
+          "sample_evidence_ids": []
+        },
+        {
+          "category": "检查与维护",
+          "status": "strong",
+          "chunk_count": 214,
+          "source_count": 6,
+          "sample_evidence_ids": [
+            "brake_faa_ac65_15a_landing_gear-c001-071d9116",
+            "brake_faa_ac65_15a_landing_gear-c002-4dabee9f",
+            "brake_faa_ac65_15a_landing_gear-c003-4eb13e21",
+            "brake_faa_ac65_15a_landing_gear-c004-4de41fc1",
+            "brake_faa_ac65_15a_landing_gear-c005-0df984c3"
+          ]
+        },
+        {
+          "category": "失效机理",
+          "status": "strong",
+          "chunk_count": 330,
+          "source_count": 9,
+          "sample_evidence_ids": [
+            "brake-k03",
+            "brake-k04",
+            "brake_faa_ac65_15a_landing_gear-c005-0df984c3",
+            "brake_faa_ac65_15a_landing_gear-c006-1c383580",
+            "brake_faa_ac65_15a_landing_gear-c013-b096659f"
+          ]
+        }
+      ],
+      "priorities": [
+        "补充“试验工况”的独立来源与可定位证据",
+        "补充授权实验记录、工况参数、图像及专家判读样例"
+      ]
+    },
+    "composite": {
+      "label": "复合材料",
+      "inventory_score": 97.8,
+      "chunk_count": 435,
+      "source_count": 12,
+      "authoritative_source_count": 9,
+      "experimental_source_count": 4,
+      "team_experiment_source_count": 0,
+      "authority_chunk_counts": {
+        "curated_local": 10,
+        "official_primary": 269,
+        "peer_reviewed_open_access": 136,
+        "peer_reviewed_open_dataset": 15,
+        "open_dataset": 5
+      },
+      "categories": [
+        {
+          "category": "结构与基础概念",
+          "status": "strong",
+          "chunk_count": 76,
+          "source_count": 9,
+          "sample_evidence_ids": [
+            "composite-k01",
+            "composite-k04",
+            "composite-k05",
+            "composite_faa_ac20_107b-c001-11e432c0",
+            "composite_faa_ac20_107b-c002-4d24664a"
+          ]
+        },
+        {
+          "category": "冲击与BVID",
+          "status": "strong",
+          "chunk_count": 333,
+          "source_count": 12,
+          "sample_evidence_ids": [
+            "composite-k01",
+            "composite-k03",
+            "composite_damage_notes-c001-c1f9c709",
+            "composite_faa_ac20_107b-c004-1ceaa600",
+            "composite_faa_ac20_107b-c005-b0023107"
+          ]
+        },
+        {
+          "category": "分层/基体/纤维损伤",
+          "status": "strong",
+          "chunk_count": 267,
+          "source_count": 11,
+          "sample_evidence_ids": [
+            "composite-k01",
+            "composite-k02",
+            "composite-k04",
+            "composite_damage_notes-c001-c1f9c709",
+            "composite_damage_notes-c002-be4cb4cb"
+          ]
+        },
+        {
+          "category": "无损检测",
+          "status": "strong",
+          "chunk_count": 429,
+          "source_count": 12,
+          "sample_evidence_ids": [
+            "composite-k03",
+            "composite-k05",
+            "composite_damage_notes-c003-ae26f436",
+            "composite_damage_notes-c005-d24d62ab",
+            "composite_faa_ac20_107b-c001-11e432c0"
+          ]
+        },
+        {
+          "category": "扩展与损伤容限",
+          "status": "strong",
+          "chunk_count": 201,
+          "source_count": 12,
+          "sample_evidence_ids": [
+            "composite-k02",
+            "composite-k04",
+            "composite-k05",
+            "composite_damage_notes-c002-be4cb4cb",
+            "composite_damage_notes-c004-5359317b"
+          ]
+        },
+        {
+          "category": "图像判读",
+          "status": "strong",
+          "chunk_count": 316,
+          "source_count": 12,
+          "sample_evidence_ids": [
+            "composite-k03",
+            "composite-k05",
+            "composite_damage_notes-c003-ae26f436",
+            "composite_faa_ac20_107b-c020-a10280ff",
+            "composite_faa_ac20_107b-c021-9b1e9143"
+          ]
+        },
+        {
+          "category": "检查与维修边界",
+          "status": "strong",
+          "chunk_count": 204,
+          "source_count": 4,
+          "sample_evidence_ids": [
+            "composite_faa_ac20_107b-c001-11e432c0",
+            "composite_faa_ac20_107b-c002-4d24664a",
+            "composite_faa_ac20_107b-c003-16aa3ac1",
+            "composite_faa_ac20_107b-c004-1ceaa600",
+            "composite_faa_ac20_107b-c005-b0023107"
+          ]
+        },
+        {
+          "category": "冲击试验工况",
+          "status": "adequate",
+          "chunk_count": 15,
+          "source_count": 1,
+          "sample_evidence_ids": [
+            "composite_pmc_9294053_impact_dataset-c001-1a260dff",
+            "composite_pmc_9294053_impact_dataset-c002-41aec4f3",
+            "composite_pmc_9294053_impact_dataset-c003-5b7d4567",
+            "composite_pmc_9294053_impact_dataset-c004-1c4545da",
+            "composite_pmc_9294053_impact_dataset-c005-38ef5f6d"
+          ]
+        }
+      ],
+      "priorities": [
+        "补充授权实验记录、工况参数、图像及专家判读样例"
+      ]
+    }
+  },
+  "pending_sources": [
+    {
+      "source_id": "tire_iso_188_2023",
+      "domain": "tire",
+      "title": "Rubber, vulcanized or thermoplastic - Accelerated ageing and heat resistance tests",
+      "status": "仅登记元数据"
+    },
+    {
+      "source_id": "tire_astm_d573",
+      "domain": "tire",
+      "title": "Standard Test Method for Rubber-Deterioration in an Air Oven",
+      "status": "仅登记元数据"
+    },
+    {
+      "source_id": "tire_astm_d5963",
+      "domain": "tire",
+      "title": "Standard Test Method for Rubber Property - Abrasion Resistance",
+      "status": "仅登记元数据"
+    },
+    {
+      "source_id": "tire_gbt_3512_2014",
+      "domain": "tire",
+      "title": "硫化橡胶或热塑性橡胶 热空气加速老化和耐热试验",
+      "status": "待人工核对"
+    },
+    {
+      "source_id": "composite_astm_d7136",
+      "domain": "composite",
+      "title": "Measuring the Damage Resistance of a Fiber-Reinforced Polymer Matrix Composite to a Drop-Weight Impact Event",
+      "status": "仅登记元数据"
+    },
+    {
+      "source_id": "composite_nasa_nde_2020",
+      "domain": "composite",
+      "title": "Nondestructive Evaluation Methods and Capabilities Handbook",
+      "status": "待人工下载"
+    },
+    {
+      "source_id": "general_faa_amt_airframe_v2",
+      "domain": "cross_domain",
+      "title": "Aviation Maintenance Technician Handbook - Airframe, Volume 2",
+      "status": "待人工下载"
+    },
+    {
+      "source_id": "composite_zenodo_4405277",
+      "domain": "composite",
+      "title": "Dataset of the WP2 Cranfield: C-scan Impact Damage Data",
+      "status": "metadata_downloaded_dataset_not_bundled"
+    }
+  ]
+}

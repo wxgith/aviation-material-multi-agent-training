@@ -1,0 +1,99 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: ${COMPOSE_CONTAINER_PREFIX:-aviation-training}-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-agents}
+      MYSQL_USER: ${MYSQL_APP_USER:-agents_app}
+      MYSQL_PASSWORD: ${MYSQL_APP_PASSWORD}
+    ports:
+      - "127.0.0.1:${MYSQL_HOST_PORT:-3306}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.14.1
+    container_name: ${COMPOSE_CONTAINER_PREFIX:-aviation-training}-es
+    restart: unless-stopped
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: "-Xms1g -Xmx1g"
+    ports:
+      - "127.0.0.1:${ES_HOST_PORT:-9201}:9200"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:9200/_cluster/health >/dev/null || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+
+  backend:
+    build:
+      context: ..
+      dockerfile: deploy/backend.Dockerfile
+    container_name: ${COMPOSE_CONTAINER_PREFIX:-aviation-training}-backend
+    restart: unless-stopped
+    environment:
+      APP_ENV: production
+      DATA_BACKEND: sql
+      DATABASE_ENABLED: "true"
+      DATABASE_URL: mysql+pymysql://${MYSQL_APP_USER:-agents_app}:${MYSQL_APP_PASSWORD}@mysql:3306/${MYSQL_DATABASE:-agents}
+      ES_ENABLED: "true"
+      ES_URL: http://elasticsearch:9200
+      ES_USERNAME: ""
+      ES_PASSWORD: ""
+      ES_INDEX_KNOWLEDGE: aviation_material_knowledge
+      BGE_ENABLED: "false"
+      BGE_MODEL_PATH: ""
+      EMBEDDING_BACKEND: none
+      RETRIEVAL_MODE: hybrid
+      LLM_ENABLED: ${LLM_ENABLED:-false}
+      LLM_BASE_URL: ${LLM_BASE_URL:-}
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-}
+      LLM_TIMEOUT: ${LLM_TIMEOUT:-60}
+      CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:5173","http://127.0.0.1:5173"]}
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    depends_on:
+      mysql:
+        condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=3)"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: deploy/frontend.Dockerfile
+      args:
+        VITE_API_BASE: ${PUBLIC_API_BASE:-http://localhost:8000/api}
+    container_name: ${COMPOSE_CONTAINER_PREFIX:-aviation-training}-frontend
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_PORT:-5173}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1/healthz >/dev/null || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  mysql_data:
+  es_data:
